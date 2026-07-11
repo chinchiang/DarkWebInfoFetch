@@ -49,6 +49,13 @@ NITTER_INSTANCES = [
     "https://lightbrd.com",
 ]
 
+# Mastodon mirrors, used only when every Nitter instance fails for an
+# account. These authors cross-post the same threat intel there.
+MASTODON_FEEDS = {
+    "GossiTheDog": "https://cyberplace.social/@GossiTheDog.rss",
+    "campuscodi": "https://mastodon.social/@campuscodi.rss",
+}
+
 TAG_RULES = [
     ("ransomware", re.compile(r"ransom", re.I)),
     ("breach", re.compile(r"breach|leak|stolen|exfiltrat|\bdump\b|database.{0,20}(sale|sold|expos)", re.I)),
@@ -171,6 +178,36 @@ def parse_rss(xml_bytes, handle):
     return posts
 
 
+HTML_TAG = re.compile(r"<[^>]+>")
+
+
+def parse_mastodon_rss(xml_bytes, handle):
+    posts = []
+    root = ET.fromstring(xml_bytes)
+    for item in root.iter("item"):
+        link = (item.findtext("link") or "").strip()
+        desc = unescape(item.findtext("description") or "")
+        text = re.sub(r"\s+", " ", HTML_TAG.sub(" ", desc)).strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        if not link or not text:
+            continue
+        try:
+            created = iso(parsedate_to_datetime(pub))
+        except (TypeError, ValueError):
+            created = ""
+        match = re.search(r"/(\d+)/?$", link)
+        posts.append({
+            "id": f"md-{match.group(1)}" if match else link,
+            "handle": handle,
+            "name": handle,
+            "text": text,
+            "url": link,
+            "created_at": created,
+            "tags": classify(text),
+        })
+    return posts
+
+
 def fetch_via_nitter():
     posts, status = [], {}
     for account in ACCOUNTS:
@@ -189,6 +226,17 @@ def fetch_via_nitter():
             except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError,
                     TimeoutError, OSError):
                 continue
+        if status[handle] != "ok" and handle in MASTODON_FEEDS:
+            try:
+                code, body = http_get(MASTODON_FEEDS[handle])
+                if code == 200 and body.lstrip().startswith(b"<"):
+                    account_posts = parse_mastodon_rss(body, handle)
+                    if account_posts:
+                        posts.extend(account_posts)
+                        status[handle] = "ok_mastodon"
+            except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError,
+                    TimeoutError, OSError):
+                pass
         time.sleep(1)
     return posts, status
 
@@ -238,6 +286,8 @@ def main():
         source = "nitter"
 
     existing = load_existing()
+    existing_ids = {p["id"] for p in existing.get("posts", []) if not p.get("sample")}
+    fresh_count = len({p["id"] for p in new_posts} - existing_ids)
     posts = merge(existing.get("posts", []), new_posts)
 
     if not new_posts:
@@ -247,14 +297,15 @@ def main():
     feed = {
         "generated_at": iso(datetime.now(timezone.utc)),
         "source": source if new_posts else f"{source}_stale",
+        "new_count": fresh_count,
         "account_status": status,
         "categories": {a["handle"]: a["category"] for a in ACCOUNTS},
         "posts": posts,
     }
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
-    ok = sum(1 for s in status.values() if s == "ok")
-    log(f"[fetch] done: {len(new_posts)} new posts, {len(posts)} total, "
+    ok = sum(1 for s in status.values() if s.startswith("ok"))
+    log(f"[fetch] done: {len(new_posts)} fetched, {fresh_count} new, {len(posts)} total, "
         f"{ok}/{len(ACCOUNTS)} accounts ok")
 
 
