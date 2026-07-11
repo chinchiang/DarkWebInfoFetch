@@ -6,7 +6,8 @@ Data sources, in order of preference:
   2. Nitter RSS mirrors -- keyless fallback; instances are tried in order.
 
 Output: data/feed.json, merged with previously fetched posts so a partial
-fetch never loses history. Designed to run from GitHub Actions every 2 hours.
+fetch never loses history. Designed to run from GitHub Actions on a schedule
+(twice daily at 05:00 and 15:00 Taipei time / 21:00 and 07:00 UTC).
 Only uses the Python standard library.
 """
 

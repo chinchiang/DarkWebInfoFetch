@@ -2,9 +2,10 @@ name: Fetch threat intel feed
 
 on:
   schedule:
-    # Every 2 hours (UTC). Note: scheduled workflows only run on the
-    # repository's default branch.
-    - cron: "15 */2 * * *"
+    # Twice daily at 05:00 and 15:00 Taipei time (UTC+8) = 21:00 and
+    # 07:00 UTC. Note: scheduled workflows only run on the repository's
+    # default branch.
+    - cron: "0 7,21 * * *"
   workflow_dispatch:
 
 permissions:

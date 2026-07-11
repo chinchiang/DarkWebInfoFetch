@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
-<meta name="description" content="Dark web threat intelligence feed aggregated from curated X (Twitter) accounts, refreshed every 2 hours. 暗網威脅情資監控,每 2 小時自動更新。">
+<meta name="description" content="Dark web threat intelligence feed aggregated from curated X (Twitter) accounts, refreshed twice daily at 05:00 and 15:00 (UTC+8). 暗網威脅情資監控,每日 05:00 / 15:00 自動更新。">
 <title>DARKWATCH — 暗網威脅情資監控 / Dark Web Threat Intel</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0512'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23ff2d55' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3.5' fill='%23b44dff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -354,10 +354,10 @@ const TAGS = {
 /* ================= i18n ================= */
 const I18N = {
   zh: {
-    eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每 2 小時更新",
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 15:00 更新",
     titleHtml: '暗網<span class="hl-red">威脅情資</span>即時<span class="hl-purple">監控台</span>',
-    tagline: "彙整 9 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每兩小時自動抓取更新。",
-    updated: "最後更新", source: "資料來源", cadence: "每 2 小時自動抓取",
+    tagline: "彙整 9 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日 05:00 與 15:00(UTC+8)自動抓取更新。",
+    updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 15:00 自動抓取",
     postsUnit: "則情資",
     sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
     searchPlaceholder: "搜尋關鍵字、帳號、CVE…",
@@ -370,15 +370,15 @@ const I18N = {
     empty: "沒有符合條件的情資 — 請調整過濾條件。",
     sources: { sample: "示範資料", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API(快取)", nitter_stale: "Nitter RSS(快取)" },
     ago: { now: "剛剛", m: n => `${n} 分鐘前`, h: n => `${n} 小時前`, d: n => `${n} 天前` },
-    footCadence: "GitHub Actions 每 2 小時自動抓取",
+    footCadence: "GitHub Actions 每日 05:00 / 15:00(UTC+8)自動抓取",
     footSource: "資料來自各帳號公開貼文,著作權屬原作者",
     footDisclaimer: "本站為情資彙整工具,內容由來源帳號自動抓取,不代表本站立場;引用前請自行查證原始來源。"
   },
   en: {
-    eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED EVERY 2 HOURS",
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 15:00",
     titleHtml: 'Dark Web <span class="hl-red">Threat Intel</span>, <span class="hl-purple">Live Console</span>',
-    tagline: "Aggregates 9 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched every two hours.",
-    updated: "Updated", source: "Source", cadence: "Auto-fetch every 2h",
+    tagline: "Aggregates 9 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily at 05:00 & 15:00 (UTC+8).",
+    updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 15:00",
     postsUnit: "posts",
     sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
     searchPlaceholder: "Search keywords, accounts, CVEs…",
@@ -391,7 +391,7 @@ const I18N = {
     empty: "No intel matches the current filters — try adjusting them.",
     sources: { sample: "Sample data", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API (cached)", nitter_stale: "Nitter RSS (cached)" },
     ago: { now: "just now", m: n => `${n}m ago`, h: n => `${n}h ago`, d: n => `${n}d ago` },
-    footCadence: "auto-fetched by GitHub Actions every 2 hours",
+    footCadence: "auto-fetched by GitHub Actions daily at 05:00 & 15:00 (UTC+8)",
     footSource: "content belongs to the original authors",
     footDisclaimer: "This site is an aggregation tool; posts are fetched automatically from the source accounts and do not represent this site's views. Verify with the original source before citing."
   }

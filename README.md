@@ -1,10 +1,10 @@
 # DARK//WATCH — 暗網威脅情資監控 / Dark Web Threat Intel Feed
 
-每 2 小時自動從 X(Twitter)上精選的暗網/資安威脅情資帳號抓取最新貼文,
-並以中/英雙語互動網站呈現。
+每日 05:00 與 15:00(台北時間,UTC+8)自動從 X(Twitter)上精選的
+暗網/資安威脅情資帳號抓取最新貼文,並以中/英雙語互動網站呈現。
 Automatically fetches the latest posts from curated dark-web threat-intel
-accounts on X every 2 hours, and presents them on an interactive bilingual
-(繁中/EN) website.
+accounts on X twice daily at 05:00 and 15:00 Taipei time (UTC+8), and
+presents them on an interactive bilingual (繁中/EN) website.
 
 ## 追蹤帳號 / Tracked accounts
 
@@ -23,7 +23,7 @@ accounts on X every 2 hours, and presents them on an interactive bilingual
 ## 架構 / How it works
 
 ```
-.github/workflows/fetch.yml   GitHub Actions cron(每 2 小時 / every 2 hours)
+.github/workflows/fetch.yml   GitHub Actions cron(每日 05:00 / 15:00 UTC+8,twice daily)
 scripts/fetch_feed.py         抓取貼文 → data/feed.json(X API v2 或 Nitter RSS)
 data/feed.json                情資資料(自動 commit 更新)
 index.html                    互動網站(單一檔案,讀取 data/feed.json)
@@ -43,7 +43,8 @@ index.html                    互動網站(單一檔案,讀取 data/feed.json)
    沒有 token 時會使用 Nitter RSS 鏡像(可用性視鏡像站而定)。
 2. **啟用排程 / Enable the schedule**:GitHub 的排程 workflow 只在
    **預設分支(main)** 上執行 —— 將本分支合併到 `main` 後,
-   `fetch.yml` 會每 2 小時自動執行(也可在 Actions 頁面手動 *Run workflow*)。
+   `fetch.yml` 會於每日 05:00 與 15:00(UTC+8)自動執行
+   (也可在 Actions 頁面手動 *Run workflow*)。
 3. **啟用網站 / Enable the site**:*Settings → Pages → Deploy from a branch*,
    選 `main` 分支、`/ (root)` 目錄,網站即為
    `https://<user>.github.io/DarkWebInfoFetch/`。
