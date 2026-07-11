@@ -23,14 +23,17 @@ presents them on an interactive bilingual (繁中/EN) website.
 ## 架構 / How it works
 
 ```
-.github/workflows/fetch.yml   GitHub Actions cron(每日 05:00 / 15:00 UTC+8,twice daily)
+.github/workflows/fetch.yml   GitHub Actions cron(每日 04:23 / 14:23 UTC+8 觸發,
+                              預留 GitHub 排程延遲,約 05:00 / 15:00 前完成更新)
 scripts/fetch_feed.py         抓取貼文 → data/feed.json(X API v2 或 Nitter RSS)
 data/feed.json                情資資料(自動 commit 更新)
 index.html                    互動網站(單一檔案,讀取 data/feed.json)
 ```
 
 - **抓取來源 / Data source**:設定了 `X_BEARER_TOKEN` secret 時使用官方
-  X API v2;否則退回公開 Nitter RSS 鏡像。兩者都失敗時保留既有資料。
+  X API v2(需 Basic 方案以上);否則退回公開 Nitter RSS 鏡像。
+  @GossiTheDog 與 @campuscodi 在 Nitter 全數失敗時,改抓其 Mastodon
+  公開 RSS(兩位作者會同步發文)。全部失敗時保留既有資料。
 - **資料合併 / Merge**:新舊貼文依 ID 去重,每帳號保留最近 30 則;
   首次成功抓取後會自動移除示範資料。
 - **網站 / Site**:`index.html` 為單一自足檔案 —— 中/英切換、分類/主題/
