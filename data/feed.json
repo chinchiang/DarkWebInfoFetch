@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T16:46:50Z",
+ "generated_at": "2026-07-11T21:41:52Z",
  "source": "nitter",
  "account_status": {
   "DailyDarkWeb": "ok",
@@ -24,6 +24,186 @@
   "MonThreat": "extra"
  },
  "posts": [
+  {
+   "id": "2076029608890192179",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇹🇳 Webmail Access for Major Tunisian ISPs Allegedly Offered for Sale A threat actor is advertising what they claim is unauthorized webmail access associated with two major Tunisian internet service providers: * Topnet (@topnet.tn) * Orange Tunisia (@orange.tn) The seller explicitly promotes the access for phishing operations and describes the domains as highly trusted and valuable. Screenshots were shared as alleged proof of access. Analyst Note: The claims have not been independently verified. If authentic, compromised ISP-hosted mailboxes could be abused for highly convincing phishing, business email compromise, credential theft, and attacks against customers and partner organizations. The affected providers should investigate the accounts shown, revoke active sessions, reset credentials, and review authentication and mailbox-access logs. #DDW #Intelligence #DarkWeb #Tunisia",
+   "url": "https://x.com/DailyDarkWeb/status/2076029608890192179",
+   "created_at": "2026-07-11T19:43:24Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2076028203844419808",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🤖 Alleged BloxytAI User Database Leaked on a Cybercrime Forum A threat actor has published what they claim is a user database belonging to BloxytAI, an AI-powered platform. According to the forum post: * The leaked dataset allegedly contains 103 user records. * The data is shared in CSV format. * Claimed fields include user ID, email address, subscription plan, available credits, used credits, credit limits, trial status, account start date, and downgrade status. Although the dataset appears relatively small, subscription and account metadata can provide attackers with valuable information for phishing, credential stuffing, and targeted social engineering campaigns against platform users. Analyst Note: The authenticity of the leaked data has not been independently verified. AI service providers should investigate the claim, review access logs for unauthorized activity, and ensure customer account information is adequately protected. #DDW #Intelligence #DarkWeb #AI",
+   "url": "https://x.com/DailyDarkWeb/status/2076028203844419808",
+   "created_at": "2026-07-11T19:37:49Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076027155931152794",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇧🇷 Alleged Appmax Source Code Listed for Sale on a Cybercrime Forum A threat actor is claiming to sell the full source code of Appmax, a Brazilian payment gateway, on a cybercrime forum. According to the forum post: * The seller claims to possess more than 300 source code repositories. * The advertised archive is approximately 6.3 GB in size. * The actor states the source code will be sold and threatens to leak it publicly if the company does not respond within 10 days. * Partial repository samples and proof files were shared to support the claim. If authentic, exposure of the source code could enable attackers to identify undisclosed vulnerabilities, reverse engineer internal systems, bypass security controls, and launch targeted attacks against the platform and its customers. Analyst Note: The authenticity of the claimed source code has not been independently verified. Organizations facing source code exposure should immediately investigate the claim, rotate exposed secrets, review repositories for embedded credentials, and conduct accelerated security assessments to identify potential risks. #DDW #Intelligence #DarkWeb #Brazil",
+   "url": "https://x.com/DailyDarkWeb/status/2076027155931152794",
+   "created_at": "2026-07-11T19:33:39Z",
+   "tags": [
+    "breach",
+    "market",
+    "vuln"
+   ]
+  },
+  {
+   "id": "2076023082255311234",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇷🇸 Alleged http://NovostiOglasi.rs Database Listed for Sale on a Cybercrime Forum A threat actor is claiming to sell a database allegedly belonging to http://NovostiOglasi.rs, a major Serbian online classifieds platform operated by Novosti. According to the forum post: * The platform provides classified listings for real estate, vehicles, jobs, services, pets, and other marketplace categories. * The seller claims to possess the platform's database and has shared sample records. * The sample suggests the database may contain user account information, including usernames, email addresses, password hashes, registration details, and profile metadata. If authentic, the exposed data could enable credential stuffing attacks, account takeovers, phishing campaigns, and identity-related fraud targeting platform users. Analyst Note: The authenticity of the claimed database has not been independently verified. Organizations should investigate the claim, review authentication logs for suspicious activity, and ensure password hashing algorithms and credential security controls remain up to date. #DDW #Intelligence #DarkWeb #Serbia",
+   "url": "https://x.com/DailyDarkWeb/status/2076023082255311234",
+   "created_at": "2026-07-11T19:17:28Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076018680861798824",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 Alleged PPA Business School Database Listed on a Cybercrime Forum A threat actor has claimed to be selling a fresh SQL dump allegedly belonging to PPA Business School, one of France's private higher education institutions. According to the forum post: * The dataset allegedly contains approximately 293,967 records. * The database reportedly includes prospects, applicants, enrolled students, and alumni. * Claimed data fields include full names, email addresses, phone numbers, postal addresses, dates of birth, nationality, student IDs, school, class, academic year, and enrollment status. * The actor claims the dump is dated July 10, 2026. If authentic, the exposed information could facilitate phishing campaigns, identity theft, business email compromise, and targeted attacks against students, alumni, and staff. Analyst Note: The authenticity of the dataset has not been independently verified. Educational institutions should review access controls protecting student information, investigate for unauthorized database access, and monitor for signs of data misuse. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076018680861798824",
+   "created_at": "2026-07-11T18:59:58Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076012722454483113",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🪙 Alleged http://CoinTracker.io Database Listed for Sale on a Cybercrime Forum A threat actor is claiming to sell a database allegedly belonging to http://CoinTracker.io, a cryptocurrency portfolio tracking and tax reporting platform. According to the forum post: * The database allegedly contains approximately 2.7 million records. * Claimed fields include full name, date of birth, gender, email address, phone number, physical address, city, country, ZIP code, preferred language, and account status. * The seller advertises the dataset as containing worldwide users. If authentic, the exposed information could be leveraged for phishing campaigns, identity theft, cryptocurrency-targeted scams, and account takeover attempts. Analyst Note: The authenticity of the claimed database has not been independently verified. Cryptocurrency platform users should remain alert for phishing emails, verify all communications, and enable multi-factor authentication to reduce account compromise risks. #DDW #Intelligence #DarkWeb #Crypto",
+   "url": "https://x.com/DailyDarkWeb/status/2076012722454483113",
+   "created_at": "2026-07-11T18:36:18Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076010377704357897",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Pinned: 🚨 Zimbra Warns of Critical Classic Web Client Vulnerability Zimbra has disclosed a critical vulnerability affecting its Classic Web Client that could allow specially crafted emails to execute malicious JavaScript when opened. Key details: * The flaw is a stored Cross-Site Scripting (XSS) vulnerability. * Successful exploitation could enable arbitrary code execution within a victim's web session. * Attackers may gain access to mailbox contents, session tokens, or account settings. * No CVE identifier has been assigned at the time of disclosure. * Zimbra is urging customers to apply the latest security updates immediately. Organizations still relying on the Classic Web Client should prioritize patching and consider restricting or disabling the legacy interface until updates are applied. Analyst Note: Email-based stored XSS vulnerabilities can be particularly dangerous because they require minimal user interaction and may be leveraged for session hijacking, credential theft, and lateral movement within enterprise environments. #DDW #Intelligence #DarkWeb #Zimbra",
+   "url": "https://x.com/DailyDarkWeb/status/2076010377704357897",
+   "created_at": "2026-07-11T18:26:59Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
+   "id": "2076010259294884277",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇺🇸 Burger King helpdesk administrator access allegedly listed for sale A forum actor claims to be selling administrator access to one of Burger King’s helpdesk systems, providing control over customer orders, support tickets, and internal management functions. The listing claims the account can view full order and ticket details, interact with customers, create or delete tickets, change custom settings, and create, prepare, or mark orders for pickup. The actor also says the access could be used to impersonate an employee. The access is listed for $400 and described as non-negotiable. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076010259294884277",
+   "created_at": "2026-07-11T18:26:30Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2076008432461574201",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 The Gentlemen Ransomware claims 18 victims 🇺🇸 Dash Door & Glass - A commercial door, glass, and architectural hardware supplier serving clients across South Florida. 🇬🇷 BDO Greece - A Greek audit, tax, accounting, and business advisory firm within the global BDO network. 🇫🇷 Carita - A French luxury skincare and beauty brand owned by L’Oréal’s Luxury Division. 🇺🇸 Lopes Law - A Philadelphia-based law firm specializing in franchise law and business legal services. 🇺🇸 Gene Codes Forensics - A forensic technology company providing DNA identification software and services for mass-disaster investigations. 🇪🇸 VASBE - A Spanish security company providing guarding, surveillance, alarm monitoring, and protection services. 🇺🇸 Welders Supply Equipment Rentals - A Pennsylvania-based supplier and rental provider of welding equipment, tools, and machinery. 🇺🇸 Pharma Wholesale - A Florida-based pharmaceutical wholesaler distributing prescription drugs, OTC products, vitamins, and medical supplies. 🇺🇸 Crossroads Medical Management - A Georgia-based company providing financial, clinical, and operational management services to senior-care facilities. 🇩🇪 INTERNET AG - A German IT services provider specializing in hosting, servers, managed infrastructure, and secure digital operations. 🇺🇸 Open Options - A Texas-based developer of open-architecture access-control and physical-security software. 🇨🇿 Energon - A Czech technology and energy group operating across engineering, telecommunications, renewable energy, and infrastructure. 🇮🇹 Vicenzi Group - An Italian confectionery company known for biscuits, pastries, and traditional baked sweets. 🇸🇬 Triquesta - A Singapore-based financial technology company providing collateral management software for commodity-finance operations. 🇨🇦 Aveiro Constructors Limited - A Canadian general contractor delivering industrial, commercial, institutional, and design-build construction projects. 🇦🇷 Martin Cava - An Argentine supplier of equipment, specialty papers, printable materials, and products for the graphics industry. 🇬🇧 Fortray - A UK-based IT training, recruitment, managed-services, and cybersecurity company. 🇦🇷 Ferretería Scopazzo - An Argentine hardware and industrial-tools retailer serving individuals and businesses.",
+   "url": "https://x.com/DarkWebInformer/status/2076008432461574201",
+   "created_at": "2026-07-11T18:19:15Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2076006868254601422",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 Alleged IDOR Vulnerability Exposes Data from http://Litige.fr A threat actor has claimed to have discovered a second Insecure Direct Object Reference (IDOR) vulnerability affecting http://Litige.fr, a French legal dispute resolution platform. According to the forum post: * The actor claims to have identified a second vulnerable endpoint. * Allegedly exposed data includes SIRET numbers, company names, company types, business addresses, professions, and creditors' dates of birth. * The actor claims approximately 2.3 million user records were compromised. If confirmed, this would represent a significant exposure of business and personal information, potentially enabling identity theft, fraud, and targeted social engineering campaigns. Analyst Note: The claims have not been independently verified. Organizations operating web applications should review object-level authorization controls, test for IDOR vulnerabilities, and monitor for unauthorized access to sensitive records. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076006868254601422",
+   "created_at": "2026-07-11T18:13:02Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
+   "id": "2076005957243728263",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇩🇪 Alleged Database Leak Targets http://Kulturigo.de A threat actor has advertised what they claim is a WordPress database belonging to http://kulturigo.de, a Germany-based cultural platform. According to the forum post: * Alleged SQL database size: ~380 MB * Sample data appears to include WordPress user records and configuration data * The actor shared screenshots as proof of possession and is offering the database for download If authentic, exposed WordPress databases may contain user accounts, password hashes, email addresses, site configuration details, and plugin or application settings that could facilitate follow-on attacks. Analyst Note: The authenticity of the alleged database has not been independently verified. Organizations operating WordPress environments should review for unauthorized access, rotate administrative credentials, update plugins/themes, and monitor for suspicious authentication activity. #DDW #Intelligence #DarkWeb #Germany",
+   "url": "https://x.com/DailyDarkWeb/status/2076005957243728263",
+   "created_at": "2026-07-11T18:09:25Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076004464629317948",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇲🇦 Moroccan E-Commerce Platform Allegedly Leaked A threat actor has published what they claim is the full database of http://PlanetSport.ma, a Moroccan online retailer specializing in sports apparel and equipment. According to the forum post, the actor claims to possess the platform's complete database and is distributing it through file-sharing services. While the post does not disclose the full schema, it advertises a \"full leak\" and provides proof-of-data alongside download links. Analyst Note: The authenticity and scope of the alleged breach have not been independently verified. If confirmed, customers should remain alert for phishing attempts, credential stuffing attacks, and unauthorized account activity, particularly if passwords were reused across multiple services. #DDW #Intelligence #DarkWeb #Morocco",
+   "url": "https://x.com/DailyDarkWeb/status/2076004464629317948",
+   "created_at": "2026-07-11T18:03:29Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076001245249024234",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇩🇪 German Website Database Allegedly Leaked A threat actor has published what they claim is a free database belonging to http://idventure.de, a Germany-based website. According to the forum post, the leaked dataset appears to contain user account information, including: * Usernames * Email addresses * Display names * Password hashes * User activation keys * Registration timestamps * Website URLs (where applicable) * Account status information The actor is distributing the database free of charge and has provided sample records from the alleged dump. Analyst Note: The authenticity of the leak has not been independently verified. If genuine, exposed account credentials could enable credential stuffing attacks against users who reuse passwords across multiple online services. #DDW #Intelligence #DarkWeb #Germany",
+   "url": "https://x.com/DailyDarkWeb/status/2076001245249024234",
+   "created_at": "2026-07-11T17:50:41Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075999446110712091",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "Cybersecurity.",
+   "url": "https://x.com/DarkWebInformer/status/2075999446110712091",
+   "created_at": "2026-07-11T17:43:32Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075995476785066389",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇮🇹🌍 Two enterprise administration access listings allegedly posted for sale A forum actor claims to be selling super-admin access to the IT helpdesk of an unnamed Italian multinational with approximately $2.5 billion in revenue. The listing says the account provides company-wide access to client management, messages, live logs, campaign services, groups, and database import/export functions. The actor lists the access for $300 and promotes it for data extraction and support-staff impersonation. The same actor is also advertising access to a private IRIS network operations dashboard covering 974 devices and more than 7,500 monitoring entries. The claimed support-technician account can view device locations, health data, alarms, incident causes, historical activity, and detailed system information. That access is listed for $50. These claims are currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075995476785066389",
+   "created_at": "2026-07-11T17:27:46Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075993205087023342",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 Added 1 new incident to the Physical Bitcoin Attacks page. https://darkwebinformer.com/physical-bitcoin-attacks/",
+   "url": "https://x.com/DarkWebInformer/status/2075993205087023342",
+   "created_at": "2026-07-11T17:18:44Z",
+   "tags": [
+    "other"
+   ]
+  },
   {
    "id": "2075983523358335365",
    "handle": "DarkWebInformer",
