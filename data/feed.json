@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-07-11T00:00:00Z",
- "source": "sample",
- "account_status": {},
+ "generated_at": "2026-07-11T16:46:50Z",
+ "source": "nitter",
+ "account_status": {
+  "DailyDarkWeb": "ok",
+  "DarkWebInformer": "ok",
+  "jms_dot_py": "ok",
+  "campuscodi": "error",
+  "GossiTheDog": "error",
+  "briankrebs": "ok",
+  "vxunderground": "ok",
+  "Gi7w0rm": "ok",
+  "MonThreat": "ok"
+ },
  "categories": {
   "DailyDarkWeb": "core",
   "DarkWebInformer": "core",
@@ -15,94 +25,1134 @@
  },
  "posts": [
   {
-   "id": "s1",
-   "handle": "DailyDarkWeb",
-   "name": "Daily Dark Web",
-   "sample": true,
-   "text": "[Sample 示範] Ransomware victim claim placeholder — live posts from @DailyDarkWeb will appear here after the first scheduled fetch.",
-   "url": "https://x.com/DailyDarkWeb",
-   "created_at": "2026-07-10T22:10:00Z",
-   "tags": ["ransomware"]
-  },
-  {
-   "id": "s2",
+   "id": "2075983523358335365",
    "handle": "DarkWebInformer",
-   "name": "Dark Web Informer",
-   "sample": true,
-   "text": "[Sample 示範] Data breach / leak alert placeholder — IOC and dark web market updates from @DarkWebInformer will appear here.",
-   "url": "https://x.com/DarkWebInformer",
-   "created_at": "2026-07-10T21:05:00Z",
-   "tags": ["breach", "market"]
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 EFAB student and alumni dataset allegedly leaked A forum actor claims to have released a fresh SQL dump tied to EFAB, a French higher education school specializing in real estate. The listing references around 47,000 rows, including a table containing 19,224 prospects, applicants, students, and alumni. The advertised fields include names, personal and school email addresses, phone numbers, home addresses, dates and places of birth, nationalities, INE numbers, schools, classes, academic years, study levels, contract and enrollment statuses, and program start and end dates. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075983523358335365",
+   "created_at": "2026-07-11T16:40:16Z",
+   "tags": [
+    "breach"
+   ]
   },
   {
-   "id": "s3",
-   "handle": "jms_dot_py",
-   "name": "Justin Seitz",
-   "sample": true,
-   "text": "[Sample 示範] Tor hidden service report placeholder — new onion service discoveries from @jms_dot_py will appear here.",
-   "url": "https://x.com/jms_dot_py",
-   "created_at": "2026-07-10T19:40:00Z",
-   "tags": ["other"]
-  },
-  {
-   "id": "s4",
-   "handle": "campuscodi",
-   "name": "Catalin Cimpanu",
-   "sample": true,
-   "text": "[Sample 示範] Security journalism placeholder — dark web leak and ransomware reporting from @campuscodi will appear here.",
-   "url": "https://x.com/campuscodi",
-   "created_at": "2026-07-10T18:20:00Z",
-   "tags": ["breach"]
-  },
-  {
-   "id": "s5",
-   "handle": "GossiTheDog",
-   "name": "Kevin Beaumont",
-   "sample": true,
-   "text": "[Sample 示範] Early warning placeholder — vulnerability and exploitation alerts from @GossiTheDog will appear here. CVE-0000-00000",
-   "url": "https://x.com/GossiTheDog",
-   "created_at": "2026-07-10T16:55:00Z",
-   "tags": ["vuln"]
-  },
-  {
-   "id": "s6",
-   "handle": "briankrebs",
-   "name": "Brian Krebs",
-   "sample": true,
-   "text": "[Sample 示範] Investigative reporting placeholder — dark web crime coverage from @briankrebs will appear here.",
-   "url": "https://x.com/briankrebs",
-   "created_at": "2026-07-10T15:30:00Z",
-   "tags": ["market"]
-  },
-  {
-   "id": "s7",
+   "id": "2075981072584589527",
    "handle": "vxunderground",
-   "name": "vx-underground",
-   "sample": true,
-   "text": "[Sample 示範] Malware research placeholder — sample analysis and underground forum notes from @vxunderground will appear here.",
-   "url": "https://x.com/vxunderground",
-   "created_at": "2026-07-10T14:00:00Z",
-   "tags": ["malware"]
+   "name": "vxunderground",
+   "text": "In OpenAI's defense, corporate espionage is cool and badass",
+   "url": "https://x.com/vxunderground/status/2075981072584589527",
+   "created_at": "2026-07-11T16:30:32Z",
+   "tags": [
+    "other"
+   ]
   },
   {
-   "id": "s8",
+   "id": "2075974306681503975",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 ALERT: Socket has identified the jscrambler npm package as the target of a supply chain attack. 👇",
+   "url": "https://x.com/DarkWebInformer/status/2075974306681503975",
+   "created_at": "2026-07-11T16:03:39Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075965852071911684",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇦🇺 Lifeline Australia employee dataset allegedly leaked A forum actor claims to have released more than 10,600 records tied to Lifeline Australia, the national crisis support and suicide prevention organization. The visible sample appears to contain employee and account information, including names, work email addresses, phone numbers, job titles, departments, office locations, employee IDs, Active Directory and Azure identifiers, account status fields, and internal system metadata. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075965852071911684",
+   "created_at": "2026-07-11T15:30:03Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075962208731709901",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 French insurance broker admin access allegedly listed for sale A forum actor claims to be selling privileged access to an unnamed French insurance broker’s management dashboard, covering more than 40,000 clients and 1.5 million private documents. The listing claims the admin account provides access to client and employee records, insurance policies, signatures, DocuSign files, health information, Social Security numbers, IBANs, BICs, emails, phone numbers, addresses, and dates of birth. The actor also claims the environment exposes AWS access key IDs and S3 bucket information. The available data is estimated at 4GB of client records and more than 100GB of private documents, with the access listed for $200. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075962208731709901",
+   "created_at": "2026-07-11T15:15:34Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075959808042164336",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨Hostinger-hosted Colombian sites allegedly compromised A forum actor claims to have breached a Hostinger shared-hosting environment used by 61 Colombian domains, including Certifica, GuiaPix, and Colombians Lens. The listing claims 4,418,729 database records and 58,423 identity-document photos were extracted, along with application source code, five mobile apps, and 72 exported CSV/JSON files totaling 6.9GB. The advertised data includes names, ID and tax numbers, photos, phone numbers, emails, addresses, passwords, company records, payment data, student information, GPS history, visitor registrations, license plates, internal messages, and government procurement contacts. The actor says the data has not yet been publicly released but threatens to publish it unless the affected operators respond. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075959808042164336",
+   "created_at": "2026-07-11T15:06:02Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075958060758040792",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇮🇷 Koohdar user dataset allegedly leaked A forum actor claims to have released around 12,000 user records tied to Koohdar, an Iranian online retailer selling natural honey and beekeeping products. The listing says the data is split across two files and includes full names, usernames, mobile numbers, email addresses, dates of birth, referral codes, account roles, verification status, activity timestamps, and user score information. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075958060758040792",
+   "created_at": "2026-07-11T14:59:05Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075928387072168047",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇷🇺 Alfa-Bank Customer Database Allegedly Offered for Sale A threat actor is advertising the alleged sale of a partial customer database belonging to Russia's Alfa-Bank. According to the forum post, the dataset allegedly contains: * Over 1.03 million customer records * Account IDs * Email addresses * Full names * Dates of birth * Payment card numbers * Primary phone numbers * Additional contact information The actor claims the data is in CSV format and references records as recent as July 2, 2026. Analyst Note: These claims have not been independently verified. If authentic, the exposed combination of personal information and financial data could significantly increase the risk of identity theft, financial fraud, and targeted phishing campaigns against affected customers. #DDW #Intelligence #DarkWeb #Russia",
+   "url": "https://x.com/DailyDarkWeb/status/2075928387072168047",
+   "created_at": "2026-07-11T13:01:11Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075926458376089960",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Pinned: 🚀 Google Launches Code Wiki for AI-Powered Code Understanding Google has released Code Wiki in public preview, allowing developers to generate an interactive AI-powered wiki for public code repositories. * Automatically creates and updates repository documentation. * Chat with your codebase using Gemini-powered AI. * Generates architecture, class, and sequence diagrams. * Links every explanation directly to the relevant source code. * Public repositories are supported today, with private repository support planned via Gemini CLI. Analyst Note: AI coding is rapidly evolving beyond code generation. The next frontier is code understanding—helping developers navigate unfamiliar repositories, onboard faster, audit software, and analyze large codebases with significantly less manual effort. #DDW #Intelligence #DarkWeb #Google",
+   "url": "https://x.com/DailyDarkWeb/status/2075926458376089960",
+   "created_at": "2026-07-11T12:53:31Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075849448337326559",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "The NSA Tailored Access Operations (TAO) was renamed to CNO (Computer Network Operations) but recently reverted the name back to TAO. very interesting (I have no idea what this means).",
+   "url": "https://x.com/vxunderground/status/2075849448337326559",
+   "created_at": "2026-07-11T07:47:30Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075820408490655993",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇪🇺 EU Extends Temporary \"Chat Control\" Rules The European Parliament has backed the return of temporary rules allowing online platforms to voluntarily scan certain user communications for child sexual abuse material (CSAM). * More MEPs voted against (314) than in favor (276), but opponents fell short of the 361 votes needed to block the measure. * The temporary rules would remain in force until 2028 unless replaced sooner. * Parliament voted to exempt end-to-end encrypted services such as WhatsApp, Signal, and Telegram. Analyst Note: The vote highlights the ongoing tension between child protection and digital privacy. While supporters view voluntary scanning as an important investigative tool, critics warn that expanding content scanning on non-encrypted platforms could set a broader precedent for online surveillance. #DDW #Intelligence #DarkWeb #EU",
+   "url": "https://x.com/DailyDarkWeb/status/2075820408490655993",
+   "created_at": "2026-07-11T05:52:06Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075819931212419429",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🪙 Glassnode Customer Database Allegedly Offered for Sale A threat actor is advertising the alleged sale of a database belonging to crypto analytics platform Glassnode. According to the forum post, the seller claims the dataset includes: * Data from approximately 850,000 users * A full HubSpot CRM export * Customer account information * Password hashes * Subscription and plan details * API keys * Marketing consent and referral data * Affiliate and analytics-related fields The actor states the data was allegedly obtained in May 2026 and is offering a single copy for sale. Analyst Note: These claims have not been independently verified. If authentic, exposed API keys and customer account metadata could present significant security risks beyond credential exposure. Organizations using Glassnode should monitor for any official disclosure and rotate API credentials where appropriate. #DDW #Intelligence #DarkWeb #Crypto",
+   "url": "https://x.com/DailyDarkWeb/status/2075819931212419429",
+   "created_at": "2026-07-11T05:50:13Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075796190994604034",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "This is a meme, but this is dead ass how malware really works sometimes.",
+   "url": "https://x.com/vxunderground/status/2075796190994604034",
+   "created_at": "2026-07-11T04:15:53Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2075742698586194312",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "As I was adding the new Breached forum that Hasan came out with this week (its added btw)... I noticed that they disabled DevTools and the right click when you're logged in... So... what are you hiding? 😂",
+   "url": "https://x.com/DarkWebInformer/status/2075742698586194312",
+   "created_at": "2026-07-11T00:43:19Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075739841648591305",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "I'm framing all 3 of these at some point. I'm so proud. 😭",
+   "url": "https://x.com/DarkWebInformer/status/2075739841648591305",
+   "created_at": "2026-07-11T00:31:58Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075738870503665996",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 New endpoints have been added for API customers. You can find the information at the top of either docs page.",
+   "url": "https://x.com/DarkWebInformer/status/2075738870503665996",
+   "created_at": "2026-07-11T00:28:06Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075715676820349374",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇦🇷 Argentine Football Association subdomain access allegedly listed for sale A forum actor claims to maintain persistent control over a cluster of internal and public-facing subdomains tied to the Argentine Football Association (AFA). The listing provides four sites as alleged proof of access, including systems related to ticket requests, user access, communications, and compliance. The actor also shared a screenshot of an apparent compromise message sent through an AFA-linked account. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075715676820349374",
+   "created_at": "2026-07-10T22:55:56Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075713834661106006",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨ZA3KA RAT allegedly advertised for Windows, Linux, and Android A forum vendor is advertising ZA3KA RAT, a cross-platform remote access tool marketed for controlling devices worldwide and explicitly promoted for ransomware operations. The listing claims support for Windows, Linux, and Android, with capabilities including remote desktop control, cookie and password theft, keylogging, webcam and microphone surveillance, network sniffing, remote terminal access, file transfers, clipboard monitoring, process control, UAC bypass, and unattended access. The vendor also claims sessions are encrypted and is offering pricing and live demonstrations to prospective buyers. This listing is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075713834661106006",
+   "created_at": "2026-07-10T22:48:37Z",
+   "tags": [
+    "ransomware",
+    "malware"
+   ]
+  },
+  {
+   "id": "2075708425606959546",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": ".>@NCMEC",
+   "url": "https://x.com/DarkWebInformer/status/2075708425606959546",
+   "created_at": "2026-07-10T22:27:08Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075695696959721895",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇮🇳 J-Gate source code allegedly leaked A forum actor claims to have breached J-Gate, an academic e-journal discovery platform, and stolen its source code in July 2026. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2075695696959721895",
+   "created_at": "2026-07-10T21:36:33Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075690089376809186",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Chat, I have to do a weird rant opinion thingy and I hope someone understand what I'm saying. I've noticed a strange phenomena where people who grew up poor have this weird mentality like, they feel they're not good enough to not be poor? I was \"poor\" growing up, not poor-poor living in a shack, but money was definitely tight and sometimes dinner sucked. Anyway, I've met TONS of people who come from lower class families and lives, and who act scared to try to pivot into cybersecurity, or computer-science in general. I don't know if it's self-esteem, or some weird internal thingie on classism, I don't know. Maybe I sound crazy. Maybe someone smarter than me can convey the idea better. But it 100% happens. I see genuinely intelligent people, definitely capable of performing the type of work I do, end up doing construction or working a dead-end job somewhere and struggling financially and hating their lives because they're not intellectually stimulated. They could do so much more ... but they don't.",
+   "url": "https://x.com/vxunderground/status/2075690089376809186",
+   "created_at": "2026-07-10T21:14:16Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075673120157962440",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥A very large collective list of free APIs GitHub: https://github.com/public-apis/public-apis",
+   "url": "https://x.com/DarkWebInformer/status/2075673120157962440",
+   "created_at": "2026-07-10T20:06:50Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075658159138431378",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "R to @DarkWebInformer: Seen on a forum:",
+   "url": "https://x.com/DarkWebInformer/status/2075658159138431378",
+   "created_at": "2026-07-10T19:07:23Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075656728666948029",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "‼️ Maskify describes itself as real-time AI face swapping. \"Any face. Zero training. Total anonymity.\" IOC: https://maskify[.]net",
+   "url": "https://x.com/DarkWebInformer/status/2075656728666948029",
+   "created_at": "2026-07-10T19:01:42Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075642976588402753",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🚨 Threat Actor Advertises Fraudulent “Emergency Data Request” Services A threat actor is offering access to user records from major technology and telecom platforms, allegedly by abusing emergency data request procedures. According to the forum post, the seller claims they can obtain: * Telegram-linked phone numbers, recent IP addresses, and timestamps * Records associated with Meta platforms, including Facebook and Instagram * Subscriber data from T-Mobile and AT&T * Information from Microsoft and Pinterest Prices range from $500 to $1,000 per request, with payment accepted in cryptocurrency. Analyst Note: The claims have not been independently verified. If genuine, this may indicate abuse of emergency disclosure channels, compromised law-enforcement accounts, forged requests, or insider access. Platforms should review emergency-request authentication controls and audit unusual disclosure activity. #DDW #Intelligence #DarkWeb #Cybercrime",
+   "url": "https://x.com/DailyDarkWeb/status/2075642976588402753",
+   "created_at": "2026-07-10T18:07:03Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075641352335823019",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🚨 NCIC Correctional Visitation Data Allegedly Leaked A threat actor has begun publishing what they claim is data obtained from NCIC, a U.S. provider of communication and video-visitation services for correctional facilities. The visible sample allegedly contains: * Correctional facility identifiers * Inmate and visitor connection timestamps * Visit scheduling and session records * Video-recording metadata * Session tokens and internal system identifiers * Visit status and termination details The forum post labels the release as “Part 1,” suggesting additional material may follow. Analyst Note: The authenticity and full scope of the alleged leak have not been independently verified. If genuine, visitation records and session metadata could expose highly sensitive information concerning incarcerated individuals, their visitors, and participating correctional facilities. #DDW #Intelligence #DarkWeb #USA",
+   "url": "https://x.com/DailyDarkWeb/status/2075641352335823019",
+   "created_at": "2026-07-10T18:00:36Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075639447597588721",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 French Aviation Platform Flymoove Allegedly Leaked A threat actor has claimed to have released a database associated with Flymoove, a French SaaS platform focused on business aviation and regional air mobility. According to the forum post, the alleged data includes: * Full names * Email addresses and phone numbers * Dates of birth * Residential addresses * Country and postal code information * Passport or identity document numbers * Document types and expiration dates Analyst Note: The authenticity and scope of the alleged dataset have not been independently verified. If confirmed, the exposure of passport and identity-document data could create serious risks of identity theft, travel-related fraud, account impersonation, and targeted phishing. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2075639447597588721",
+   "created_at": "2026-07-10T17:53:02Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075638711673409618",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇪🇬 GoBus Database and Internal Documents Allegedly Leaked A threat actor has published what they claim is the complete database of GoBus, a transportation booking platform. * The alleged SQL database is approximately 16 GB. * The actor claims it contains data belonging to around 1 million users. * Reported fields include email addresses, phone numbers, hashed passwords, and complete ride histories. * An additional 4 GB archive allegedly contains internal documents related to drivers and employees. * The post claims the data was obtained within the past two weeks. Analyst Note: The authenticity and scope of the alleged leak have not been independently verified. If confirmed, the exposure of ride histories and contact details could create serious privacy, phishing, and account-compromise risks. #DDW #Intelligence #DarkWeb #GoBus",
+   "url": "https://x.com/DailyDarkWeb/status/2075638711673409618",
+   "created_at": "2026-07-10T17:50:07Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075637501788651720",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇨🇭 Public Data from Swiss Classifieds Platform Shared on Underground Forum A forum user has published a dataset allegedly scraped from http://PetitesAnnonces.ch, a Swiss online classifieds platform. * The archive reportedly contains 202,961 records in JSON format. * The poster explicitly describes the dataset as scraped public information rather than a compromised private database. * The visible sample includes listing references, advertisement text, phone numbers, account metadata, and category information. * Multiple download mirrors were shared through the forum. Analyst Note: This appears to be large-scale collection and redistribution of publicly accessible listings, not confirmed unauthorized access to the platform’s internal systems. Even public data can create privacy and abuse risks when aggregated at scale. #DDW #Intelligence #DarkWeb #Switzerland",
+   "url": "https://x.com/DailyDarkWeb/status/2075637501788651720",
+   "created_at": "2026-07-10T17:45:18Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2075636361290231987",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 French Handisport Federation Database Allegedly Leaked A threat actor has claimed to have released a database associated with http://Handisport.org, the website of the Fédération Française Handisport. According to the forum post: * The dataset allegedly contains 59,932 records. * The database is being distributed through underground channels. * The post does not provide enough visible detail to confirm the exact categories of exposed information. Analyst Note: The authenticity, scope, and origin of the alleged dataset have not been independently verified. Given that the organization supports athletes with disabilities, any exposure of member or participant information could create heightened privacy and targeted social-engineering risks. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2075636361290231987",
+   "created_at": "2026-07-10T17:40:46Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075621866132152489",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Crappy anti-VM technique inspired by a crappy Threat Actor",
+   "url": "https://x.com/vxunderground/status/2075621866132152489",
+   "created_at": "2026-07-10T16:43:10Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075614360639000851",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇺 HotToner Australia Customer Database Allegedly Leaked A threat actor has published what they claim is a customer database belonging to http://HotToner.com.au, an Australian online retailer specializing in printer ink, toner, and related consumables. According to the forum post: * The dataset allegedly contains more than 201,700 customer records. * Claimed fields include names, email addresses, telephone and fax numbers, company details, IP addresses, newsletter preferences, and customer-group information. * Order records reportedly contain product, quantity, price, shipping, billing, and payment-related details. * Sample records were shared to support the claim. Analyst Note: The authenticity and scope of the alleged breach have not been independently verified. If confirmed, the exposed order and contact data could be used for targeted phishing, invoice fraud, and account impersonation. #DDW #DarkWeb #Intelligence #Australia",
+   "url": "https://x.com/DailyDarkWeb/status/2075614360639000851",
+   "created_at": "2026-07-10T16:13:21Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075516454552682765",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 The second most active \"ransomware\" group in the Middle East this year never asked for a single ransom. That detail stopped us while putting together our 2026 Middle East Cyber Threat Landscape Report and it says a lot about where the region is heading. Criminals chasing profit. Hacktivists chasing headlines. State actors chasing intelligence. Same region, same quarter, sometimes the same victim. If you defend an organization anywhere in the Middle East, this is the environment you're actually operating in and the full report breaks it down country by country: ransomware statistics, dark web findings, APT tradecraft, and infostealer distribution data. 👇For more detailed information, see the full report; you can also review the key findings in our blog post. http://threatmon.io/the-middle-easts-cyber-threat-picture-in-2026-what-170-incidents-tell-us ⚠️ The full report covers all 17 countries in detail country-by-country statistics, group profiles, dark web findings, APT tradecraft, and infostealer distribution data. If you operate in the region, it’s worth the read: http://threatmon.io/middle-east-cyber-threat-landscape-report-2026 #CyberSecurity #ThreatIntelligence #MiddleEast #Ransomware #APT #DarkWeb #CTI",
+   "url": "https://x.com/MonThreat/status/2075516454552682765",
+   "created_at": "2026-07-10T09:44:18Z",
+   "tags": [
+    "ransomware",
+    "malware"
+   ]
+  },
+  {
+   "id": "2075515513719902359",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "⚠️ 11 Million US Resumes and PII Allegedly Leaked on Darkweb Forum A darkweb forum post claims the exposure of a massive dataset containing 11 million detailed resumes from US job seekers, totaling 1TB of data. The actor alleges that the collection spans over 20 years and includes sensitive personally identifiable information (PII) such as email addresses, phone numbers, and full home addresses. While the specific source of the breach is not identified in the listing, the actor offers a sample preview to demonstrate data quality before directing interested parties to contact them via Telegram. According to the post, the dataset includes a metadata file (meta.csv) with the following fields: - sjt_user_id: Unique seeker ID - register_date: Account registration date - firstname: First name - lastname: Last name - email: Primary email address - phone: Primary phone number - address: Street address - city: City - state: State/province code - zip: ZIP/postal code - country: Country code - dockey: Resume document key (MD5) - original_name: Original uploaded resume filename - resume_size: File size in bytes - create_date: Resume creation timestamp - modified_date: Last resume update timestamp - saved_filename: Decoded resume filename inside files/ (PDF/DOCX/DOC) The sample preview provided in the thread lists three records with names, emails, phone numbers, cities, states, ZIP codes, and associated resume filenames in DOCX format. If authentic, this leak could facilitate large-scale identity theft, targeted phishing campaigns, and social engineering attacks against individuals across the United States. At the time of reporting, the alleged breach has not been independently verified, nor has the original source of the data been confirmed. #DataBreach #PII #IdentityTheft #DarkWeb #USPrivacy #ThreatIntelligence #CyberSecurity",
+   "url": "https://x.com/MonThreat/status/2075515513719902359",
+   "created_at": "2026-07-10T09:40:34Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075514446659678213",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Massive FortiGate Credential Leak Affecting Spotify, Samsung, and Oracle A darkweb forum post reveals the alleged sale of a large dataset containing credentials tied to FortiGate SSL-VPN portals and administrative access points. The actor claims the dataset, labeled as \"FortiBleed dataset 2026,\" contains 68,520 total credential records spanning 21,387 distinct domains. According to the listing, the data includes masked login URLs, corporate email addresses (FortiGuardID), and the country of access for each record. The post alleges that credentials for several major global technology and enterprise organizations are included in the leak. The top affected domains by estimated user count listed in the sample include: * http://spotify.com – Music Streaming – 4,223,908 users * http://samsung.com – Consumer Electronics – 2,325,467 users * http://spe.sony.com – Entertainment Media – 1,958,292 users * http://mihoyo.com – Video Games – 723,402 users * http://oracle.com – Enterprise Software – 704,733 users * http://mercadolivre.com – E-commerce Marketplace – 694,280 users * http://service.alibaba.com – E-commerce Marketplace – 611,722 users * http://huawei.com – Telecommunications Equipment – 478,509 users * http://epfindia.gov.in – Government Services – 339,113 users * http://lenovo.com – Computer Hardware – 272,000 users The seller claims that 400 to 500 of the accessed credentials remain valid. The geographic distribution of the records reportedly shows significant activity from India (9,371 records), the USA (6,151 records), Taiwan (3,419 records), Mexico (3,149 records), and Turkey (2,894 records). The file size is listed as 8.68 MB. If authentic, exposure of valid FortiGate VPN credentials could enable unauthorized remote access to internal corporate networks, potentially leading to lateral movement and data exfiltration within these high-value targets. At the time of reporting, the alleged breach has not been independently verified by the affected organizations or security researchers.",
+   "url": "https://x.com/MonThreat/status/2075514446659678213",
+   "created_at": "2026-07-10T09:36:19Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2075500806560702861",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Breach of Keccel Billing Database Exposing 3.4M Congolese Numbers A darkweb forum post reveals that a threat actor has allegedly obtained full access to the billing database of Keccel Technologies S.A.R.L, a fintech and SMS gateway provider based in Kinshasa, Democratic Republic of Congo. The actor claims to have compromised the company's entire billing and event infrastructure, exposing data related to 29 corporate clients who route A2P SMS and WhatsApp messages through major Congolese operators. According to the listing, the breach exposes significant volumes of communication metadata and subscriber information: * **3,424,158** unique phone numbers from the DRC (+243) * **35,698,321** total SMS events * **26,428,316** billable SMS messages The post details the distribution of this traffic across mobile network operators, with Airtel accounting for 39.4% of phones (1,348,955) and Vodacom holding 26.0% (890,293). Orange and Africell follow with 24.0% and 8.7% respectively. The actor also lists top sender brands utilizing the gateway, including gambling platforms like Winner Bet and betPawa, financial services such as Visa Pay, and technology firms like Altech and Africa's Talking. Sample data provided in the thread includes CSV exports containing customer IDs, organization names, creation timestamps, and billing identifiers for entities such as KECCEL, NETMOBILE, DIGIT MARKET, and MTARGET FRANCE. Additionally, the post displays logs linking specific phone numbers to sender brands and message counts, potentially revealing user engagement patterns for services ranging from banking alerts to betting notifications. Keccel Technologies operates as a critical infrastructure provider for digital communications in the region, facilitating transactions for banks, utilities, and government bodies. If authentic, the exposure of this billing data could enable targeted phishing campaigns against corporate clients or facilitate fraud by revealing active user bases for high-value services. At the time of reporting, the alleged breach has not been independently verified.",
+   "url": "https://x.com/MonThreat/status/2075500806560702861",
+   "created_at": "2026-07-10T08:42:07Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2075467822113681914",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "what the actual fuck is wrong with you nerds? im not a fucking cat. STOP CALLING ME A CAT",
+   "url": "https://x.com/vxunderground/status/2075467822113681914",
+   "created_at": "2026-07-10T06:31:03Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075466180660207882",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: 1. It takes forever to fucking load 2. The auto-complete fucks up half the time, if you're doing a for loop it bugs the fuck out and can't auto-complete because it doesn't under conditional statements and expressions 3. It keeps bugging out previewing COM interfaces and COM methods 4. Everything is unnecessarily color coded and it looks like dog shit 5. It keeps asking me to use Copilot (fuck you Satya) 6. The search on Windows defaults to the Visual Studio installer, despite me telling it 10,000 fucking times to load the IDE 7. For some reason my pre-build and post-build events are fucked up, from an old-old projects with YARA I was doing FUCKING PIECE OF SHIT",
+   "url": "https://x.com/vxunderground/status/2075466180660207882",
+   "created_at": "2026-07-10T06:24:32Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075464940299674085",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Visual Studio 2026 is such a fucking piece of shit The things I want to say to Microsoft about the recent \"additions\" to Visual Studio would get me investigated the FBI.",
+   "url": "https://x.com/vxunderground/status/2075464940299674085",
+   "created_at": "2026-07-10T06:19:36Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075345177569276328",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: does my alias intimidate u",
+   "url": "https://x.com/vxunderground/status/2075345177569276328",
+   "created_at": "2026-07-09T22:23:43Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075344236929511651",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "My online alias is \"smelly\". It has slowly over the years mutated by people to be; \"stinky\", \"smelly smellington\", \"crazy cat guy\", \"schnelli\", \"schmelly\", etc. It is still mostly \"smelly\". It is not a cool or badass alias. However, the name was assigned to me from my wife. Ages ago my wife called me her \"smelly man\". She would walk into my office when I was working and, because room was small, poorly ventilated, and the door was closed, the room would get incredibly hot. I would get stinky from body odor. She would come in, kiss me on the cheek, call me her \"smelly man\", and give me a snack or something. I would then resume work. She has always been extremely supportive of my malware collecting, writing, reversing, etc. Hence, when I made vx-underground in 2019, and decided to start the journey of malware collecting and stuff, I said, \"I need a cool name that is tough and everyone will think I'm totally awesome and badass\". Then I remembered my wife called me \"smelly\"... so I went with that.",
+   "url": "https://x.com/vxunderground/status/2075344236929511651",
+   "created_at": "2026-07-09T22:19:58Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2075328858346156266",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> be me > open telegram > new message > look inside",
+   "url": "https://x.com/vxunderground/status/2075328858346156266",
+   "created_at": "2026-07-09T21:18:52Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075327505221702017",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: For the first like ... four years of the existence of vx-underground, people kept memeing, \"What's the password?\" because it was asked so often. Memes never die, I guess, I don't know",
+   "url": "https://x.com/vxunderground/status/2075327505221702017",
+   "created_at": "2026-07-09T21:13:29Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075327232000577789",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "It's been SEVEN AND A HALF YEARS and I STILL get emails like this. It's far less frequent, but it still occurs",
+   "url": "https://x.com/vxunderground/status/2075327232000577789",
+   "created_at": "2026-07-09T21:12:24Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075267171035361316",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "\"Can your next post have two cat pictures instead of one? I feel like you're not posting enough cats, so two of them will be (p)awesome\" — @Snailter Yeah, I got you dawg, don't even trip.",
+   "url": "https://x.com/vxunderground/status/2075267171035361316",
+   "created_at": "2026-07-09T17:13:44Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2075252343923208449",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> check DMs > 99+ message requests > look inside > malware or cat pictures Chat, I am blessed. I love you all so much.",
+   "url": "https://x.com/vxunderground/status/2075252343923208449",
+   "created_at": "2026-07-09T16:14:49Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2075176283835674838",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "Pinned: Headlines tell you what happened. Threat intelligence explains why it happened and what comes next. Our Middle East Cyber Threat Landscape Report 2026 examines the trends, threat actors, ransomware activity, dark web intelligence, infostealer ecosystems, and regional attack patterns shaping today's cyber threat landscape. Based on extensive threat intelligence, the report provides technical analysis, regional insights, and strategic findings to help security teams better understand the evolving risks across the Middle East. 🌐The full report is available on our website: http://threatmon.io/middle-east-cyber-threat-landscape-report-2026 #ThreatIntelligence #CyberSecurity #MiddleEast #DarkWeb #ThreatLandscape #ThreatMon",
+   "url": "https://x.com/MonThreat/status/2075176283835674838",
+   "created_at": "2026-07-09T11:12:35Z",
+   "tags": [
+    "ransomware",
+    "malware"
+   ]
+  },
+  {
+   "id": "2075041749123088769",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> get dm > \"smelly, my dads old pc has a keygen on it. it plays really loud annoying music. was our old home pc infected with malware for many years?\" > download key gen > look inside > not malware unfathomably based dad knew how to get legit warez",
+   "url": "https://x.com/vxunderground/status/2075041749123088769",
+   "created_at": "2026-07-09T02:18:00Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2074892565908709689",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "In regards to these files inside of \"child porn folder\", the files present inside all end in *.lnk (A Windows shortcut). This is a very common file masquerading technique to give the facade of a legitimate file, but it's actually malware (shortcut pulls a file that it detonates, or points to an actual malware payload). However, there is a small chance this is not file masquerading and a legitimate child predator accidentally uploaded files which are flagged as malware due to them linking to an external domain... or something else. Basically, there are a few things this could be 1. Legitimate CSAM (Child sexual abuse material) 2. Malware payload disguised as CSAM to target pedophiles 3. Malware naming itself something CSAM related to avoid analysis Regardless, for legal reasons (and emotional), I won't even try to figure out.",
+   "url": "https://x.com/vxunderground/status/2074892565908709689",
+   "created_at": "2026-07-08T16:25:12Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2074890965924385146",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: \"if it's labeled child porn they won't even try to download it to reverse it\" That is correct.",
+   "url": "https://x.com/vxunderground/status/2074890965924385146",
+   "created_at": "2026-07-08T16:18:50Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2074817750464143758",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 11.4M Mexico City Citizen Records Allegedly Leaked on Darkweb Forum A darkweb forum post claims the exposure of a database containing personal information for over 11 million residents of Mexico City. The listing, posted by an actor using the handle 'moonsh1n3', alleges that the dataset includes sensitive personally identifiable information (PII) such as full names, voter IDs, dates of birth, and complete residential addresses. According to the post, the database contains 11,482,760 records in TXT format. The exposed data fields reportedly include: * Voter ID (Clave Elector) * Full Name * Date of Birth * Gender * Occupation * Full Residential Address (Street, Number, Colony, Postal Code) * INE Registration Date The samples provided in the thread show detailed address information, including street names, internal/external numbers, and specific colonies within Mexico City. The actor claims this data covers individuals residing in the capital region. Mexico City is one of the most populous metropolitan areas in the world, with a population exceeding 9 million in the city proper and over 22 million in the greater metropolitan area. A breach of this scale would represent a significant exposure of citizen data, potentially facilitating identity theft, phishing campaigns, and physical security risks for affected individuals. The source of the leak was not specified in the post, nor was any ransom demand or attribution to a specific threat group mentioned. At the time of reporting, the alleged breach has not been independently verified by Mexican authorities or cybersecurity firms.",
+   "url": "https://x.com/MonThreat/status/2074817750464143758",
+   "created_at": "2026-07-08T11:27:54Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ]
+  },
+  {
+   "id": "2074816837129306437",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Alleged Azazie Database Leak Exposes SSNs and Payment Data A darkweb forum post claims to have obtained a database from the US-based fashion retailer Azazie, allegedly containing sensitive customer information including Social Security Numbers (SSNs) and credit card details. The listing, posted under the title \"http://azazie.com Database USA,\" asserts that the stolen SQL file includes user purchase history, order details, and financial data. According to the post, the exposed dataset contains the following types of information: * User purchase records * Order details * Credit card information * Social Security Numbers (SSNs) Azazie is a prominent online marketplace for custom-made dresses and formal wear, operating primarily in the United States. The company has grown significantly in recent years, serving millions of customers for weddings, proms, and other special events. A breach of this magnitude would be particularly damaging due to the inclusion of SSNs, which are high-value targets for identity theft. The actor behind the leak provided a download link via a file-hosting service and listed a Telegram handle for further contact. At the time of reporting, the alleged breach has not been independently verified by Azazie or third-party security researchers.",
+   "url": "https://x.com/MonThreat/status/2074816837129306437",
+   "created_at": "2026-07-08T11:24:16Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2074497092492415072",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "⚠️ Threat Actor Claims 430M Records Leaked from Argentine Credit Bureau InfoExperto A darkweb forum post alleges the exposure of over 430 million records from InfoExperto, a major Argentine credit bureau and data broker. The actor claims to have dumped partial source code, VPN keys, SSH root keys, and production environment configurations containing hardcoded credentials from the company's servers. According to the listing, the breach includes sensitive government-issued data and financial records, including: * **Payroll/Employment Records:** Over 100 million links between employees, employers, and salaries (AFIP Form 931) through April 2026. * **National Identity Registry:** 65 million records from the AFIP padron, including full names, DNI, DOB, addresses, and status. * **Telecom Data:** Approximately 176 million cell phone records across Personal/Telecom, Claro, and Movistar, linking names, DNIs, and addresses to phone lines. * **State-Declared Contacts:** 86 million phone records and 30 million email records sourced from ANSES, IFE, and other government programs. * **Financial Data:** 245,000 Banco Columbia credit cardholders with full 16-digit PANs, plus 4,675 platform-stored cards with CVVs and expiry dates in plaintext. * **Biometric Data:** 48,000 KYC identity verifications with face match scores and raw ID card chip data. The post further claims the leak includes AFIP digital certificates that could allow impersonation of the company to query national identity registries directly. It also lists internal scrapers used to pull live data from entities such as AFIP, ANSES, BCRA, and Movistar. InfoExperto is a significant player in Argentina’s financial infrastructure, providing credit scoring and identity verification services to banks, fintechs, and law firms. The alleged exposure of plaintext CVVs and biometric data poses severe risks for identity theft and financial fraud if the data is authentic. At the time of reporting, the alleged breach has not been independently verified by InfoExperto or security researchers.",
+   "url": "https://x.com/MonThreat/status/2074497092492415072",
+   "created_at": "2026-07-07T14:13:43Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2074492036363812979",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Sale of 100M Bumble User Records on Darkweb A post on an underground forum alleges the availability of a database containing over 100 million unique records from Bumble, a major dating application. The actor claims to be offering the dataset, which reportedly includes detailed personal information and behavioral data of users. According to the listing, the exposed data fields include: * User identifiers (user_id, profile_id) * Contact information (phone numbers, email addresses) * Personal details (first name, date of birth, gender, sexual orientation) * Location data (city, region, country) * Profile attributes (bio, interests, education level, job title) * Behavioral metrics (swipe counts, match counts, conversation counts) * Account status and premium tier information Bumble is a significant player in the online dating sector, with tens of millions of monthly active users globally. The exposure of such a large volume of sensitive personal data, including phone numbers and precise location history, could facilitate targeted phishing campaigns, identity theft, and harassment if the data is authentic. At the time of reporting, the alleged breach has not been independently verified by security researchers or confirmed by Bumble.",
+   "url": "https://x.com/MonThreat/status/2074492036363812979",
+   "created_at": "2026-07-07T13:53:38Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2074491077952766353",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims 430M Record Breach of Argentine Credit Bureau InfoExperto A darkweb forum post reveals that a threat actor has allegedly dumped over 430 million records from InfoExperto, a major Argentine credit bureau and data broker. The actor claims to have exfiltrated not only the core database but also sensitive server artifacts, including partial source code, SSH root keys, VPN credentials, and production environment configurations containing hardcoded secrets. According to the listing on the underground forum, the breach includes high-value government-linked datasets and financial records. The alleged data dump contains: * **Payroll and Employment Records:** Over 100 million links between employees, employers, and salaries (AFIP Form 931) through April 2026. * **National Identity Registry:** 65 million records from the AFIP padron, including full names, DNI numbers, dates of birth, addresses, and economic activity status. * **Telecommunications Data:** Approximately 176 million cell phone records from providers including Personal/Telecom, Claro, and Movistar, linking phone numbers to names, DNIs, addresses, and plan details. * **State-Declared Contact Info:** 86 million phone records and 30 million email records sourced from government programs such as ANSES, IFE, Alimentar, and ENACOM, updated through June 2026. * **Financial Data:** 245,000 Banco Columbia credit cardholders with full 16-digit Primary Account Numbers (PANs), plus 4,675 platform-stored cards with CVVs and expiry dates in plaintext. * **Biometric Data:** 48,000 KYC identity verification sessions with face match scores and raw ID card chip data. * **Infrastructure Keys:** AFIP digital certificates that allegedly allow impersonation of the company to query the national identity registry directly. InfoExperto is a significant player in Argentina's financial infrastructure, providing credit scoring and risk management services to banks, fintechs, and other enterprises. The exposure of such granular personal and financial data poses severe risks of identity theft, fraud, and targeted social engineering attacks against millions of Argentine citizens. The post also lists 18 million ART (worker compensation) records and billing history for 62,000 corporate clients. At the time of reporting, the alleged breach has not been independently verified by InfoExperto or Argentine authorities.",
+   "url": "https://x.com/MonThreat/status/2074491077952766353",
+   "created_at": "2026-07-07T13:49:49Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2074451087520670192",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 BONK DAO Loses Approximately $20 Million in Treasury Funds Due to Malicious Vote A malicious DAO governance proposal targeted BonkDAO, which is part of the BONK community in the Solana ecosystem. by a malicious DAO governance proposal. BONK’s official X account announced that, as a result of the incident, approximately $20 million worth of BONK tokens were drained from the BonkDAO treasury, and the exchange wallets used to purchase BONK prior to the attack have been identified. It was noted that BonkDAO is working with exchanges, bridge services, and the Solana Foundation and that law enforcement has been notified. A DAO is a governance model in which a project’s decisions A DAO operates as a governance model where token holders vote on project decisions instead of a central team, through token holders’ votes rather than a central team's. Realms is one of the platforms within the Solana ecosystem where such DAO votes take place. At the center of the incident was a proposal titled “BIP #76 - Sowellian BonkDAO” created on Realms. The proposal included statements such as “implementation of Sowellian governance, the establishment of new members and a council, rebuilding the community, evaluation of assets, and that those who vote ‘YES’ will be eligible to receive tokens.” However, a critical part of the proposal instructed that 4,426,104,450,305 BONK from the BonkDAO treasury be sent to the address 9bxWkNf3BtJ6iehq9KbX9uCWMjem4TFiPZ19T2sYJHvQ. While the vote required a 1% quorum, the 882.38B BONK “Yes” votes narrowly surpassed the 879.95B BONK quorum threshold. As a result, the proposal was approved with a 99.9% “Yes” vote. This incident is not considered a classic smart contract hack, but rather a governance attack. A governance attack occurs when an attacker gains voting power and manipulates the DAO’s decision-making mechanism to their own advantage instead of technically breaching the system. In this case, it appears that the attacker acquired enough voting power to influence the vote by purchasing BONK prior to the proposal and then passed the proposal containing the malicious transfer instruction. For this reason, DAO users must carefully review not only the proposal title or description but also the instruction details, the amount of tokens to be sent, the destination address, and any interactions with the treasury. On the DAO side, additional security measures such as high quorum requirements, timelocks, multisig approval, and emergency veto mechanisms are critical for large treasury transfers. #GovernanceAttack #Web3Security #ThreatMon #TokenGovernance #DigitalAssetSecurity",
+   "url": "https://x.com/MonThreat/status/2074451087520670192",
+   "created_at": "2026-07-07T11:10:55Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2074395351008657567",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨Alleged US Personal Data Leak Exposes SSNs and Bank Details A darkweb forum post claims that 153,210 records of US personal data have been compromised, exposing highly sensitive financial and identity information. The listing, dated July 7, 2026, alleges the breach occurred on May 7, 2026, and offers the dataset for sale at a price of $150. According to the post, the leaked database contains a wide range of personally identifiable information (PII) and financial data. The actor lists the following fields as exposed: * First Name * Last Name * Email Address * Physical Address (Street, City, State, Zip) * Phone Numbers * Bank Account Numbers * Routing Numbers * Social Security Numbers (SSN) * Date of Birth * Driver's License Numbers The sample data provided in the thread includes entries from various US states, including Illinois, Indiana, Arizona, Tennessee, Arkansas, Michigan, Kentucky, New York, Alabama, California, Colorado, Massachusetts, South Carolina, and Texas. The inclusion of Social Security numbers, bank account details, and driver's license numbers suggests a high risk of identity theft and financial fraud if the data is authentic. The post does not identify the source of the breach or the specific organization targeted. It only provides a Telegram handle for contact, which has been omitted for safety. The combination of SSNs and banking credentials makes this type of data particularly valuable on the black market for synthetic identity fraud and direct account takeover attacks. At the time of reporting, the alleged breach has not been independently verified, nor has any specific company claimed responsibility or confirmed the incident.",
+   "url": "https://x.com/MonThreat/status/2074395351008657567",
+   "created_at": "2026-07-07T07:29:26Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2074391910446219704",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🛡️Threat intelligence is only valuable when people can actually access it. Today, we're introducing IntelHub ThreatMon's free cyber threat intelligence platform built for the security community. Search IOCs, investigate threat actors, explore malware, track vulnerabilities, and access continuously updated intelligence from a single interface. We built IntelHub to help defenders spend less time searching and more time investigating. We'd love to hear your feedback. 🌐 Explore IntelHub: http://threatmon.io/threatmon-launches-intelhub-free-cyber-threat-intelligence-platform-for-the-security-community #CyberSecurity #ThreatIntelligence #BlueTeam #SOC #ThreatResearch #ThreatMon",
+   "url": "https://x.com/MonThreat/status/2074391910446219704",
+   "created_at": "2026-07-07T07:15:46Z",
+   "tags": [
+    "malware",
+    "vuln"
+   ]
+  },
+  {
+   "id": "2074388884469809650",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Alleged Data Leak of Accenture A threat actor known as '888' claims to be selling a dataset allegedly stolen from Accenture in July 2026. According to the post, the dataset reportedly exceeds 35 GB and is claimed to contain source code, RSA keys, SSH keys, Azure Personal Access Tokens (PATs), Azure Storage Access Keys, and configuration files. #Accenture #ThreatIntelligence #DarkWeb #DataLeak",
+   "url": "https://x.com/MonThreat/status/2074388884469809650",
+   "created_at": "2026-07-07T07:03:44Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2073800681132020182",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Alleged Ransomware Attack Targeting Deutsche Bank 🇩🇪 It has been determined that the UnSafe Ransomware group claims to have carried out a ransomware attack targeting Deutsche Bank, a global financial institution headquartered in Germany. To support its claim, the threat actor shared live system logs, terminal histories, and directory structures allegedly leaked from the bank’s internal network and file transfer infrastructure as proof of concept. An analysis of the shared console output and file tree reveals that the breach targeted the bank’s critical data transfer mechanisms and background financial integrations: SFTP Infrastructure and Credential Exposure: The terminal history (cwd_history) shared by the actor reveals automated file transfer processes executed via the bank’s dbx[.]db[.]com server. The leaked records contain active SFTP connection paths for the following critical accounts. Critical Financial and Operational Datasets: The dump of the 5.5 GB “178[.]77[.]77[.]152_csv_db” main folder, which the actor claims to have compromised, lists thousands of financial transaction records: dbexchange (~3.4 GB / 2,999 files): Contains current market data movements and transaction records (ICM_TD_VRX_MOVE...) extending through June 2026. GateKeeper (~515 MB / 3,426 files): Contains documents related to the bank’s access control, user reporting processes, and AIMSGKPER processes. sapgv (~1.7 GB): Contains data on premiums, accounting, or corporate operations processed through the bank’s SAP integration. #DataBreach #Ransomware #DeutscheBank #ThreatIntelligence #Financial #DarkWeb",
+   "url": "https://x.com/MonThreat/status/2073800681132020182",
+   "created_at": "2026-07-05T16:06:26Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ]
+  },
+  {
+   "id": "2072950369856954758",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "👇 Cybercrime no longer looks like isolated attacks. It looks like a business. Many data theft groups have evolved beyond stealing databases. They now operate with defined roles, repeatable workflows, customer support, affiliate networks, and multiple revenue streams. In many cases, stolen data is simply the starting point. Understanding how these operations generate profit helps explain why they're becoming faster, more scalable, and more persistent. 🕵️ At ThreatMon, we examine how one data theft crew evolved into a structured criminal enterprise and why that evolution matters for every security team. Dive deeper into our research: http://threatmon.io/how-a-data-theft-crew-became-a-business #CyberSecurity #ThreatIntelligence #DataBreach #CyberCrime #DarkWeb #ThreatMon",
+   "url": "https://x.com/MonThreat/status/2072950369856954758",
+   "created_at": "2026-07-03T07:47:36Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2072663924122493003",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Breach of Brazilian FX Broker VIPS A threat actor operating under the alias 'Kaido' claims to have breached VIPS Corretora de Cambio SA, a Brazilian foreign exchange brokerage regulated by the Central Bank of Brazil (BACEN). According to a post on an underground forum, the actor alleges they possess complete backend access and sensitive records from the company, which operates under the domains http://vipscambio.com.br and http://vipscc.com.br. The post enumerates a significant volume of compromised data and assets, allegedly including: * 115,109 unique CPFs (Brazilian taxpayer IDs) * 2,414 client bank accounts with full details * 72 internal system credentials * 3,595 signed contracts (DocuSign) * 18 corporate bank accounts * Digital certificates with passwords * Remote access to production servers * Government reporting credentials Beyond personal data, the actor alleges exposure of critical financial intelligence, claiming evidence of R$ 330 million in unreported Anti-Money Laundering (AML) operations. The post also cites financial movement logs showing R$ 262 million in transactions over a 60-day period, alongside monthly FX volumes of R$ 130 million. Additionally, the actor claims to have exposed full PII for five directors and system access details for 72 employees. VIPS Corretora de Cambio SA is a licensed financial institution in Brazil, making it subject to strict regulatory oversight by BACEN. If authentic, the alleged exposure of unreported AML operations and client financial data could result in severe regulatory penalties and reputational damage for the firm. The actor provided sample files via http://privatebin.net links to substantiate the claims. At the time of reporting, the alleged breach has not been independently verified by VIPS or regulatory authorities.",
+   "url": "https://x.com/MonThreat/status/2072663924122493003",
+   "created_at": "2026-07-02T12:49:22Z",
+   "tags": [
+    "breach",
+    "market",
+    "vuln"
+   ]
+  },
+  {
+   "id": "2072663630403752044",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Sale of Microsoft 365 Pre-Auth 0-Day on Darkweb A threat actor is allegedly auctioning a zero-day vulnerability targeting Microsoft 365 core infrastructure on an underground forum. The post claims the exploit allows for pre-authentication, zero-click initial access to global routing systems, bypassing perimeter security measures such as Microsoft Edge WAF and Cloudflare rules. According to the listing, the actor alleges the ability to forge an internal network bridge via a \"protocol-level desynchronization vector.\" The post includes technical artifacts purportedly demonstrating the breach: * Internal host access: *.PROD.OUTLOOK.COM * Specific server target: http://TP3P295MB0169.TWNP295.PROD.OUTLOOK.COM * Generated session cookie: ClientId=9C1D820516E44EDDBED29972C18E3E46 * Response headers: X-ResponseOrigin: OwaNetCore The seller claims the vulnerability affects global multi-region infrastructure, including North America (nam), Europe (eur), Japan (jpn), and specific internal domains like loki.delve. The actor asserts the capability to hijack live remote HTTP data streams and perform mass account takeovers without user interaction. However, the post notes that cache poisoning is non-functional due to strict backend headers. The listing sets a starting bid of $1,000,000 USD and a \"Buy It Now\" price of $2,500,000 USD, payable in Monero (XMR). The actor offers live verification via forum administrators using clean tenants provided by buyers. Microsoft has not commented on this specific claim. At the time of reporting, the alleged vulnerability and its impact have not been independently verified by security researchers or Microsoft. #Microsoft #ZeroDay #DarkWeb #CyberSecurity #DataBreach #ThreatIntelligence",
+   "url": "https://x.com/MonThreat/status/2072663630403752044",
+   "created_at": "2026-07-02T12:48:12Z",
+   "tags": [
+    "breach",
+    "market",
+    "vuln"
+   ]
+  },
+  {
+   "id": "2072651117129850969",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "⚠️ Threat Actor Claims Massive Data Leak of Grupo ATC and Major Auto Partners A threat actor has allegedly leaked over 340 GB of data from Grupo ATC, a Mexican logistics and transportation conglomerate, along with sensitive information pertaining to dozens of major global corporations. According to a post on an underground forum, the actor claims to have obtained 23 databases containing more than 2 billion unique rows after negotiations for a ransom failed. The actor alleges that because the company did not pay, they are now releasing the data to the public. The leak reportedly includes highly sensitive credentials and personally identifiable information (PII) related to Grupo ATC’s internal operations and its extensive network of partners. The actor claims the following categories of data are exposed: * OAuth2 bearer/refresh tokens and JWT tokens * Cleartext application passwords and SFTP credentials * API credentials and third-party API keys * Password hashes (bcrypt $2a$11$, PBKDF2, custom salted) * Email reset tokens and intercepted business emails * Employee PII including names, emails, phone numbers, RFCs, and bank account numbers (CLABES) * GPS position data and operational freight routes * Vehicle identification numbers with routing information * Internal source code paths and cloud storage account names The actor asserts that the breach extends beyond Grupo ATC, exposing data linked to major automotive and manufacturing giants such as Ford, Toyota, Tesla, Honda, Nissan, Mazda, Hyundai, BMW, General Motors, Stellantis, Penske, John Deere, Nestle, Mabe, and L'Oréal. The post suggests this data could be used for spear-phishing, fraud, or gaining initial access for further ransomware campaigns against these high-profile entities. Grupo ATC is a significant player in the North American logistics sector, specializing in automotive logistics and supply chain solutions. If authentic, the exposure of internal API endpoints, freight billing amounts, and employee financial details could facilitate targeted attacks on both the logistics provider and its corporate clients. At the time of reporting, the alleged breach has not been independently verified.",
+   "url": "https://x.com/MonThreat/status/2072651117129850969",
+   "created_at": "2026-07-02T11:58:28Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2072650843904528691",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "🚨 Threat Actor Claims Sale of 4M ISSSTE Records on Darkweb A listing on an underground forum alleges the sale of a historical database containing over 4 million records from Mexico’s Institute of Social Security and Social Services for State Workers (ISSSTE). The post, dated July 1, 2026, claims to offer access to sensitive personal and employment data belonging to state employees. According to the thread, the dataset includes a wide range of personally identifiable information (PII) and financial details. The actor lists the following data fields as being present in the dump: * CURP (Unique Population Registry Code) * RFC (Federal Taxpayer Identification Code) * NSS (Social Security Number) * ISSSTE Number * Full names (first name, father's last name, mother's last name) * Salary details (ISSSTE salary, SAR salary, total compensation) * Employment history (start date, appointment type, enrollment date) * Administrative identifiers (branch number, payroll office number, payment code) ISSSTE is a critical government entity in Mexico, providing social security benefits to millions of federal public servants. The exposure of such comprehensive employment and tax data could facilitate identity theft, social engineering attacks, and targeted fraud against state workers. The post indicates that the price for the database is negotiable and directs interested buyers to contact the seller via Signal. At the time of reporting, the alleged breach has not been independently verified by security researchers or official statements from ISSSTE.",
+   "url": "https://x.com/MonThreat/status/2072650843904528691",
+   "created_at": "2026-07-02T11:57:23Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2070517575432249617",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
-   "sample": true,
-   "text": "[Sample 示範] Researcher notes placeholder — malware and data leak findings from @Gi7w0rm will appear here.",
-   "url": "https://x.com/Gi7w0rm",
-   "created_at": "2026-07-10T12:45:00Z",
-   "tags": ["malware", "breach"]
+   "text": "This happend to me in the last wave a month ago. Now a new wave is ongoing. I appealed and my account was unlocked after review. I have the feeling someone is intentionally targeting researchers here with automated botted reports to silence them.",
+   "url": "https://x.com/Gi7w0rm/status/2070517575432249617",
+   "created_at": "2026-06-26T14:40:32Z",
+   "tags": [
+    "other"
+   ]
   },
   {
-   "id": "s9",
-   "handle": "MonThreat",
-   "name": "ThreatMon",
-   "sample": true,
-   "text": "[Sample 示範] Threat intel placeholder — Middle East & global dark web tracking from @MonThreat will appear here.",
-   "url": "https://x.com/MonThreat",
-   "created_at": "2026-07-10T11:15:00Z",
-   "tags": ["other"]
+   "id": "2069801763209687542",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @500mk500: cc: @vxunderground @club31337 You might enjoy the peak trolling in here XD",
+   "url": "https://x.com/Gi7w0rm/status/2069801763209687542",
+   "created_at": "2026-06-24T15:16:10Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2069801546917777787",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @Gi7w0rm: Celebration for the Stealer hunters among you: @500mk500 @UK_Daniel_Card @atomiczsec @NexusFuzzy @Cryptolaemus1 @aejleslie @jstrosch @ViriBack @0xToxin @Merlax_ @malwrhunterteam @James_inthe_box @vxremalware @dr4k0nia @crep1x @1ZRR4H @RussianPanda9xx @SOSIntel @tosscoinwitcher @0xperator @Jane_0sint @OxSaiyangod",
+   "url": "https://x.com/Gi7w0rm/status/2069801546917777787",
+   "created_at": "2026-06-24T15:15:18Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2069801346186756191",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @Gi7w0rm: Video: https://operation-endgame.com/videos/S03E04_STEALC.mp4 Europol Press Release: https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks Reports underlining the flaws of StealC: Panel Leak: https://bazaar.abuse.ch/sample/45ec2531c9773be220be52556b2b4d57e355ff5b2162361cd7ddf75d69e076ee/ Why #StealC sucks: https://lumma-labs.com/autopsy-of-a-failed-stealer-stealc-v2-a4e32da04396",
+   "url": "https://x.com/Gi7w0rm/status/2069801346186756191",
+   "created_at": "2026-06-24T15:14:30Z",
+   "tags": [
+    "breach",
+    "malware"
+   ]
+  },
+  {
+   "id": "2069800799715135549",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "Pinned: New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
+   "url": "https://x.com/Gi7w0rm/status/2069800799715135549",
+   "created_at": "2026-06-24T15:12:20Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
+   "id": "2068713294517473374",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @Gi7w0rm: ic3.gov/PSA/2026/PSA260618",
+   "url": "https://x.com/Gi7w0rm/status/2068713294517473374",
+   "created_at": "2026-06-21T15:10:58Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2068713290633478226",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "The @FBI @FBICyberDiv have released an advisory regarding #TDS website compromise. This aims at threats like #SocGholish, #SmartApeSG , #TA2726 #HelpTDS , #ClearFake and others. If your website get compromised, please report it via the linked sites so the largescale issue that these threats pose are getting increased visibility and more prosecution! Link to advisory in first comment.",
+   "url": "https://x.com/Gi7w0rm/status/2068713290633478226",
+   "created_at": "2026-06-21T15:10:57Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2067581178937274722",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @Gi7w0rm: @500mk500 @UK_Daniel_Card @atomiczsec @NexusFuzzy @Cryptolaemus1 @aejleslie @jstrosch @ViriBack @0xToxin @Merlax_ @malwrhunterteam @James_inthe_box @vxremalware @dr4k0nia @crep1x @1ZRR4H @RussianPanda9xx @SOSIntel @tosscoinwitcher @0xperator @Jane_0sint @OxSaiyangod @vxunderground",
+   "url": "https://x.com/Gi7w0rm/status/2067581178937274722",
+   "created_at": "2026-06-18T12:12:21Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2067580889958076890",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "R to @Gi7w0rm: politie.nl/en/news/2026/juni…",
+   "url": "https://x.com/Gi7w0rm/status/2067580889958076890",
+   "created_at": "2026-06-18T12:11:12Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2067580835402862670",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "New season of #OperationEndgame just dropped. This time, they targeted #SocGholish. 106 servers and domains taken down, 14.971 websites remediated. Of course, they released a movie like video for it again. Link to press release in the comments :) #OpEndgame #SocGholish",
+   "url": "https://x.com/Gi7w0rm/status/2067580835402862670",
+   "created_at": "2026-06-18T12:10:59Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2065381301809512601",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "Spanish Language Telegram Bot for #CC validation leaked. Ben did a great job analysing it here, showing both where cards are being verified at and which #ResidentialProxy providers are abused. Very interesting especially since I have analyzed a lot of #magecart recently🧐",
+   "url": "https://x.com/Gi7w0rm/status/2065381301809512601",
+   "created_at": "2026-06-12T10:30:49Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2064692911862628757",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "Playing around with affiliate marketing platforms. Proud to share that I have officially converted 40$ of traffic into 0.03 $ revenue... No idea how affiliate marketing is supposed to generate money if you dont do dirty tricks...",
+   "url": "https://x.com/Gi7w0rm/status/2064692911862628757",
+   "created_at": "2026-06-10T12:55:24Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1936177266662514838",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "I posted research on Mastodon/LinkedIn this week questioning Sergio Gor's background. Immediately after learning of a critical error in that analysis, I deleted the posts as they were no longer supported by the facts. I regret that error, and apologize for leading anyone astray.",
+   "url": "https://x.com/briankrebs/status/1936177266662514838",
+   "created_at": "2025-06-20T21:40:07Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1856661181852971062",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "Pinned: *sips coffee* good morning! I'm over on Bluesky - coffee served there until further notice.",
+   "url": "https://x.com/jms_dot_py/status/1856661181852971062",
+   "created_at": "2024-11-13T11:31:35Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1856319509482918279",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "R to @jms_dot_py: 👀 boss...@kcath23",
+   "url": "https://x.com/jms_dot_py/status/1856319509482918279",
+   "created_at": "2024-11-12T12:53:54Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1856319118707962091",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "I can't even explain how exciting this is!",
+   "url": "https://x.com/jms_dot_py/status/1856319118707962091",
+   "created_at": "2024-11-12T12:52:21Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1856305789096603745",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "*sips coffee* mornin' here's a banger! https://soundcloud.com/justinseitz/trees-lissie-x-kid-cudi-x-bruce-cockburn",
+   "url": "https://x.com/jms_dot_py/status/1856305789096603745",
+   "created_at": "2024-11-12T11:59:23Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1856284724853117402",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "*sighs* no...we should not repost images of Melania Trump from the Russian media. For the love of all that is holy y'all....",
+   "url": "https://x.com/jms_dot_py/status/1856284724853117402",
+   "created_at": "2024-11-12T10:35:41Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855968569126986004",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "*sips coffee* mornin'",
+   "url": "https://x.com/jms_dot_py/status/1855968569126986004",
+   "created_at": "2024-11-11T13:39:23Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855884734707986765",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "Oh love this.",
+   "url": "https://x.com/jms_dot_py/status/1855884734707986765",
+   "created_at": "2024-11-11T08:06:16Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855785202737709285",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "You wanna have a real good night? Doomscroll a digitized archive instead of this hellhole! https://bmac.libs.uga.edu/FindingAids/Collections/removeCriterion/collection_area/removeID/1018/view/images/key/2bf2641b84c814a12c8e99f80c2b14b2",
+   "url": "https://x.com/jms_dot_py/status/1855785202737709285",
+   "created_at": "2024-11-11T01:30:45Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855608227062505833",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "soundcloud.com/justinseitz/a…",
+   "url": "https://x.com/jms_dot_py/status/1855608227062505833",
+   "created_at": "2024-11-10T13:47:31Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855607460071117116",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "I forget about half of the stuff I've posted! It's like finding new music hahaha! https://soundcloud.com/justinseitz/compliments-under-a-hard-sun",
+   "url": "https://x.com/jms_dot_py/status/1855607460071117116",
+   "created_at": "2024-11-10T13:44:28Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855606147971248196",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "soundcloud.com/justinseitz/t…",
+   "url": "https://x.com/jms_dot_py/status/1855606147971248196",
+   "created_at": "2024-11-10T13:39:15Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855585837511266748",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "*sips coffee* goooooood morning!",
+   "url": "https://x.com/jms_dot_py/status/1855585837511266748",
+   "created_at": "2024-11-10T12:18:33Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855244006252544359",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "*stares at you all* Cybersecurity folks you follow a handful of asshole VCs who sit on an Israeli beach tweeting about this like a vacation. Prolly shouldn't.",
+   "url": "https://x.com/jms_dot_py/status/1855244006252544359",
+   "created_at": "2024-11-09T13:40:14Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855234219301384214",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "Palate cleanser.",
+   "url": "https://x.com/jms_dot_py/status/1855234219301384214",
+   "created_at": "2024-11-09T13:01:21Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855232459992166422",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "R to @jms_dot_py: If there were magnets on it anywhere, you know they for sure were Mogilevich neodymium specials straight outta Philly.",
+   "url": "https://x.com/jms_dot_py/status/1855232459992166422",
+   "created_at": "2024-11-09T12:54:21Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1855231908705353798",
+   "handle": "jms_dot_py",
+   "name": "jms_dot_py",
+   "text": "Haha @michaeldweiss when you were riding your Schwinn as a kid did you know that it was very likely a Mogilevich Schwinn-Csepel? Just heard your @Underworld_Pod interview.",
+   "url": "https://x.com/jms_dot_py/status/1855231908705353798",
+   "created_at": "2024-11-09T12:52:10Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1610056829731766273",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "This made my day: Brazilian Authorities Will Revive Fraud Case Against George Santos. A 2008 court case had been suspended because Brazilian law enforcement officials could not find Mr. Santos. https://www.nytimes.com/2023/01/02/nyregion/george-santos-brazil.html",
+   "url": "https://x.com/briankrebs/status/1610056829731766273",
+   "created_at": "2023-01-02T23:33:56Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1607850047714074624",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "R to @briankrebs: Turned off protected mode for a bit. Let the firehose commence.",
+   "url": "https://x.com/briankrebs/status/1607850047714074624",
+   "created_at": "2022-12-27T21:24:58Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1607848771777630209",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "Hey @elonmusk, since you don't seem to have much a media/comms team anymore, can you address the apparently legitimate claim that someone scraped & is now selling data on hundreds of millions of Twitter accounts? Maybe it didn't happen on your watch, but you owe Twitter a reply.",
+   "url": "https://x.com/briankrebs/status/1607848771777630209",
+   "created_at": "2022-12-27T21:19:54Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1607836876358008832",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "Just enjoyed several glorious days when I didn't even think about Twitter. Wandered back just now to see what's new, and yep about what I expected.",
+   "url": "https://x.com/briankrebs/status/1607836876358008832",
+   "created_at": "2022-12-27T20:32:38Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1606722290082791430",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "This article could easily be updated to reflect the current reason a lot of people here (particularly journalists) have their accounts locked: It slows the firehose of bot replies from gajillions of accounts that don't follow you. It's probably also come to mean FU to Twitter.",
+   "url": "https://x.com/briankrebs/status/1606722290082791430",
+   "created_at": "2022-12-24T18:43:40Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1606690177421828096",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "Image",
+   "url": "https://x.com/briankrebs/status/1606690177421828096",
+   "created_at": "2022-12-24T16:36:03Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "1605383104918458368",
+   "handle": "briankrebs",
+   "name": "briankrebs",
+   "text": "youtube.com/watch?v=T1XgFsit…",
+   "url": "https://x.com/briankrebs/status/1605383104918458368",
+   "created_at": "2022-12-21T02:02:13Z",
+   "tags": [
+    "other"
+   ]
   }
  ]
 }
