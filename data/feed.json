@@ -1,0 +1,108 @@
+{
+ "generated_at": "2026-07-11T00:00:00Z",
+ "source": "sample",
+ "account_status": {},
+ "categories": {
+  "DailyDarkWeb": "core",
+  "DarkWebInformer": "core",
+  "jms_dot_py": "strong",
+  "campuscodi": "strong",
+  "GossiTheDog": "strong",
+  "briankrebs": "extra",
+  "vxunderground": "extra",
+  "Gi7w0rm": "extra",
+  "MonThreat": "extra"
+ },
+ "posts": [
+  {
+   "id": "s1",
+   "handle": "DailyDarkWeb",
+   "name": "Daily Dark Web",
+   "sample": true,
+   "text": "[Sample 示範] Ransomware victim claim placeholder — live posts from @DailyDarkWeb will appear here after the first scheduled fetch.",
+   "url": "https://x.com/DailyDarkWeb",
+   "created_at": "2026-07-10T22:10:00Z",
+   "tags": ["ransomware"]
+  },
+  {
+   "id": "s2",
+   "handle": "DarkWebInformer",
+   "name": "Dark Web Informer",
+   "sample": true,
+   "text": "[Sample 示範] Data breach / leak alert placeholder — IOC and dark web market updates from @DarkWebInformer will appear here.",
+   "url": "https://x.com/DarkWebInformer",
+   "created_at": "2026-07-10T21:05:00Z",
+   "tags": ["breach", "market"]
+  },
+  {
+   "id": "s3",
+   "handle": "jms_dot_py",
+   "name": "Justin Seitz",
+   "sample": true,
+   "text": "[Sample 示範] Tor hidden service report placeholder — new onion service discoveries from @jms_dot_py will appear here.",
+   "url": "https://x.com/jms_dot_py",
+   "created_at": "2026-07-10T19:40:00Z",
+   "tags": ["other"]
+  },
+  {
+   "id": "s4",
+   "handle": "campuscodi",
+   "name": "Catalin Cimpanu",
+   "sample": true,
+   "text": "[Sample 示範] Security journalism placeholder — dark web leak and ransomware reporting from @campuscodi will appear here.",
+   "url": "https://x.com/campuscodi",
+   "created_at": "2026-07-10T18:20:00Z",
+   "tags": ["breach"]
+  },
+  {
+   "id": "s5",
+   "handle": "GossiTheDog",
+   "name": "Kevin Beaumont",
+   "sample": true,
+   "text": "[Sample 示範] Early warning placeholder — vulnerability and exploitation alerts from @GossiTheDog will appear here. CVE-0000-00000",
+   "url": "https://x.com/GossiTheDog",
+   "created_at": "2026-07-10T16:55:00Z",
+   "tags": ["vuln"]
+  },
+  {
+   "id": "s6",
+   "handle": "briankrebs",
+   "name": "Brian Krebs",
+   "sample": true,
+   "text": "[Sample 示範] Investigative reporting placeholder — dark web crime coverage from @briankrebs will appear here.",
+   "url": "https://x.com/briankrebs",
+   "created_at": "2026-07-10T15:30:00Z",
+   "tags": ["market"]
+  },
+  {
+   "id": "s7",
+   "handle": "vxunderground",
+   "name": "vx-underground",
+   "sample": true,
+   "text": "[Sample 示範] Malware research placeholder — sample analysis and underground forum notes from @vxunderground will appear here.",
+   "url": "https://x.com/vxunderground",
+   "created_at": "2026-07-10T14:00:00Z",
+   "tags": ["malware"]
+  },
+  {
+   "id": "s8",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "sample": true,
+   "text": "[Sample 示範] Researcher notes placeholder — malware and data leak findings from @Gi7w0rm will appear here.",
+   "url": "https://x.com/Gi7w0rm",
+   "created_at": "2026-07-10T12:45:00Z",
+   "tags": ["malware", "breach"]
+  },
+  {
+   "id": "s9",
+   "handle": "MonThreat",
+   "name": "ThreatMon",
+   "sample": true,
+   "text": "[Sample 示範] Threat intel placeholder — Middle East & global dark web tracking from @MonThreat will appear here.",
+   "url": "https://x.com/MonThreat",
+   "created_at": "2026-07-10T11:15:00Z",
+   "tags": ["other"]
+  }
+ ]
+}

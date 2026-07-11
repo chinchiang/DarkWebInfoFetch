@@ -1,0 +1,262 @@
+#!/usr/bin/env python3
+"""Fetch latest posts from curated dark-web threat-intel accounts on X (Twitter).
+
+Data sources, in order of preference:
+  1. X API v2  -- used when the X_BEARER_TOKEN environment variable is set.
+  2. Nitter RSS mirrors -- keyless fallback; instances are tried in order.
+
+Output: data/feed.json, merged with previously fetched posts so a partial
+fetch never loses history. Designed to run from GitHub Actions on a schedule
+(twice daily at 05:00 and 15:00 Taipei time / 21:00 and 07:00 UTC).
+Only uses the Python standard library.
+"""
+
+import json
+import os
+import re
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from html import unescape
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_FILE = ROOT / "data" / "feed.json"
+
+# category: core = 高度推薦, strong = 強力推薦, extra = 補充推薦
+ACCOUNTS = [
+    {"handle": "DailyDarkWeb", "category": "core"},
+    {"handle": "DarkWebInformer", "category": "core"},
+    {"handle": "jms_dot_py", "category": "strong"},
+    {"handle": "campuscodi", "category": "strong"},
+    {"handle": "GossiTheDog", "category": "strong"},
+    {"handle": "briankrebs", "category": "extra"},
+    {"handle": "vxunderground", "category": "extra"},
+    {"handle": "Gi7w0rm", "category": "extra"},
+    {"handle": "MonThreat", "category": "extra"},
+]
+
+NITTER_INSTANCES = [
+    "https://nitter.net",
+    "https://nitter.poast.org",
+    "https://nitter.privacyredirect.com",
+    "https://nitter.space",
+    "https://lightbrd.com",
+]
+
+TAG_RULES = [
+    ("ransomware", re.compile(r"ransom", re.I)),
+    ("breach", re.compile(r"breach|leak|stolen|exfiltrat|\bdump\b|database.{0,20}(sale|sold|expos)", re.I)),
+    ("market", re.compile(r"darknet market|dark ?web market|underground (market|forum)|for sale|selling access|marketplace", re.I)),
+    ("malware", re.compile(r"malware|stealer|botnet|trojan|\brat\b|loader|backdoor|infostealer|spyware", re.I)),
+    ("vuln", re.compile(r"\bcve-\d|vulnerab|exploit|0.?day|zero.?day|\bpoc\b|patch(es|ed)?\b", re.I)),
+]
+
+MAX_PER_ACCOUNT = 30
+USER_AGENT = "DarkWebInfoFetch/1.0 (threat intel aggregator; github.com/chinchiang/DarkWebInfoFetch)"
+
+
+def log(msg):
+    print(msg, file=sys.stderr)
+
+
+def http_get(url, headers=None, timeout=25):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.status, resp.read()
+
+
+def classify(text):
+    tags = [tag for tag, rx in TAG_RULES if rx.search(text)]
+    return tags or ["other"]
+
+
+def iso(dt):
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+# ---------------------------------------------------------------- X API v2
+
+def fetch_via_x_api(token):
+    """Returns (posts, status_by_handle)."""
+    headers = {"Authorization": f"Bearer {token}"}
+    posts, status = [], {}
+
+    usernames = ",".join(a["handle"] for a in ACCOUNTS)
+    url = ("https://api.x.com/2/users/by?usernames="
+           f"{urllib.parse.quote(usernames)}&user.fields=name")
+    try:
+        _, body = http_get(url, headers)
+        users = {u["username"].lower(): u for u in json.loads(body).get("data", [])}
+    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, TimeoutError, OSError) as exc:
+        log(f"[x-api] user lookup failed: {exc}")
+        return [], {a["handle"]: "error" for a in ACCOUNTS}
+
+    for account in ACCOUNTS:
+        handle = account["handle"]
+        user = users.get(handle.lower())
+        if not user:
+            status[handle] = "not_found"
+            continue
+        tweets_url = (
+            f"https://api.x.com/2/users/{user['id']}/tweets"
+            "?max_results=25&exclude=retweets,replies"
+            "&tweet.fields=created_at,public_metrics"
+        )
+        try:
+            _, body = http_get(tweets_url, headers)
+            data = json.loads(body).get("data", [])
+        except urllib.error.HTTPError as exc:
+            status[handle] = "rate_limited" if exc.code == 429 else f"http_{exc.code}"
+            if exc.code == 429:
+                log("[x-api] rate limited, stopping early")
+                break
+            continue
+        except (urllib.error.URLError, json.JSONDecodeError, TimeoutError, OSError) as exc:
+            log(f"[x-api] {handle}: {exc}")
+            status[handle] = "error"
+            continue
+
+        for tweet in data:
+            text = tweet.get("text", "").strip()
+            posts.append({
+                "id": tweet["id"],
+                "handle": handle,
+                "name": user.get("name", handle),
+                "text": text,
+                "url": f"https://x.com/{handle}/status/{tweet['id']}",
+                "created_at": tweet.get("created_at", ""),
+                "tags": classify(text),
+            })
+        status[handle] = "ok"
+        time.sleep(1.5)  # stay friendly with per-endpoint rate limits
+
+    return posts, status
+
+
+# ------------------------------------------------------------- Nitter RSS
+
+def parse_rss(xml_bytes, handle):
+    posts = []
+    root = ET.fromstring(xml_bytes)
+    for item in root.iter("item"):
+        link = (item.findtext("link") or "").strip()
+        title = unescape((item.findtext("title") or "").strip())
+        pub = (item.findtext("pubDate") or "").strip()
+        match = re.search(r"/status/(\d+)", link)
+        if not match or not title:
+            continue
+        # Skip retweets surfaced by Nitter ("RT by @user: ...")
+        if title.startswith("RT by"):
+            continue
+        try:
+            created = iso(parsedate_to_datetime(pub))
+        except (TypeError, ValueError):
+            created = ""
+        tweet_id = match.group(1)
+        posts.append({
+            "id": tweet_id,
+            "handle": handle,
+            "name": handle,
+            "text": title,
+            "url": f"https://x.com/{handle}/status/{tweet_id}",
+            "created_at": created,
+            "tags": classify(title),
+        })
+    return posts
+
+
+def fetch_via_nitter():
+    posts, status = [], {}
+    for account in ACCOUNTS:
+        handle = account["handle"]
+        status[handle] = "error"
+        for instance in NITTER_INSTANCES:
+            try:
+                code, body = http_get(f"{instance}/{handle}/rss")
+                if code != 200 or not body.lstrip().startswith(b"<"):
+                    continue
+                account_posts = parse_rss(body, handle)
+                if account_posts:
+                    posts.extend(account_posts)
+                    status[handle] = "ok"
+                    break
+            except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError,
+                    TimeoutError, OSError):
+                continue
+        time.sleep(1)
+    return posts, status
+
+
+# ------------------------------------------------------------------ merge
+
+def load_existing():
+    if DATA_FILE.exists():
+        try:
+            return json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {}
+
+
+def merge(existing_posts, new_posts):
+    by_id = {p["id"]: p for p in existing_posts}
+    for post in new_posts:
+        by_id[post["id"]] = post
+    merged = list(by_id.values())
+    # Once real posts exist, drop the bundled sample placeholders.
+    if any(not p.get("sample") for p in merged):
+        merged = [p for p in merged if not p.get("sample")]
+    merged.sort(key=lambda p: p.get("created_at", ""), reverse=True)
+    capped, per_account = [], {}
+    for post in merged:
+        count = per_account.get(post["handle"], 0)
+        if count < MAX_PER_ACCOUNT:
+            capped.append(post)
+            per_account[post["handle"]] = count + 1
+    return capped
+
+
+def main():
+    token = os.environ.get("X_BEARER_TOKEN", "").strip()
+    if token:
+        log("[fetch] using X API v2")
+        new_posts, status = fetch_via_x_api(token)
+        source = "x_api"
+        if not new_posts:
+            log("[fetch] X API returned nothing, falling back to Nitter RSS")
+            new_posts, status = fetch_via_nitter()
+            source = "nitter"
+    else:
+        log("[fetch] X_BEARER_TOKEN not set, using Nitter RSS")
+        new_posts, status = fetch_via_nitter()
+        source = "nitter"
+
+    existing = load_existing()
+    posts = merge(existing.get("posts", []), new_posts)
+
+    if not new_posts:
+        log("[fetch] no new posts fetched this run; keeping existing data")
+        source = existing.get("source", source)
+
+    feed = {
+        "generated_at": iso(datetime.now(timezone.utc)),
+        "source": source if new_posts else f"{source}_stale",
+        "account_status": status,
+        "categories": {a["handle"]: a["category"] for a in ACCOUNTS},
+        "posts": posts,
+    }
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DATA_FILE.write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
+    ok = sum(1 for s in status.values() if s == "ok")
+    log(f"[fetch] done: {len(new_posts)} new posts, {len(posts)} total, "
+        f"{ok}/{len(ACCOUNTS)} accounts ok")
+
+
+if __name__ == "__main__":
+    main()

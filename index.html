@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Dark web threat intelligence feed aggregated from curated X (Twitter) accounts, refreshed twice daily at 05:00 and 15:00 (UTC+8). 暗網威脅情資監控,每日 05:00 / 15:00 自動更新。">
+<title>DARKWATCH — 暗網威脅情資監控 / Dark Web Threat Intel</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0512'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23ff2d55' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3.5' fill='%23b44dff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0512;
+    --bg2:#110823;
+    --panel:#150c27;
+    --panel2:#1d1136;
+    --line:#2e1a52;
+    --line2:#452a7c;
+    --text:#f1eafd;
+    --muted:#a495ce;
+    --red:#ff2d55;
+    --orange:#ff8a1e;
+    --purple:#b44dff;
+    --blue:#33a6ff;
+    --magenta:#ff4dd8;
+    --display:'Chakra Petch','Noto Sans TC',system-ui,sans-serif;
+    --body:'Noto Sans TC',system-ui,-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{color-scheme:dark}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 500px at 80% -10%, rgba(180,77,255,.14), transparent 60%),
+      radial-gradient(900px 420px at 0% 0%, rgba(255,45,85,.10), transparent 55%),
+      linear-gradient(var(--bg2), var(--bg) 340px);
+    color:var(--text);
+    font-family:var(--body);
+    font-size:15px;
+    line-height:1.65;
+    min-height:100vh;
+  }
+  a{color:var(--blue)}
+  button{font:inherit;cursor:pointer}
+  :focus-visible{outline:2px solid var(--orange);outline-offset:2px;border-radius:2px}
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    position:sticky;top:0;z-index:20;
+    display:flex;justify-content:space-between;align-items:center;gap:1rem;
+    padding:.55rem 1.25rem;
+    background:rgba(10,5,18,.88);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .brand{
+    font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.22em;
+    color:var(--text);white-space:nowrap;
+  }
+  .brand .slash{color:var(--red)}
+  .brand .cursor{color:var(--orange);animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .topbar-right{display:flex;align-items:center;gap:.9rem;min-width:0}
+  .clock{font-family:var(--mono);font-size:.78rem;color:var(--muted);letter-spacing:.05em;white-space:nowrap}
+  .lang-switch{display:flex;border:1px solid var(--line2);border-radius:3px;overflow:hidden}
+  .lang-switch button{
+    background:transparent;border:0;color:var(--muted);
+    font-family:var(--mono);font-size:.78rem;padding:.3rem .7rem;letter-spacing:.08em;
+  }
+  .lang-switch button[aria-pressed="true"]{background:var(--purple);color:#12061f;font-weight:600}
+
+  /* ---------- hero ---------- */
+  .hero{max-width:1180px;margin:0 auto;padding:2.6rem 1.25rem 1.2rem}
+  .eyebrow{
+    font-family:var(--mono);font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--orange);margin:0 0 .6rem;
+  }
+  .hero h1{
+    font-family:var(--display);font-weight:700;
+    font-size:clamp(1.7rem,4.2vw,2.9rem);line-height:1.12;
+    margin:0 0 .55rem;letter-spacing:.02em;text-wrap:balance;
+  }
+  .hero h1 .hl-red{color:var(--red);text-shadow:0 0 22px rgba(255,45,85,.55)}
+  .hero h1 .hl-purple{color:var(--purple);text-shadow:0 0 22px rgba(180,77,255,.55)}
+  .tagline{color:var(--muted);max-width:62ch;margin:0 0 1.1rem}
+  .meta-row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+  .meta-pill{
+    font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;
+    padding:.28rem .65rem;border-radius:3px;border:1px solid;
+    display:inline-flex;gap:.45ch;align-items:baseline;
+    font-variant-numeric:tabular-nums;
+  }
+  .meta-pill b{font-weight:600}
+  .pill-red{color:var(--red);border-color:rgba(255,45,85,.5);background:rgba(255,45,85,.08)}
+  .pill-orange{color:var(--orange);border-color:rgba(255,138,30,.5);background:rgba(255,138,30,.08)}
+  .pill-blue{color:var(--blue);border-color:rgba(51,166,255,.5);background:rgba(51,166,255,.08)}
+  .pill-purple{color:var(--purple);border-color:rgba(180,77,255,.5);background:rgba(180,77,255,.08)}
+  .sample-banner{
+    margin-top:1rem;padding:.65rem .9rem;border-radius:3px;
+    border:1px dashed rgba(255,138,30,.65);background:rgba(255,138,30,.07);
+    color:var(--orange);font-size:.83rem;
+  }
+
+  /* ---------- controls ---------- */
+  .controls{max-width:1180px;margin:0 auto;padding:.4rem 1.25rem 1.2rem;display:grid;gap:.7rem}
+  .search{
+    width:100%;max-width:520px;
+    background:var(--panel);border:1px solid var(--line2);border-radius:3px;
+    color:var(--text);font-family:var(--mono);font-size:.86rem;
+    padding:.55rem .8rem;
+  }
+  .search::placeholder{color:var(--muted)}
+  .chip-row{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center}
+  .chip-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-right:.2rem}
+  .chip{
+    background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    color:var(--muted);font-family:var(--mono);font-size:.76rem;
+    padding:.26rem .75rem;letter-spacing:.03em;
+    display:inline-flex;gap:.5ch;align-items:baseline;
+    transition:border-color .15s,color .15s,background .15s;
+  }
+  .chip .n{font-variant-numeric:tabular-nums;opacity:.75}
+  .chip:hover{border-color:var(--line2);color:var(--text)}
+  .chip[aria-pressed="true"]{color:#100621;font-weight:600}
+  .chip[aria-pressed="true"] .n{opacity:.85}
+  .chip-red[aria-pressed="true"]{background:var(--red);border-color:var(--red)}
+  .chip-orange[aria-pressed="true"]{background:var(--orange);border-color:var(--orange)}
+  .chip-purple[aria-pressed="true"]{background:var(--purple);border-color:var(--purple)}
+  .chip-blue[aria-pressed="true"]{background:var(--blue);border-color:var(--blue)}
+  .chip-magenta[aria-pressed="true"]{background:var(--magenta);border-color:var(--magenta)}
+  .chip-plain[aria-pressed="true"]{background:var(--text);border-color:var(--text)}
+
+  /* ---------- layout ---------- */
+  .layout{
+    max-width:1180px;margin:0 auto;padding:0 1.25rem 3rem;
+    display:grid;grid-template-columns:300px minmax(0,1fr);gap:1.4rem;align-items:start;
+  }
+  .side-title,.feed-title{
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 .7rem;
+  }
+  .side-title em{color:var(--blue);font-style:normal}
+
+  .account{
+    width:100%;text-align:left;
+    background:var(--panel);border:1px solid var(--line);border-radius:4px;
+    padding:.7rem .85rem;margin-bottom:.55rem;color:var(--text);
+    transition:border-color .15s,transform .15s,box-shadow .15s;
+    display:block;
+  }
+  .account:hover{border-color:var(--line2);transform:translateX(2px)}
+  .account[aria-pressed="true"]{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc),0 0 18px -6px var(--acc)}
+  .account .handle{font-family:var(--mono);font-size:.84rem;font-weight:600;color:var(--acc)}
+  .account .cat{
+    float:right;font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--acc);border:1px solid var(--acc);border-radius:2px;padding:.05rem .35rem;opacity:.9;
+  }
+  .account .desc{font-size:.78rem;color:var(--muted);margin-top:.25rem;line-height:1.5}
+  .account .count{font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:.3rem;font-variant-numeric:tabular-nums}
+
+  /* ---------- feed cards ---------- */
+  .feed{display:grid;gap:.8rem}
+  .card{
+    position:relative;
+    background:var(--panel);border:1px solid var(--line);border-radius:4px;
+    padding:.85rem 1rem .8rem 1.15rem;
+    transition:border-color .15s,box-shadow .15s;
+  }
+  .card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:var(--tagc);border-radius:4px 0 0 4px;
+    box-shadow:0 0 14px -2px var(--tagc);
+  }
+  .card:hover{border-color:var(--line2);box-shadow:0 0 24px -12px var(--tagc)}
+  .card-head{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;margin-bottom:.35rem}
+  .card-head .handle{font-family:var(--mono);font-size:.84rem;font-weight:600;color:var(--acc);text-decoration:none}
+  .card-head .handle:hover{text-decoration:underline}
+  .card-head .name{font-size:.78rem;color:var(--muted)}
+  .card-head time{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+  .card-text{margin:0 0 .55rem;font-size:.9rem;overflow-wrap:anywhere}
+  .card-text a{color:var(--blue);text-decoration:none;border-bottom:1px solid rgba(51,166,255,.4)}
+  .card-foot{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+  .tag{
+    font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--tc);border:1px solid var(--tc);border-radius:2px;
+    padding:.08rem .42rem;background:color-mix(in srgb,var(--tc) 10%,transparent);
+  }
+  .open-link{
+    margin-left:auto;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;
+    color:var(--orange);text-decoration:none;
+  }
+  .open-link:hover{text-decoration:underline}
+  .empty{
+    border:1px dashed var(--line2);border-radius:4px;padding:2.2rem 1rem;
+    text-align:center;color:var(--muted);font-family:var(--mono);font-size:.85rem;
+  }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:1.4rem 1.25rem 2.2rem;
+    max-width:1180px;margin:0 auto;
+    color:var(--muted);font-size:.8rem;
+  }
+  footer .foot-line{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em}
+  footer .foot-line .dot-red{color:var(--red)}
+  footer .foot-line .dot-blue{color:var(--blue)}
+
+  @media (max-width:860px){
+    .layout{grid-template-columns:1fr}
+    .sidebar{order:2}
+    .card-head time{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">DARK<span class="slash">//</span>WATCH<span class="cursor">_</span></div>
+  <div class="topbar-right">
+    <span class="clock" id="clock" aria-hidden="true"></span>
+    <div class="lang-switch" role="group" aria-label="Language / 語言">
+      <button id="lang-zh" aria-pressed="true">中文</button>
+      <button id="lang-en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <p class="eyebrow" data-i18n="eyebrow"></p>
+  <h1 id="hero-title"></h1>
+  <p class="tagline" data-i18n="tagline"></p>
+  <div class="meta-row">
+    <span class="meta-pill pill-orange"><b data-i18n="updated"></b><span id="updated-at">—</span></span>
+    <span class="meta-pill pill-blue"><b data-i18n="source"></b><span id="source">—</span></span>
+    <span class="meta-pill pill-purple" data-i18n="cadence"></span>
+    <span class="meta-pill pill-red"><b id="post-count">0</b><span data-i18n="postsUnit"></span></span>
+  </div>
+  <div class="sample-banner" id="sample-banner" hidden data-i18n="sampleNotice"></div>
+</section>
+
+<section class="controls">
+  <input class="search" id="search" type="search" autocomplete="off">
+  <div class="chip-row" id="cat-chips"><span class="chip-label" data-i18n="catLabel"></span></div>
+  <div class="chip-row" id="tag-chips"><span class="chip-label" data-i18n="tagLabel"></span></div>
+</section>
+
+<main class="layout">
+  <aside class="sidebar">
+    <h2 class="side-title"><em>▸</em> <span data-i18n="accounts"></span></h2>
+    <div id="account-list"></div>
+  </aside>
+  <section>
+    <h2 class="feed-title" id="feed-title"></h2>
+    <div class="feed" id="feed" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <p class="foot-line"><span class="dot-red">●</span> DARK//WATCH — <span data-i18n="footCadence"></span> · <span class="dot-blue">●</span> <span data-i18n="footSource"></span></p>
+  <p data-i18n="footDisclaimer"></p>
+</footer>
+
+<script>
+"use strict";
+
+/* ================= account metadata (bilingual) ================= */
+const ACCOUNT_META = {
+  DailyDarkWeb: {
+    name: "Daily Dark Web", category: "core",
+    desc: {
+      zh: "專門追蹤暗網資料外洩、勒索軟體攻擊與資料販售,更新頻繁,入門首選。",
+      en: "Tracks dark web data leaks, ransomware attacks and data sales. Frequent updates — a top starting point."
+    }
+  },
+  DarkWebInformer: {
+    name: "Dark Web Informer", category: "core",
+    desc: {
+      zh: "提供暗網與明網威脅情資:勒索軟體、資料外洩、暗網市場動態與 IOC。",
+      en: "Dark & clear web threat intel: ransomware, breaches, dark web market activity and IOCs."
+    }
+  },
+  jms_dot_py: {
+    name: "Justin Seitz", category: "strong",
+    desc: {
+      zh: "Hunchly 工具作者,定期分享 Tor 隱藏服務報告與新發現的 Onion 服務。",
+      en: "Author of Hunchly; shares Tor hidden-service reports and newly discovered onion services."
+    }
+  },
+  campuscodi: {
+    name: "Catalin Cimpanu", category: "strong",
+    desc: {
+      zh: "資深資安記者,報導暗網洩漏、勒索軟體與重大資安事件。",
+      en: "Veteran security journalist covering dark web leaks, ransomware and major incidents."
+    }
+  },
+  GossiTheDog: {
+    name: "Kevin Beaumont", category: "strong",
+    desc: {
+      zh: "威脅情資專家,常分享早期警告、勒索軟體與地下趨勢。",
+      en: "Threat intel expert; early warnings, ransomware and underground trends."
+    }
+  },
+  briankrebs: {
+    name: "Brian Krebs", category: "extra",
+    desc: {
+      zh: "知名資安調查記者,深度報導暗網犯罪與資安事件。",
+      en: "Renowned investigative journalist; deep reporting on dark web crime and security incidents."
+    }
+  },
+  vxunderground: {
+    name: "vx-underground", category: "extra",
+    desc: {
+      zh: "惡意軟體研究社群,分享惡意軟體、資料洩漏與地下論壇動態。",
+      en: "Malware research collective; malware, data leaks and underground forum activity."
+    }
+  },
+  Gi7w0rm: {
+    name: "Gi7w0rm", category: "extra",
+    desc: {
+      zh: "獨立研究員,分享惡意軟體、資料洩漏與地下論壇情資。",
+      en: "Independent researcher; malware, data leaks and underground forum findings."
+    }
+  },
+  MonThreat: {
+    name: "ThreatMon", category: "extra",
+    desc: {
+      zh: "ThreatMon 官方帳號,中東與全球威脅情資,涵蓋暗網情報追蹤。",
+      en: "ThreatMon — Middle East & global threat intelligence, including dark web tracking."
+    }
+  }
+};
+
+const CATEGORIES = {
+  core:   { color: "var(--red)",    chip: "chip-red" },
+  strong: { color: "var(--blue)",   chip: "chip-blue" },
+  extra:  { color: "var(--orange)", chip: "chip-orange" }
+};
+
+const TAGS = {
+  ransomware: { color: "var(--red)",     chip: "chip-red" },
+  breach:     { color: "var(--orange)",  chip: "chip-orange" },
+  market:     { color: "var(--purple)",  chip: "chip-purple" },
+  malware:    { color: "var(--magenta)", chip: "chip-magenta" },
+  vuln:       { color: "var(--blue)",    chip: "chip-blue" },
+  other:      { color: "var(--muted)",   chip: "chip-plain" }
+};
+
+/* ================= i18n ================= */
+const I18N = {
+  zh: {
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 15:00 更新",
+    titleHtml: '暗網<span class="hl-red">威脅情資</span>即時<span class="hl-purple">監控台</span>',
+    tagline: "彙整 9 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日 05:00 與 15:00(UTC+8)自動抓取更新。",
+    updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 15:00 自動抓取",
+    postsUnit: "則情資",
+    sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
+    searchPlaceholder: "搜尋關鍵字、帳號、CVE…",
+    catLabel: "分類", tagLabel: "主題",
+    catAll: "全部", catCore: "高度推薦", catStrong: "強力推薦", catExtra: "補充推薦",
+    tagNames: { ransomware: "勒索軟體", breach: "資料外洩", market: "暗網市場", malware: "惡意軟體", vuln: "漏洞/利用", other: "其他" },
+    accounts: "追蹤帳號", feedTitle: "即時情資流",
+    postsCount: n => `${n} 則`,
+    openOnX: "在 X 上查看 ↗",
+    empty: "沒有符合條件的情資 — 請調整過濾條件。",
+    sources: { sample: "示範資料", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API(快取)", nitter_stale: "Nitter RSS(快取)" },
+    ago: { now: "剛剛", m: n => `${n} 分鐘前`, h: n => `${n} 小時前`, d: n => `${n} 天前` },
+    footCadence: "GitHub Actions 每日 05:00 / 15:00(UTC+8)自動抓取",
+    footSource: "資料來自各帳號公開貼文,著作權屬原作者",
+    footDisclaimer: "本站為情資彙整工具,內容由來源帳號自動抓取,不代表本站立場;引用前請自行查證原始來源。"
+  },
+  en: {
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 15:00",
+    titleHtml: 'Dark Web <span class="hl-red">Threat Intel</span>, <span class="hl-purple">Live Console</span>',
+    tagline: "Aggregates 9 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily at 05:00 & 15:00 (UTC+8).",
+    updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 15:00",
+    postsUnit: "posts",
+    sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
+    searchPlaceholder: "Search keywords, accounts, CVEs…",
+    catLabel: "Category", tagLabel: "Topic",
+    catAll: "All", catCore: "Top picks", catStrong: "Strong", catExtra: "Extra",
+    tagNames: { ransomware: "Ransomware", breach: "Data breach", market: "Dark market", malware: "Malware", vuln: "Vuln/Exploit", other: "Other" },
+    accounts: "Tracked accounts", feedTitle: "Live intel feed",
+    postsCount: n => `${n} posts`,
+    openOnX: "Open on X ↗",
+    empty: "No intel matches the current filters — try adjusting them.",
+    sources: { sample: "Sample data", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API (cached)", nitter_stale: "Nitter RSS (cached)" },
+    ago: { now: "just now", m: n => `${n}m ago`, h: n => `${n}h ago`, d: n => `${n}d ago` },
+    footCadence: "auto-fetched by GitHub Actions daily at 05:00 & 15:00 (UTC+8)",
+    footSource: "content belongs to the original authors",
+    footDisclaimer: "This site is an aggregation tool; posts are fetched automatically from the source accounts and do not represent this site's views. Verify with the original source before citing."
+  }
+};
+
+/* ================= seed data (replaced by data/feed.json at runtime) ================= */
+const SEED = {
+  generated_at: "2026-07-11T00:00:00Z",
+  source: "sample",
+  posts: [
+    { id: "s1", handle: "DailyDarkWeb", name: "Daily Dark Web", sample: true,
+      text: "[Sample 示範] Ransomware victim claim placeholder — live posts from @DailyDarkWeb will appear here after the first scheduled fetch.",
+      url: "https://x.com/DailyDarkWeb", created_at: "2026-07-10T22:10:00Z", tags: ["ransomware"] },
+    { id: "s2", handle: "DarkWebInformer", name: "Dark Web Informer", sample: true,
+      text: "[Sample 示範] Data breach / leak alert placeholder — IOC and dark web market updates from @DarkWebInformer will appear here.",
+      url: "https://x.com/DarkWebInformer", created_at: "2026-07-10T21:05:00Z", tags: ["breach", "market"] },
+    { id: "s3", handle: "jms_dot_py", name: "Justin Seitz", sample: true,
+      text: "[Sample 示範] Tor hidden service report placeholder — new onion service discoveries from @jms_dot_py will appear here.",
+      url: "https://x.com/jms_dot_py", created_at: "2026-07-10T19:40:00Z", tags: ["other"] },
+    { id: "s4", handle: "campuscodi", name: "Catalin Cimpanu", sample: true,
+      text: "[Sample 示範] Security journalism placeholder — dark web leak and ransomware reporting from @campuscodi will appear here.",
+      url: "https://x.com/campuscodi", created_at: "2026-07-10T18:20:00Z", tags: ["breach"] },
+    { id: "s5", handle: "GossiTheDog", name: "Kevin Beaumont", sample: true,
+      text: "[Sample 示範] Early warning placeholder — vulnerability and exploitation alerts from @GossiTheDog will appear here. CVE-0000-00000",
+      url: "https://x.com/GossiTheDog", created_at: "2026-07-10T16:55:00Z", tags: ["vuln"] },
+    { id: "s6", handle: "briankrebs", name: "Brian Krebs", sample: true,
+      text: "[Sample 示範] Investigative reporting placeholder — dark web crime coverage from @briankrebs will appear here.",
+      url: "https://x.com/briankrebs", created_at: "2026-07-10T15:30:00Z", tags: ["market"] },
+    { id: "s7", handle: "vxunderground", name: "vx-underground", sample: true,
+      text: "[Sample 示範] Malware research placeholder — sample analysis and underground forum notes from @vxunderground will appear here.",
+      url: "https://x.com/vxunderground", created_at: "2026-07-10T14:00:00Z", tags: ["malware"] },
+    { id: "s8", handle: "Gi7w0rm", name: "Gi7w0rm", sample: true,
+      text: "[Sample 示範] Researcher notes placeholder — malware and data leak findings from @Gi7w0rm will appear here.",
+      url: "https://x.com/Gi7w0rm", created_at: "2026-07-10T12:45:00Z", tags: ["malware", "breach"] },
+    { id: "s9", handle: "MonThreat", name: "ThreatMon", sample: true,
+      text: "[Sample 示範] Threat intel placeholder — Middle East & global dark web tracking from @MonThreat will appear here.",
+      url: "https://x.com/MonThreat", created_at: "2026-07-10T11:15:00Z", tags: ["other"] }
+  ]
+};
+
+/* ================= state ================= */
+function readPref() {
+  try { return localStorage.getItem("dw-lang"); } catch (e) { return null; }
+}
+const state = {
+  lang: readPref() || "zh",
+  q: "",
+  cat: "all",
+  tags: new Set(),
+  account: null,
+  data: SEED
+};
+const $ = id => document.getElementById(id);
+const t = () => I18N[state.lang];
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function linkify(escaped) {
+  return escaped.replace(/https?:\/\/[^\s<]+/g, u => `<a href="${u}" target="_blank" rel="noopener noreferrer">${u}</a>`);
+}
+function timeAgo(isoStr) {
+  const then = Date.parse(isoStr);
+  if (isNaN(then)) return isoStr || "";
+  const s = Math.max(0, (Date.now() - then) / 1000);
+  const ago = t().ago;
+  if (s < 60) return ago.now;
+  if (s < 3600) return ago.m(Math.floor(s / 60));
+  if (s < 86400) return ago.h(Math.floor(s / 3600));
+  return ago.d(Math.floor(s / 86400));
+}
+function fmtUtc(isoStr) {
+  const d = new Date(isoStr);
+  if (isNaN(d)) return "—";
+  return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
+}
+
+/* ================= filtering ================= */
+function visiblePosts() {
+  const q = state.q.trim().toLowerCase();
+  return (state.data.posts || []).filter(p => {
+    const meta = ACCOUNT_META[p.handle];
+    if (state.cat !== "all" && (!meta || meta.category !== state.cat)) return false;
+    if (state.account && p.handle !== state.account) return false;
+    if (state.tags.size && !(p.tags || []).some(tag => state.tags.has(tag))) return false;
+    if (q && !(p.text + " " + p.handle + " " + (p.name || "")).toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+/* ================= rendering ================= */
+function renderStatic() {
+  const L = t();
+  document.documentElement.lang = state.lang === "zh" ? "zh-Hant" : "en";
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const val = L[el.dataset.i18n];
+    if (typeof val === "string") el.textContent = val;
+  });
+  $("hero-title").innerHTML = L.titleHtml;
+  $("search").placeholder = L.searchPlaceholder;
+  $("lang-zh").setAttribute("aria-pressed", String(state.lang === "zh"));
+  $("lang-en").setAttribute("aria-pressed", String(state.lang === "en"));
+}
+
+function chipHtml(id, cls, label, count, pressed) {
+  return `<button class="chip ${cls}" data-chip="${id}" aria-pressed="${pressed}">` +
+    `${escapeHtml(label)}${count != null ? ` <span class="n">${count}</span>` : ""}</button>`;
+}
+
+function renderChips() {
+  const L = t();
+  const posts = state.data.posts || [];
+
+  const catCounts = { core: 0, strong: 0, extra: 0 };
+  posts.forEach(p => {
+    const m = ACCOUNT_META[p.handle];
+    if (m) catCounts[m.category]++;
+  });
+  const catNames = { all: L.catAll, core: L.catCore, strong: L.catStrong, extra: L.catExtra };
+  let html = `<span class="chip-label">${escapeHtml(L.catLabel)}</span>`;
+  html += chipHtml("cat:all", "chip-plain", catNames.all, posts.length, state.cat === "all");
+  for (const c of ["core", "strong", "extra"]) {
+    html += chipHtml("cat:" + c, CATEGORIES[c].chip, catNames[c], catCounts[c], state.cat === c);
+  }
+  $("cat-chips").innerHTML = html;
+
+  const tagCounts = {};
+  posts.forEach(p => (p.tags || []).forEach(tag => { tagCounts[tag] = (tagCounts[tag] || 0) + 1; }));
+  let thtml = `<span class="chip-label">${escapeHtml(L.tagLabel)}</span>`;
+  for (const tag of Object.keys(TAGS)) {
+    if (!tagCounts[tag]) continue;
+    thtml += chipHtml("tag:" + tag, TAGS[tag].chip, L.tagNames[tag] || tag, tagCounts[tag], state.tags.has(tag));
+  }
+  $("tag-chips").innerHTML = thtml;
+}
+
+function renderAccounts() {
+  const posts = state.data.posts || [];
+  const counts = {};
+  posts.forEach(p => { counts[p.handle] = (counts[p.handle] || 0) + 1; });
+  const L = t();
+  const catNames = { core: L.catCore, strong: L.catStrong, extra: L.catExtra };
+  let html = "";
+  for (const [handle, meta] of Object.entries(ACCOUNT_META)) {
+    const color = CATEGORIES[meta.category].color;
+    html += `<button class="account" data-account="${handle}" style="--acc:${color}"` +
+      ` aria-pressed="${state.account === handle}">` +
+      `<span class="cat">${escapeHtml(catNames[meta.category])}</span>` +
+      `<span class="handle">@${handle}</span>` +
+      `<div class="desc">${escapeHtml(meta.desc[state.lang])}</div>` +
+      `<div class="count">${escapeHtml(L.postsCount(counts[handle] || 0))}</div>` +
+      `</button>`;
+  }
+  $("account-list").innerHTML = html;
+}
+
+function renderFeed() {
+  const L = t();
+  const posts = visiblePosts();
+  $("feed-title").textContent = `${L.feedTitle} — ${L.postsCount(posts.length)}`;
+  if (!posts.length) {
+    $("feed").innerHTML = `<div class="empty">${escapeHtml(L.empty)}</div>`;
+    return;
+  }
+  $("feed").innerHTML = posts.map(p => {
+    const meta = ACCOUNT_META[p.handle];
+    const accColor = meta ? CATEGORIES[meta.category].color : "var(--muted)";
+    const mainTag = (p.tags || ["other"])[0];
+    const tagColor = (TAGS[mainTag] || TAGS.other).color;
+    const tags = (p.tags || []).map(tag =>
+      `<span class="tag" style="--tc:${(TAGS[tag] || TAGS.other).color}">${escapeHtml(t().tagNames[tag] || tag)}</span>`
+    ).join("");
+    return `<article class="card" style="--tagc:${tagColor};--acc:${accColor}">` +
+      `<div class="card-head">` +
+        `<a class="handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener noreferrer">@${p.handle}</a>` +
+        `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` +
+        `<time datetime="${escapeHtml(p.created_at || "")}" title="${escapeHtml(fmtUtc(p.created_at))}">${escapeHtml(timeAgo(p.created_at))}</time>` +
+      `</div>` +
+      `<p class="card-text">${linkify(escapeHtml(p.text || ""))}</p>` +
+      `<div class="card-foot">${tags}` +
+        `<a class="open-link" href="${escapeHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.openOnX)}</a>` +
+      `</div></article>`;
+  }).join("");
+}
+
+function renderMeta() {
+  const L = t();
+  const d = state.data;
+  $("updated-at").textContent = fmtUtc(d.generated_at);
+  $("source").textContent = L.sources[d.source] || d.source || "—";
+  $("post-count").textContent = (d.posts || []).length;
+  $("sample-banner").hidden = d.source !== "sample";
+}
+
+function renderAll() {
+  renderStatic();
+  renderMeta();
+  renderChips();
+  renderAccounts();
+  renderFeed();
+}
+
+/* ================= events ================= */
+document.addEventListener("click", ev => {
+  const chip = ev.target.closest("[data-chip]");
+  if (chip) {
+    const [kind, value] = chip.dataset.chip.split(":");
+    if (kind === "cat") state.cat = value;
+    else if (kind === "tag") state.tags.has(value) ? state.tags.delete(value) : state.tags.add(value);
+    renderChips(); renderFeed();
+    return;
+  }
+  const acc = ev.target.closest("[data-account]");
+  if (acc) {
+    state.account = state.account === acc.dataset.account ? null : acc.dataset.account;
+    renderAccounts(); renderFeed();
+  }
+});
+$("search").addEventListener("input", ev => { state.q = ev.target.value; renderFeed(); });
+$("lang-zh").addEventListener("click", () => setLang("zh"));
+$("lang-en").addEventListener("click", () => setLang("en"));
+function setLang(lang) {
+  state.lang = lang;
+  try { localStorage.setItem("dw-lang", lang); } catch (e) {}
+  renderAll();
+}
+
+/* ================= live data + clock ================= */
+async function loadLive() {
+  try {
+    const resp = await fetch("data/feed.json", { cache: "no-store" });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (data && Array.isArray(data.posts) && data.posts.length) {
+      state.data = data;
+      renderAll();
+    }
+  } catch (err) { /* offline / preview mode — keep seed data */ }
+}
+function tickClock() {
+  $("clock").textContent = new Date().toISOString().slice(0, 19).replace("T", " ") + " UTC";
+}
+
+renderAll();
+tickClock();
+setInterval(tickClock, 1000);
+loadLive();
+setInterval(loadLive, 10 * 60 * 1000);
+</script>
+</body>
+</html>
