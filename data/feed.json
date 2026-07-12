@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-12T08:33:12Z",
+ "generated_at": "2026-07-12T21:08:38Z",
  "source": "nitter",
- "new_count": 52,
+ "new_count": 25,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -25,6 +25,285 @@
   "MonThreat": "extra"
  },
  "posts": [
+  {
+   "id": "2076409955469447344",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "S-tier shitpost.",
+   "url": "https://x.com/DarkWebInformer/status/2076409955469447344",
+   "created_at": "2026-07-12T20:54:45Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076407439105085537",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇧🇷 Brazilian Payment Provider Allegedly Compromised A threat actor claims to have compromised PagBank, one of Brazil's largest payment service providers, and is threatening to release allegedly stolen data on dark web marketplaces. According to the post, the actor claims: * Unauthorized access to the provider's core infrastructure * More than 250,000 active merchants allegedly affected * Over 1 billion historical transaction records * Alleged exposure of: * Transaction metadata * Merchant settlement information * POS terminal identifiers * The group claims the data has been \"secured and verified\" and is preparing it for distribution. The post also includes unverified claims describing the alleged intrusion methodology, including phishing, lateral movement, reverse engineering of internal APIs, and data exfiltration. Analyst Note: These claims remain unverified. Threat actors frequently exaggerate the scope and sophistication of alleged compromises to increase pressure on victims or attract buyers. No independent evidence currently confirms the claimed impact or authenticity of the dataset. #DDW #Intelligence #DarkWeb #Brazil",
+   "url": "https://x.com/DailyDarkWeb/status/2076407439105085537",
+   "created_at": "2026-07-12T20:44:45Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076406534566019345",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇺🇦 Alleged Database of 4.3 Million Ukrainian Citizens Advertised for Sale A threat actor is advertising what they claim is a database containing personally identifiable information (PII) belonging to approximately 4.3 million Ukrainian citizens. According to the post: * Claimed dataset size: 4.3 million records * Alleged dump date: July 2026 * Asking price: $1,000 * Sample fields appear to include: * First and last name * Gender * Date of birth * Phone number * Email address * Physical address * Contact information The seller provides sample records but does not disclose the alleged source of the data or how it was obtained. Analyst Note: The authenticity of the dataset has not been independently verified. Threat actors often repackage historical leaks or aggregate data from multiple sources. Organizations and individuals should treat such claims cautiously until independently validated. #DDW #Intelligence #DarkWeb #Ukraine",
+   "url": "https://x.com/DailyDarkWeb/status/2076406534566019345",
+   "created_at": "2026-07-12T20:41:10Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076404987043664135",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇮🇱 Alleged Database of 9 Million Israeli Citizens Advertised on Hacking Forum A threat actor is advertising what they claim is a database containing information on approximately 9 million Israeli citizens. According to the post: * Claimed dataset size: 9 million records * Sample fields shown include: * Full name * Phone number * Street address * City * Region * Postal code * Country * Sample records appear to contain Israeli residential contact information. * The actor provides sample data but does not disclose the alleged source or date of the dataset. Analyst Note: These claims remain unverified. Threat actors frequently recycle previously leaked datasets, combine information from multiple breaches, or misrepresent the freshness of the data. The authenticity, origin, and uniqueness of this dataset have not been independently confirmed. #DDW #Intelligence #DarkWeb #Israel",
+   "url": "https://x.com/DailyDarkWeb/status/2076404987043664135",
+   "created_at": "2026-07-12T20:35:01Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076403440004088172",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇷 Alleged Argentine Website Credential Database Shared on Hacking Forum A threat actor has published what they claim is a leaked SQL database containing accreditation records from an older Argentine website. According to the post: * Alleged SQL database (13.2 MB) * Records reportedly extend through 2025 * Claimed exposed data includes: * Email addresses * Phone numbers * Password hashes * Additional account-related information * The database is being distributed directly on the forum. The post does not clearly identify the affected organization or website, making independent verification difficult. Analyst Note: The claims remain unverified. Even when passwords are stored as hashes, affected users should change reused passwords immediately if the leak is confirmed. Organizations should investigate the authenticity of the dataset and review credential storage practices. #DDW #Intelligence #DarkWeb #Argentina",
+   "url": "https://x.com/DailyDarkWeb/status/2076403440004088172",
+   "created_at": "2026-07-12T20:28:52Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076401987482951757",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 French Business School EIML Allegedly Listed for Sale A threat actor claims to be selling a fresh SQL database allegedly belonging to EIML (École Internationale de Management et de Leadership), a private French higher education institution specializing in management, luxury, and international business. According to the forum post: * Alleged SQL dump dated July 12, 2026 * Claimed database size: 93,532 records * Reportedly includes: * 4,768 students * 12,313 applicants * Prospects, candidates, alumni, and other contacts * Alleged exposed information includes: * Full name * Personal and school email addresses * Mobile and landline numbers * Postal address * Date and place of birth * Nationality * Student/INE number * School, class, promotion, and academic year * Enrollment and contract status * Study level and other academic information Analyst Note: The claims have not been independently verified. If authentic, the exposed data could present identity theft, phishing, and social engineering risks for students, applicants, alumni, and staff. Educational institutions continue to be attractive targets due to the large volume of personally identifiable information they maintain. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076401987482951757",
+   "created_at": "2026-07-12T20:23:06Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076398160902054272",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇲🇲 Eager Communications Group allegedly breached A newly formed group calling itself The Crypt Apostles claims to have compromised Eager Communications Group Co., Ltd. in Myanmar. The actor says it obtained data from the company’s main platform, including a complete system dump and personally identifiable information. The post threatens to begin selling the stolen material unless the company makes contact and pays a ransom. A sample of the claimed data was also published as proof. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076398160902054272",
+   "created_at": "2026-07-12T20:07:53Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ]
+  },
+  {
+   "id": "2076394536692056221",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 New Ransomware Group: D1R IOC: http://dirone3rl3vvq64ckcnrvhe2ogrhjrwu5u7hqzrlotu3rfvmqmmbsuqd[.]onion",
+   "url": "https://x.com/DarkWebInformer/status/2076394536692056221",
+   "created_at": "2026-07-12T19:53:29Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2076384341978939531",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 Web-Check: An all-in-one OSINT reconnaissance tool for dissecting any website GitHub: https://github.com/mwakidenis/WebCheck-OSINT Live Site: https://web-check.xyz",
+   "url": "https://x.com/DarkWebInformer/status/2076384341978939531",
+   "created_at": "2026-07-12T19:12:59Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116908340909275832",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "In an era where companies need to become more efficient and diverse they’ve basically picked the least efficient way to do it, with the biggest risks and highest costs - because everybody else is doing it. I know somebody at one of the big 4 who has written something in Claude that prompts Claude each twenty minutes for a question, then feeds Claude’s question back into Claude to use their tokens - because token usage is factored into employee evaluations. What are we even doing.",
+   "url": "https://cyberplace.social/@GossiTheDog/116908340909275832",
+   "created_at": "2026-07-12T18:08:33Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116908318886422954",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "This isn’t, btw, a Kevin Doesn’t Use AI rant. I use GenAI extensively for various testing things. I had access to Mythos before almost everybody. I pay for Copilot Pro+. I pay for Gemini. I AI generate terrible songs. I vibecode security scanners. My personal spend exceeds £500 this month to date. Do I think you should make every employee depend on these third party GenAI tools for their job? No. Its ridiculous. You’re also *locked in* to costs you can’t afford which *will rise*. It’s a cliff.",
+   "url": "https://cyberplace.social/@GossiTheDog/116908318886422954",
+   "created_at": "2026-07-12T18:02:57Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116908257981635890",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "I’m really serious about this one btw. Companies have no measurable way of knowing what employees are doing with GenAI. They’re giving Claude Code out like it’s candy and just presuming everybody is an IT power user. They aren’t. They’re converting PDFs and vibe coding garden planning tools. Copilot M365 has a fake dashboard showing how productive people are.. it has no actual data. It just shows people use it. It’s CIO porn for the CEO. Orgs are pissing money up a wall worldwide.",
+   "url": "https://cyberplace.social/@GossiTheDog/116908257981635890",
+   "created_at": "2026-07-12T17:47:28Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116908244830825038",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "RE: https:// mastodon.social/@404mediaco/11 6908074107231828 Anybody who has worked in IT support in the trenches in enterprise IT will tell you there are some Excel power users who basically run the company, are macros wizards and actual ninjas.. about 0.1% of the workforce. About 99% of people can’t align a table in Word. Giving the 99% of people tools which cost $$$ per user a month and letting them do anything is like giving a child a car, and being surprised when they ram the car into a wall three days later and cost $10k after achieving nothing.",
+   "url": "https://cyberplace.social/@GossiTheDog/116908244830825038",
+   "created_at": "2026-07-12T17:44:07Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076361550030352808",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🤖 EcoGPT Allegedly Exposed Shared AI Conversations A threat actor claims to have breached EcoGPT, an AI chatbot platform, alleging an insecure Supabase configuration exposed users' shared conversations. According to the post: * The actor claims the `shared_conversations` table was accessible without authentication. * Allegedly obtained data includes: * Conversation ID * Original conversation ID * User ID * Conversation title * Full chat messages * Creation timestamp * The leaked archive reportedly contains both JSON and CSV exports of shared conversations. * The actor claims they could not locate a separate users table and states the exposed data is limited to shared conversations. The post further alleges the issue stemmed from improper access controls rather than a compromise of Supabase itself. Analyst Note: These claims are currently unverified. If accurate, the incident would highlight the importance of enforcing Row Level Security (RLS), properly restricting public database endpoints, and reviewing access policies for AI applications handling user-generated conversations. #DDW #Intelligence #DarkWeb #AI",
+   "url": "https://x.com/DailyDarkWeb/status/2076361550030352808",
+   "created_at": "2026-07-12T17:42:25Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076361179140661468",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 Faker: A library for generating fake data such as names, addresses, and phone numbers. GitHub: https://github.com/faker-ruby/faker/",
+   "url": "https://x.com/DarkWebInformer/status/2076361179140661468",
+   "created_at": "2026-07-12T17:40:56Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076355967990587762",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: Also, you'll notice some people are extremely quick to criticize others but do not share anything. You'll notice quickly many people kind of sit around idly and don't share stuff they've done or what they're learning. It is because: 1. They're not doing anything, genuinely. 2. They're aware they will be criticized and are afraid of it 3. Something, something, something, NDAs, but I think people exaggerate it and it's sometimes BS. They're being goofy",
+   "url": "https://x.com/vxunderground/status/2076355967990587762",
+   "created_at": "2026-07-12T17:20:14Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076355394151010771",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Nah, I have to share some of my personal experiences for a second. I saw a few newer people in information security share some code, or ideas they had, on social media. They retracted their posts, or code, because of criticism they received. This wasn't one singular person, to my surprise I saw like, five noobies sharing stuff. Very cool. Let me tell you something, stinky new people: yes, people online are mean. They are very mean. I have been BOILED ALIVE by stinky nerds online. I have been called every synonym for idiot you can imagine over the past ... uhhh, 21 years of doing malware related stuff. And because this is the internet, and we're connected across the globe, I've had the pleasure of being called an idiot (or something similar) in English, Spanish, French, Russian, Mandarin, Hindi, Arabic, Portuguese, and more. While these people are not nice, I very sincerely recommend filtering out the negative verbiage and focusing on the underlying message (if applicable). It is a skill that you'll need to adapt and grow in this field. In the \"hacker\" sphere, intellectuality is like, the thingie people value the most (or at least claim to). Hence, if you share something it will be heavily critiqued. When you share something, whether you explicitly say it or not, you're inviting your peers for feedback. You WILL receive feedback, good or bad, and you will have to learn to handle it, process it, or learn from it. Someone say your code is trash? Good. That is an opportunity to improve. Someone criticize you for leaning heavily on AI? Good. Use AI as a tool to learn and stop using it as much. Someone misunderstood what you said and called you a bad name? Good. Use that as an opportunity to practice improving your phrasing and writing. Someone say your idea is repetitive and has been done before? Good, you discovered an idea for yourself, learned about an existing idea, and now you know how to find more ideas.",
+   "url": "https://x.com/vxunderground/status/2076355394151010771",
+   "created_at": "2026-07-12T17:17:57Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2076342505595933007",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "God I love Microsoft so much This is yet another thing we can abuse for malware. Imagine someone mounts their phone with this and we have a payload that steals data from their phone Thank you so much Microsoft, this is awesome",
+   "url": "https://x.com/vxunderground/status/2076342505595933007",
+   "created_at": "2026-07-12T16:26:44Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2076334313780502548",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Pinned: Reddit remains one of the most valuable sources for OSINT, threat intelligence, and cyber investigations, but finding the right information often requires more than Reddit's native search. We've compiled a list of some of the best Reddit search tools to help security researchers, investigators, and analysts search posts, comments, users, and historical discussions more efficiently. Featured tools include: • Arctic Shift • Reddit Comment Search • PullPush • Redective • Better Reddit Search • http://OSINT.IO • Social Searcher • Reddit Insight Analyst Note: Since Reddit restricted access to the original Pushshift API, many legacy tools have become unreliable. Modern alternatives now provide the best capabilities for historical searches, user profiling, and OSINT investigations. Which Reddit search tool is your favorite, and which one should we add to our next list? #DDW #OSINT #Reddit #CyberSecurity",
+   "url": "https://x.com/DailyDarkWeb/status/2076334313780502548",
+   "created_at": "2026-07-12T15:54:11Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076324472395571312",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 EcoGPT chat histories allegedly leaked A forum actor claims to have extracted shared conversation data from EcoGPT, an AI agent platform marketed as environmentally friendly. According to the post, the platform’s Supabase configuration allowed its shared conversations table to be queried without authentication. The actor claims the released JSON and CSV files contain chat histories tied to 13,255 unique users. The exposed fields allegedly include user IDs, conversation IDs, chat titles, message content, and creation timestamps. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076324472395571312",
+   "created_at": "2026-07-12T15:15:05Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076321870840783024",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇺🇸🇨🇦🇦🇺🇪🇺 Underground buyer seeking enterprise initial access A forum actor is offering to purchase access to large organizations across the United States, Canada, Australia, and Europe, limiting interest to companies with at least $500 million in revenue. The buyer excludes hospitals, schools, educational institutions, charities, and companies based in Russia, China, North Korea, or Belarus. The listing offers suppliers 25% for access to Active Directory environments and 15% for cloud-based systems such as Azure, AWS IAM, Okta, or Entra ID. This listing is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076321870840783024",
+   "created_at": "2026-07-12T15:04:44Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076319378052641133",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 EIML student and applicant dataset allegedly leaked A forum actor claims to have released a fresh SQL dump tied to EIML, a French higher education school specializing in luxury marketing, management, and international business. The listing references 93,532 rows, including 4,768 unique students and 12,313 unique applicants. It also claims the dataset combines prospects, candidates, students, and alumni into a single table. The advertised fields include names, personal and school email addresses, phone numbers, home addresses, dates and places of birth, nationalities, INE numbers, schools, classes, academic years, study levels, contract and enrollment statuses, and program start and end dates. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076319378052641133",
+   "created_at": "2026-07-12T14:54:50Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076305456432062632",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇮🇳 Alleged DRDO & Indian Military Data Offered for Sale A threat actor claims to be selling what they describe as 31 GB of highly sensitive data allegedly linked to India's Defence Research and Development Organisation (DRDO) and Indian military projects. According to the forum post, the dataset allegedly includes: * Internal project design documents * Military design files * Employee information * Engineering and technical documentation * Alleged classified project materials * Sample files provided as proof * Asking price: $8,000 The actor claims the archive contains 31 GB of data and advertises it as \"top secret\" information related to Indian military technology. Analyst Note: At this time, these claims remain unverified. Threat actors frequently exaggerate or misrepresent the sensitivity, authenticity, or exclusivity of datasets to increase their market value. Independent validation is required before concluding that any classified DRDO or Indian military information has been compromised. #DDW #Intelligence #DarkWeb #India",
+   "url": "https://x.com/DailyDarkWeb/status/2076305456432062632",
+   "created_at": "2026-07-12T13:59:31Z",
+   "tags": [
+    "market"
+   ]
+  },
+  {
+   "id": "2076302465339646450",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇺🇦 Ukrainian Forum Database Allegedly Leaked A threat actor has released what they claim is a free database belonging to http://eom.com.ua, advertising approximately 17,000 user records that include email addresses and password hashes. According to the visible sample, the dataset appears to contain: * Member IDs and usernames * Email addresses * Password hashes * Registration and last login timestamps * Real names and birth dates * Personal text/profile information * Website and location fields * ICQ, MSN and instant messaging identifiers * Reputation and forum activity metadata * User preferences and account settings The database is being distributed freely through a cybercrime forum. Analyst Note: The authenticity and freshness of the dataset have not been independently verified. Organizations and users associated with http://eom.com.ua should treat this as a potential credential exposure. Even hashed passwords can become a risk if weak hashing algorithms or reused passwords are involved. #DDW #Intelligence #DarkWeb #Ukraine",
+   "url": "https://x.com/DailyDarkWeb/status/2076302465339646450",
+   "created_at": "2026-07-12T13:47:38Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076301136529645767",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇪 EurekaSelect Publishing Platform Database Allegedly Released A threat actor has published what they claim is a free database associated with http://bspebook.eurekaselect.com, a platform linked to EurekaSelect publishing services. According to the visible sample, the dataset may include: * Usernames and password fields * Full names and gender * Institutional affiliations and departments * Email addresses and phone numbers * Mailing addresses * Country and locale information * Registration, validation, and last-login dates * Account status and administrative metadata Download links were shared through the forum. Analyst Note: The authenticity and age of the dataset have not been independently verified. The visible records appear to include dates from 2015, so this may be an older database rather than a new compromise. Even historical academic and publishing account data can support credential stuffing, targeted phishing, and researcher impersonation. #DDW #Intelligence #DarkWeb #EurekaSelect",
+   "url": "https://x.com/DailyDarkWeb/status/2076301136529645767",
+   "created_at": "2026-07-12T13:42:21Z",
+   "tags": [
+    "other"
+   ]
+  },
   {
    "id": "2076217365646205124",
    "handle": "DailyDarkWeb",
@@ -494,17 +773,6 @@
    ]
   },
   {
-   "id": "2075819931212419429",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🪙 Glassnode Customer Database Allegedly Offered for Sale A threat actor is advertising the alleged sale of a database belonging to crypto analytics platform Glassnode. According to the forum post, the seller claims the dataset includes: * Data from approximately 850,000 users * A full HubSpot CRM export * Customer account information * Password hashes * Subscription and plan details * API keys * Marketing consent and referral data * Affiliate and analytics-related fields The actor states the data was allegedly obtained in May 2026 and is offering a single copy for sale. Analyst Note: These claims have not been independently verified. If authentic, exposed API keys and customer account metadata could present significant security risks beyond credential exposure. Organizations using Glassnode should monitor for any official disclosure and rotate API credentials where appropriate. #DDW #Intelligence #DarkWeb #Crypto",
-   "url": "https://x.com/DailyDarkWeb/status/2075819931212419429",
-   "created_at": "2026-07-11T05:50:13Z",
-   "tags": [
-    "market"
-   ]
-  },
-  {
    "id": "2075796190994604034",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -638,83 +906,6 @@
    ]
   },
   {
-   "id": "2075656728666948029",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️ Maskify describes itself as real-time AI face swapping. \"Any face. Zero training. Total anonymity.\" IOC: https://maskify[.]net",
-   "url": "https://x.com/DarkWebInformer/status/2075656728666948029",
-   "created_at": "2026-07-10T19:01:42Z",
-   "tags": [
-    "other"
-   ]
-  },
-  {
-   "id": "2075642976588402753",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🚨 Threat Actor Advertises Fraudulent “Emergency Data Request” Services A threat actor is offering access to user records from major technology and telecom platforms, allegedly by abusing emergency data request procedures. According to the forum post, the seller claims they can obtain: * Telegram-linked phone numbers, recent IP addresses, and timestamps * Records associated with Meta platforms, including Facebook and Instagram * Subscriber data from T-Mobile and AT&T * Information from Microsoft and Pinterest Prices range from $500 to $1,000 per request, with payment accepted in cryptocurrency. Analyst Note: The claims have not been independently verified. If genuine, this may indicate abuse of emergency disclosure channels, compromised law-enforcement accounts, forged requests, or insider access. Platforms should review emergency-request authentication controls and audit unusual disclosure activity. #DDW #Intelligence #DarkWeb #Cybercrime",
-   "url": "https://x.com/DailyDarkWeb/status/2075642976588402753",
-   "created_at": "2026-07-10T18:07:03Z",
-   "tags": [
-    "other"
-   ]
-  },
-  {
-   "id": "2075641352335823019",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🚨 NCIC Correctional Visitation Data Allegedly Leaked A threat actor has begun publishing what they claim is data obtained from NCIC, a U.S. provider of communication and video-visitation services for correctional facilities. The visible sample allegedly contains: * Correctional facility identifiers * Inmate and visitor connection timestamps * Visit scheduling and session records * Video-recording metadata * Session tokens and internal system identifiers * Visit status and termination details The forum post labels the release as “Part 1,” suggesting additional material may follow. Analyst Note: The authenticity and full scope of the alleged leak have not been independently verified. If genuine, visitation records and session metadata could expose highly sensitive information concerning incarcerated individuals, their visitors, and participating correctional facilities. #DDW #Intelligence #DarkWeb #USA",
-   "url": "https://x.com/DailyDarkWeb/status/2075641352335823019",
-   "created_at": "2026-07-10T18:00:36Z",
-   "tags": [
-    "breach"
-   ]
-  },
-  {
-   "id": "2075639447597588721",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇫🇷 French Aviation Platform Flymoove Allegedly Leaked A threat actor has claimed to have released a database associated with Flymoove, a French SaaS platform focused on business aviation and regional air mobility. According to the forum post, the alleged data includes: * Full names * Email addresses and phone numbers * Dates of birth * Residential addresses * Country and postal code information * Passport or identity document numbers * Document types and expiration dates Analyst Note: The authenticity and scope of the alleged dataset have not been independently verified. If confirmed, the exposure of passport and identity-document data could create serious risks of identity theft, travel-related fraud, account impersonation, and targeted phishing. #DDW #Intelligence #DarkWeb #France",
-   "url": "https://x.com/DailyDarkWeb/status/2075639447597588721",
-   "created_at": "2026-07-10T17:53:02Z",
-   "tags": [
-    "breach"
-   ]
-  },
-  {
-   "id": "2075638711673409618",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇪🇬 GoBus Database and Internal Documents Allegedly Leaked A threat actor has published what they claim is the complete database of GoBus, a transportation booking platform. * The alleged SQL database is approximately 16 GB. * The actor claims it contains data belonging to around 1 million users. * Reported fields include email addresses, phone numbers, hashed passwords, and complete ride histories. * An additional 4 GB archive allegedly contains internal documents related to drivers and employees. * The post claims the data was obtained within the past two weeks. Analyst Note: The authenticity and scope of the alleged leak have not been independently verified. If confirmed, the exposure of ride histories and contact details could create serious privacy, phishing, and account-compromise risks. #DDW #Intelligence #DarkWeb #GoBus",
-   "url": "https://x.com/DailyDarkWeb/status/2075638711673409618",
-   "created_at": "2026-07-10T17:50:07Z",
-   "tags": [
-    "breach"
-   ]
-  },
-  {
-   "id": "2075637501788651720",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇨🇭 Public Data from Swiss Classifieds Platform Shared on Underground Forum A forum user has published a dataset allegedly scraped from http://PetitesAnnonces.ch, a Swiss online classifieds platform. * The archive reportedly contains 202,961 records in JSON format. * The poster explicitly describes the dataset as scraped public information rather than a compromised private database. * The visible sample includes listing references, advertisement text, phone numbers, account metadata, and category information. * Multiple download mirrors were shared through the forum. Analyst Note: This appears to be large-scale collection and redistribution of publicly accessible listings, not confirmed unauthorized access to the platform’s internal systems. Even public data can create privacy and abuse risks when aggregated at scale. #DDW #Intelligence #DarkWeb #Switzerland",
-   "url": "https://x.com/DailyDarkWeb/status/2075637501788651720",
-   "created_at": "2026-07-10T17:45:18Z",
-   "tags": [
-    "market"
-   ]
-  },
-  {
-   "id": "2075636361290231987",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇫🇷 French Handisport Federation Database Allegedly Leaked A threat actor has claimed to have released a database associated with http://Handisport.org, the website of the Fédération Française Handisport. According to the forum post: * The dataset allegedly contains 59,932 records. * The database is being distributed through underground channels. * The post does not provide enough visible detail to confirm the exact categories of exposed information. Analyst Note: The authenticity, scope, and origin of the alleged dataset have not been independently verified. Given that the organization supports athletes with disabilities, any exposure of member or participant information could create heightened privacy and targeted social-engineering risks. #DDW #Intelligence #DarkWeb #France",
-   "url": "https://x.com/DailyDarkWeb/status/2075636361290231987",
-   "created_at": "2026-07-10T17:40:46Z",
-   "tags": [
-    "breach"
-   ]
-  },
-  {
    "id": "2075621866132152489",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -723,17 +914,6 @@
    "created_at": "2026-07-10T16:43:10Z",
    "tags": [
     "other"
-   ]
-  },
-  {
-   "id": "2075614360639000851",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇦🇺 HotToner Australia Customer Database Allegedly Leaked A threat actor has published what they claim is a customer database belonging to http://HotToner.com.au, an Australian online retailer specializing in printer ink, toner, and related consumables. According to the forum post: * The dataset allegedly contains more than 201,700 customer records. * Claimed fields include names, email addresses, telephone and fax numbers, company details, IP addresses, newsletter preferences, and customer-group information. * Order records reportedly contain product, quantity, price, shipping, billing, and payment-related details. * Sample records were shared to support the claim. Analyst Note: The authenticity and scope of the alleged breach have not been independently verified. If confirmed, the exposed order and contact data could be used for targeted phishing, invoice fraud, and account impersonation. #DDW #DarkWeb #Intelligence #Australia",
-   "url": "https://x.com/DailyDarkWeb/status/2075614360639000851",
-   "created_at": "2026-07-10T16:13:21Z",
-   "tags": [
-    "breach"
    ]
   },
   {
@@ -1467,7 +1647,7 @@
    "id": "2069800799715135549",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
-   "text": "New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
+   "text": "Pinned: New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
    "url": "https://x.com/Gi7w0rm/status/2069800799715135549",
    "created_at": "2026-06-24T15:12:20Z",
    "tags": [
