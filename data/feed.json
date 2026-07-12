@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-07-11T21:41:52Z",
+ "generated_at": "2026-07-12T08:33:12Z",
  "source": "nitter",
- "new_count": 16,
+ "new_count": 52,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
   "jms_dot_py": "ok",
-  "campuscodi": "error",
-  "GossiTheDog": "error",
+  "campuscodi": "ok_mastodon",
+  "GossiTheDog": "ok_mastodon",
   "briankrebs": "ok",
   "vxunderground": "ok",
   "Gi7w0rm": "ok",
@@ -25,6 +25,173 @@
   "MonThreat": "extra"
  },
  "posts": [
+  {
+   "id": "2076217365646205124",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🚀 Japan Successfully Tests Reusable Rocket Prototype Japan’s space agency JAXA has completed the first flight test of its RV-X experimental reusable rocket at the Noshiro Rocket Testing Center. * Reached an altitude of approximately 11 meters. * Traveled around 16 meters horizontally. * Landed vertically as planned. * The entire flight lasted less than one minute. * Future tests are expected to target altitudes of roughly 100 meters. The test came one day after China successfully recovered the booster of its Long March 10B rocket using a sea-based net system. Analyst Note: Reusable launch technology is rapidly becoming a strategic capability. Japan’s test remains small-scale compared with operational orbital boosters, but it represents an important step toward reducing launch costs and strengthening domestic space access. #DDW #Intelligence #DarkWeb #Japan",
+   "url": "https://x.com/DailyDarkWeb/status/2076217365646205124",
+   "created_at": "2026-07-12T08:09:28Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076205175413379187",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Welcome to my DMs",
+   "url": "https://x.com/vxunderground/status/2076205175413379187",
+   "created_at": "2026-07-12T07:21:02Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076199513459441666",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇪 Threat Actor Claims to Sell 400K DAMAC Properties Records A threat actor is advertising the sale of what they claim is a freshly obtained database belonging to DAMAC Properties, one of the UAE's largest real estate developers. According to the listing: * Claimed dataset size: 400,000 records * Target: UAE customers * Alleged source: DAMAC Living (http://damacliving.com) * Asking price: $10,000 (cryptocurrency only) The actor claims the data was downloaded before the underlying vulnerability was remediated and states they can provide proof of the extraction to prospective buyers. Analyst Note: These claims have not been independently verified. If authentic, a database of this size could expose sensitive customer and prospect information that may be leveraged for targeted phishing, real estate fraud, business email compromise (BEC), and other social engineering campaigns targeting individuals and organizations in the UAE. #DDW #Intelligence #DarkWeb #UAE",
+   "url": "https://x.com/DailyDarkWeb/status/2076199513459441666",
+   "created_at": "2026-07-12T06:58:32Z",
+   "tags": [
+    "breach",
+    "vuln"
+   ]
+  },
+  {
+   "id": "2076198614288740641",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🚨 Threat Actor Claims to Sell Massive \"Truecaller Bot\" Database A threat actor is advertising what they claim is the complete database behind a Telegram \"Truecaller bot\" that aggregates phone number intelligence from multiple sources, including Truecaller and CallApp. According to the listing: * Claimed dataset size: Nearly 7 billion unique records * Format: JSONL * Asking price: $5,000 * Individual country datasets are also offered for sale The actor claims the dataset includes records from numerous countries, including: * India: ~1.36B * China: ~848M * United States: ~297M * Indonesia: ~245M * Nigeria: ~221M * Pakistan: ~220M * Brazil: ~182M * Bangladesh: ~151M * Ethiopia: ~118M * Mexico: ~113M * Russia: ~112M Analyst Note: The authenticity and originality of this dataset have not been independently verified. Large identity aggregation databases frequently combine information from historical breaches, public records, contact syncing services, and previously leaked datasets rather than representing a single new compromise. Regardless, such collections significantly increase the effectiveness of phishing, smishing, social engineering, and identity profiling campaigns. #DDW #Intelligence #DarkWeb #Truecaller",
+   "url": "https://x.com/DailyDarkWeb/status/2076198614288740641",
+   "created_at": "2026-07-12T06:54:58Z",
+   "tags": [
+    "breach",
+    "market"
+   ]
+  },
+  {
+   "id": "2076196963528200598",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 French Fitness Chain KeepCool Allegedly Suffers Data Exposure A threat actor claims to have exploited multiple vulnerabilities affecting French fitness chain KeepCool (http://keepcool.fr) and is offering what they describe as a database containing 287,842 member records. According to the post, the actor alleges they: * Extracted hardcoded administrator credentials from the mobile application. * Obtained a JWT token. * Exploited a BOLA (Broken Object Level Authorization) vulnerability in the API to enumerate and extract member data. The allegedly exposed data includes: * Full names * Email addresses * Phone numbers * Dates of birth * Gender * Membership plans * Club locations * Last gym visit information The actor also claims KeepCool did not notify France's CNIL after being informed of the issues. Analyst Note: These allegations have not been independently verified. If confirmed, the claimed attack chain highlights multiple application security failures, including hardcoded credentials and BOLA vulnerabilities, both of which are common issues identified in modern API security assessments. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076196963528200598",
+   "created_at": "2026-07-12T06:48:24Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
+   "id": "2076194161959592291",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇰🇷 South Korean Industrial Firm Allegedly Leaked on Cybercrime Forum A threat actor is claiming to have leaked data belonging to South Korean company DSOL (http://dsol.co.kr). According to the post, the leaked material allegedly includes data associated with multiple internal departments, including: * Technical Research Institute * Valve Team * Cryogenic Team * Innovation Team * Sales Team * Finance Team * Materials Team * Quality Team * General Affairs Team * Production Team The actor also shared what they claim are proof files and download links to support the listing. Analyst Note: These claims have not been independently verified. If authentic, exposure of internal corporate documents across R&D, engineering, finance, and production functions could present risks ranging from intellectual property theft to targeted espionage and follow-on attacks. Organizations connected to DSOL should monitor for official disclosures and assess any potential third-party exposure. #DDW #Intelligence #DarkWeb #SouthKorea",
+   "url": "https://x.com/DailyDarkWeb/status/2076194161959592291",
+   "created_at": "2026-07-12T06:37:16Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2076192536545137011",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: Original SHA256: 8698fd9c5a64bb4bcc550b73441d119b6e77c266b6ef8a6987a70c6285838fc0 Secondary payload (in-memory CSharp loader): 0ec474c62146820aa5f2a9f4ba1bd2148b91a52c1fb9ff74da6480e3c5aec3ae Tertiary payload (encoded, likely PURE-RAT) 77512e1591c014bb6ca3bc2a92fc03b4e3e2a200fba3c07ea632874c903cc12a Tertiary payload (decoded, likely PURE-RAT) b23087939109c73a09f21cafb5097c0389d61795c426b5098a52f40182ed0f0f Shout-out to Threat Actor \"LoneNone\" for writing this triple-staged malware. It was cool. I had fun.",
+   "url": "https://x.com/vxunderground/status/2076192536545137011",
+   "created_at": "2026-07-12T06:30:49Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2076191829263794367",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "thehackernews.com/2026/07/ex…",
+   "url": "https://x.com/DailyDarkWeb/status/2076191829263794367",
+   "created_at": "2026-07-12T06:28:00Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076190965941874945",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "\"Hey smelly, I work for (company), we had a threat actor phish an employee and use ScreenConnect to get access to their computer. The Threat Actor then dropped a .exe on the computer. Our AV/EDR stopped it, but we don't know what it is. Do you want to see?\" > yes, absolutely, give me goopies > give malware > download > look inside > position independent c code > points to section of memory > xor'd several times > un-xor's thingie in memory > creates process of random thingie > pauses process of random thinie > hollows out process > puts goopies it extracted from itself into it > resumes process > lol process hollowing from embedded payload > payload not in .exe section > payload in .rdata mixed with other stuff > omg w/e fine, make me work > run the goopie > bonk with stick > find thingie it hollowed out > grab the magic goop from it > yay > look inside > another .exe > ok, .exe has .exe hidden inside, runs random .exe and puts secret .exe inside it > look at secret .exe thingie > c#.net .exe > ok lol > look inside > has hidden .exe inside it > omfg why bro are you doing this to me > pull .exe out of hidden .exe (im on secret .exe two now) > dies > base64 encoded the .exe internally > omfg why bro > base64 decode second secret .exe internally > get the goopies > second .exe is actually .dll > heavily obfuscated c#.net > really annoying me now > check virustotal > second mystery .exe (actually .dll) never seen before > look inside more > sniff sniff > sniff sniff > PURE-RAT > attributed to suspected Vietnamese Threat Actor group > matches known tactics, techniques, and procedures of group > matches details from Trellix and Huntress > group still evolving > went from noobs to doing p good malware My Brother in Christ, your organization is (probably) being targeted by a known Vietnamese Threat Group",
+   "url": "https://x.com/vxunderground/status/2076190965941874945",
+   "created_at": "2026-07-12T06:24:34Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2076100803077488854",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: What the fuck? I'm not really going to kill myself. Holy cow, it's an intentionally hyperbolic and dramatic expression to convey my dissatisfaction and disgust with this AI video",
+   "url": "https://x.com/vxunderground/status/2076100803077488854",
+   "created_at": "2026-07-12T00:26:18Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076100471106720093",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 Ransomware Attack Update - July 11th, 2026 https://darkwebinformer.com/ransomware-attack-update-july-11th-2026/",
+   "url": "https://x.com/DarkWebInformer/status/2076100471106720093",
+   "created_at": "2026-07-12T00:24:59Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2076100435400650969",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> malware > tries to run as admin > fails > already running as admin > didn't check privileges before > self terminates because thinks isn't admin This is why you should run every application as Admin, for the 1/1,000,000 chance a malware payload forgets to check it's privilege",
+   "url": "https://x.com/vxunderground/status/2076100435400650969",
+   "created_at": "2026-07-12T00:24:50Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "2076088772618309871",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Yeah, I'm killing myself tonight.",
+   "url": "https://x.com/vxunderground/status/2076088772618309871",
+   "created_at": "2026-07-11T23:38:29Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076079957772534101",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "💥 WebVM is a server-less virtual environment running fully client-side in HTML5/WebAssembly. GitHub: https://github.com/leaningtech/webvm Live Demo: https://webvm.io/",
+   "url": "https://x.com/DarkWebInformer/status/2076079957772534101",
+   "created_at": "2026-07-11T23:03:28Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "2076059935624802576",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Chat, I keep getting invited to DEFCON. But, I don't want to talk to anyone and I feel like I'll be bored without computer to bonk malware. I do NOT want to talk to people. I would kind of like to see some talks and get silly shirts though. What do you think?",
+   "url": "https://x.com/vxunderground/status/2076059935624802576",
+   "created_at": "2026-07-11T21:43:54Z",
+   "tags": [
+    "malware"
+   ]
+  },
   {
    "id": "2076029608890192179",
    "handle": "DailyDarkWeb",
@@ -382,6 +549,17 @@
    ]
   },
   {
+   "id": "md-116898207541668195",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "I’ve been tipped off ShareFile have a cybersecurity incident playing out and they’re covering it up. Only hint is the platform has gone offline. https:// status.sharefile.com/incidents /c59n5343lbkq",
+   "url": "https://cyberplace.social/@GossiTheDog/116898207541668195",
+   "created_at": "2026-07-10T23:11:30Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
    "id": "2075715676820349374",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -605,6 +783,42 @@
    ]
   },
   {
+   "id": "md-116894609983509103",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-New malware: GodDamn ransomware, Forg365 PhaaS, GigaWiper, CrySome RAT, SCMBANKER, Remus Stealer, Apex2 and c2c/meow botnets -Vidar is still alive -RedHook returns -Two APTs target Balochistan Police -New Helix data extortion group -Crypto-wallet extensions can link you to your crypto-funds: -Cisco advance notification for patches next week -GhostLock Linux vulnerability -HalluSquatting attack -GhostApproval attack -GitLost attack -RoguePlanet gets a patch",
+   "url": "https://mastodon.social/@campuscodi/116894609983509103",
+   "created_at": "2026-07-10T07:56:36Z",
+   "tags": [
+    "ransomware",
+    "malware",
+    "vuln"
+   ]
+  },
+  {
+   "id": "md-116894603094511895",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-UK to create Cyber Shield -CIRCIA allegedly coming in September -CISA scanning govt code with Mythos -Police suspect Dutch national involved in Odido hack -5.8k scam suspect arrested -Iris C2's shady ownership -Injective SDK supply chain attack -Cybersecurity startup publishes infostealers to npm -GitHub API abuse wave -Hacked websites host OnlyFans content -New Password-spraying campaign hits M365 -Microsoft expects increase in patches due to AI -Gitea and Joomla plugins exploited in the wild",
+   "url": "https://mastodon.social/@campuscodi/116894603094511895",
+   "created_at": "2026-07-10T07:54:51Z",
+   "tags": [
+    "malware",
+    "vuln"
+   ]
+  },
+  {
+   "id": "md-116894584622330060",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-India bans app used to hack e-rickshaws in viral videos -NSA TAO is back -Leak exposes another suspected Chinese cyber contractor -China considering blocking foreign access to its AI models -Accenture has another data breach -Breaches at Nextcloud, Nayax, AssuranceAmerica, Puerto Rico's property tax collection agency -Windows GDID reverse-engineered -Discord admits faulty bans -EU tells banks to plan for AI cyberattacks Newsletter: https:// news.risky.biz/risky-bulletin- india-bans-app-used-to-hack-e-rickshaws-in-viral-videos/ Podcast: https:// risky.biz/RBNEWS588/",
+   "url": "https://mastodon.social/@campuscodi/116894584622330060",
+   "created_at": "2026-07-10T07:50:09Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
    "id": "2075467822113681914",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -693,6 +907,17 @@
    ]
   },
   {
+   "id": "md-116891963258228019",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Cybersecurity Startup Publishes Infostealers to NPM https:// opensourcemalware.com/blog/cyb ersecurity-startup-publishes-infostealers-to-npm",
+   "url": "https://mastodon.social/@campuscodi/116891963258228019",
+   "created_at": "2026-07-09T20:43:30Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
    "id": "2075267171035361316",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -715,6 +940,17 @@
    ]
   },
   {
+   "id": "md-116890614496220263",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Does anybody have the Accenture file tree text file from their breach?",
+   "url": "https://cyberplace.social/@GossiTheDog/116890614496220263",
+   "created_at": "2026-07-09T15:00:29Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
    "id": "2075176283835674838",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -727,6 +963,17 @@
    ]
   },
   {
+   "id": "md-116889353326298402",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Since the NoName supporters in the Telegram groups are starting to get arrested in Europe, I should point out I was casually in the Telegram channel with my normal mobile number *monitoring them* - it’s how I was getting the DDoS configs for UK councils and such defending. Law enforcement in the UK know about this but in case I disappear I’ve been vanned in the Venga Bus 🚌 in error.",
+   "url": "https://cyberplace.social/@GossiTheDog/116889353326298402",
+   "created_at": "2026-07-09T09:39:46Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
    "id": "2075041749123088769",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -735,6 +982,28 @@
    "created_at": "2026-07-09T02:18:00Z",
    "tags": [
     "malware"
+   ]
+  },
+  {
+   "id": "md-116887552558648887",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Another leak at a Chinese security firm exposes another possible Chinese cyber contractor/APT https:// netaskari.substack.com/p/zron- full-digital-espionage-service",
+   "url": "https://mastodon.social/@campuscodi/116887552558648887",
+   "created_at": "2026-07-09T02:01:48Z",
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "md-116885980818942878",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Nigel Farage, haunted former wanker banker, has resigned from his seat as MP and announced he’s standing again in the same seat - he’s trying to dodge responsibility for a crypto funding scandal by hiding behind the electorate. All the rival parties have refused to put up candidates so now a man with a bin on his face has entered, and is doing media rounds with interviews. https:// youtu.be/3XO3FwWfPLc",
+   "url": "https://cyberplace.social/@GossiTheDog/116885980818942878",
+   "created_at": "2026-07-08T19:22:05Z",
+   "tags": [
+    "other"
    ]
   },
   {
@@ -755,6 +1024,28 @@
    "text": "R to @vxunderground: \"if it's labeled child porn they won't even try to download it to reverse it\" That is correct.",
    "url": "https://x.com/vxunderground/status/2074890965924385146",
    "created_at": "2026-07-08T16:18:50Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116884992871926904",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "RE: https:// mastodon.cloud/@slashdot/11688 4983278217065 Space Balls!!!!",
+   "url": "https://mastodon.social/@campuscodi/116884992871926904",
+   "created_at": "2026-07-08T15:10:50Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116884989833305095",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "\"Chinese authorities have held meetings ​with top tech firms over the past month about potentially restricting overseas access to China's most advanced AI models, including those yet to be released, three people familiar ‌with the discussions said.\" https://www. reuters.com/world/beijing-is-l ooking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+   "url": "https://mastodon.social/@campuscodi/116884989833305095",
+   "created_at": "2026-07-08T15:10:04Z",
    "tags": [
     "other"
    ]
@@ -781,6 +1072,63 @@
    "tags": [
     "breach",
     "market"
+   ]
+  },
+  {
+   "id": "md-116883871140686073",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-Pink group registers passkeys on behalf of its victims -Most crypto-hacks this year target DeFi platforms -New RedWing Android MaaS -New Cavern Manticore APT -UAT-7810 builds ORBs for other APTs -UNK_MassTraction targets Roundcube servers -ColdFusion bug exploited in the wild -Tenda router have a backdoor -New Rogue Agent technique -New Januscape KVM guest-to-host escape -New prompt injection techniques",
+   "url": "https://mastodon.social/@campuscodi/116883871140686073",
+   "created_at": "2026-07-08T10:25:34Z",
+   "tags": [
+    "malware",
+    "vuln"
+   ]
+  },
+  {
+   "id": "md-116883865569888294",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-Ctrl Wallet shuts down after exploit -Ill Bloom bug exploited to steal $3.1m -Class-action accuses RAM makers of price fixing -Godot bans AI code slop -Tech platforms fail to deploy age restrictions in Australia -EU RT ban also applies to websites and persons -Spain arrests CARR and Z-Pentest member -15yo teen arrested for hacking anime site with ChatGPT -Profile on Lurking Lizard proxy operator and Scattered Spider -More AI spotted in SpectrePaste malware delivery",
+   "url": "https://mastodon.social/@campuscodi/116883865569888294",
+   "created_at": "2026-07-08T10:24:09Z",
+   "tags": [
+    "malware",
+    "vuln"
+   ]
+  },
+  {
+   "id": "md-116883850654034372",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "-All new cars to include a camera aimed at the driver's face -Canada hacked a ransomware gang -Taiwan charges execs for helping Chinese hackers -Vulns can bork Hoymiles solar panels -DHSIG investigates forced CISA reassignments -UK Foreign Office impacted by Fortibleed -Prince Harry loses Daily Mail hacking lawsuit -Predator victims sue Intellexa -US Army defacements -BONK meme coin hacked for $20m Podcast: https:// risky.biz/RBNEWS587/ Newsletter: https:// news.risky.biz/risky-bulletin- all-new-cars-to-include-a-camera-aimed-at-the-drivers-face/",
+   "url": "https://mastodon.social/@campuscodi/116883850654034372",
+   "created_at": "2026-07-08T10:20:21Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
+   "id": "md-116880197201568737",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "The Walmart security team has published a report on SpectrePaste, a malware delivery campaign that appears to have been orchestrated with AI https:// medium.com/walmartglobaltech/s pectrepaste-b20bc2f6ded8",
+   "url": "https://mastodon.social/@campuscodi/116880197201568737",
+   "created_at": "2026-07-07T18:51:14Z",
+   "tags": [
+    "malware"
+   ]
+  },
+  {
+   "id": "md-116879236805690543",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "I’d like to thank the BBC for The Day Today season 3",
+   "url": "https://cyberplace.social/@GossiTheDog/116879236805690543",
+   "created_at": "2026-07-07T14:47:00Z",
+   "tags": [
+    "other"
    ]
   },
   {
@@ -819,6 +1167,17 @@
    ]
   },
   {
+   "id": "md-116878524117143026",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Hoymiles inverters used with those super-popular solar panels installed on balconies across Europe can be switched on or off, or even permanently disabled via a newly discovered vulnerability PDF: https://www. ccc.de/system/uploads/382/orig inal/hoymiles_dtu_vuln.pdf",
+   "url": "https://mastodon.social/@campuscodi/116878524117143026",
+   "created_at": "2026-07-07T11:45:45Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
    "id": "2074451087520670192",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -827,6 +1186,28 @@
    "created_at": "2026-07-07T11:10:55Z",
    "tags": [
     "breach"
+   ]
+  },
+  {
+   "id": "md-116877937477546960",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "The Godot open-source gaming engine has banned contributors from submitting AI-generated code contributions. The project says it \"can't trust heavy users of AI to understand their code enough to fix it\" when it breaks. https:// godotengine.org/article/contri bution-policy-2026/",
+   "url": "https://mastodon.social/@campuscodi/116877937477546960",
+   "created_at": "2026-07-07T09:16:34Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116877631053362393",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "World renewable energy powered today by laughing at the USA",
+   "url": "https://cyberplace.social/@GossiTheDog/116877631053362393",
+   "created_at": "2026-07-07T07:58:38Z",
+   "tags": [
+    "other"
    ]
   },
   {
@@ -865,6 +1246,17 @@
    ]
   },
   {
+   "id": "md-116868612051642228",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "The study found that women who submit resumes created with AI assistance are evaluated as less competent and less trustworthy than men who submit identical AI-assisted resumes. To the evaluators, women’s AI use signaled inability, while men’s AI use signaled initiative. https://www. forbes.com/sites/michelletravi s/2026/06/25/women-who-use-ai-seen-as-incompetent-men-who-use-ai-seen-as-pragmatic/",
+   "url": "https://cyberplace.social/@GossiTheDog/116868612051642228",
+   "created_at": "2026-07-05T17:44:59Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
    "id": "2073800681132020182",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -885,6 +1277,17 @@
    "created_at": "2026-07-03T07:47:36Z",
    "tags": [
     "breach"
+   ]
+  },
+  {
+   "id": "md-116851348364373962",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Update https:// checkfirst.network/roska-bridg e-how-a-pro-russian-ims-exploits-vulnerabilities-of-decentralised-platforms-to-spread-propaganda/",
+   "url": "https://cyberplace.social/@GossiTheDog/116851348364373962",
+   "created_at": "2026-07-02T16:34:36Z",
+   "tags": [
+    "vuln"
    ]
   },
   {
@@ -939,12 +1342,89 @@
    ]
   },
   {
+   "id": "md-116846648695885111",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Mastodon has automatic age verification built in, no scanning your face ✅ if you join here you're old ✅ you've seen too much shit ✅ you're tired of said shit",
+   "url": "https://cyberplace.social/@GossiTheDog/116846648695885111",
+   "created_at": "2026-07-01T20:39:25Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116841279439904939",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "poke",
+   "url": "https://cyberplace.social/@GossiTheDog/116841279439904939",
+   "created_at": "2026-06-30T21:53:56Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116841195688452868",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "If you have Citrix Netscaler and logs in a SIEM somewhere, check for requests to /adfs/service/trust/2005/usernamemixed The specification is supposed to be /services/ (plural) but Citrix typo it as /service/ - our friends in China know, they use it to reach SAML on Netscaler without anybody knowing (it's a google dork... until now).",
+   "url": "https://cyberplace.social/@GossiTheDog/116841195688452868",
+   "created_at": "2026-06-30T21:32:38Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116841148400596749",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "mum: what impact did you have on the cybersecurity industry? me: LOGOS if you have SAML IDP enabled on Netscaler, you want to patch CVE-2026-8451 https:// labs.watchtowr.com/citrixbleed -to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451 This is already being exploited in the wild, one of my honeypots got MFA bypassed with it. Edit: actually looking at it it looks like the honeypot got owned via a different vuln but you should probably patch this too.",
+   "url": "https://cyberplace.social/@GossiTheDog/116841148400596749",
+   "created_at": "2026-06-30T21:20:37Z",
+   "tags": [
+    "vuln"
+   ]
+  },
+  {
+   "id": "md-116822420882805094",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "It appears either JLR and/or the UK government are trying to reposition the JLR ransomware incident as involving the Russian government. There’s no evidence of that. All the evidence points to multiple intrusions by different groups, including Russian ecrime groups. Jaguar Land Rover didn’t have cyber insurance, so I’m pondering if this is a play to claim nation state attack via one of their other policies. https://www. nytimes.com/2026/06/26/world/e urope/jaguar-russia-hack.html",
+   "url": "https://cyberplace.social/@GossiTheDog/116822420882805094",
+   "created_at": "2026-06-27T13:57:58Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
    "id": "2070517575432249617",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
    "text": "This happend to me in the last wave a month ago. Now a new wave is ongoing. I appealed and my account was unlocked after review. I have the feeling someone is intentionally targeting researchers here with automated botted reports to silence them.",
    "url": "https://x.com/Gi7w0rm/status/2070517575432249617",
    "created_at": "2026-06-26T14:40:32Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116815996657596776",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "There’s a further look at the two Lapsus$ guys here. The NCA are pushing for new powers to intervene with cases like this. https://www. bbc.co.uk/news/articles/cx2kx8 jr244o",
+   "url": "https://cyberplace.social/@GossiTheDog/116815996657596776",
+   "created_at": "2026-06-26T10:44:12Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116811143622632586",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Israel say they have assassinated the leader of Handala Hack Team. https://www. c14news.com/article/1470451",
+   "url": "https://cyberplace.social/@GossiTheDog/116811143622632586",
+   "created_at": "2026-06-25T14:10:00Z",
    "tags": [
     "other"
    ]
@@ -987,11 +1467,44 @@
    "id": "2069800799715135549",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
-   "text": "Pinned: New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
+   "text": "New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
    "url": "https://x.com/Gi7w0rm/status/2069800799715135549",
    "created_at": "2026-06-24T15:12:20Z",
    "tags": [
     "vuln"
+   ]
+  },
+  {
+   "id": "md-116799202063656281",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "SOC Radar have a good write up for # FortiBleed too https:// socradar.io/blog/fortibleed-fo rtinet-firewalls-compromised/ And a free checker - includes downstream credential checker (e.g. cracked AD passwords etc) https:// socradar.io/free-tools/fortibl eed",
+   "url": "https://cyberplace.social/@GossiTheDog/116799202063656281",
+   "created_at": "2026-06-23T11:33:06Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116795358313474010",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "There's some more analysis of the # FortiBleed attack infrastructure here: https:// zenox.ai/en/fortibleed-anatomy -of-the-fortibleed-campaign-based-on-the-server-that-the-attackers-themselves-left-exposed/ It's not mentioned but they cracked around 170k AD account passwords. Also all the comments on the custom source is written in Russian. Also, there is a GenAI angle I missed - they used an open source pentesting AI agent framework to try to automate attacks. It doesn't look like that bit worked very well.",
+   "url": "https://cyberplace.social/@GossiTheDog/116795358313474010",
+   "created_at": "2026-06-22T19:15:35Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-116794645880745492",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Two men plead guilty over £39m TfL cyber attack https://www. bbc.co.uk/news/articles/czx5yp 9qy0do",
+   "url": "https://cyberplace.social/@GossiTheDog/116794645880745492",
+   "created_at": "2026-06-22T16:14:25Z",
+   "tags": [
+    "other"
    ]
   },
   {
@@ -1254,6 +1767,72 @@
    "text": "Haha @michaeldweiss when you were riding your Schwinn as a kid did you know that it was very likely a Mogilevich Schwinn-Csepel? Just heard your @Underworld_Pod interview.",
    "url": "https://x.com/jms_dot_py/status/1855231908705353798",
    "created_at": "2024-11-09T12:52:10Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-113114625992462615",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "This account is now on delete posts older than a week.",
+   "url": "https://mastodon.social/@campuscodi/113114625992462615",
+   "created_at": "2024-09-10T18:16:57Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-112983390593432803",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Latest CrowdStrike threat actor naming scheme Source/PDF: https:// go.crowdstrike.com/rs/281-OBQ- 266/images/24-MA-099_2024-Threat-Hunting-Report_11.pdf",
+   "url": "https://mastodon.social/@campuscodi/112983390593432803",
+   "created_at": "2024-08-18T14:02:04Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-111438184138523000",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "WithSecure has a chart of all the ransomware group renames and rebrands. This will go directly into my bookmarks cause I lost track of all of them 4-5 years ago. https://www. withsecure.com/en/expertise/bl og-posts/2023-ransomware-rookies-are-a-remix-of-conti-and-other-classics",
+   "url": "https://mastodon.social/@campuscodi/111438184138523000",
+   "created_at": "2023-11-19T16:35:45Z",
+   "tags": [
+    "ransomware"
+   ]
+  },
+  {
+   "id": "md-111369077464958480",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Recorded Future has a report on how Chinese APTs have evolved over time. The report also includes this map of the suspected locations of Chinese APT groups. https://www. recordedfuture.com/charting-ch inas-climb-leading-global-cyber-power",
+   "url": "https://mastodon.social/@campuscodi/111369077464958480",
+   "created_at": "2023-11-07T11:41:01Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-111127850126520325",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Some CERT-UA naming conventions from the report: UAC-0010 (Gamaredon/FSB) UAC-0056 (Ember Bear/GRU) UAC-0028 (APT28/GRU) UAC-0082 (Sandworm/GRU) UAC-0144/UAC-0024/UAC-0003 (Turla) UAC-0029 (APT29/SVR) UAC-0109 (Zarya) UAC-0106 (XakNet) UAC-0107 (CyberArmyofRussia)",
+   "url": "https://mastodon.social/@campuscodi/111127850126520325",
+   "created_at": "2023-09-25T21:13:44Z",
+   "tags": [
+    "other"
+   ]
+  },
+  {
+   "id": "md-110220766591042076",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Here's a list with the old and new names for existing threat groups https:// learn.microsoft.com/en-us/micr osoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+   "url": "https://mastodon.social/@campuscodi/110220766591042076",
+   "created_at": "2023-04-18T16:30:27Z",
    "tags": [
     "other"
    ]
