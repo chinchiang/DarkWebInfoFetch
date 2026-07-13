@@ -62,7 +62,20 @@ TAG_RULES = [
     ("market", re.compile(r"darknet market|dark ?web market|underground (market|forum)|for sale|selling access|marketplace", re.I)),
     ("malware", re.compile(r"malware|stealer|botnet|trojan|\brat\b|loader|backdoor|infostealer|spyware", re.I)),
     ("vuln", re.compile(r"\bcve-\d|vulnerab|exploit|0.?day|zero.?day|\bpoc\b|patch(es|ed)?\b", re.I)),
+    ("darkweb", re.compile(r"\.onion\b|onion (service|site|link|domain)s?|tor (hidden|network|browser)|hidden service|dark ?web|darknet", re.I)),
 ]
+
+# Security-signal scoring: 0 = no security relevance (hidden by default
+# on the site), >=3 = high-priority intel (badged and sorted first).
+SIGNAL_RULES = [
+    (3, re.compile(r"\bcve-\d{4}-\d+|\biocs?\b|ransom|data (leak|breach)|victim|\.onion\b|zero.?day|\b0.?day\b", re.I)),
+    (2, re.compile(r"exploit|malware|stealer|botnet|breach|leak(ed|s|age)?\b|dark ?web|darknet|threat actor|credential|infostealer", re.I)),
+    (1, re.compile(r"vulnerab|phishing|hack(ed|er|ing)|securit|infosec|\bapt\b|threat intel|patch(es|ed)?\b|backdoor|\btor\b|osint|\bddos\b|c2\b", re.I)),
+]
+
+
+def score_post(text):
+    return sum(w for w, rx in SIGNAL_RULES if rx.search(text))
 
 # Keep enough history per account for the archive page (~7+ weeks of
 # posts for active accounts) without letting feed.json grow unbounded.
@@ -345,6 +358,11 @@ def main():
     existing_ids = {p["id"] for p in existing.get("posts", []) if not p.get("sample")}
     fresh_count = len({p["id"] for p in new_posts} - existing_ids)
     posts = merge(existing.get("posts", []), new_posts)
+    for post in posts:  # tags/score are derived from text: recompute so
+        if post.get("sample"):  # stored posts pick up rule improvements
+            continue
+        post["tags"] = classify(post.get("text", ""))
+        post["score"] = score_post(post.get("text", ""))
     add_translations(posts)
 
     if not new_posts:
