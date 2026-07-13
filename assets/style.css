@@ -144,6 +144,8 @@ button{font:inherit;cursor:pointer}
 }
 .alert-hot .alert-ico{background:var(--red);color:var(--deep)}
 .alert-hot .alert-text{color:var(--red);font-weight:600}
+.alert-bar.alert-clickable{cursor:pointer}
+.alert-bar.alert-clickable:hover{border-color:var(--red);transform:translateY(-1px);transition:border-color .15s,transform .15s}
 .alert-view{
   border:1px solid color-mix(in srgb,var(--red) 55%,var(--surface));border-radius:999px;
   background:transparent;color:var(--red);
@@ -280,6 +282,10 @@ button{font:inherit;cursor:pointer}
   color:var(--tc);border:1px solid color-mix(in srgb,var(--tc) 40%,var(--surface));border-radius:999px;
   padding:.12rem .55rem;background:color-mix(in srgb,var(--tc) 12%,var(--surface));
 }
+.tag-watch{
+  color:var(--deep);background:var(--red);border-color:var(--red);font-weight:600;
+}
+.card-watch{border-color:color-mix(in srgb,var(--red) 55%,var(--surface))}
 .open-link{
   margin-left:auto;font-family:var(--mono);font-size:.71rem;letter-spacing:.06em;
   color:var(--purple);text-decoration:none;font-weight:500;
