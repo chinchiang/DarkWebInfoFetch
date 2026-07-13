@@ -86,6 +86,68 @@ const TAGS = {
   other:      { color: "var(--muted)",   chip: "chip-plain" }
 };
 
+/* ================= comic mascots (inline SVG, macaron palette) ================= */
+/* chibi hooded hacker with laptop — the site mascot */
+const MASCOT_HERO = `
+<svg viewBox="0 0 220 214" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DARK//WATCH mascot">
+  <ellipse cx="110" cy="202" rx="64" ry="9" fill="rgba(12,8,26,.45)"/>
+  <path d="M60 152 Q60 110 110 110 Q160 110 160 152 L160 180 Q160 190 150 190 L70 190 Q60 190 60 180 Z" fill="#4a4173"/>
+  <path d="M68 54 L58 20 L94 38 Z" fill="#4a4173"/>
+  <path d="M152 54 L162 20 L126 38 Z" fill="#4a4173"/>
+  <path d="M70 48 L64 28 L85 39 Z" fill="#f7a8bc"/>
+  <path d="M150 48 L156 28 L135 39 Z" fill="#f7a8bc"/>
+  <circle cx="110" cy="80" r="52" fill="#4a4173"/>
+  <circle cx="110" cy="82" r="38" fill="#241f38" stroke="#c8b5f4" stroke-width="3"/>
+  <circle cx="110" cy="84" r="32" fill="#ffe9df"/>
+  <ellipse cx="97" cy="82" rx="5" ry="7" fill="#3b3354"/>
+  <ellipse cx="123" cy="82" rx="5" ry="7" fill="#3b3354"/>
+  <circle cx="99" cy="79" r="1.8" fill="#fff"/>
+  <circle cx="125" cy="79" r="1.8" fill="#fff"/>
+  <ellipse cx="87" cy="94" rx="6" ry="3.5" fill="#f7a8bc" opacity=".85"/>
+  <ellipse cx="133" cy="94" rx="6" ry="3.5" fill="#f7a8bc" opacity=".85"/>
+  <path d="M104 95 Q110 101 116 95" stroke="#3b3354" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="70" y="144" width="80" height="36" rx="7" fill="#c8b5f4"/>
+  <rect x="77" y="150" width="66" height="24" rx="4" fill="#241f38"/>
+  <text x="110" y="166" text-anchor="middle" font-family="monospace" font-size="11" fill="#a9e8cd">01&#183;10</text>
+  <circle cx="72" cy="164" r="8" fill="#ffe9df"/>
+  <circle cx="148" cy="164" r="8" fill="#ffe9df"/>
+  <circle cx="34" cy="64" r="4" fill="#a9e8cd"/>
+  <circle cx="188" cy="44" r="3" fill="#f7a8bc"/>
+  <path d="M186 112 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 Z" fill="#ffcda6"/>
+  <circle cx="26" cy="130" r="2.5" fill="#a8d8f8"/>
+</svg>`;
+
+/* sleeping ghost — empty state */
+const GHOST_SVG = `
+<svg viewBox="0 0 150 122" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <ellipse cx="72" cy="114" rx="40" ry="6" fill="rgba(12,8,26,.45)"/>
+  <path d="M40 104 V62 Q40 28 72 28 Q104 28 104 62 V104 L94 95 L83 104 L72 95 L61 104 L50 95 Z"
+        fill="#342d55" stroke="#c8b5f4" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M58 62 Q62 66.5 66 62" stroke="#f3eefb" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M78 62 Q82 66.5 86 62" stroke="#f3eefb" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="55" cy="72" rx="5" ry="3" fill="#f7a8bc" opacity=".8"/>
+  <ellipse cx="89" cy="72" rx="5" ry="3" fill="#f7a8bc" opacity=".8"/>
+  <path d="M68 76 Q72 79 76 76" stroke="#f3eefb" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="112" y="34" font-family="monospace" font-size="13" fill="#a9e8cd">z</text>
+  <text x="120" y="24" font-family="monospace" font-size="16" fill="#a9e8cd">Z</text>
+  <circle cx="30" cy="40" r="3" fill="#ffcda6"/>
+</svg>`;
+
+/* alert bar faces */
+const FACE_ALERT = `
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="8.2" cy="9.5" r="2.1" fill="currentColor"/>
+  <circle cx="15.8" cy="9.5" r="2.1" fill="currentColor"/>
+  <ellipse cx="12" cy="16.2" rx="2.7" ry="3.2" fill="currentColor"/>
+  <path d="M20.5 4.5 q1.6 1.8 .6 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</svg>`;
+const FACE_CALM = `
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+  <path d="M5.5 10 q2.2 2.6 4.4 0"/>
+  <path d="M14.1 10 q2.2 2.6 4.4 0"/>
+  <path d="M9 15.5 q3 3 6 0"/>
+</svg>`;
+
 /* ================= watch countries (alert bar) ================= */
 const COUNTRIES = {
   taiwan:    { zh: "台灣",   en: "Taiwan",
@@ -299,7 +361,7 @@ function renderAlert() {
   const bar = $("alert-bar");
   bar.hidden = false;
   bar.classList.toggle("alert-hot", matches.length > 0);
-  $("alert-ico").textContent = matches.length ? "⚠" : "✓";
+  $("alert-ico").innerHTML = matches.length ? FACE_ALERT : FACE_CALM;
   $("alert-text").textContent = matches.length
     ? L.alertHit(name, matches.length)
     : L.alertNone(name);
@@ -389,7 +451,7 @@ function renderFeed() {
     const noFilters = !state.q.trim() && !state.watchOnly && state.cat === "all" &&
       !state.tags.size && !state.account;
     const msg = MODE === "archive" && noFilters ? L.emptyArchive : L.empty;
-    $("feed").innerHTML = `<div class="empty">${escapeHtml(msg)}</div>`;
+    $("feed").innerHTML = `<div class="empty">${GHOST_SVG}<p>${escapeHtml(msg)}</p></div>`;
     return;
   }
   $("feed").innerHTML = posts.map(p => {
@@ -486,6 +548,8 @@ function tickClock() {
   $("clock").textContent = new Date().toISOString().slice(0, 19).replace("T", " ") + " UTC";
 }
 
+const heroArt = $("hero-art");
+if (heroArt) heroArt.innerHTML = MASCOT_HERO;
 renderAll();
 tickClock();
 setInterval(tickClock, 1000);
