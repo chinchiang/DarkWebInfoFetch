@@ -67,6 +67,13 @@ TAG_RULES = [
 # Keep enough history per account for the archive page (~7+ weeks of
 # posts for active accounts) without letting feed.json grow unbounded.
 MAX_PER_ACCOUNT = 60
+
+# Keyless Google Translate endpoint used to cache a zh-TW rendition of
+# each post (text_zh). Translations are incremental: only posts that
+# don't have one yet are translated, capped per run.
+TRANSLATE_URL = ("https://translate.googleapis.com/translate_a/single"
+                 "?client=gtx&sl=auto&tl=zh-TW&dt=t&q=")
+MAX_TRANSLATIONS_PER_RUN = 80
 USER_AGENT = "DarkWebInfoFetch/1.0 (threat intel aggregator; github.com/chinchiang/DarkWebInfoFetch)"
 
 
@@ -254,9 +261,44 @@ def load_existing():
     return {}
 
 
+def translate_zh(text):
+    try:
+        code, body = http_get(TRANSLATE_URL + urllib.parse.quote(text), timeout=15)
+        if code != 200:
+            return None
+        segments = json.loads(body)[0] or []
+        return "".join(seg[0] for seg in segments if seg and seg[0]) or None
+    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError,
+            IndexError, TypeError, TimeoutError, OSError):
+        return None
+
+
+def add_translations(posts):
+    done = 0
+    for post in posts:
+        if post.get("text_zh") or post.get("sample") or not post.get("text"):
+            continue
+        if done >= MAX_TRANSLATIONS_PER_RUN:
+            log(f"[translate] per-run cap reached ({MAX_TRANSLATIONS_PER_RUN})")
+            break
+        zh = translate_zh(post["text"])
+        if zh is None:
+            log("[translate] request failed, stopping translation for this run")
+            break
+        post["text_zh"] = zh
+        done += 1
+        time.sleep(0.3)
+    if done:
+        log(f"[translate] translated {done} posts to zh-TW")
+
+
 def merge(existing_posts, new_posts):
     by_id = {p["id"]: p for p in existing_posts}
     for post in new_posts:
+        old = by_id.get(post["id"])
+        # a re-fetched post replaces the stored one; keep its cached translation
+        if old and old.get("text_zh") and not post.get("text_zh"):
+            post["text_zh"] = old["text_zh"]
         by_id[post["id"]] = post
     merged = list(by_id.values())
     # Once real posts exist, drop the bundled sample placeholders.
@@ -291,6 +333,7 @@ def main():
     existing_ids = {p["id"] for p in existing.get("posts", []) if not p.get("sample")}
     fresh_count = len({p["id"] for p in new_posts} - existing_ids)
     posts = merge(existing.get("posts", []), new_posts)
+    add_translations(posts)
 
     if not new_posts:
         log("[fetch] no new posts fetched this run; keeping existing data")
