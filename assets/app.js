@@ -1,0 +1,493 @@
+"use strict";
+
+/* page mode: "recent" (index.html, last 7 days) or "archive" (archive.html) */
+const MODE = document.body.dataset.mode || "recent";
+const WEEK_MS = 7 * 86400 * 1000;
+
+/* ================= account metadata (bilingual) ================= */
+const ACCOUNT_META = {
+  DailyDarkWeb: {
+    name: "Daily Dark Web", category: "core",
+    desc: {
+      zh: "專門追蹤暗網資料外洩、勒索軟體攻擊與資料販售,更新頻繁,入門首選。",
+      en: "Tracks dark web data leaks, ransomware attacks and data sales. Frequent updates — a top starting point."
+    }
+  },
+  DarkWebInformer: {
+    name: "Dark Web Informer", category: "core",
+    desc: {
+      zh: "提供暗網與明網威脅情資:勒索軟體、資料外洩、暗網市場動態與 IOC。",
+      en: "Dark & clear web threat intel: ransomware, breaches, dark web market activity and IOCs."
+    }
+  },
+  jms_dot_py: {
+    name: "Justin Seitz", category: "strong",
+    desc: {
+      zh: "Hunchly 工具作者,定期分享 Tor 隱藏服務報告與新發現的 Onion 服務。",
+      en: "Author of Hunchly; shares Tor hidden-service reports and newly discovered onion services."
+    }
+  },
+  campuscodi: {
+    name: "Catalin Cimpanu", category: "strong",
+    desc: {
+      zh: "資深資安記者,報導暗網洩漏、勒索軟體與重大資安事件。",
+      en: "Veteran security journalist covering dark web leaks, ransomware and major incidents."
+    }
+  },
+  GossiTheDog: {
+    name: "Kevin Beaumont", category: "strong",
+    desc: {
+      zh: "威脅情資專家,常分享早期警告、勒索軟體與地下趨勢。",
+      en: "Threat intel expert; early warnings, ransomware and underground trends."
+    }
+  },
+  briankrebs: {
+    name: "Brian Krebs", category: "extra",
+    desc: {
+      zh: "知名資安調查記者,深度報導暗網犯罪與資安事件。",
+      en: "Renowned investigative journalist; deep reporting on dark web crime and security incidents."
+    }
+  },
+  vxunderground: {
+    name: "vx-underground", category: "extra",
+    desc: {
+      zh: "惡意軟體研究社群,分享惡意軟體、資料洩漏與地下論壇動態。",
+      en: "Malware research collective; malware, data leaks and underground forum activity."
+    }
+  },
+  Gi7w0rm: {
+    name: "Gi7w0rm", category: "extra",
+    desc: {
+      zh: "獨立研究員,分享惡意軟體、資料洩漏與地下論壇情資。",
+      en: "Independent researcher; malware, data leaks and underground forum findings."
+    }
+  },
+  MonThreat: {
+    name: "ThreatMon", category: "extra",
+    desc: {
+      zh: "ThreatMon 官方帳號,中東與全球威脅情資,涵蓋暗網情報追蹤。",
+      en: "ThreatMon — Middle East & global threat intelligence, including dark web tracking."
+    }
+  }
+};
+
+const CATEGORIES = {
+  core:   { color: "var(--red)",    chip: "chip-red" },
+  strong: { color: "var(--blue)",   chip: "chip-blue" },
+  extra:  { color: "var(--orange)", chip: "chip-orange" }
+};
+
+const TAGS = {
+  ransomware: { color: "var(--red)",     chip: "chip-red" },
+  breach:     { color: "var(--orange)",  chip: "chip-orange" },
+  market:     { color: "var(--purple)",  chip: "chip-purple" },
+  malware:    { color: "var(--magenta)", chip: "chip-magenta" },
+  vuln:       { color: "var(--blue)",    chip: "chip-blue" },
+  other:      { color: "var(--muted)",   chip: "chip-plain" }
+};
+
+/* ================= watch countries (alert bar) ================= */
+const COUNTRIES = {
+  taiwan:    { zh: "台灣",   en: "Taiwan",
+               rx: [/taiwan(ese)?/i, /台灣|台湾/, /\btsmc\b/i, /中華民國/, /formosa/i] },
+  japan:     { zh: "日本",   en: "Japan",
+               rx: [/japan(ese)?/i, /日本/, /tokyo/i] },
+  korea:     { zh: "韓國",   en: "Korea",
+               rx: [/korean?/i, /韓國|南韓|한국/, /seoul/i] },
+  china:     { zh: "中國",   en: "China",
+               rx: [/\bchina\b|chinese/i, /中國|中国/, /beijing|shanghai/i, /\bPRC\b/] },
+  hongkong:  { zh: "香港",   en: "Hong Kong",
+               rx: [/hong\s?kong/i, /香港/, /\bHK\b/] },
+  singapore: { zh: "新加坡", en: "Singapore",
+               rx: [/singapore(an)?/i, /新加坡/] },
+  usa:       { zh: "美國",   en: "USA",
+               rx: [/united states|u\.s\.a?|american?\b/i, /\bUSA?\b/, /美國/] },
+  uk:        { zh: "英國",   en: "UK",
+               rx: [/united kingdom|britain|british/i, /\bUK\b/, /英國/] },
+  germany:   { zh: "德國",   en: "Germany",
+               rx: [/germany?|german\b/i, /德國/] },
+  australia: { zh: "澳洲",   en: "Australia",
+               rx: [/australian?/i, /澳洲|澳大利亞/] }
+};
+
+/* ================= i18n ================= */
+const I18N = {
+  zh: {
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 15:00 更新",
+    titleHtml: '暗網<span class="hl-a">威脅情資</span>即時<span class="hl-b">監控台</span>',
+    tagline: "彙整 9 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日 05:00 與 15:00(UTC+8)自動抓取更新。",
+    updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 15:00 自動抓取",
+    postsUnit: "則情資", newPosts: "本次新增",
+    sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
+    searchPlaceholder: "搜尋全部貼文:關鍵字、帳號、CVE…",
+    catLabel: "分類", tagLabel: "主題",
+    catAll: "全部", catCore: "高度推薦", catStrong: "強力推薦", catExtra: "補充推薦",
+    tagNames: { ransomware: "勒索軟體", breach: "資料外洩", market: "暗網市場", malware: "惡意軟體", vuln: "漏洞/利用", other: "其他" },
+    accounts: "追蹤帳號",
+    feedTitle: "即時情資流・近 7 天", feedTitleArchive: "歷史情資流・7 天以前",
+    navRecent: "最新情資", navArchive: "歷史情資",
+    watchLabel: "警示國別",
+    alertHit: (name, n) => `警示:偵測到 ${n} 則與「${name}」相關的情資`,
+    alertNone: name => `目前沒有與「${name}」相關的情資`,
+    alertView: "查看相關貼文", alertClear: "清除警示篩選",
+    postsCount: n => `${n} 則`,
+    openOnX: "在 X 上查看 ↗",
+    openSource: "查看原文 ↗",
+    empty: "沒有符合條件的情資 — 請調整過濾條件。",
+    emptyArchive: "還沒有 7 天以前的歷史貼文。",
+    sources: { sample: "示範資料", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API(快取)", nitter_stale: "Nitter RSS(快取)" },
+    ago: { now: "剛剛", m: n => `${n} 分鐘前`, h: n => `${n} 小時前`, d: n => `${n} 天前` },
+    footCadence: "GitHub Actions 每日 05:00 / 15:00(UTC+8)自動抓取",
+    footSource: "資料來自各帳號公開貼文,著作權屬原作者",
+    footDisclaimer: "本站為情資彙整工具,內容由來源帳號自動抓取,不代表本站立場;引用前請自行查證原始來源。"
+  },
+  en: {
+    eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 15:00",
+    titleHtml: 'Dark Web <span class="hl-a">Threat Intel</span>, <span class="hl-b">Live Console</span>',
+    tagline: "Aggregates 9 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily at 05:00 & 15:00 (UTC+8).",
+    updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 15:00",
+    postsUnit: "posts", newPosts: "new this update",
+    sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
+    searchPlaceholder: "Search all posts: keywords, accounts, CVEs…",
+    catLabel: "Category", tagLabel: "Topic",
+    catAll: "All", catCore: "Top picks", catStrong: "Strong", catExtra: "Extra",
+    tagNames: { ransomware: "Ransomware", breach: "Data breach", market: "Dark market", malware: "Malware", vuln: "Vuln/Exploit", other: "Other" },
+    accounts: "Tracked accounts",
+    feedTitle: "Live intel feed · last 7 days", feedTitleArchive: "Archive feed · older than 7 days",
+    navRecent: "Latest", navArchive: "Archive",
+    watchLabel: "Watch country",
+    alertHit: (name, n) => `Alert: ${n} ${name}-related post${n > 1 ? "s" : ""} detected`,
+    alertNone: name => `No ${name}-related intel right now`,
+    alertView: "View matches", alertClear: "Clear filter",
+    postsCount: n => `${n} posts`,
+    openOnX: "Open on X ↗",
+    openSource: "View original ↗",
+    empty: "No intel matches the current filters — try adjusting them.",
+    emptyArchive: "No posts older than 7 days yet.",
+    sources: { sample: "Sample data", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API (cached)", nitter_stale: "Nitter RSS (cached)" },
+    ago: { now: "just now", m: n => `${n}m ago`, h: n => `${n}h ago`, d: n => `${n}d ago` },
+    footCadence: "auto-fetched by GitHub Actions daily at 05:00 & 15:00 (UTC+8)",
+    footSource: "content belongs to the original authors",
+    footDisclaimer: "This site is an aggregation tool; posts are fetched automatically from the source accounts and do not represent this site's views. Verify with the original source before citing."
+  }
+};
+
+/* ===== seed data start (replaced by data/feed.json at runtime) ===== */
+const SEED = {
+  generated_at: "2026-07-11T00:00:00Z",
+  source: "sample",
+  posts: [
+    { id: "s1", handle: "DailyDarkWeb", name: "Daily Dark Web", sample: true,
+      text: "[Sample 示範] Ransomware victim claim placeholder — live posts from @DailyDarkWeb will appear here after the first scheduled fetch.",
+      url: "https://x.com/DailyDarkWeb", created_at: "2026-07-10T22:10:00Z", tags: ["ransomware"] },
+    { id: "s2", handle: "DarkWebInformer", name: "Dark Web Informer", sample: true,
+      text: "[Sample 示範] Data breach / leak alert placeholder — IOC and dark web market updates from @DarkWebInformer will appear here.",
+      url: "https://x.com/DarkWebInformer", created_at: "2026-07-10T21:05:00Z", tags: ["breach", "market"] },
+    { id: "s3", handle: "jms_dot_py", name: "Justin Seitz", sample: true,
+      text: "[Sample 示範] Tor hidden service report placeholder — new onion service discoveries from @jms_dot_py will appear here.",
+      url: "https://x.com/jms_dot_py", created_at: "2026-07-10T19:40:00Z", tags: ["other"] },
+    { id: "s4", handle: "campuscodi", name: "Catalin Cimpanu", sample: true,
+      text: "[Sample 示範] Security journalism placeholder — dark web leak and ransomware reporting from @campuscodi will appear here.",
+      url: "https://x.com/campuscodi", created_at: "2026-07-10T18:20:00Z", tags: ["breach"] },
+    { id: "s5", handle: "GossiTheDog", name: "Kevin Beaumont", sample: true,
+      text: "[Sample 示範] Early warning placeholder — vulnerability and exploitation alerts from @GossiTheDog will appear here. CVE-0000-00000",
+      url: "https://x.com/GossiTheDog", created_at: "2026-07-10T16:55:00Z", tags: ["vuln"] },
+    { id: "s6", handle: "briankrebs", name: "Brian Krebs", sample: true,
+      text: "[Sample 示範] Investigative reporting placeholder — dark web crime coverage from @briankrebs will appear here.",
+      url: "https://x.com/briankrebs", created_at: "2026-07-10T15:30:00Z", tags: ["market"] },
+    { id: "s7", handle: "vxunderground", name: "vx-underground", sample: true,
+      text: "[Sample 示範] Malware research placeholder — sample analysis and underground forum notes from @vxunderground will appear here.",
+      url: "https://x.com/vxunderground", created_at: "2026-07-10T14:00:00Z", tags: ["malware"] },
+    { id: "s8", handle: "Gi7w0rm", name: "Gi7w0rm", sample: true,
+      text: "[Sample 示範] Researcher notes placeholder — malware and data leak findings from @Gi7w0rm will appear here.",
+      url: "https://x.com/Gi7w0rm", created_at: "2026-07-10T12:45:00Z", tags: ["malware", "breach"] },
+    { id: "s9", handle: "MonThreat", name: "ThreatMon", sample: true,
+      text: "[Sample 示範] Threat intel placeholder — Middle East & global dark web tracking from @MonThreat will appear here.",
+      url: "https://x.com/MonThreat", created_at: "2026-07-10T11:15:00Z", tags: ["other"] }
+  ]
+};
+/* ===== seed data end ===== */
+
+/* ================= state ================= */
+function readPref(key) {
+  try { return localStorage.getItem(key); } catch (e) { return null; }
+}
+function savePref(key, val) {
+  try { localStorage.setItem(key, val); } catch (e) {}
+}
+const state = {
+  lang: readPref("dw-lang") || "zh",
+  watch: COUNTRIES[readPref("dw-watch")] ? readPref("dw-watch") : "taiwan",
+  watchOnly: false,
+  q: "",
+  cat: "all",
+  tags: new Set(),
+  account: null,
+  data: SEED
+};
+const $ = id => document.getElementById(id);
+const t = () => I18N[state.lang];
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function linkify(escaped) {
+  return escaped.replace(/https?:\/\/[^\s<]+/g, u => `<a href="${u}" target="_blank" rel="noopener noreferrer">${u}</a>`);
+}
+function timeAgo(isoStr) {
+  const then = Date.parse(isoStr);
+  if (isNaN(then)) return isoStr || "";
+  const s = Math.max(0, (Date.now() - then) / 1000);
+  const ago = t().ago;
+  if (s < 60) return ago.now;
+  if (s < 3600) return ago.m(Math.floor(s / 60));
+  if (s < 86400) return ago.h(Math.floor(s / 3600));
+  return ago.d(Math.floor(s / 86400));
+}
+function fmtUtc(isoStr) {
+  const d = new Date(isoStr);
+  if (isNaN(d)) return "—";
+  return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
+}
+
+/* ================= filtering ================= */
+function isRecent(p) {
+  const ts = Date.parse(p.created_at);
+  return isNaN(ts) ? true : (Date.now() - ts) <= WEEK_MS;
+}
+function matchCountry(p) {
+  const c = COUNTRIES[state.watch];
+  return c ? c.rx.some(r => r.test(p.text || "")) : false;
+}
+function visiblePosts() {
+  const q = state.q.trim().toLowerCase();
+  return (state.data.posts || []).filter(p => {
+    const meta = ACCOUNT_META[p.handle];
+    if (state.cat !== "all" && (!meta || meta.category !== state.cat)) return false;
+    if (state.account && p.handle !== state.account) return false;
+    if (state.tags.size && !(p.tags || []).some(tag => state.tags.has(tag))) return false;
+    if (q && !(p.text + " " + p.handle + " " + (p.name || "")).toLowerCase().includes(q)) return false;
+    if (state.watchOnly && !matchCountry(p)) return false;
+    // The 7-day window only applies when browsing: searching and the
+    // alert view always cover ALL posts.
+    if (!q && !state.watchOnly) {
+      if (MODE === "archive" ? isRecent(p) : !isRecent(p)) return false;
+    }
+    return true;
+  });
+}
+
+/* ================= rendering ================= */
+function renderStatic() {
+  const L = t();
+  document.documentElement.lang = state.lang === "zh" ? "zh-Hant" : "en";
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const val = L[el.dataset.i18n];
+    if (typeof val === "string") el.textContent = val;
+  });
+  $("hero-title").innerHTML = L.titleHtml;
+  $("search").placeholder = L.searchPlaceholder;
+  $("lang-zh").setAttribute("aria-pressed", String(state.lang === "zh"));
+  $("lang-en").setAttribute("aria-pressed", String(state.lang === "en"));
+}
+
+function renderAlert() {
+  const L = t();
+  const country = COUNTRIES[state.watch];
+  const name = country[state.lang];
+  const matches = (state.data.posts || []).filter(matchCountry);
+  const bar = $("alert-bar");
+  bar.hidden = false;
+  bar.classList.toggle("alert-hot", matches.length > 0);
+  $("alert-ico").textContent = matches.length ? "⚠" : "✓";
+  $("alert-text").textContent = matches.length
+    ? L.alertHit(name, matches.length)
+    : L.alertNone(name);
+  const btn = $("alert-view");
+  btn.hidden = !matches.length && !state.watchOnly;
+  btn.textContent = state.watchOnly ? L.alertClear : L.alertView;
+  btn.setAttribute("aria-pressed", String(state.watchOnly));
+  const sel = $("watch-country");
+  sel.innerHTML = Object.entries(COUNTRIES).map(([key, c]) =>
+    `<option value="${key}"${key === state.watch ? " selected" : ""}>${escapeHtml(c[state.lang])}</option>`
+  ).join("");
+}
+
+function renderNav() {
+  const L = t();
+  const posts = state.data.posts || [];
+  const recent = posts.filter(isRecent).length;
+  $("tab-recent").textContent = `${L.navRecent} · ${recent}`;
+  $("tab-archive").textContent = `${L.navArchive} · ${posts.length - recent}`;
+  $("tab-recent").classList.toggle("active", MODE !== "archive");
+  $("tab-archive").classList.toggle("active", MODE === "archive");
+  if (MODE === "archive") $("tab-archive").setAttribute("aria-current", "page");
+  else $("tab-recent").setAttribute("aria-current", "page");
+}
+
+function chipHtml(id, cls, label, count, pressed) {
+  return `<button class="chip ${cls}" data-chip="${id}" aria-pressed="${pressed}">` +
+    `${escapeHtml(label)}${count != null ? ` <span class="n">${count}</span>` : ""}</button>`;
+}
+
+function renderChips() {
+  const L = t();
+  const posts = state.data.posts || [];
+
+  const catCounts = { core: 0, strong: 0, extra: 0 };
+  posts.forEach(p => {
+    const m = ACCOUNT_META[p.handle];
+    if (m) catCounts[m.category]++;
+  });
+  const catNames = { all: L.catAll, core: L.catCore, strong: L.catStrong, extra: L.catExtra };
+  let html = `<span class="chip-label">${escapeHtml(L.catLabel)}</span>`;
+  html += chipHtml("cat:all", "chip-plain", catNames.all, posts.length, state.cat === "all");
+  for (const c of ["core", "strong", "extra"]) {
+    html += chipHtml("cat:" + c, CATEGORIES[c].chip, catNames[c], catCounts[c], state.cat === c);
+  }
+  $("cat-chips").innerHTML = html;
+
+  const tagCounts = {};
+  posts.forEach(p => (p.tags || []).forEach(tag => { tagCounts[tag] = (tagCounts[tag] || 0) + 1; }));
+  let thtml = `<span class="chip-label">${escapeHtml(L.tagLabel)}</span>`;
+  for (const tag of Object.keys(TAGS)) {
+    if (!tagCounts[tag]) continue;
+    thtml += chipHtml("tag:" + tag, TAGS[tag].chip, L.tagNames[tag] || tag, tagCounts[tag], state.tags.has(tag));
+  }
+  $("tag-chips").innerHTML = thtml;
+}
+
+function renderAccounts() {
+  const posts = state.data.posts || [];
+  const counts = {};
+  posts.forEach(p => { counts[p.handle] = (counts[p.handle] || 0) + 1; });
+  const L = t();
+  const catNames = { core: L.catCore, strong: L.catStrong, extra: L.catExtra };
+  let html = "";
+  for (const [handle, meta] of Object.entries(ACCOUNT_META)) {
+    const color = CATEGORIES[meta.category].color;
+    html += `<button class="account" data-account="${handle}" style="--acc:${color}"` +
+      ` aria-pressed="${state.account === handle}">` +
+      `<span class="acc-head">` +
+        `<span class="ava" aria-hidden="true">${escapeHtml(handle[0].toUpperCase())}</span>` +
+        `<span class="handle">@${handle}</span>` +
+        `<span class="cat">${escapeHtml(catNames[meta.category])}</span>` +
+      `</span>` +
+      `<div class="desc">${escapeHtml(meta.desc[state.lang])}</div>` +
+      `<div class="count">${escapeHtml(L.postsCount(counts[handle] || 0))}</div>` +
+      `</button>`;
+  }
+  $("account-list").innerHTML = html;
+}
+
+function renderFeed() {
+  const L = t();
+  const posts = visiblePosts();
+  const title = MODE === "archive" ? L.feedTitleArchive : L.feedTitle;
+  $("feed-title").textContent = `${title} — ${L.postsCount(posts.length)}`;
+  if (!posts.length) {
+    const noFilters = !state.q.trim() && !state.watchOnly && state.cat === "all" &&
+      !state.tags.size && !state.account;
+    const msg = MODE === "archive" && noFilters ? L.emptyArchive : L.empty;
+    $("feed").innerHTML = `<div class="empty">${escapeHtml(msg)}</div>`;
+    return;
+  }
+  $("feed").innerHTML = posts.map(p => {
+    const meta = ACCOUNT_META[p.handle];
+    const accColor = meta ? CATEGORIES[meta.category].color : "var(--muted)";
+    const mainTag = (p.tags || ["other"])[0];
+    const tagColor = (TAGS[mainTag] || TAGS.other).color;
+    const tags = (p.tags || []).map(tag =>
+      `<span class="tag" style="--tc:${(TAGS[tag] || TAGS.other).color}">${escapeHtml(t().tagNames[tag] || tag)}</span>`
+    ).join("");
+    const openLabel = (p.url || "").includes("x.com/") ? L.openOnX : L.openSource;
+    return `<article class="card" style="--tagc:${tagColor};--acc:${accColor}">` +
+      `<div class="card-head">` +
+        `<a class="handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener noreferrer">@${p.handle}</a>` +
+        `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` +
+        `<time datetime="${escapeHtml(p.created_at || "")}" title="${escapeHtml(fmtUtc(p.created_at))}">${escapeHtml(timeAgo(p.created_at))}</time>` +
+      `</div>` +
+      `<p class="card-text">${linkify(escapeHtml(p.text || ""))}</p>` +
+      `<div class="card-foot">${tags}` +
+        `<a class="open-link" href="${escapeHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(openLabel)}</a>` +
+      `</div></article>`;
+  }).join("");
+}
+
+function renderMeta() {
+  const L = t();
+  const d = state.data;
+  $("updated-at").textContent = fmtUtc(d.generated_at);
+  $("source").textContent = L.sources[d.source] || d.source || "—";
+  $("post-count").textContent = (d.posts || []).length;
+  const hasNew = typeof d.new_count === "number";
+  $("new-count-pill").hidden = !hasNew;
+  if (hasNew) $("new-count").textContent = d.new_count;
+  $("sample-banner").hidden = d.source !== "sample";
+}
+
+function renderAll() {
+  renderStatic();
+  renderMeta();
+  renderAlert();
+  renderNav();
+  renderChips();
+  renderAccounts();
+  renderFeed();
+}
+
+/* ================= events ================= */
+document.addEventListener("click", ev => {
+  const chip = ev.target.closest("[data-chip]");
+  if (chip) {
+    const [kind, value] = chip.dataset.chip.split(":");
+    if (kind === "cat") state.cat = value;
+    else if (kind === "tag") state.tags.has(value) ? state.tags.delete(value) : state.tags.add(value);
+    renderChips(); renderFeed();
+    return;
+  }
+  const acc = ev.target.closest("[data-account]");
+  if (acc) {
+    state.account = state.account === acc.dataset.account ? null : acc.dataset.account;
+    renderAccounts(); renderFeed();
+  }
+});
+$("search").addEventListener("input", ev => { state.q = ev.target.value; renderFeed(); });
+$("lang-zh").addEventListener("click", () => setLang("zh"));
+$("lang-en").addEventListener("click", () => setLang("en"));
+$("alert-view").addEventListener("click", () => {
+  state.watchOnly = !state.watchOnly;
+  renderAlert(); renderFeed();
+});
+$("watch-country").addEventListener("change", ev => {
+  state.watch = ev.target.value;
+  savePref("dw-watch", state.watch);
+  renderAlert(); renderFeed();
+});
+function setLang(lang) {
+  state.lang = lang;
+  savePref("dw-lang", lang);
+  renderAll();
+}
+
+/* ================= live data + clock ================= */
+async function loadLive() {
+  try {
+    const resp = await fetch("data/feed.json", { cache: "no-store" });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (data && Array.isArray(data.posts) && data.posts.length) {
+      state.data = data;
+      renderAll();
+    }
+  } catch (err) { /* offline / preview mode — keep seed data */ }
+}
+function tickClock() {
+  $("clock").textContent = new Date().toISOString().slice(0, 19).replace("T", " ") + " UTC";
+}
+
+renderAll();
+tickClock();
+setInterval(tickClock, 1000);
+loadLive();
+setInterval(loadLive, 10 * 60 * 1000);

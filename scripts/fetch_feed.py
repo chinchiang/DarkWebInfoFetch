@@ -64,7 +64,9 @@ TAG_RULES = [
     ("vuln", re.compile(r"\bcve-\d|vulnerab|exploit|0.?day|zero.?day|\bpoc\b|patch(es|ed)?\b", re.I)),
 ]
 
-MAX_PER_ACCOUNT = 30
+# Keep enough history per account for the archive page (~7+ weeks of
+# posts for active accounts) without letting feed.json grow unbounded.
+MAX_PER_ACCOUNT = 60
 USER_AGENT = "DarkWebInfoFetch/1.0 (threat intel aggregator; github.com/chinchiang/DarkWebInfoFetch)"
 
 
