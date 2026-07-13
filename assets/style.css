@@ -59,11 +59,18 @@ button{font:inherit;cursor:pointer}
 @keyframes blink{50%{opacity:0}}
 .topbar-right{display:flex;align-items:center;gap:.9rem;min-width:0}
 .clock{font-family:var(--mono);font-size:.76rem;color:var(--muted);letter-spacing:.05em;white-space:nowrap}
-.lang-switch{display:flex;border:1px solid var(--line2);border-radius:999px;overflow:hidden;background:var(--surface)}
+.lang-switch{
+  display:flex;align-items:center;border:1px solid var(--line2);border-radius:999px;
+  overflow:hidden;background:var(--surface);box-shadow:var(--shadow-sm);
+}
+.lang-ico{display:grid;place-items:center;padding:0 .1rem 0 .6rem;color:var(--mint)}
+.lang-ico svg{width:16px;height:16px}
 .lang-switch button{
   background:transparent;border:0;color:var(--muted);
-  font-family:var(--mono);font-size:.76rem;padding:.32rem .85rem;letter-spacing:.08em;
+  font-family:var(--mono);font-size:.84rem;padding:.42rem 1rem;letter-spacing:.06em;
+  transition:color .15s,background .15s;
 }
+.lang-switch button:hover{color:var(--ink)}
 .lang-switch button[aria-pressed="true"]{background:var(--purple);color:var(--deep);font-weight:600}
 
 /* ---------- hero ---------- */

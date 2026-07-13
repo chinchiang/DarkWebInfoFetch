@@ -175,6 +175,8 @@ const COUNTRIES = {
 /* ================= i18n ================= */
 const I18N = {
   zh: {
+    docTitle: "DARKWATCH — 暗網威脅情資監控台",
+    docTitleArchive: "DARKWATCH — 歷史情資",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 15:00 更新",
     titleHtml: '暗網<span class="hl-a">威脅情資</span>即時<span class="hl-b">監控台</span>',
     tagline: "彙整 9 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日 05:00 與 15:00(UTC+8)自動抓取更新。",
@@ -207,6 +209,8 @@ const I18N = {
     footDisclaimer: "本站為情資彙整工具,內容由來源帳號自動抓取,不代表本站立場;引用前請自行查證原始來源。"
   },
   en: {
+    docTitle: "DARKWATCH — Dark Web Threat Intel Console",
+    docTitleArchive: "DARKWATCH — Threat Intel Archive",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 15:00",
     titleHtml: 'Dark Web <span class="hl-a">Threat Intel</span>, <span class="hl-b">Live Console</span>',
     tagline: "Aggregates 9 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily at 05:00 & 15:00 (UTC+8).",
@@ -283,8 +287,11 @@ function readPref(key) {
 function savePref(key, val) {
   try { localStorage.setItem(key, val); } catch (e) {}
 }
+/* first visit: default to the browser language; afterwards the saved choice wins */
+const browserLang = ((navigator.language || navigator.userLanguage || "zh")
+  .toLowerCase().startsWith("zh")) ? "zh" : "en";
 const state = {
-  lang: readPref("dw-lang") || "zh",
+  lang: readPref("dw-lang") || browserLang,
   watch: COUNTRIES[readPref("dw-watch")] ? readPref("dw-watch") : "taiwan",
   watchOnly: false,
   showOrig: new Set(),  /* post ids temporarily showing the original text */
@@ -350,6 +357,7 @@ function visiblePosts() {
 function renderStatic() {
   const L = t();
   document.documentElement.lang = state.lang === "zh" ? "zh-Hant" : "en";
+  document.title = MODE === "archive" ? L.docTitleArchive : L.docTitle;
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const val = L[el.dataset.i18n];
     if (typeof val === "string") el.textContent = val;
