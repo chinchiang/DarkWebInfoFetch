@@ -27,17 +27,23 @@ presents them on an interactive bilingual (繁中/EN) website.
                               預留 GitHub 排程延遲,約 05:00 / 15:00 前完成更新)
 scripts/fetch_feed.py         抓取貼文 → data/feed.json(X API v2 或 Nitter RSS)
 data/feed.json                情資資料(自動 commit 更新)
-index.html                    互動網站(單一檔案,讀取 data/feed.json)
+index.html                    主頁:最近 7 天的新貼文 + 國別警示列
+archive.html                  歷史頁:7 天以前的貼文
+assets/style.css, app.js      兩頁共用的樣式與程式
 ```
 
 - **抓取來源 / Data source**:設定了 `X_BEARER_TOKEN` secret 時使用官方
   X API v2(需 Basic 方案以上);否則退回公開 Nitter RSS 鏡像。
   @GossiTheDog 與 @campuscodi 在 Nitter 全數失敗時,改抓其 Mastodon
   公開 RSS(兩位作者會同步發文)。全部失敗時保留既有資料。
-- **資料合併 / Merge**:新舊貼文依 ID 去重,每帳號保留最近 30 則;
+- **資料合併 / Merge**:新舊貼文依 ID 去重,每帳號保留最近 60 則;
   首次成功抓取後會自動移除示範資料。
-- **網站 / Site**:`index.html` 為單一自足檔案 —— 中/英切換、分類/主題/
-  帳號過濾、關鍵字搜尋、每 10 分鐘自動重新載入資料。
+- **網站 / Site**:中/英切換、分類/主題/帳號過濾、每 10 分鐘自動重新載入。
+  主頁(`index.html`)顯示最近 7 天的新貼文,較舊貼文移至歷史頁
+  (`archive.html`);**關鍵字搜尋永遠涵蓋全部貼文**(不受 7 天限制)。
+- **國別警示 / Country alert**:警示列會掃描所有貼文,發現與警示國別
+  (預設台灣,可下拉選擇並記住偏好)相關的內容時高亮示警,可一鍵
+  查看相關貼文。
 
 ## 設定 / Setup
 
