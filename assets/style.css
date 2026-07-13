@@ -286,6 +286,15 @@ button{font:inherit;cursor:pointer}
   color:var(--deep);background:var(--red);border-color:var(--red);font-weight:600;
 }
 .card-watch{border-color:color-mix(in srgb,var(--red) 55%,var(--surface))}
+.mt-toggle{
+  font-family:var(--mono);font-size:.65rem;letter-spacing:.06em;
+  color:var(--mint);background:transparent;
+  border:1px solid color-mix(in srgb,var(--mint) 45%,var(--surface));border-radius:999px;
+  padding:.12rem .55rem;transition:background .15s,color .15s;
+}
+.mt-toggle:hover{background:color-mix(in srgb,var(--mint) 14%,var(--surface))}
+.mt-toggle[aria-pressed="true"]{background:var(--mint);color:var(--deep);font-weight:600}
+.mt-note{font-family:var(--mono);font-size:.64rem;color:var(--muted);opacity:.8}
 .open-link{
   margin-left:auto;font-family:var(--mono);font-size:.71rem;letter-spacing:.06em;
   color:var(--purple);text-decoration:none;font-weight:500;

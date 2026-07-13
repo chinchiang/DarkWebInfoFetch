@@ -195,7 +195,9 @@ const I18N = {
     watchTag: name => `${name}相關`,
     postsCount: n => `${n} 則`,
     openOnX: "在 X 上查看 ↗",
-    openSource: "查看原文 ↗",
+    openSource: "查看來源 ↗",
+    mtNote: "機器翻譯",
+    showOrig: "看原文", showTrans: "看譯文",
     empty: "沒有符合條件的情資 — 請調整過濾條件。",
     emptyArchive: "還沒有 7 天以前的歷史貼文。",
     sources: { sample: "示範資料", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API(快取)", nitter_stale: "Nitter RSS(快取)" },
@@ -225,7 +227,9 @@ const I18N = {
     watchTag: name => `${name}-related`,
     postsCount: n => `${n} posts`,
     openOnX: "Open on X ↗",
-    openSource: "View original ↗",
+    openSource: "View source ↗",
+    mtNote: "machine translated",
+    showOrig: "Original", showTrans: "Translation",
     empty: "No intel matches the current filters — try adjusting them.",
     emptyArchive: "No posts older than 7 days yet.",
     sources: { sample: "Sample data", x_api: "X API v2", nitter: "Nitter RSS", x_api_stale: "X API (cached)", nitter_stale: "Nitter RSS (cached)" },
@@ -283,6 +287,7 @@ const state = {
   lang: readPref("dw-lang") || "zh",
   watch: COUNTRIES[readPref("dw-watch")] ? readPref("dw-watch") : "taiwan",
   watchOnly: false,
+  showOrig: new Set(),  /* post ids temporarily showing the original text */
   q: "",
   cat: "all",
   tags: new Set(),
@@ -474,14 +479,25 @@ function renderFeed() {
       tags = `<span class="tag tag-watch">⚑ ${escapeHtml(L.watchTag(COUNTRIES[state.watch][state.lang]))}</span>` + tags;
     }
     const openLabel = (p.url || "").includes("x.com/") ? L.openOnX : L.openSource;
+    /* zh mode shows the cached translation when available, with a
+       per-card toggle back to the original text */
+    const hasZh = state.lang === "zh" && p.text_zh;
+    const showingOrig = state.showOrig.has(p.id);
+    const bodyText = hasZh && !showingOrig ? p.text_zh : (p.text || "");
+    let transUi = "";
+    if (hasZh) {
+      transUi = `<button class="mt-toggle" data-orig="${escapeHtml(p.id)}" aria-pressed="${showingOrig}">` +
+        `${escapeHtml(showingOrig ? L.showTrans : L.showOrig)}</button>` +
+        (showingOrig ? "" : `<span class="mt-note">${escapeHtml(L.mtNote)}</span>`);
+    }
     return `<article class="card${watched ? " card-watch" : ""}" style="--tagc:${tagColor};--acc:${accColor}">` +
       `<div class="card-head">` +
         `<a class="handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener noreferrer">@${p.handle}</a>` +
         `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` +
         `<time datetime="${escapeHtml(p.created_at || "")}" title="${escapeHtml(fmtUtc(p.created_at))}">${escapeHtml(timeAgo(p.created_at))}</time>` +
       `</div>` +
-      `<p class="card-text">${linkify(escapeHtml(p.text || ""))}</p>` +
-      `<div class="card-foot">${tags}` +
+      `<p class="card-text">${linkify(escapeHtml(bodyText))}</p>` +
+      `<div class="card-foot">${tags}${transUi}` +
         `<a class="open-link" href="${escapeHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(openLabel)}</a>` +
       `</div></article>`;
   }).join("");
@@ -511,6 +527,13 @@ function renderAll() {
 
 /* ================= events ================= */
 document.addEventListener("click", ev => {
+  const orig = ev.target.closest("[data-orig]");
+  if (orig) {
+    const id = orig.dataset.orig;
+    state.showOrig.has(id) ? state.showOrig.delete(id) : state.showOrig.add(id);
+    renderFeed();
+    return;
+  }
   const chip = ev.target.closest("[data-chip]");
   if (chip) {
     const [kind, value] = chip.dataset.chip.split(":");
