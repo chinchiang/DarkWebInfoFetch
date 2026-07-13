@@ -70,10 +70,11 @@ MAX_PER_ACCOUNT = 60
 
 # Keyless Google Translate endpoint used to cache a zh-TW rendition of
 # each post (text_zh). Translations are incremental: only posts that
-# don't have one yet are translated, capped per run.
-TRANSLATE_URL = ("https://translate.googleapis.com/translate_a/single"
-                 "?client=gtx&sl=auto&tl=zh-TW&dt=t&q=")
+# don't have one yet are translated, capped per run. POSTed because
+# long posts overflow a GET query string.
+TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
 MAX_TRANSLATIONS_PER_RUN = 80
+MAX_CONSECUTIVE_TRANSLATE_FAILURES = 3
 USER_AGENT = "DarkWebInfoFetch/1.0 (threat intel aggregator; github.com/chinchiang/DarkWebInfoFetch)"
 
 
@@ -263,10 +264,17 @@ def load_existing():
 
 def translate_zh(text):
     try:
-        code, body = http_get(TRANSLATE_URL + urllib.parse.quote(text), timeout=15)
-        if code != 200:
-            return None
-        segments = json.loads(body)[0] or []
+        payload = urllib.parse.urlencode({
+            "client": "gtx", "sl": "auto", "tl": "zh-TW", "dt": "t", "q": text,
+        }).encode()
+        req = urllib.request.Request(TRANSLATE_URL, data=payload, headers={
+            "User-Agent": USER_AGENT,
+            "Content-Type": "application/x-www-form-urlencoded",
+        })
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            if resp.status != 200:
+                return None
+            segments = json.loads(resp.read())[0] or []
         return "".join(seg[0] for seg in segments if seg and seg[0]) or None
     except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError,
             IndexError, TypeError, TimeoutError, OSError):
@@ -274,7 +282,7 @@ def translate_zh(text):
 
 
 def add_translations(posts):
-    done = 0
+    done, consecutive_failures = 0, 0
     for post in posts:
         if post.get("text_zh") or post.get("sample") or not post.get("text"):
             continue
@@ -283,8 +291,12 @@ def add_translations(posts):
             break
         zh = translate_zh(post["text"])
         if zh is None:
-            log("[translate] request failed, stopping translation for this run")
-            break
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_TRANSLATE_FAILURES:
+                log("[translate] too many consecutive failures, stopping for this run")
+                break
+            continue  # skip this post, try the next one
+        consecutive_failures = 0
         post["text_zh"] = zh
         done += 1
         time.sleep(0.3)
