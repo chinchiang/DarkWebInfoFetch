@@ -189,9 +189,10 @@ const I18N = {
     feedTitle: "即時情資流・近 7 天", feedTitleArchive: "歷史情資流・7 天以前",
     navRecent: "最新情資", navArchive: "歷史情資",
     watchLabel: "警示國別",
-    alertHit: (name, n) => `警示:偵測到 ${n} 則與「${name}」相關的情資`,
+    alertHit: (name, n) => `警示:偵測到 ${n} 則與「${name}」相關的情資 — 點擊只看相關貼文`,
     alertNone: name => `目前沒有與「${name}」相關的情資`,
-    alertView: "查看相關貼文", alertClear: "清除警示篩選",
+    alertView: "只看相關貼文", alertClear: "✕ 清除篩選,顯示全部",
+    watchTag: name => `${name}相關`,
     postsCount: n => `${n} 則`,
     openOnX: "在 X 上查看 ↗",
     openSource: "查看原文 ↗",
@@ -218,9 +219,10 @@ const I18N = {
     feedTitle: "Live intel feed · last 7 days", feedTitleArchive: "Archive feed · older than 7 days",
     navRecent: "Latest", navArchive: "Archive",
     watchLabel: "Watch country",
-    alertHit: (name, n) => `Alert: ${n} ${name}-related post${n > 1 ? "s" : ""} detected`,
+    alertHit: (name, n) => `Alert: ${n} ${name}-related post${n > 1 ? "s" : ""} detected — click to view only those`,
     alertNone: name => `No ${name}-related intel right now`,
-    alertView: "View matches", alertClear: "Clear filter",
+    alertView: "Only matches", alertClear: "✕ Clear filter, show all",
+    watchTag: name => `${name}-related`,
     postsCount: n => `${n} posts`,
     openOnX: "Open on X ↗",
     openSource: "View original ↗",
@@ -361,6 +363,11 @@ function renderAlert() {
   const bar = $("alert-bar");
   bar.hidden = false;
   bar.classList.toggle("alert-hot", matches.length > 0);
+  const clickable = matches.length > 0 || state.watchOnly;
+  bar.classList.toggle("alert-clickable", clickable);
+  bar.setAttribute("role", clickable ? "button" : "status");
+  if (clickable) bar.setAttribute("tabindex", "0");
+  else bar.removeAttribute("tabindex");
   $("alert-ico").innerHTML = matches.length ? FACE_ALERT : FACE_CALM;
   $("alert-text").textContent = matches.length
     ? L.alertHit(name, matches.length)
@@ -459,11 +466,15 @@ function renderFeed() {
     const accColor = meta ? CATEGORIES[meta.category].color : "var(--muted)";
     const mainTag = (p.tags || ["other"])[0];
     const tagColor = (TAGS[mainTag] || TAGS.other).color;
-    const tags = (p.tags || []).map(tag =>
+    let tags = (p.tags || []).map(tag =>
       `<span class="tag" style="--tc:${(TAGS[tag] || TAGS.other).color}">${escapeHtml(t().tagNames[tag] || tag)}</span>`
     ).join("");
+    const watched = matchCountry(p);
+    if (watched) {
+      tags = `<span class="tag tag-watch">⚑ ${escapeHtml(L.watchTag(COUNTRIES[state.watch][state.lang]))}</span>` + tags;
+    }
     const openLabel = (p.url || "").includes("x.com/") ? L.openOnX : L.openSource;
-    return `<article class="card" style="--tagc:${tagColor};--acc:${accColor}">` +
+    return `<article class="card${watched ? " card-watch" : ""}" style="--tagc:${tagColor};--acc:${accColor}">` +
       `<div class="card-head">` +
         `<a class="handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener noreferrer">@${p.handle}</a>` +
         `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` +
@@ -517,9 +528,23 @@ document.addEventListener("click", ev => {
 $("search").addEventListener("input", ev => { state.q = ev.target.value; renderFeed(); });
 $("lang-zh").addEventListener("click", () => setLang("zh"));
 $("lang-en").addEventListener("click", () => setLang("en"));
-$("alert-view").addEventListener("click", () => {
+function toggleWatchOnly() {
+  const hasMatches = (state.data.posts || []).some(matchCountry);
+  if (!hasMatches && !state.watchOnly) return;
   state.watchOnly = !state.watchOnly;
   renderAlert(); renderFeed();
+  if (state.watchOnly) $("feed-title").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+/* the whole alert bar toggles the filter (except the country selector) */
+$("alert-bar").addEventListener("click", ev => {
+  if (ev.target.closest(".watch-wrap")) return;
+  toggleWatchOnly();
+});
+$("alert-bar").addEventListener("keydown", ev => {
+  if ((ev.key === "Enter" || ev.key === " ") && !ev.target.closest(".watch-wrap")) {
+    ev.preventDefault();
+    toggleWatchOnly();
+  }
 });
 $("watch-country").addEventListener("change", ev => {
   state.watch = ev.target.value;
