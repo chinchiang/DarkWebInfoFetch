@@ -83,8 +83,26 @@ const TAGS = {
   market:     { color: "var(--purple)",  chip: "chip-purple" },
   malware:    { color: "var(--magenta)", chip: "chip-magenta" },
   vuln:       { color: "var(--blue)",    chip: "chip-blue" },
+  darkweb:    { color: "var(--mint)",    chip: "chip-mint" },
   other:      { color: "var(--muted)",   chip: "chip-plain" }
 };
+
+/* security-signal scoring, mirrors scripts/fetch_feed.py; the fetcher
+   stores `score` in feed.json — this is the client-side fallback */
+const SIGNAL_RULES = [
+  [3, /\bcve-\d{4}-\d+|\biocs?\b|ransom|data (leak|breach)|victim|\.onion\b|zero.?day|\b0.?day\b/i],
+  [2, /exploit|malware|stealer|botnet|breach|leak(ed|s|age)?\b|dark ?web|darknet|threat actor|credential|infostealer/i],
+  [1, /vulnerab|phishing|hack(ed|er|ing)|securit|infosec|\bapt\b|threat intel|patch(es|ed)?\b|backdoor|\btor\b|osint|\bddos\b|c2\b/i]
+];
+function postScore(p) {
+  if (typeof p.score === "number") return p.score;
+  if (p._score == null) {
+    p._score = SIGNAL_RULES.reduce((s, r) => s + (r[1].test(p.text || "") ? r[0] : 0), 0);
+  }
+  return p._score;
+}
+const isPriority = p => postScore(p) >= 3;
+const isNoise = p => postScore(p) === 0;
 
 /* ================= comic mascots (inline SVG, macaron palette) ================= */
 /* chibi hooded hacker with laptop — the site mascot */
@@ -186,7 +204,10 @@ const I18N = {
     searchPlaceholder: "搜尋全部貼文:關鍵字、帳號、CVE…",
     catLabel: "分類", tagLabel: "主題",
     catAll: "全部", catCore: "高度推薦", catStrong: "強力推薦", catExtra: "補充推薦",
-    tagNames: { ransomware: "勒索軟體", breach: "資料外洩", market: "暗網市場", malware: "惡意軟體", vuln: "漏洞/利用", other: "其他" },
+    tagNames: { ransomware: "勒索軟體", breach: "資料外洩", market: "暗網市場", malware: "惡意軟體", vuln: "漏洞/利用", darkweb: "Onion/Tor", other: "其他" },
+    sortLabel: "排序", sortPriority: "⚡ 優先", sortLatest: "最新",
+    priorityBadge: "⚡ 高優先",
+    noiseChip: "一般貼文(非資安)",
     accounts: "追蹤帳號",
     feedTitle: "即時情資流・近 7 天", feedTitleArchive: "歷史情資流・7 天以前",
     navRecent: "最新情資", navArchive: "歷史情資",
@@ -220,7 +241,10 @@ const I18N = {
     searchPlaceholder: "Search all posts: keywords, accounts, CVEs…",
     catLabel: "Category", tagLabel: "Topic",
     catAll: "All", catCore: "Top picks", catStrong: "Strong", catExtra: "Extra",
-    tagNames: { ransomware: "Ransomware", breach: "Data breach", market: "Dark market", malware: "Malware", vuln: "Vuln/Exploit", other: "Other" },
+    tagNames: { ransomware: "Ransomware", breach: "Data breach", market: "Dark market", malware: "Malware", vuln: "Vuln/Exploit", darkweb: "Onion/Tor", other: "Other" },
+    sortLabel: "Sort", sortPriority: "⚡ Priority", sortLatest: "Latest",
+    priorityBadge: "⚡ PRIORITY",
+    noiseChip: "Non-security posts",
     accounts: "Tracked accounts",
     feedTitle: "Live intel feed · last 7 days", feedTitleArchive: "Archive feed · older than 7 days",
     navRecent: "Latest", navArchive: "Archive",
@@ -294,6 +318,8 @@ const state = {
   lang: readPref("dw-lang") || browserLang,
   watch: COUNTRIES[readPref("dw-watch")] ? readPref("dw-watch") : "taiwan",
   watchOnly: false,
+  sort: readPref("dw-sort") === "latest" ? "latest" : "priority",
+  showNoise: false,     /* score-0 posts (coffee, music…) hidden by default */
   showOrig: new Set(),  /* post ids temporarily showing the original text */
   q: "",
   cat: "all",
@@ -344,6 +370,8 @@ function visiblePosts() {
     if (state.tags.size && !(p.tags || []).some(tag => state.tags.has(tag))) return false;
     if (q && !(p.text + " " + p.handle + " " + (p.name || "")).toLowerCase().includes(q)) return false;
     if (state.watchOnly && !matchCountry(p)) return false;
+    // hide non-security chatter unless toggled on; search still covers it
+    if (!state.showNoise && !q && isNoise(p)) return false;
     // The 7-day window only applies when browsing: searching and the
     // alert view always cover ALL posts.
     if (!q && !state.watchOnly) {
@@ -436,7 +464,16 @@ function renderChips() {
     if (!tagCounts[tag]) continue;
     thtml += chipHtml("tag:" + tag, TAGS[tag].chip, L.tagNames[tag] || tag, tagCounts[tag], state.tags.has(tag));
   }
+  const noiseCount = posts.filter(isNoise).length;
+  if (noiseCount) {
+    thtml += chipHtml("noise:toggle", "chip-plain", L.noiseChip, noiseCount, state.showNoise);
+  }
   $("tag-chips").innerHTML = thtml;
+
+  let shtml = `<span class="chip-label">${escapeHtml(L.sortLabel)}</span>`;
+  shtml += chipHtml("sort:priority", "chip-orange", L.sortPriority, null, state.sort === "priority");
+  shtml += chipHtml("sort:latest", "chip-plain", L.sortLatest, null, state.sort === "latest");
+  $("sort-chips").innerHTML = shtml;
 }
 
 function renderAccounts() {
@@ -465,6 +502,10 @@ function renderAccounts() {
 function renderFeed() {
   const L = t();
   const posts = visiblePosts();
+  if (state.sort === "priority") {
+    posts.sort((a, b) => (isPriority(b) - isPriority(a)) ||
+      (Date.parse(b.created_at || 0) || 0) - (Date.parse(a.created_at || 0) || 0));
+  }
   const title = MODE === "archive" ? L.feedTitleArchive : L.feedTitle;
   $("feed-title").textContent = `${title} — ${L.postsCount(posts.length)}`;
   if (!posts.length) {
@@ -498,10 +539,11 @@ function renderFeed() {
         `${escapeHtml(showingOrig ? L.showTrans : L.showOrig)}</button>` +
         (showingOrig ? "" : `<span class="mt-note">${escapeHtml(L.mtNote)}</span>`);
     }
+    const prio = isPriority(p) ? `<span class="prio">${escapeHtml(L.priorityBadge)}</span>` : "";
     return `<article class="card${watched ? " card-watch" : ""}" style="--tagc:${tagColor};--acc:${accColor}">` +
       `<div class="card-head">` +
         `<a class="handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener noreferrer">@${p.handle}</a>` +
-        `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` +
+        `<span class="name">${escapeHtml(p.name || (meta ? meta.name : ""))}</span>` + prio +
         `<time datetime="${escapeHtml(p.created_at || "")}" title="${escapeHtml(fmtUtc(p.created_at))}">${escapeHtml(timeAgo(p.created_at))}</time>` +
       `</div>` +
       `<p class="card-text">${linkify(escapeHtml(bodyText))}</p>` +
@@ -547,6 +589,8 @@ document.addEventListener("click", ev => {
     const [kind, value] = chip.dataset.chip.split(":");
     if (kind === "cat") state.cat = value;
     else if (kind === "tag") state.tags.has(value) ? state.tags.delete(value) : state.tags.add(value);
+    else if (kind === "noise") state.showNoise = !state.showNoise;
+    else if (kind === "sort") { state.sort = value; savePref("dw-sort", value); }
     renderChips(); renderFeed();
     return;
   }
