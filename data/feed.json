@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-12T21:08:38Z",
+ "generated_at": "2026-07-13T07:45:13Z",
  "source": "nitter",
- "new_count": 25,
+ "new_count": 10,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -26,6 +26,127 @@
  },
  "posts": [
   {
+   "id": "2076558175801688560",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: It's very surreal. It doesn't feel like typical depression. I've been depressed. This is a different feeling. My logical state is normal, I can identify everything is fine. However, my emotional state is shot to shit. It's weird because like, one side of brain is normal, one side of brain is depressed, but it doesn't match, it is very strange and very confusing. Because of this mismatch I can feel sad, then normal, then sad, then normal. It oscillates throughout the day, but it's not like mania or Bipolar disorder. It's like... Literally a random wave of depression that subsides seemingly randomly. It's really weird. Overall I give this experience a 3/10. It's not terrible, but it is far from good.",
+   "url": "https://x.com/vxunderground/status/2076558175801688560",
+   "created_at": "2026-07-13T06:43:44Z",
+   "tags": [
+    "other"
+   ],
+   "text_zh": "R 致@vxunderground：這非常超現實。感覺不像典型的憂鬱症。我一直很鬱悶。這是一種不同的感覺。我的邏輯狀態正常，我可以確定一切都很好。然而，我的情緒狀態卻一團糟。這很奇怪，因為就像，大腦的一側是正常的，大腦的一側是抑鬱的，但它不匹配，這是非常奇怪和非常令人困惑的。由於這種不匹配，我會感到悲傷，然後正常，然後悲傷，然後正常。它全天都在波動，但它不像躁狂症或雙相情感障礙。這就像……從字面上看，一波隨機的憂鬱症似乎隨機消退。真的很奇怪。總的來說，我給這次體驗打3/10。這並不可怕，但也遠非好。"
+  },
+  {
+   "id": "2076556608948048290",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Lots of people asked me to be their Benzodiazepine test dummy and kind of document my taper and stuff. Many people seemed nervous trying to quit. Here is the current state. Unfortunately it is not good. > be me > on Benzodiazepines > 14 years > not good > decide to stop > cut by 25% > not too bad > people say be careful > can be hard > no big deal > cut another 25% > hehe 50% reduction > shrimple > day 5 arrives of 50% cut > feel weird > whatever > day 6 feel weirder > day 8 arrives > deep unfathomable depression > feel empty, unable to even malware Holy cannoli, Chat. This will pass, but you have GOT to be prepared when doing big tapers with Klonopin or Benzodiazepines. I know tons of people told me, but the first aggressive 25% cut wasn't bad. My brains GABA thingies are screaming at me and it feels like my soul is being crushed. It is a deep hollow emptiness and wave after wave of anxiety. Here is a silly picture depicting how I currently feel inside. Klonopin is not cool and it is not badass. It fucks you up",
+   "url": "https://x.com/vxunderground/status/2076556608948048290",
+   "created_at": "2026-07-13T06:37:30Z",
+   "tags": [
+    "malware"
+   ],
+   "text_zh": "很多人要求我成為他們的苯二氮平類藥物測試假人，並記錄我的減量和其他東西。許多人在試圖戒菸時顯得很緊張。這是當前狀態。不幸的是，這並不好。 > 做我自己 > 服用苯二氮卓类药物 > 14 年 > 不好 > 决定停止 > 减少 25% > 还不错 > 人们说要小心 > 可能很难 > 没什么大不了的 > 再减少 25% > 呵呵减少 50% > 虾 > 第 5 天到达 50% 减少 > 感觉很奇怪 > 无论如何 > 第 6 天感觉更奇怪 > 第 8 天到达 > 深不可测的抑郁 >感到空虛，甚至無法惡意軟體 聖甜甜餡煎餅卷，聊天。這會過去，但在使用氯諾平或苯二氮平類藥物進行高劑量減量時，您必須做好準備。我知道很多人告訴我，但第一次大幅削減 25% 還不錯。我的大腦中的 GABA 東西正在向我尖叫，感覺我的靈魂正在被壓碎。那是一種深深的空虛和一波又一波的焦慮。這是一張愚蠢的圖片，描繪了我目前的內心感受。 Klonopin 並不酷，也不壞。真讓你操蛋"
+  },
+  {
+   "id": "2076534056213258414",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Not exactly true. Here is what’s happening. Microsoft Shifts Engineers Away from Claude Code Microsoft has reportedly reduced direct Claude Code licenses for parts of its engineering organization, encouraging developers to transition to GitHub Copilot CLI instead. * Claude Code gained rapid internal adoption among developers. * Microsoft is consolidating around its own GitHub Copilot ecosystem. * The move is believed to be driven by licensing costs, internal strategy, and product alignment—not because AI \"replaced\" engineers. Analyst Note: As enterprise AI adoption accelerates, organizations are discovering that model quality is only part of the equation. Licensing costs, token consumption, vendor strategy, and infrastructure economics are becoming equally important factors in determining which AI tools remain viable at scale. #DDW #Intelligence #DarkWeb #Microsoft",
+   "url": "https://x.com/DailyDarkWeb/status/2076534056213258414",
+   "created_at": "2026-07-13T05:07:53Z",
+   "tags": [
+    "other"
+   ],
+   "text_zh": "不完全正確。這就是正在發生的事情。微軟讓工程師不再使用 Claude Code 據報道，微軟已經減少了部分工程組織的直接 Claude Code 許可，鼓勵開發人員轉向 GitHub Copilot CLI。 * Claude Code 在開發人員內部迅速被採用。 * 微軟正在圍繞自己的 GitHub Copilot 生態系統進行整合。 * 這項措施被認為是由授權成本、內部策略和產品調整所驅動的，而不是因為人工智慧「取代」了工程師。分析師註：隨著企業人工智慧採用的加速，組織發現模型品質只是等式的一部分。授權成本、代幣消耗、供應商策略和基礎設施經濟正在成為決定哪些人工智慧工具保持大規模可行性的同等重要因素。 #DDW #Intelligence #DarkWeb #Microsoft"
+  },
+  {
+   "id": "2076528515155939576",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 French Health Benefits Platform Allegedly Breached A threat actor claims to have leaked data from e-Benefits Prévoyance, a French health benefits platform operated by LGI. According to the forum post: * Target: e-Benefits Prévoyance * Country: France * Sector: Healthcare / Employee Benefits * Threat actors claim responsibility for the alleged breach and are advertising the dataset on a cybercrime forum. * The full scope of the compromised data has not yet been disclosed. Analyst Note: The claims have not been independently verified. If confirmed, breaches involving health benefits platforms can expose sensitive personal and insurance-related information, increasing the risk of identity theft, targeted phishing, and fraud. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076528515155939576",
+   "created_at": "2026-07-13T04:45:52Z",
+   "tags": [
+    "breach"
+   ],
+   "text_zh": "🇫🇷 法國健康福利平台據稱遭到破壞 一名威脅行為者聲稱洩露了 LGI 運營的法國健康福利平台 e-Benefits Prévoyance 的數據。根據論壇貼文： * 目標：e-Benefits Prévoyance * 國家：法國 * 部門：醫療保健/員工福利 * 威脅行為者聲稱對涉嫌違規行為負責，並在網路犯罪論壇上宣傳該資料集。 * 受損資料的全部範圍尚未揭露。分析師註：這些說法尚未經過獨立核實。如果得到證實，涉及健康福利平台的違規行為可能會暴露敏感的個人和保險相關信息，從而增加身份盜竊、有針對性的網絡釣魚和欺詐的風險。 #DDW #Intelligence #DarkWeb #France"
+  },
+  {
+   "id": "2076527374070370317",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇲🇾 Malaysian Learning Platform Allegedly Listed for Sale A threat actor claims to be selling data allegedly obtained from http://Haraki.onpay.my, a Malaysia-based online learning platform focused on adult book reading courses. According to the forum post: * Target: http://Haraki.onpay.my * Country: Malaysia * Category: Online Education Platform * Sample data appears to include: * Invoice numbers * Customer full names * Email addresses * Phone numbers * Postal addresses * Payment amounts * Bank information * Payment dates * Sales dates * Agent usernames * Payment proof * Invoice PDFs * Shipping and courier details * Tracking numbers The actor advertises the dataset for sale and provides sample records as proof. Analyst Note: These claims have not been independently verified. If authentic, the exposed information could facilitate phishing, financial fraud, and identity theft by exposing both customer contact information and transaction-related records. #DDW #Intelligence #DarkWeb #Malaysia",
+   "url": "https://x.com/DailyDarkWeb/status/2076527374070370317",
+   "created_at": "2026-07-13T04:41:20Z",
+   "tags": [
+    "market"
+   ],
+   "text_zh": "🇲🇾 馬來西亞學習平台涉嫌出售 一名威脅行為者聲稱正在出售據稱從 http://Haraki.onpay.my 獲得的數據，這是一個位於馬來西亞的在線學習平台，專注於成人書籍閱讀課程。根據論壇貼文： * 目標：http://Haraki.onpay.my * 國家：馬來西亞 * 類別：線上教育平台 * 範本資料似乎包括： * 發票號碼 * 客戶全名 * 電子郵件地址 * 電話號碼 * 郵寄地址 * 付款金額 * 銀行資訊 * 付款日期 * 銷售日期 * 代理商用戶名 * 付款證明 說明資訊集 * 資訊記錄資料集 * 資料集標籤提供資訊。分析師註：這些說法尚未得到獨立證實。如果真實，暴露的資訊可能會透過揭露客戶聯絡資訊和交易相關記錄來促進網路釣魚、金融詐欺和身分盜竊。 #DDW #Intelligence #DarkWeb #Malaysia"
+  },
+  {
+   "id": "2076430310309257439",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 e-Benefits Prévoyance data allegedly leaked Two forum actors claim to have extracted data from e-Benefits Prévoyance, a French platform used to manage employee health, life insurance, retirement, and other benefit programs. The actors say an IDOR vulnerability in the platform’s API allowed them to access and scrape records without proper authorization. The post references data tied to 6,420 users and includes contract, employer, group, company-registration, and policy-related identifiers. A visible sample references an employee benefits contract associated with Saint-Gobain Weber France. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076430310309257439",
+   "created_at": "2026-07-12T22:15:38Z",
+   "tags": [
+    "breach",
+    "vuln"
+   ],
+   "text_zh": "🚨🇫🇷 e-Benefits Prévoyance 數據涉嫌洩露兩名論壇參與者聲稱從 e-Benefits Prévoyance 提取了數據，這是一個法國平台，用於管理員工健康、人壽保險、退休和其他福利計劃。參與者表示，該平台 API 中的 IDOR 漏洞使他們能夠在未經適當授權的情況下存取和抓取記錄。該貼文引用了與 6,420 個用戶相關的數據，包括合約、雇主、團體、公司註冊和政策相關識別碼。可見樣本引用了與聖戈班韋伯法國公司相關的員工福利合約。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2076429307400872124",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "I tried making a meme post four fucking times and I kept making typos Fuck it, I don't give a shit anymore. I'm gonna go nap Take this cat. We'll talk about malware tonight",
+   "url": "https://x.com/vxunderground/status/2076429307400872124",
+   "created_at": "2026-07-12T22:11:39Z",
+   "tags": [
+    "malware"
+   ],
+   "text_zh": "我他媽的嘗試發了四次模因帖子，但我一直犯錯別字，操，我已經不在乎了。我要去睡覺了，帶這隻貓。今晚我們將討論惡意軟體"
+  },
+  {
+   "id": "2076428505319936259",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Still thinking about that Python malware that targeted Steam I kind of want to do it in C and make it painfully convoluted and unnecessarily obfuscated for literally no good reason other than a challenge Conversely, I want to look at silly pictures of cats and watch esoteric videos on the the geography of the United States I'm torn emotionally",
+   "url": "https://x.com/vxunderground/status/2076428505319936259",
+   "created_at": "2026-07-12T22:08:28Z",
+   "tags": [
+    "malware"
+   ],
+   "text_zh": "仍在思考針對 Steam 的 Python 惡意軟體 我有點想用 C 語言來實現它，並使其變得令人痛苦地複雜和不必要的混淆，除了挑戰之外，實際上沒有什麼好的理由相反，我想看看貓的愚蠢圖片並觀看有關美國地理的深奧視頻 我在情感上被撕裂"
+  },
+  {
+   "id": "2076415434174111864",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Elite Soldiers vs. Fast Drones 🛩️💥 \"POV: Me getting killed by a 17-year-old.\" Even elite forces are finding out just how difficult it is to take down a high-speed drone with a shotgun. Modern warfare is changing fast, and the sky is getting crowded. Would you be able to hit it? #EliteSoldiers #MilitaryTech #DroneWarfare #FutureCombat #TacticalTraining",
+   "url": "https://x.com/DailyDarkWeb/status/2076415434174111864",
+   "created_at": "2026-07-12T21:16:32Z",
+   "tags": [
+    "other"
+   ],
+   "text_zh": "精銳士兵與快速無人機🛩️💥「POV：我被一個 17 歲的孩子殺死了。」即使是精銳部隊也發現用霰彈槍擊中高速無人機是多麼困難。現代戰爭瞬息萬變，天空變得越來越擁擠。你能擊中它嗎？ #EliteSoldiers #MilitaryTech #DroneWarfare #FutureCombat #TacticalTraining"
+  },
+  {
+   "id": "2076415154062033341",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇺🇸 US retail and manufacturing company VPN access allegedly listed for sale A forum actor claims to be selling VPN access to the internal network of an unnamed US company operating in the retail and manufacturing sectors. The listing describes the company as generating more than $600 million in revenue. The seller says the access reaches the internal network but does not include control of any individual machines. The access is priced between $700 and $900, with proof of access reportedly available. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2076415154062033341",
+   "created_at": "2026-07-12T21:15:25Z",
+   "tags": [
+    "market"
+   ],
+   "text_zh": "🚨🇺🇸 美國零售和製造公司 VPN 訪問據稱被掛牌出售 一名論壇演員聲稱正在出售對一家從事零售和製造業的未具名美國公司的內部網絡的 VPN 訪問。上市報告稱該公司的收入超過 6 億美元。賣家表示，存取權限可以到達內部網絡，但不包括對任何單一機器的控制。該存取權限的價格在 700 至 900 美元之間，據報道可以提供存取權限證明。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
    "id": "2076409955469447344",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -34,7 +155,8 @@
    "created_at": "2026-07-12T20:54:45Z",
    "tags": [
     "other"
-   ]
+   ],
+   "text_zh": "S級垃圾站。"
   },
   {
    "id": "2076407439105085537",
@@ -46,7 +168,8 @@
    "tags": [
     "breach",
     "market"
-   ]
+   ],
+   "text_zh": "🇧🇷 巴西支付提供者據稱遭到入侵 一名威脅行為者聲稱已經入侵了巴西最大的支付服務提供者之一 PagBank，並威脅要在暗網市場上發布涉嫌被盜的資料。根據該帖子，該行為者聲稱： * 未經授權訪問提供者的核心基礎設施 * 據稱有超過 250,000 個活躍商戶受到影響 * 超過 10 億條歷史交易記錄 * 據稱暴露： * 交易元數據 * 商戶結算信息 * POS 終端標識符 * 該組織聲稱數據已得到“保護和驗證”，並正在準備驗證。該貼文還包含未經證實的聲明，描述了所謂的入侵方法，包括網路釣魚、橫向移動、內部 API 逆向工程和資料外洩。分析師註：這些說法尚未得到證實。威脅行為者經常誇大所謂妥協的範圍和複雜性，以增加對受害者的壓力或吸引買家。目前沒有獨立證據證實該資料集所聲稱的影響或真實性。 #DDW #Intelligence #DarkWeb #巴西"
   },
   {
    "id": "2076406534566019345",
@@ -58,7 +181,8 @@
    "tags": [
     "breach",
     "market"
-   ]
+   ],
+   "text_zh": "🇺🇦 據稱出售 430 萬烏克蘭公民的資料庫 威脅行為者正在宣傳他們聲稱包含約 430 萬烏克蘭公民個人識別資訊 (PII) 的資料庫。根據該貼文： * 聲稱的資料集大小：430 萬筆記錄 * 據稱轉儲日期：2026 年 7 月 * 要價：1,000 美元 * 樣本欄位似乎包括： * 名字和姓氏 * 性別 * 出生日期 * 電話號碼 * 電子郵件地址 * 實際地址 * 聯絡資訊 賣家提供了樣本記錄，但如何透露所謂的資料來源或取得資料來源。分析師註：資料集的真實性尚未經過獨立驗證。威脅行為者經常重新打包歷史洩漏或聚合多個來源的資料。組織和個人應謹慎對待此類主張，直至獨立驗證為止。 #DDW #Intelligence #DarkWeb #Ukraine"
   },
   {
    "id": "2076404987043664135",
@@ -69,7 +193,8 @@
    "created_at": "2026-07-12T20:35:01Z",
    "tags": [
     "breach"
-   ]
+   ],
+   "text_zh": "🇮🇱 駭客論壇上宣傳的涉嫌 900 萬以色列公民的資料庫 威脅行為者正在宣傳他們聲稱包含約 900 萬以色列公民資訊的資料庫。根據該貼文： * 聲稱的資料集大小：900 萬筆記錄 * 顯示的範例欄位包括： * 全名 * 電話號碼 * 街道地址 * 城市 * 地區 * 郵遞區號 * 國家 * 範例記錄似乎包含以色列住宅聯絡資訊。 * 攻擊者提供了樣本數據，但沒有透露數據集的來源或日期。分析師註：這些說法尚未得到證實。威脅行為者經常回收先前洩漏的資料集，合併來自多個洩漏的信息，或歪曲資料的新鮮度。該資料集的真實性、來源和唯一性尚未得到獨立證實。 #DDW #Intelligence #DarkWeb #Israel"
   },
   {
    "id": "2076403440004088172",
@@ -80,7 +205,8 @@
    "created_at": "2026-07-12T20:28:52Z",
    "tags": [
     "breach"
-   ]
+   ],
+   "text_zh": "🇦🇷 據稱在駭客論壇上共享的阿根廷網站憑證資料庫 威脅行為者發布了他們聲稱的洩露的 SQL 資料庫，其中包含來自舊阿根廷網站的認證記錄。根據該貼文： * 據稱的 SQL 資料庫 (13.2 MB) * 據報道記錄持續到 2025 年 * 聲稱暴露的資料包括： * 電子郵件地址 * 電話號碼 * 密碼雜湊 * 與帳戶相關的其他資訊 * 該資料庫直接在論壇上分發。該貼文沒有明確指出受影響的組織或網站，這使得獨立驗證變得困難。分析師註：這些說法尚未得到證實。即使密碼儲存為雜湊值，如果確認洩漏，受影響的使用者也應立即更改重複使用的密碼。組織應調查資料集的真實性並審查憑證儲存實踐。 #DDW #Intelligence #DarkWeb #Argentina"
   },
   {
    "id": "2076401987482951757",
@@ -92,7 +218,8 @@
    "tags": [
     "breach",
     "market"
-   ]
+   ],
+   "text_zh": "🇫🇷 法國商學院 EIML 據稱被列入出售名單 一名威脅行為者聲稱正在出售據稱屬於 EIML（École Internationale de Management et de Leadership）的新 SQL 數據庫，EIML 是一所專門從事管理、奢侈品和國際商務的法國私立高等教育機構。根據論壇貼文：* 據稱的 SQL 轉儲日期為 2026 年 7 月 12 日 * 聲稱的資料庫大小：93,532 條記錄 * 據報道包括： * 4,768 名學生 * 12,313 名申請者 * 潛在客戶、候選人、校友和其他聯絡人 * 據稱暴露的電話地址 * 全名郵寄日期 * 全名電話地址 * 全名電話地址 * 全名電話地址 * 全名郵寄地址國籍 * 學生/INE 號碼 *學校、班級、升職和學年 * 入學和合約狀況 * 學習程度和其他學術資訊 分析師註：這些說法尚未經過獨立核實。如果真實，暴露的資料可能會為學生、申請人、校友和工作人員帶來身分盜竊、網路釣魚和社會工程風險。由於教育機構保存了大量的個人識別訊息，因此它們仍然是有吸引力的目標。 #DDW #Intelligence #DarkWeb #France"
   },
   {
    "id": "2076398160902054272",
@@ -104,7 +231,8 @@
    "tags": [
     "ransomware",
     "breach"
-   ]
+   ],
+   "text_zh": "🚨🇲🇲 Eager Communications Group 涉嫌違規 一個自稱 The Crypt Apostles 的新成立組織聲稱已經入侵了緬甸的 Eager Communications Group Co., Ltd.。該演員表示，它從該公司的主平台獲取了數據，包括完整的系統轉儲和個人識別資訊。該貼文威脅稱，除非該公司聯繫並支付贖金，否則將開始出售被盜材料。所聲稱的數據樣本也被公佈作為證據。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
   },
   {
    "id": "2076394536692056221",
@@ -115,7 +243,8 @@
    "created_at": "2026-07-12T19:53:29Z",
    "tags": [
     "ransomware"
-   ]
+   ],
+   "text_zh": "🚨 新勒索軟體組織：D1R IOC：http://dirone3rl3vvq64ckcnrvhe2ogrhjrwu5u7hqzrlotu3rfvmqmmbsuqd[.]onion"
   },
   {
    "id": "2076384341978939531",
@@ -1647,7 +1776,7 @@
    "id": "2069800799715135549",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
-   "text": "Pinned: New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
+   "text": "New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
    "url": "https://x.com/Gi7w0rm/status/2069800799715135549",
    "created_at": "2026-06-24T15:12:20Z",
    "tags": [
