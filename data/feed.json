@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-13T21:16:14Z",
+ "generated_at": "2026-07-14T08:30:27Z",
  "source": "nitter",
- "new_count": 34,
+ "new_count": 11,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -26,6 +26,157 @@
  },
  "posts": [
   {
+   "id": "2076935545100374308",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 Alleged DoinSport Database Advertised on Underground Forum A threat actor has claimed to be offering a database allegedly belonging to DoinSport, a French sports management and booking platform. According to the forum post, the dataset reportedly includes: * Full names * Email addresses * Phone numbers * Dates of birth * Usernames * Physical addresses * ZIP codes * Wallet-related information The actor also published sample records as purported proof of possession. Analyst Note: The authenticity, origin, and recency of the dataset have not been independently verified. If legitimate, the exposed personally identifiable information (PII) could facilitate phishing, identity theft, account takeover attempts, and other social engineering attacks targeting affected users. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076935545100374308",
+   "created_at": "2026-07-14T07:43:16Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇫🇷 據稱 DoinSport 資料庫在地下論壇上刊登廣告 一名威脅行為者聲稱提供了一個據稱屬於法國體育管理和預訂平台 DoinSport 的資料庫。根據論壇帖子，據報道，該資料集包括： * 全名 * 電子郵件地址 * 電話號碼 * 出生日期 * 用戶名 * 實際地址 * 郵遞區號 * 錢包相關資訊 該行為者還發布了樣本記錄作為所謂的擁有證明。分析師註：資料集的真實性、來源和新近度尚未經過獨立驗證。如果合法，暴露的個人識別資訊 (PII) 可能會促進網路釣魚、身分盜竊、帳戶接管嘗試和其他針對受影響用戶的社會工程攻擊。 #DDW #Intelligence #DarkWeb #France"
+  },
+  {
+   "id": "2076934414227866058",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇺 Australian Accounting Services Data Allegedly Leaked A threat actor claims to have leaked data associated with AASolutions, an Australian provider of outsourced accounting, tax, SMSF administration, investment administration, and compliance services. According to the forum post: * Claimed volume: more than 33,900 records * Sample fields appear to include: * Client and practice names * Email addresses and contact numbers * Postal addresses * ABNs and account codes * Directors, advisers, and account managers * Portfolio values and cash values * SMSF-related records * Risk profiles, status fields, and internal identifiers * Sample records were published as alleged proof. Analyst Note: The authenticity, freshness, and source of the dataset have not been independently verified. If legitimate, the combination of financial, portfolio, and professional-accounting data could support targeted fraud, business email compromise, impersonation, and highly tailored phishing attacks. #DDW #Intelligence #DarkWeb #Australia",
+   "url": "https://x.com/DailyDarkWeb/status/2076934414227866058",
+   "created_at": "2026-07-14T07:38:46Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇦🇺 澳洲會計服務數據涉嫌洩露 威脅行為者聲稱洩露了與 AASolutions 相關的數據，AASolutions 是一家澳洲外包會計、稅務、SMSF 管理、投資管理和合規服務提供者。根據論壇貼文： * 聲稱數量：超過 33,900 筆記錄 * 範本欄位似乎包括： * 客戶和執業名稱 * 電子郵件地址和聯絡電話 * 郵寄地址 * ABN 和帳戶代碼 * 董事、顧問和客戶經理 * 投資組合價值和現金價值 * SMSF 相關記錄 * 風險概況、狀態欄位和內部憑證記錄和內部證據記錄作為所謂的證據。分析師註：資料集的真實性、新鮮度和來源尚未經過獨立驗證。如果合法，財務、投資組合和專業會計資料的組合可以支援有針對性的詐欺、商業電子郵件洩露、冒充和高度客製化的網路釣魚攻擊。 #DDW #Intelligence #DarkWeb #Australia"
+  },
+  {
+   "id": "2076930978803507651",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 Massive French Healthcare Dataset and Infrastructure Allegedly Offered for Sale A threat actor is advertising what they claim is a large-scale compromise of MesVaccins / SYADEM, a French digital healthcare platform, offering both sensitive data and infrastructure access. According to the listing: * Claimed dataset size: 533 GB across approximately 1.17 million files * Alleged contents include more than 534,000 healthcare documents and over 12,000 structured data files * The actor claims the package contains patient records, vaccination workflows, identity information, financial data, and operational records * The listing also alleges exposure of source code, repositories, TLS certificates, private keys, infrastructure credentials, and administrative access to multiple production environments * The seller further claims the structured databases contain more than 115 million rows spanning 11 databases Analyst Note: These claims have not been independently verified. If authentic, this would represent a severe healthcare-sector compromise, exposing both sensitive patient information and critical production infrastructure, significantly increasing the risk of identity theft, healthcare fraud, ransomware, and follow-on attacks. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2076930978803507651",
+   "created_at": "2026-07-14T07:25:07Z",
+   "tags": [
+    "ransomware",
+    "market",
+    "darkweb"
+   ],
+   "score": 5,
+   "text_zh": "🇫🇷 據稱出售大量法國醫療保健數據集和基礎設施 威脅行為者正在宣傳他們聲稱的法國數位醫療平台 MesVaccins / SYADEM 的大規模妥協，提供敏感數據和基礎設施訪問。根據清單： * 聲稱的資料集大小：533 GB，約 117 萬個文件 * 涉嫌內容包括超過 534,000 個醫療保健文件和超過 12,000 個結構化資料檔案 * 攻擊者聲稱該資料包包含病患權限、疫苗接種工作流程、身分資訊、財務資料和操作記錄檔 * 攻擊者聲稱此資料包包含病患權限、疫苗接種工作流程、身分資訊、財務資料和作業記錄存取資料庫 * 資料庫內容賣家進一步聲稱結構化資料庫包含跨越 11 個資料庫的超過 1.15 億行。 分析師註：這些說法尚未經過獨立驗證。如果屬實，這將代表醫療保健部門的嚴重妥協，暴露敏感的患者資訊和關鍵的生產基礎設施，從而顯著增加身份盜竊、醫療保健詐欺、勒索軟體和後續攻擊的風險。 #DDW #Intelligence #DarkWeb #France"
+  },
+  {
+   "id": "2076926518765277280",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇲🇽 Veracruz Ministry of Education Database Allegedly Leaked A threat actor claims to have leaked data belonging to the Secretaría de Educación de Veracruz (SEV), the education authority for the Mexican state of Veracruz. According to the forum post: * Claimed volume: approximately 16,000 records * The post includes a sample of alleged database records * Visible fields appear to contain personal identifiers, including names and other associated information * The dataset is being promoted on a cybercrime forum as a government-sector leak Analyst Note: The authenticity and origin of the dataset have not been independently verified. If genuine, the exposure of government-related educational records could facilitate identity theft, social engineering, and targeted phishing campaigns against students, educators, and public-sector personnel. #DDW #Intelligence #DarkWeb #Mexico",
+   "url": "https://x.com/DailyDarkWeb/status/2076926518765277280",
+   "created_at": "2026-07-14T07:07:24Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇲🇽 韋拉克魯斯州教育部資料庫據稱被洩露 一名威脅行為者聲稱洩露了屬於墨西哥韋拉克魯斯州教育機構秘書處 (SEV) 的資料。根據論壇帖子： * 聲稱數量：大約 16,000 條記錄 * 該帖子包括所謂的數據庫記錄樣本 * 可見字段似乎包含個人標識符，包括姓名和其他相關信息 * 該數據集正在網絡犯罪論壇上作為政府部門洩密事件進行推廣 分析師注：該數據集的真實性和來源尚未經過獨立驗證。如果是真實的，與政府相關的教育記錄的曝光可能會促進針對學生、教育工作者和公共部門人員的身份盜竊、社會工程和有針對性的網路釣魚活動。 #DDW #Intelligence #DarkWeb #Mexico"
+  },
+  {
+   "id": "2076923553899798578",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🚨 Telegram's http://t.me Domain Placed on Registry-Level Hold Telegram's primary short-link domain, http://t.me, has been placed into \"serverHold\" status by the .ME registry, causing http://t.me links to stop resolving in web browsers worldwide. * The issue is at the registry level, not Telegram's infrastructure. * Telegram has begun using http://telegram.me as a temporary alternative. * The Telegram app itself remains operational. * The reason for the serverHold status has not been officially disclosed. Analyst Note: A serverHold action removes a domain from the global DNS, effectively making it disappear from the internet until the registry restores it. While speculation links the incident to recent sanctions activity, no official explanation has been provided by Telegram or the .ME registry. #DDW #Intelligence #DarkWeb #Telegram",
+   "url": "https://x.com/DailyDarkWeb/status/2076923553899798578",
+   "created_at": "2026-07-14T06:55:37Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨 Telegram 的 http://t.me 網域被置於註冊表層級保留 Telegram 的主要短連結網域 http://t.me 已被 .ME 註冊表置於「serverHold」狀態，導致 http://t.me 連結在全球網頁瀏覽器中停止解析。 * 問題出在註冊表級別，而不是 Telegram 的基礎設施級別。 * Telegram 已開始使用 http://telegram.me 作為臨時替代方案。 * Telegram 應用程式本身仍然可以運行。 * serverHold 狀態的原因尚未正式揭露。分析師註解：serverHold 操作會從全域 DNS 中刪除網域，從而有效地使其從網際網路上消失，直到登錄機碼將其還原為止。雖然猜測該事件與最近的製裁活動有關，但 Telegram 或 .ME 註冊管理機構尚未提供官方解釋。 #DDW #Intelligence #DarkWeb #Telegram"
+  },
+  {
+   "id": "2076920760224842042",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🔥 The Musk–Altman Feud Escalates The long-running rivalry between Elon Musk and OpenAI CEO Sam Altman erupted again on X, with both executives exchanging public insults over AI, Apple's lawsuit, and SpaceX's proposed space-based data centers. * Altman criticized Musk's plans for orbital AI data centers. * Musk responded by defending the project and repeating allegations related to OpenAI and Apple's ongoing lawsuit. * The exchange comes amid intensifying competition between xAI and OpenAI. Beyond the social media drama, the dispute reflects the growing battle for AI leadership. As competition intensifies, disagreements are increasingly shifting from technical innovation to infrastructure, intellectual property, and public perception. #DDW #Intelligence #DarkWeb #AI",
+   "url": "https://x.com/DailyDarkWeb/status/2076920760224842042",
+   "created_at": "2026-07-14T06:44:31Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🔥 馬斯克與奧特曼之間的不和升級埃隆·馬斯克和 OpenAI 首席執行官薩姆·奧特曼之間的長期競爭在 X 上再次爆發，兩位高管就人工智能、蘋果的訴訟以及 SpaceX 提議的太空數據中心相互公開侮辱。 * Altman 批評了 Musk 的軌道人工智慧資料中心計劃。 * 作為回應，馬斯克為該項目辯護，並重複了與 OpenAI 和蘋果正在進行的訴訟相關的指控。 * 此次交流正值 xAI 與 OpenAI 之間的競爭加劇之際。除了社群媒體上的鬧劇之外，這場爭端也反映出人工智慧領導地位之爭日益激烈。隨著競爭的加劇，分歧越來越多地從技術創新轉向基礎設施、智慧財產權和公眾認知。 #DDW #Intelligence #DarkWeb #AI"
+  },
+  {
+   "id": "2076919294596673967",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "The darkest time in my life was the 3 months following my son's birth. It's not because of my son. It's because people online recommended I watch anime. I watched anime basically every single day for 90 days straight. My mind has never been the same.",
+   "url": "https://x.com/vxunderground/status/2076919294596673967",
+   "created_at": "2026-07-14T06:38:41Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 0,
+   "text_zh": "我一生中最黑暗的時期是我兒子出生後的三個月。不是因為我兒子。因為網路上有人推薦我看動漫。我連續90天基本上每天都看動漫。我的心從來都不是一樣的。"
+  },
+  {
+   "id": "2076898239622602827",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: Imagine waking up and being excited about helping Jimmy JumboToes remove malware from his computer. You unironically just send links to MalwareBytes, CCleaner, and hold their hand through the process. Then, once it's done, you decide to do it again, and for free. Fucking schizo",
+   "url": "https://x.com/vxunderground/status/2076898239622602827",
+   "created_at": "2026-07-14T05:15:01Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "R 致 @vxunderground：想像一下，您一覺醒來，為幫助 Jimmy JumboToes 從他的電腦中刪除惡意軟體而感到興奮。諷刺的是，你只需發送連結到 MalwareBytes、CCleaner，並在整個過程中握住他們的手。然後，一旦完成，你決定再做一次，而且是免費的。他媽的精神分裂"
+  },
+  {
+   "id": "2076897623462551839",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "I found some dork online who talks about being a malware enthusiast, or something. He dedicates basically every second of his free time to helping people remove malware from their computers for free. He provides step-by-step instructions on how to install an anti-virus and provides useful links to software tool suites that can help clean your computer Y'know, God bless him, but that seems like such a terminally bleak existence. If you told me this man was Jesus Christ in the flesh, I might believe you. I've never met someone who does Helpdesk support for the love of the game.",
+   "url": "https://x.com/vxunderground/status/2076897623462551839",
+   "created_at": "2026-07-14T05:12:34Z",
+   "tags": [
+    "breach",
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "我在網路上發現了一些傻瓜，他們談論自己是惡意軟體愛好者之類的。他基本上把每一秒鐘的空閒時間都用來幫助人們免費從電腦中刪除惡意軟體。他提供瞭如何安裝防毒軟體的逐步說明，並提供了可以幫助清理電腦的軟體工具套件的有用連結。你知道，上帝保佑他，但這似乎是一個極其黯淡的存在。如果你告訴我這個人是肉身的耶穌基督，我可能會相信你。我從來沒有遇過因為熱愛遊戲而提供幫助台支援的人。"
+  },
+  {
+   "id": "2076830819893579968",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Gif",
+   "url": "https://x.com/vxunderground/status/2076830819893579968",
+   "created_at": "2026-07-14T00:47:07Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "動圖"
+  },
+  {
+   "id": "2076800378801144260",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "U.S. Sanctions First VPN Service and Malware Obfuscation Provider Over Ransomware Support https://darkwebinformer.com/u-s-sanctions-first-vpn-service-and-malware-obfuscation-provider-over-ransomware-support/",
+   "url": "https://x.com/DarkWebInformer/status/2076800378801144260",
+   "created_at": "2026-07-13T22:46:10Z",
+   "tags": [
+    "ransomware",
+    "malware",
+    "darkweb"
+   ],
+   "score": 5,
+   "text_zh": "美國因勒索軟體支援而製裁第一家 VPN 服務和惡意軟體混淆供應商 https://darkwebinformer.com/u-s-sanctions-first-vpn-service-and-malware-obfuscation-provider-over-ransomware-support/"
+  },
+  {
    "id": "2076769676873416949",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -48,8 +199,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "原來進度條焦慮。預計剩餘時間：4,381 年。準確的？並不真地。有壓力嗎？絕對地。 #DDW #TechHumor #懷舊 #Computers"
+   "text_zh": "原來進度條焦慮。預計剩餘時間：4,381 年。準確的？並不真地。有壓力嗎？絕對地。 #DDW #TechHumor #懷舊 #Computers",
+   "score": 0
   },
   {
    "id": "2076755439669182913",
@@ -61,8 +212,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "💧 AI 到底用了多少水？一項廣泛共識的估計稱，如果包括資料中心冷卻和發電，產生一封 100 字的 GPT-4 電子郵件可能需要大約 500 毫升的水。 * 估算取決於型號和位置，而不是每個提示的固定成本。 * 研究人員預計，到 2027 年，全球人工智慧工作負載每年可取水 4.2-66 億立方公尺。 * 取水量與永久用水量不同。 * 人工智慧公司仍然披露有關每次查詢用水量的有限標準化資料。分析師註：人工智慧的水足跡是真的，但病毒式的「一次提示等於一瓶」的說法往往會消除計算背後的假設。更大的問題是缺水地區資料中心的快速擴張以及缺乏可比較的環境報告。 #DDW #Intelligence #DarkWeb #AI"
+   "text_zh": "💧 AI 到底用了多少水？一項廣泛共識的估計稱，如果包括資料中心冷卻和發電，產生一封 100 字的 GPT-4 電子郵件可能需要大約 500 毫升的水。 * 估算取決於型號和位置，而不是每個提示的固定成本。 * 研究人員預計，到 2027 年，全球人工智慧工作負載每年可取水 4.2-66 億立方公尺。 * 取水量與永久用水量不同。 * 人工智慧公司仍然披露有關每次查詢用水量的有限標準化資料。分析師註：人工智慧的水足跡是真的，但病毒式的「一次提示等於一瓶」的說法往往會消除計算背後的假設。更大的問題是缺水地區資料中心的快速擴張以及缺乏可比較的環境報告。 #DDW #Intelligence #DarkWeb #AI",
+   "score": 2
   },
   {
    "id": "2076751510885552501",
@@ -74,8 +225,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 是@DarkWebInformer：2/2🚨🇻🇪"
+   "text_zh": "R 是@DarkWebInformer：2/2🚨🇻🇪",
+   "score": 2
   },
   {
    "id": "2076751507056447552",
@@ -89,8 +240,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "1/2🚨🇻🇪 委內瑞拉國家水生空間研究所資料庫據稱被出售 一名論壇參與者聲稱侵入了委內瑞拉國家水生空間研究所（INEA），並獲取了與海事人員和公司相關的數據。該清單公佈了屬於 114,265 個海事用戶和 13,485 個海事公司的記錄。該演員表示，這些材料包括 5.4GB 的用戶圖像和數據，以及 102.36GB 的公司記錄和法律文件，要價 800 美元。據稱，暴露的資料包括姓名、身分詳細資料、聯絡資訊、照片、員工資料、公司註冊記錄、法律文件、海事憑證和其他支援文件。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "1/2🚨🇻🇪 委內瑞拉國家水生空間研究所資料庫據稱被出售 一名論壇參與者聲稱侵入了委內瑞拉國家水生空間研究所（INEA），並獲取了與海事人員和公司相關的數據。該清單公佈了屬於 114,265 個海事用戶和 13,485 個海事公司的記錄。該演員表示，這些材料包括 5.4GB 的用戶圖像和數據，以及 102.36GB 的公司記錄和法律文件，要價 800 美元。據稱，暴露的資料包括姓名、身分詳細資料、聯絡資訊、照片、員工資料、公司註冊記錄、法律文件、海事憑證和其他支援文件。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076747787106996465",
@@ -103,8 +254,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇺🇸 GiveMeTheVIN 客戶資料庫據稱被洩露 威脅行為者發布了他們聲稱與美國汽車購買平台 GiveMeTheVIN 相關的資料庫。根據可見樣本，資料集可能包括： * 客戶姓名和電子郵件地址 * 電話號碼 * 完整郵遞區號 * 城市、州和郵遞區號 * 交易金額和參考 * 付款或接收者識別碼 * 處理狀態和時間戳記 分析師附註：資料集的真實性、範圍和新鮮度尚未經過獨立驗證。如果合法，客戶身分和交易資料的組合可能支援車輛銷售詐騙、支付詐欺、冒充和高度針對性的網路釣魚。 #DDW #Intelligence #DarkWeb #GiveMeTheVIN"
+   "text_zh": "🇺🇸 GiveMeTheVIN 客戶資料庫據稱被洩露 威脅行為者發布了他們聲稱與美國汽車購買平台 GiveMeTheVIN 相關的資料庫。根據可見樣本，資料集可能包括： * 客戶姓名和電子郵件地址 * 電話號碼 * 完整郵遞區號 * 城市、州和郵遞區號 * 交易金額和參考 * 付款或接收者識別碼 * 處理狀態和時間戳記 分析師附註：資料集的真實性、範圍和新鮮度尚未經過獨立驗證。如果合法，客戶身分和交易資料的組合可能支援車輛銷售詐騙、支付詐欺、冒充和高度針對性的網路釣魚。 #DDW #Intelligence #DarkWeb #GiveMeTheVIN",
+   "score": 3
   },
   {
    "id": "2076747540708331965",
@@ -116,8 +267,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "😮"
+   "text_zh": "😮",
+   "score": 0
   },
   {
    "id": "2076746791131963899",
@@ -130,8 +281,8 @@
     "breach",
     "market"
    ],
-   "score": 5,
-   "text_zh": "🇺🇸 美國 - http://GiveMeTheVIN.com 資料外洩暴露了客戶和車輛資料 http://GiveMeTheVIN.com 是一家總部位於美國的專門在全國範圍內購買車輛的線上平台，據稱已被洩露，其資料庫在地下論壇上暴露。該服務促進了二手車的銷售，要求用戶提交車輛資訊（包括車輛識別號碼）和個人詳細資訊以獲得現金優惠。據稱外洩的資料包括： * 客戶姓名 * 地址 * 電話號碼 * 電子郵件地址 * 車輛識別碼 (VIN) * 車輛詳細資料 * 駕照資訊 * 財務付款資訊"
+   "text_zh": "🇺🇸 美國 - http://GiveMeTheVIN.com 資料外洩暴露了客戶和車輛資料 http://GiveMeTheVIN.com 是一家總部位於美國的專門在全國範圍內購買車輛的線上平台，據稱已被洩露，其資料庫在地下論壇上暴露。該服務促進了二手車的銷售，要求用戶提交車輛資訊（包括車輛識別號碼）和個人詳細資訊以獲得現金優惠。據稱外洩的資料包括： * 客戶姓名 * 地址 * 電話號碼 * 電子郵件地址 * 車輛識別碼 (VIN) * 車輛詳細資料 * 駕照資訊 * 財務付款資訊",
+   "score": 5
   },
   {
    "id": "2076746131774587036",
@@ -145,8 +296,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇨🇳 涉嫌出售 5.5 億筆中國電話記錄的資料庫 威脅行為者正在宣傳他們聲稱包含與中國公民電話號碼相關資訊的資料庫。根據論壇貼文： * 聲稱數量：5.5 億筆記錄 * 樣本資料作為所謂的證據發布 * 可見欄位似乎包括電話號碼、姓名、地區資訊和其他相關個人資料 * 賣家正在將潛在買家引導至 Telegram Analyst 註：資料集的真實性、來源、新鮮度和唯一性尚未經過獨立驗證。這種規模的資料集可能包含重複、聚合、抓取或先前洩漏的記錄，而不是單一新違規的證據。 #DDW #Intelligence #DarkWeb #China"
+   "text_zh": "🇨🇳 涉嫌出售 5.5 億筆中國電話記錄的資料庫 威脅行為者正在宣傳他們聲稱包含與中國公民電話號碼相關資訊的資料庫。根據論壇貼文： * 聲稱數量：5.5 億筆記錄 * 樣本資料作為所謂的證據發布 * 可見欄位似乎包括電話號碼、姓名、地區資訊和其他相關個人資料 * 賣家正在將潛在買家引導至 Telegram Analyst 註：資料集的真實性、來源、新鮮度和唯一性尚未經過獨立驗證。這種規模的資料集可能包含重複、聚合、抓取或先前洩漏的記錄，而不是單一新違規的證據。 #DDW #Intelligence #DarkWeb #China",
+   "score": 2
   },
   {
    "id": "2076744784580862217",
@@ -160,8 +311,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇯🇵 據稱出售日本租賃平台資料和原始碼 威脅行為者聲稱正在出售與日本房產租賃平台 Uchicomi 相關的資料庫和網站原始碼。根據論壇貼文： * 目標：http://uchicomi.com 和相關子網域 * 據稱暴露的資產包括應用程式原始碼和多個資料庫 * 共享目錄範例引用了開發文件、依賴項、腳本、配置相關文件、日誌和公共網路資產 * 賣家聲稱該軟體包涵蓋了平台的主網域和子網域 分析師注：該聲明尚未經過獨立驗證。原始碼暴露可能會暴露應用程式架構、內部端點、依賴項、嵌入式秘密以及可能支援後續攻擊的漏洞，從而造成長期風險。 #DDW #Intelligence #DarkWeb #Japan"
+   "text_zh": "🇯🇵 據稱出售日本租賃平台資料和原始碼 威脅行為者聲稱正在出售與日本房產租賃平台 Uchicomi 相關的資料庫和網站原始碼。根據論壇貼文： * 目標：http://uchicomi.com 和相關子網域 * 據稱暴露的資產包括應用程式原始碼和多個資料庫 * 共享目錄範例引用了開發文件、依賴項、腳本、配置相關文件、日誌和公共網路資產 * 賣家聲稱該軟體包涵蓋了平台的主網域和子網域 分析師注：該聲明尚未經過獨立驗證。原始碼暴露可能會暴露應用程式架構、內部端點、依賴項、嵌入式秘密以及可能支援後續攻擊的漏洞，從而造成長期風險。 #DDW #Intelligence #DarkWeb #Japan",
+   "score": 3
   },
   {
    "id": "2076744003928613226",
@@ -173,8 +324,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "💥 Pipet：一個命令列網頁抓取工具，支援三種操作模式：HTML 解析、JSON 解析和客戶端 JavaScript 執行。 GitHub：https://github.com/bjesus/pipet"
+   "text_zh": "💥 Pipet：一個命令列網頁抓取工具，支援三種操作模式：HTML 解析、JSON 解析和客戶端 JavaScript 執行。 GitHub：https://github.com/bjesus/pipet",
+   "score": 0
   },
   {
    "id": "2076743333297434784",
@@ -201,8 +352,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "️ CISA 將俄羅斯 FSB 參與者利用的 Cisco IOS 缺陷加入 KEV 目錄 https://darkwebinformer.com/cisa-adds-cisco-ios-flaw-exploited-by-Russian-fsb-actors-to-kev-catalog/"
+   "text_zh": "️ CISA 將俄羅斯 FSB 參與者利用的 Cisco IOS 缺陷加入 KEV 目錄 https://darkwebinformer.com/cisa-adds-cisco-ios-flaw-exploited-by-Russian-fsb-actors-to-kev-catalog/",
+   "score": 2
   },
   {
    "id": "2076735154874192372",
@@ -272,8 +423,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "️ 俄羅斯國家資助的行為者針對關鍵基礎設施中的易受攻擊的路由器 https://darkwebinformer.com/ Russian-state-spokes-actors-target-vulnerable-routers-across-ritic-infrastruct/"
+   "text_zh": "️ 俄羅斯國家資助的行為者針對關鍵基礎設施中的易受攻擊的路由器 https://darkwebinformer.com/ Russian-state-spokes-actors-target-vulnerable-routers-across-ritic-infrastruct/",
+   "score": 3
   },
   {
    "id": "2076722891862012217",
@@ -300,8 +451,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨BeTrial 跑步者和計費數據據稱被洩露 一名論壇演員聲稱發布了與 BeTrial 相關的部分數據庫，BeTrial 是越野跑愛好者用來發現比賽、跟踪結果、比較排名和監控表現的在線平台。該清單引用了多個國家的 2,831,633 名跑步者，其中包括來自法國的 954,013 條記錄、來自比利​​時的 135,988 條記錄和來自西班牙的 80,632 條記錄。據報道，這些 JSON 和 JSONL 格式的文件總計 537MB。廣告資料包括跑步者 ID、姓名、別名、性別、年齡、郵遞區號、城市、國家和帳戶建立日期。據稱，其他文件包含約 1,500 個 Stripe 發票記錄和 241 個連結的使用者帳戶記錄，包括姓名、電子郵件地址、訂閱和付款詳細資訊、帳戶元資料、角色和跑步者識別碼。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨BeTrial 跑步者和計費數據據稱被洩露 一名論壇演員聲稱發布了與 BeTrial 相關的部分數據庫，BeTrial 是越野跑愛好者用來發現比賽、跟踪結果、比較排名和監控表現的在線平台。該清單引用了多個國家的 2,831,633 名跑步者，其中包括來自法國的 954,013 條記錄、來自比利​​時的 135,988 條記錄和來自西班牙的 80,632 條記錄。據報道，這些 JSON 和 JSONL 格式的文件總計 537MB。廣告資料包括跑步者 ID、姓名、別名、性別、年齡、郵遞區號、城市、國家和帳戶建立日期。據稱，其他文件包含約 1,500 個 Stripe 發票記錄和 241 個連結的使用者帳戶記錄，包括姓名、電子郵件地址、訂閱和付款詳細資訊、帳戶元資料、角色和跑步者識別碼。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076714697651319240",
@@ -314,8 +465,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇧🇲 百慕大學生和考生資料集涉嫌出售 一名論壇演員聲稱正在出售屬於百慕大學生和考生的 800 多條記錄。賣方將資料集用於輔導服務、考試準備、大學招生、學生保險和當地教育行銷活動。記錄以 Excel 或 CSV 格式提供。廣告資料包括學生參考號碼、名字和姓氏、電話號碼、目前地區和地點、考試中心、資格以及國民身分證或護照號碼。沒有透露要價。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇧🇲 百慕大學生和考生資料集涉嫌出售 一名論壇演員聲稱正在出售屬於百慕大學生和考生的 800 多條記錄。賣方將資料集用於輔導服務、考試準備、大學招生、學生保險和當地教育行銷活動。記錄以 Excel 或 CSV 格式提供。廣告資料包括學生參考號碼、名字和姓氏、電話號碼、目前地區和地點、考試中心、資格以及國民身分證或護照號碼。沒有透露要價。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076702948197818575",
@@ -328,8 +479,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇲🇽 InfoCDMX 資料集涉嫌洩漏 一名論壇參與者聲稱已發布與 InfoCDMX 入口網站相關的 CSV 資料集，其中包含 50,000 多筆記錄。清單稱，這些數據涵蓋與大學、墨西哥城政府辦公室、自治市政府、公共機構、民間組織和其他實體相關的個人。 InfoCDMX 是墨西哥城負責透明度、資訊取得、問責制和個人資料保護的公共機構。廣告資料包括： ▪️記錄識別碼 ▪️電子郵件地址 ▪️電話號碼和分機號碼 ▪️國家、城市和性別 ▪️附屬組織和公共機構 ▪️角色和官方職能 ▪️義務主體分類 此聲明目前未經驗證。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇲🇽 InfoCDMX 資料集涉嫌洩漏 一名論壇參與者聲稱已發布與 InfoCDMX 入口網站相關的 CSV 資料集，其中包含 50,000 多筆記錄。清單稱，這些數據涵蓋與大學、墨西哥城政府辦公室、自治市政府、公共機構、民間組織和其他實體相關的個人。 InfoCDMX 是墨西哥城負責透明度、資訊取得、問責制和個人資料保護的公共機構。廣告資料包括： ▪️記錄識別碼 ▪️電子郵件地址 ▪️電話號碼和分機號碼 ▪️國家、城市和性別 ▪️附屬組織和公共機構 ▪️角色和官方職能 ▪️義務主體分類 此聲明目前未經驗證。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076698038148428186",
@@ -342,8 +493,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "️🇮🇳🇺🇸 AI招募平台Suitable AI涉嫌洩露，部分轉儲中超過15,000份應徵者資料外洩 https://darkwebinformer.com/ai-recruitment-platform-suitable-ai-allegedly-breached-over-15-00p-over-15-00"
+   "text_zh": "️🇮🇳🇺🇸 AI招募平台Suitable AI涉嫌洩露，部分轉儲中超過15,000份應徵者資料外洩 https://darkwebinformer.com/ai-recruitment-platform-suitable-ai-allegedly-breached-over-15-00p-over-15-00",
+   "score": 5
   },
   {
    "id": "2076695186155950173",
@@ -369,8 +520,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "️🇫🇷法國法律平台Litige France涉嫌洩露，近595,000名用戶資料因存取控制缺陷而暴露 https://darkwebinformer.com/french-legal-platform-litige-fr-allegedly-breached-nearly-595-000-laccs-expu"
+   "text_zh": "️🇫🇷法國法律平台Litige France涉嫌洩露，近595,000名用戶資料因存取控制缺陷而暴露 https://darkwebinformer.com/french-legal-platform-litige-fr-allegedly-breached-nearly-595-000-laccs-expu",
+   "score": 2
   },
   {
    "id": "2076692693829156887",
@@ -397,8 +548,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇵🇭 菲律賓國家電信委員會資料涉嫌洩露 一名論壇參與者聲稱違反了菲律賓國家電信委員會的規定，並洩露了從其係統中獲取的資料。該清單宣傳了大約 126GB 的材料，其中包含超過 200,000 個文件。據說這些文件包括 PDF、DOCX、SQL、JSON、圖像、可執行檔和文字格式。該演員聲稱，暴露的數據包括姓名、電子郵件地址、電話號碼、家庭住址、PIN 碼、密碼、存取密鑰、內部備忘錄、敏感文件和臉部掃描。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇵🇭 菲律賓國家電信委員會資料涉嫌洩露 一名論壇參與者聲稱違反了菲律賓國家電信委員會的規定，並洩露了從其係統中獲取的資料。該清單宣傳了大約 126GB 的材料，其中包含超過 200,000 個文件。據說這些文件包括 PDF、DOCX、SQL、JSON、圖像、可執行檔和文字格式。該演員聲稱，暴露的數據包括姓名、電子郵件地址、電話號碼、家庭住址、PIN 碼、密碼、存取密鑰、內部備忘錄、敏感文件和臉部掃描。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076686784029733177",
@@ -411,8 +562,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇲🇾 CBIP 防火牆管理員訪問權限據稱被掛牌出售 一名論壇演員聲稱正在出售與 CBIP 相關的企業外圍防火牆管理控制台的根級訪問權限，CBIP 是一家從事重型工程、棕櫚油加工和工業自動化的馬來西亞公司。清單顯示，設備擁有者設定檔可以直接存取該公司面向網際網路的 VPN 邊界控制器。賣方聲稱該組織處理大型商業合同，年收入估計為 8,310 萬美元。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇲🇾 CBIP 防火牆管理員訪問權限據稱被掛牌出售 一名論壇演員聲稱正在出售與 CBIP 相關的企業外圍防火牆管理控制台的根級訪問權限，CBIP 是一家從事重型工程、棕櫚油加工和工業自動化的馬來西亞公司。清單顯示，設備擁有者設定檔可以直接存取該公司面向網際網路的 VPN 邊界控制器。賣方聲稱該組織處理大型商業合同，年收入估計為 8,310 萬美元。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2076684281926078837",
@@ -442,8 +593,8 @@
     "market",
     "darkweb"
    ],
-   "score": 6,
-   "text_zh": "🚨 威脅行為者聲稱巴西健康科技公司 Mobilemed 遭受了 23.5 TB 的攻擊 據稱，一名勒索軟體威脅行為者入侵了 Mobilemed，這是一家總部位於巴西的健康科技公司，專門從事基於雲端的圖片存檔和通訊系統 (PACS)。根據地下論壇上的一篇帖子，攻擊者聲稱已從該組織的基礎設施中竊取了 23.5 TB 數據，其中包括超過 5200 萬個文件。該貼文聲稱被盜資料包括敏感的病患資訊和內部憑證。該演員聲稱轉儲包含： * 3500 萬筆病患個人識別資訊 (PII) 記錄 * 17,176,370 個個人文件 * 67,493 個帳戶 PII 記錄 Mobilemed 為巴西的放射科醫生、醫院和診斷中心提供關鍵的影像基礎設施。如此大量的醫療資料的暴露可能會對病患隱私和巴西通用資料保護法 (LGPD) 的監管合規性產生嚴重影響。該威脅行為者要求支付 1,500,000 美元的贖金，截止日期為 2026 年 8 月 1 日。該貼文警告說，如果不付款，該組織打算發布完整資料集或在暗網上出售。截至本報告發布之時，Mobilemed 或第三方安全研究人員尚未對所指控的違規行為進行獨立核實。 #DataBreach #Ransomware #Mobilemed #HealthcareSecurity #Brazil #DarkWeb #ThreatIntelligence"
+   "text_zh": "🚨 威脅行為者聲稱巴西健康科技公司 Mobilemed 遭受了 23.5 TB 的攻擊 據稱，一名勒索軟體威脅行為者入侵了 Mobilemed，這是一家總部位於巴西的健康科技公司，專門從事基於雲端的圖片存檔和通訊系統 (PACS)。根據地下論壇上的一篇帖子，攻擊者聲稱已從該組織的基礎設施中竊取了 23.5 TB 數據，其中包括超過 5200 萬個文件。該貼文聲稱被盜資料包括敏感的病患資訊和內部憑證。該演員聲稱轉儲包含： * 3500 萬筆病患個人識別資訊 (PII) 記錄 * 17,176,370 個個人文件 * 67,493 個帳戶 PII 記錄 Mobilemed 為巴西的放射科醫生、醫院和診斷中心提供關鍵的影像基礎設施。如此大量的醫療資料的暴露可能會對病患隱私和巴西通用資料保護法 (LGPD) 的監管合規性產生嚴重影響。該威脅行為者要求支付 1,500,000 美元的贖金，截止日期為 2026 年 8 月 1 日。該貼文警告說，如果不付款，該組織打算發布完整資料集或在暗網上出售。截至本報告發布之時，Mobilemed 或第三方安全研究人員尚未對所指控的違規行為進行獨立核實。 #DataBreach #Ransomware #Mobilemed #HealthcareSecurity #Brazil #DarkWeb #ThreatIntelligence",
+   "score": 6
   },
   {
    "id": "2076680482033484072",
@@ -470,8 +621,8 @@
     "breach",
     "market"
    ],
-   "score": 3,
-   "text_zh": "⚠️ 威脅行為者聲稱出售 Rock N' Cash Casino 的 1500 萬筆記錄 據稱，威脅行為者提供了對遊戲伺服器和包含來自行動賭場應用程式 Rock N' Cash 的超過 1500 萬筆記錄的資料庫的完全存取權。根據地下論壇上的列表，賣家聲稱擁有從該服務中提取的 7 GB SQL 資料。該貼文稱，受感染的應用程式在 Google Play 上的下載量已超過 1000 萬次，並且還可以在 Apple App Store 上找到。該演員聲稱已獲得遊戲伺服器以及完整用戶資料庫的「完全存取權」。據報導，暴露的數據包括： * 1500 萬行 SQL 數據 * 對遊戲伺服器的完全管理訪問 Rock N' Cash 是一款流行的社交賭場應用程序，由全球最大的在線遊戲公司之一 Playtika 開發。如果是真實的，如此大量的用戶資料的暴露可能會促進針對數百萬玩家的有針對性的網路釣魚活動或身份盜竊。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。"
+   "text_zh": "⚠️ 威脅行為者聲稱出售 Rock N' Cash Casino 的 1500 萬筆記錄 據稱，威脅行為者提供了對遊戲伺服器和包含來自行動賭場應用程式 Rock N' Cash 的超過 1500 萬筆記錄的資料庫的完全存取權。根據地下論壇上的列表，賣家聲稱擁有從該服務中提取的 7 GB SQL 資料。該貼文稱，受感染的應用程式在 Google Play 上的下載量已超過 1000 萬次，並且還可以在 Apple App Store 上找到。該演員聲稱已獲得遊戲伺服器以及完整用戶資料庫的「完全存取權」。據報導，暴露的數據包括： * 1500 萬行 SQL 數據 * 對遊戲伺服器的完全管理訪問 Rock N' Cash 是一款流行的社交賭場應用程序，由全球最大的在線遊戲公司之一 Playtika 開發。如果是真實的，如此大量的用戶資料的暴露可能會促進針對數百萬玩家的有針對性的網路釣魚活動或身份盜竊。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。",
+   "score": 3
   },
   {
    "id": "2076669626000323033",
@@ -484,8 +635,8 @@
     "breach",
     "market"
    ],
-   "score": 6,
-   "text_zh": "🚨 地下論壇涉嫌印度陸軍防空資料外洩 地下論壇上的一篇貼文聲稱洩漏了屬於印度陸軍防空部門的資料。該清單由名為“slepra”的用戶於 2026 年 7 月 10 日撰寫，標題為“印度陸軍防空數據”，暗示未經授權披露軍事相關資訊。來源材料沒有提供有關資料量、公開記錄類型或取得方法的具體細節。線程中沒有包含任何螢幕截圖、文件名或範例數據來證實這一說法。印度陸軍是世界上最大的常備軍之一，其防空系統對國家安全基礎設施至關重要。如果屬實，此類數據的暴露可能會對國防行動和戰略規劃構成重大風險。截至發稿時，所指控的違規行為尚未獨立核實，印度國防部或相關當局也未發表正式聲明。"
+   "text_zh": "🚨 地下論壇涉嫌印度陸軍防空資料外洩 地下論壇上的一篇貼文聲稱洩漏了屬於印度陸軍防空部門的資料。該清單由名為“slepra”的用戶於 2026 年 7 月 10 日撰寫，標題為“印度陸軍防空數據”，暗示未經授權披露軍事相關資訊。來源材料沒有提供有關資料量、公開記錄類型或取得方法的具體細節。線程中沒有包含任何螢幕截圖、文件名或範例數據來證實這一說法。印度陸軍是世界上最大的常備軍之一，其防空系統對國家安全基礎設施至關重要。如果屬實，此類數據的暴露可能會對國防行動和戰略規劃構成重大風險。截至發稿時，所指控的違規行為尚未獨立核實，印度國防部或相關當局也未發表正式聲明。",
+   "score": 6
   },
   {
    "id": "md-116912223088452397",
@@ -497,8 +648,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "基本上在接下來的幾年裡會加載更多這樣的頭條新聞，然後 C 級高管乘著金色降落傘離開 https://finance.yahoo.com/technology/a i/articles/execs-confused-horrified-huge-ai-135718505.html"
+   "text_zh": "基本上在接下來的幾年裡會加載更多這樣的頭條新聞，然後 C 級高管乘著金色降落傘離開 https://finance.yahoo.com/technology/a i/articles/execs-confused-horrified-huge-ai-135718505.html",
+   "score": 0
   },
   {
    "id": "2076599101785850103",
@@ -1678,19 +1829,6 @@
    ],
    "text_zh": "NSA 自訂存取操作 (TAO) 更名為 CNO（電腦網路操作），但最近又恢復為 TAO。非常有趣（我不知道這意味著什麼）。",
    "score": 0
-  },
-  {
-   "id": "2075820408490655993",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇪🇺 EU Extends Temporary \"Chat Control\" Rules The European Parliament has backed the return of temporary rules allowing online platforms to voluntarily scan certain user communications for child sexual abuse material (CSAM). * More MEPs voted against (314) than in favor (276), but opponents fell short of the 361 votes needed to block the measure. * The temporary rules would remain in force until 2028 unless replaced sooner. * Parliament voted to exempt end-to-end encrypted services such as WhatsApp, Signal, and Telegram. Analyst Note: The vote highlights the ongoing tension between child protection and digital privacy. While supporters view voluntary scanning as an important investigative tool, critics warn that expanding content scanning on non-encrypted platforms could set a broader precedent for online surveillance. #DDW #Intelligence #DarkWeb #EU",
-   "url": "https://x.com/DailyDarkWeb/status/2075820408490655993",
-   "created_at": "2026-07-11T05:52:06Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "🇪🇺 歐盟延長臨時「聊天控制」規則 歐洲議會支持恢復臨時規則，允許線上平台自願掃描某些使用者通訊中是否存在兒童性虐待材料（CSAM）。 * 投票反對的歐洲議會議員 (314) 多於贊成 (276)，但反對者未達到阻止該措施所需的 361 票。 * 除非更早更換，否則臨時規則將一直有效到 2028 年。 * 議會投票豁免 WhatsApp、Signal 和 Telegram 等端對端加密服務。分析師註：此次投票凸顯了兒童保護和數位隱私之間持續存在的緊張關係。雖然支持者將自願掃描視為重要的調查工具，但批評者警告說，在非加密平台上擴大內容掃描可能會為線上監控開創更廣泛的先例。 #DDW #Intelligence #DarkWeb #EU",
-   "score": 2
   },
   {
    "id": "2075796190994604034",
