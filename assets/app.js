@@ -169,7 +169,12 @@ const FACE_CALM = `
 /* ================= watch countries (alert bar) ================= */
 const COUNTRIES = {
   taiwan:    { zh: "台灣",   en: "Taiwan",
-               rx: [/taiwan(ese)?/i, /台灣|台湾/, /\btsmc\b/i, /中華民國/, /formosa/i] },
+               rx: [/taiwan(ese)?/i, /台灣|臺灣|台湾/, /\btsmc\b/i, /中華民國/, /formosa/i,
+                    /\.tw\b/i,                                        /* .tw domains */
+                    /taipei|kaohsiung|taichung|tainan|hsinchu/i,      /* major cities */
+                    /台北|臺北|高雄|台中|臺中|台南|臺南|新竹/,
+                    /foxconn|mediatek|\basus\b|\bacer\b/i,            /* flagship companies */
+                    /鴻海|聯發科|台積電|華碩|宏碁/] },
   japan:     { zh: "日本",   en: "Japan",
                rx: [/japan(ese)?/i, /日本/, /tokyo/i] },
   korea:     { zh: "韓國",   en: "Korea",
