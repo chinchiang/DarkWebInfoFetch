@@ -171,6 +171,27 @@ button{font:inherit;cursor:pointer}
   background:var(--surface2);border:1px solid var(--line2);border-radius:999px;
   padding:.26rem .7rem;
 }
+.kw-wrap{
+  flex-basis:100%;display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
+  margin-top:.55rem;padding-top:.55rem;
+  border-top:1px dashed var(--line2);cursor:default;
+}
+.kw-wrap #kw-chips{display:contents}
+.kw-chip{
+  font-family:var(--mono);font-size:.7rem;letter-spacing:.03em;
+  color:var(--deep);background:var(--purple);border:0;border-radius:999px;
+  padding:.2rem .6rem;font-weight:600;
+}
+.kw-chip .x{opacity:.65;margin-left:.15rem}
+.kw-chip:hover .x{opacity:1}
+.kw-input{
+  flex:1;min-width:180px;max-width:280px;
+  font-family:var(--mono);font-size:.74rem;color:var(--ink);
+  background:var(--surface2);border:1px solid var(--line2);border-radius:999px;
+  padding:.26rem .8rem;
+}
+.kw-input::placeholder{color:var(--muted)}
+.kw-input:focus{outline:none;border-color:var(--purple)}
 
 /* ---------- page tabs ---------- */
 .page-tabs{max-width:1180px;margin:0 auto;padding:1.1rem 1.4rem 0;display:flex;gap:.5rem;flex-wrap:wrap}
@@ -297,6 +318,9 @@ button{font:inherit;cursor:pointer}
 }
 .tag-watch{
   color:var(--deep);background:var(--red);border-color:var(--red);font-weight:600;
+}
+.tag-kw{
+  color:var(--deep);background:var(--purple);border-color:var(--purple);font-weight:600;
 }
 .card-watch{border-color:color-mix(in srgb,var(--red) 55%,var(--surface))}
 .mt-toggle{

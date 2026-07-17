@@ -217,6 +217,9 @@ const I18N = {
     feedTitle: "即時情資流・近 7 天", feedTitleArchive: "歷史情資流・7 天以前",
     navRecent: "最新情資", navArchive: "歷史情資",
     watchLabel: "警示國別",
+    kwLabel: "★ 關注關鍵字",
+    kwPlaceholder: "輸入關鍵字後按 Enter 加入…",
+    kwRemove: "移除",
     alertHit: (name, n) => `警示:偵測到 ${n} 則與「${name}」相關的情資 — 點擊只看相關貼文`,
     alertNone: name => `目前沒有與「${name}」相關的情資`,
     alertView: "只看相關貼文", alertClear: "✕ 清除篩選,顯示全部",
@@ -254,8 +257,11 @@ const I18N = {
     feedTitle: "Live intel feed · last 7 days", feedTitleArchive: "Archive feed · older than 7 days",
     navRecent: "Latest", navArchive: "Archive",
     watchLabel: "Watch country",
-    alertHit: (name, n) => `Alert: ${n} ${name}-related post${n > 1 ? "s" : ""} detected — click to view only those`,
-    alertNone: name => `No ${name}-related intel right now`,
+    kwLabel: "★ Watch keywords",
+    kwPlaceholder: "Type a keyword and press Enter…",
+    kwRemove: "Remove",
+    alertHit: (name, n) => `Alert: ${n} post${n > 1 ? "s" : ""} matching ${name} detected — click to view only those`,
+    alertNone: name => `No intel matching ${name} right now`,
     alertView: "Only matches", alertClear: "✕ Clear filter, show all",
     watchTag: name => `${name}-related`,
     postsCount: n => `${n} posts`,
@@ -319,9 +325,16 @@ function savePref(key, val) {
 /* first visit: default to the browser language; afterwards the saved choice wins */
 const browserLang = ((navigator.language || navigator.userLanguage || "zh")
   .toLowerCase().startsWith("zh")) ? "zh" : "en";
+function readKeywords() {
+  try {
+    const arr = JSON.parse(readPref("dw-keywords") || "[]");
+    return Array.isArray(arr) ? arr.filter(k => typeof k === "string" && k.trim()).slice(0, 20) : [];
+  } catch (e) { return []; }
+}
 const state = {
   lang: readPref("dw-lang") || browserLang,
   watch: COUNTRIES[readPref("dw-watch")] ? readPref("dw-watch") : "taiwan",
+  keywords: readKeywords(),  /* user-defined watch keywords */
   watchOnly: false,
   sort: readPref("dw-sort") === "latest" ? "latest" : "priority",
   showNoise: false,     /* score-0 posts (coffee, music…) hidden by default */
@@ -366,6 +379,15 @@ function matchCountry(p) {
   const c = COUNTRIES[state.watch];
   return c ? c.rx.some(r => r.test(p.text || "")) : false;
 }
+function matchedKeywords(p) {
+  if (!state.keywords.length) return [];
+  const hay = ((p.text || "") + " " + (p.text_zh || "")).toLowerCase();
+  return state.keywords.filter(k => hay.includes(k.toLowerCase()));
+}
+/* a post is "watched" if it matches the country rules OR any user keyword */
+function matchWatch(p) {
+  return matchCountry(p) || matchedKeywords(p).length > 0;
+}
 function visiblePosts() {
   const q = state.q.trim().toLowerCase();
   return (state.data.posts || []).filter(p => {
@@ -374,7 +396,7 @@ function visiblePosts() {
     if (state.account && p.handle !== state.account) return false;
     if (state.tags.size && !(p.tags || []).some(tag => state.tags.has(tag))) return false;
     if (q && !(p.text + " " + p.handle + " " + (p.name || "")).toLowerCase().includes(q)) return false;
-    if (state.watchOnly && !matchCountry(p)) return false;
+    if (state.watchOnly && !matchWatch(p)) return false;
     // hide non-security chatter unless toggled on; search still covers it
     if (!state.showNoise && !q && isNoise(p)) return false;
     // The 7-day window only applies when browsing: searching and the
@@ -404,8 +426,8 @@ function renderStatic() {
 function renderAlert() {
   const L = t();
   const country = COUNTRIES[state.watch];
-  const name = country[state.lang];
-  const matches = (state.data.posts || []).filter(matchCountry);
+  const name = country[state.lang] + (state.keywords.length ? " / ★" : "");
+  const matches = (state.data.posts || []).filter(matchWatch);
   const bar = $("alert-bar");
   bar.hidden = false;
   bar.classList.toggle("alert-hot", matches.length > 0);
@@ -426,6 +448,11 @@ function renderAlert() {
   sel.innerHTML = Object.entries(COUNTRIES).map(([key, c]) =>
     `<option value="${key}"${key === state.watch ? " selected" : ""}>${escapeHtml(c[state.lang])}</option>`
   ).join("");
+  $("kw-chips").innerHTML = state.keywords.map(k =>
+    `<button class="kw-chip" data-kw-del="${escapeHtml(k)}" title="${escapeHtml(L.kwRemove)}">` +
+    `★ ${escapeHtml(k)} <span class="x">×</span></button>`
+  ).join("");
+  $("kw-input").placeholder = L.kwPlaceholder;
 }
 
 function renderNav() {
@@ -528,8 +555,13 @@ function renderFeed() {
     let tags = (p.tags || []).map(tag =>
       `<span class="tag" style="--tc:${(TAGS[tag] || TAGS.other).color}">${escapeHtml(t().tagNames[tag] || tag)}</span>`
     ).join("");
-    const watched = matchCountry(p);
-    if (watched) {
+    const kwHits = matchedKeywords(p);
+    const watched = matchCountry(p) || kwHits.length > 0;
+    if (kwHits.length) {
+      tags = kwHits.slice(0, 2).map(k =>
+        `<span class="tag tag-kw">★ ${escapeHtml(k)}</span>`).join("") + tags;
+    }
+    if (matchCountry(p)) {
       tags = `<span class="tag tag-watch">⚑ ${escapeHtml(L.watchTag(COUNTRIES[state.watch][state.lang]))}</span>` + tags;
     }
     const openLabel = (p.url || "").includes("x.com/") ? L.openOnX : L.openSource;
@@ -609,21 +641,47 @@ $("search").addEventListener("input", ev => { state.q = ev.target.value; renderF
 $("lang-zh").addEventListener("click", () => setLang("zh"));
 $("lang-en").addEventListener("click", () => setLang("en"));
 function toggleWatchOnly() {
-  const hasMatches = (state.data.posts || []).some(matchCountry);
+  const hasMatches = (state.data.posts || []).some(matchWatch);
   if (!hasMatches && !state.watchOnly) return;
   state.watchOnly = !state.watchOnly;
   renderAlert(); renderFeed();
   if (state.watchOnly) $("feed-title").scrollIntoView({ behavior: "smooth", block: "start" });
 }
-/* the whole alert bar toggles the filter (except the country selector) */
+/* the whole alert bar toggles the filter (except country selector and keyword editor) */
 $("alert-bar").addEventListener("click", ev => {
-  if (ev.target.closest(".watch-wrap")) return;
+  if (ev.target.closest(".watch-wrap") || ev.target.closest(".kw-wrap")) return;
   toggleWatchOnly();
 });
 $("alert-bar").addEventListener("keydown", ev => {
-  if ((ev.key === "Enter" || ev.key === " ") && !ev.target.closest(".watch-wrap")) {
+  if ((ev.key === "Enter" || ev.key === " ") &&
+      !ev.target.closest(".watch-wrap") && !ev.target.closest(".kw-wrap")) {
     ev.preventDefault();
     toggleWatchOnly();
+  }
+});
+/* user watch keywords: Enter adds, chip click removes */
+function saveKeywords() {
+  savePref("dw-keywords", JSON.stringify(state.keywords));
+  renderAlert(); renderFeed();
+}
+$("kw-input").addEventListener("keydown", ev => {
+  if (ev.key !== "Enter") return;
+  ev.preventDefault();
+  const kw = ev.target.value.trim().slice(0, 40);
+  if (kw && !state.keywords.some(k => k.toLowerCase() === kw.toLowerCase()) &&
+      state.keywords.length < 20) {
+    state.keywords.push(kw);
+    saveKeywords();
+  }
+  const input = $("kw-input");
+  input.value = "";
+  input.focus();
+});
+document.addEventListener("click", ev => {
+  const del = ev.target.closest("[data-kw-del]");
+  if (del) {
+    state.keywords = state.keywords.filter(k => k !== del.dataset.kwDel);
+    saveKeywords();
   }
 });
 $("watch-country").addEventListener("change", ev => {
