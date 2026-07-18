@@ -6,19 +6,15 @@ Automatically fetches the latest posts from curated dark-web threat-intel
 accounts on X twice daily around 05:00 and 13:00 Taipei time (UTC+8), and
 presents them on an interactive bilingual (繁中/EN) website.
 
-## 追蹤帳號 / Tracked accounts
+## 追蹤帳號 / Tracked accounts(22)
 
-| 分類 Category | 帳號 Account | 說明 |
-|---|---|---|
-| 高度推薦 Top pick | [@DailyDarkWeb](https://x.com/DailyDarkWeb) | 暗網資料外洩、勒索軟體攻擊、資料販售 |
-| 高度推薦 Top pick | [@DarkWebInformer](https://x.com/DarkWebInformer) | 暗網/明網威脅情資、勒索軟體、市場動態與 IOC |
-| 強力推薦 Strong | [@jms_dot_py](https://x.com/jms_dot_py) | Hunchly 作者,Tor 隱藏服務報告與 Onion 新發現 |
-| 強力推薦 Strong | [@campuscodi](https://x.com/campuscodi) | 資深資安記者,暗網洩漏與重大資安事件 |
-| 強力推薦 Strong | [@GossiTheDog](https://x.com/GossiTheDog) | 威脅情資專家,早期警告與地下趨勢 |
-| 補充推薦 Extra | [@briankrebs](https://x.com/briankrebs) | 資安調查記者,暗網犯罪深度報導 |
-| 補充推薦 Extra | [@vxunderground](https://x.com/vxunderground) | 惡意軟體、資料洩漏與地下論壇 |
-| 補充推薦 Extra | [@Gi7w0rm](https://x.com/Gi7w0rm) | 惡意軟體、資料洩漏與地下論壇 |
-| 補充推薦 Extra | [@MonThreat](https://x.com/MonThreat) | ThreatMon,中東與全球威脅情資 |
+| 分類 Category | 帳號 Accounts |
+|---|---|
+| 高度推薦(暗網專門)Top picks | @DailyDarkWeb, @DarkWebInformer |
+| 強力推薦(威脅情報)Strong | @jms_dot_py, @campuscodi, @GossiTheDog, @GroupIB_TI, @CTI_Alerts, @TheDFIRReport |
+| 資安新聞 News | @SwiftOnSecurity, @darkreading, @TheHackersNews, @MsftSecIntel, @threatintel, @CyberSec__News, @The_Cyber_News |
+| 補充推薦 Extra | @briankrebs, @vxunderground, @Gi7w0rm, @MonThreat, @troyhunt |
+| 中文情資 Chinese | @InfoSec_zip, @anwangkeji |
 
 ## 架構 / How it works
 
