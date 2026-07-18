@@ -149,93 +149,6 @@ const isPriority = p => postScore(p) >= 3;
 const isNoise = p => postScore(p) === 0;
 
 /* ================= mascots (inline SVG) ================= */
-/* anime-style analyst with lavender ponytail and a holographic panel */
-const MASCOT_HERO = `
-<svg viewBox="0 0 260 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DARK//WATCH mascot">
-  <!-- circuit decorations -->
-  <g stroke="#b9a7f2" stroke-width="1.5" fill="none" opacity=".8">
-    <path d="M178 10 h50 l16 16 v40"/>
-    <path d="M244 78 v14"/>
-    <path d="M12 232 v36 l14 14 h42"/>
-  </g>
-  <rect x="174" y="6" width="7" height="7" fill="#e06400" transform="rotate(45 177.5 9.5)"/>
-  <circle cx="244" cy="100" r="3" fill="#8b30f0"/>
-  <circle cx="236" cy="112" r="2" fill="#1f7fe8"/>
-  <circle cx="12" cy="224" r="3" fill="#d621a5"/>
-  <circle cx="76" cy="14" r="2.5" fill="#1f7fe8"/>
-
-  <!-- ponytail (behind) -->
-  <path d="M170 58 Q222 88 210 158 Q202 216 166 258 Q188 202 180 154 Q173 112 148 88 Z" fill="#a78ff0"/>
-  <path d="M170 64 Q210 94 200 154 Q193 200 172 236 Q186 192 178 150 Q171 112 150 90 Z" fill="#c3b2f7"/>
-  <path d="M176 84 Q196 116 190 160" stroke="#8f76e4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-
-  <!-- back hair -->
-  <path d="M78 100 Q68 42 124 34 Q174 30 180 86 Q184 116 170 132 L86 132 Q72 118 78 100 Z" fill="#b9a7f2"/>
-  <!-- hair tie -->
-  <circle cx="169" cy="60" r="7" fill="#1f7fe8"/>
-
-  <!-- neck -->
-  <path d="M116 130 h26 v46 q-13 8 -26 0 Z" fill="#f6d3c3"/>
-
-  <!-- face -->
-  <path d="M90 90 Q90 132 106 144 Q120 154 134 144 Q150 132 150 90 Q150 60 120 60 Q90 60 90 90 Z" fill="#ffeae1"/>
-
-  <!-- bangs -->
-  <path d="M86 100 Q80 46 124 40 Q170 38 174 96 L164 86 L156 102 L148 84 L136 100 L126 80 L114 100 L104 82 L94 102 Z" fill="#c3b2f7"/>
-  <path d="M92 98 Q90 66 112 56" stroke="#a78ff0" stroke-width="2" fill="none" opacity=".7"/>
-
-  <!-- eyes -->
-  <path d="M97 103 Q105 97 114 102" stroke="#4a3f6e" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M128 102 Q137 97 145 103" stroke="#4a3f6e" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <ellipse cx="106" cy="112" rx="6.5" ry="8.5" fill="#7c3aed"/>
-  <ellipse cx="136" cy="112" rx="6.5" ry="8.5" fill="#7c3aed"/>
-  <ellipse cx="106" cy="115" rx="4" ry="5" fill="#5b21b6"/>
-  <ellipse cx="136" cy="115" rx="4" ry="5" fill="#5b21b6"/>
-  <circle cx="104" cy="109" r="2.2" fill="#fff"/>
-  <circle cx="134" cy="109" r="2.2" fill="#fff"/>
-  <circle cx="109" cy="117" r="1" fill="#e9d5ff"/>
-  <circle cx="139" cy="117" r="1" fill="#e9d5ff"/>
-
-  <!-- blush + mouth -->
-  <ellipse cx="97" cy="126" rx="5.5" ry="3" fill="#f7b8d0" opacity=".8"/>
-  <ellipse cx="145" cy="126" rx="5.5" ry="3" fill="#f7b8d0" opacity=".8"/>
-  <path d="M116 134 Q121 138 126 134" stroke="#b3766a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-
-  <!-- jacket body -->
-  <path d="M58 300 Q60 230 92 204 L116 190 h26 L166 204 Q198 230 200 300 Z" fill="#241d40"/>
-  <!-- high collar -->
-  <path d="M102 192 L116 170 L129 190 L142 170 L156 192 L142 206 h-26 Z" fill="#312752"/>
-  <path d="M102 192 L116 170 M142 170 L156 192" stroke="#8b5cf6" stroke-width="2.5" fill="none"/>
-  <!-- inner top -->
-  <path d="M116 194 L129 218 L142 194 Q129 186 116 194 Z" fill="#fff"/>
-  <!-- trims -->
-  <path d="M92 204 Q66 230 62 294" stroke="#8b5cf6" stroke-width="3.5" fill="none"/>
-  <path d="M166 204 Q192 230 196 294" stroke="#4aa3ff" stroke-width="3.5" fill="none"/>
-  <path d="M129 220 V300" stroke="#4a3f6e" stroke-width="2"/>
-  <!-- shoulder emblem -->
-  <circle cx="178" cy="248" r="10" fill="none" stroke="#a06bf8" stroke-width="2.5"/>
-  <circle cx="178" cy="248" r="4" fill="#a06bf8"/>
-
-  <!-- pointing arm + glove -->
-  <path d="M96 206 Q68 226 56 258 L82 274 Q92 246 108 232 Z" fill="#241d40"/>
-  <path d="M60 256 Q70 244 82 240" stroke="#8b5cf6" stroke-width="2.5" fill="none"/>
-  <ellipse cx="60" cy="266" rx="13" ry="10" fill="#17112a"/>
-  <rect x="38" y="258" width="16" height="6.5" rx="3.2" fill="#17112a"/>
-
-  <!-- holographic panel -->
-  <g opacity=".95">
-    <rect x="6" y="196" width="88" height="60" rx="9" fill="rgba(74,163,255,.14)" stroke="#4aa3ff" stroke-width="2"/>
-    <circle cx="34" cy="222" r="12" fill="none" stroke="#4aa3ff" stroke-width="2.5" opacity=".9"/>
-    <circle cx="34" cy="222" r="5.5" fill="#4aa3ff" opacity=".8"/>
-    <rect x="56" y="234" width="6" height="12" rx="1.5" fill="#4aa3ff"/>
-    <rect x="65" y="228" width="6" height="18" rx="1.5" fill="#8b5cf6"/>
-    <rect x="74" y="222" width="6" height="24" rx="1.5" fill="#4aa3ff"/>
-    <rect x="83" y="230" width="6" height="16" rx="1.5" fill="#0aa6bd"/>
-    <path d="M54 206 h32 M54 212 h24" stroke="#8ec6ff" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M14 250 h30" stroke="#8ec6ff" stroke-width="2" stroke-linecap="round" opacity=".8"/>
-  </g>
-</svg>`;
-
 /* sleeping ghost — empty state */
 const GHOST_SVG = `
 <svg viewBox="0 0 150 122" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -823,8 +736,16 @@ function tickClock() {
   $("clock").textContent = new Date().toISOString().slice(0, 19).replace("T", " ") + " UTC";
 }
 
+/* hero artwork: the original illustration at assets/mascot.png; the
+   panel stays hidden until the file exists so no placeholder shows */
 const heroArt = $("hero-art");
-if (heroArt) heroArt.innerHTML = MASCOT_HERO;
+if (heroArt) {
+  heroArt.hidden = true;
+  const art = new Image();
+  art.alt = "";
+  art.onload = () => { heroArt.appendChild(art); heroArt.hidden = false; };
+  art.src = "assets/mascot.png";
+}
 renderAll();
 tickClock();
 setInterval(tickClock, 1000);
