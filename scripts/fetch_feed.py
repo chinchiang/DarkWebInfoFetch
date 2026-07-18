@@ -7,7 +7,7 @@ Data sources, in order of preference:
 
 Output: data/feed.json, merged with previously fetched posts so a partial
 fetch never loses history. Designed to run from GitHub Actions on a schedule
-(twice daily at 05:00 and 15:00 Taipei time / 21:00 and 07:00 UTC).
+(twice daily, around 05:00 and 13:00 Taipei time / 21:00 and 05:00 UTC).
 Only uses the Python standard library.
 """
 

@@ -2,12 +2,12 @@ name: Fetch threat intel feed
 
 on:
   schedule:
-    # Twice daily, targeting 05:00 and 15:00 Taipei time (UTC+8).
-    # Triggered at 20:23/06:23 UTC (04:23/14:23 UTC+8): GitHub cron is
-    # best-effort and often runs 15-60 min late at popular times like
-    # :00, so we fire early on an uncommon minute to have fresh data by
-    # 05:00/15:00. Scheduled workflows only run on the default branch.
-    - cron: "23 6,20 * * *"
+    # Twice daily (Taipei/UTC+8): morning fires 04:23, afternoon 12:30.
+    # GitHub cron is best-effort and often runs late, so both fire ahead
+    # of their target windows (data fresh by ~05:00 and ~13:00-14:30).
+    # Scheduled workflows only run on the default branch.
+    - cron: "23 20 * * *"
+    - cron: "30 4 * * *"
   workflow_dispatch:
 
 permissions:
