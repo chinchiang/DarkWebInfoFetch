@@ -369,6 +369,16 @@ function fmtUtc(isoStr) {
   if (isNaN(d)) return "—";
   return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
 }
+/* viewer-local time with an explicit UTC-offset label, e.g. "2026-07-18 05:11 (UTC+8)" */
+function fmtLocal(isoStr) {
+  const d = new Date(isoStr);
+  if (isNaN(d)) return "—";
+  const pad = n => String(n).padStart(2, "0");
+  const off = -d.getTimezoneOffset() / 60;
+  const offLabel = "UTC" + (off >= 0 ? "+" : "") + (Number.isInteger(off) ? off : off.toFixed(1));
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ` +
+         `${pad(d.getHours())}:${pad(d.getMinutes())} (${offLabel})`;
+}
 
 /* ================= filtering ================= */
 function isRecent(p) {
@@ -593,7 +603,8 @@ function renderFeed() {
 function renderMeta() {
   const L = t();
   const d = state.data;
-  $("updated-at").textContent = fmtUtc(d.generated_at);
+  $("updated-at").textContent = fmtLocal(d.generated_at);
+  $("updated-at").title = fmtUtc(d.generated_at);
   $("source").textContent = L.sources[d.source] || d.source || "—";
   $("post-count").textContent = (d.posts || []).length;
   const hasNew = typeof d.new_count === "number";
