@@ -52,7 +52,8 @@ ACCOUNTS = [
     {"handle": "MonThreat", "category": "extra"},
     {"handle": "troyhunt", "category": "extra"},
     {"handle": "InfoSec_zip", "category": "zhtw"},
-    {"handle": "anwangkeji", "category": "zhtw"},
+    {"handle": "twcertcc", "category": "zhtw"},
+    {"handle": "TeamT5_Official", "category": "zhtw"},
 ]
 
 NITTER_INSTANCES = [
