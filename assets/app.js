@@ -153,11 +153,18 @@ const ACCOUNT_META = {
       en: "Chinese-language infosec podcast; approachable explainers."
     }
   },
-  anwangkeji: {
-    name: "暗網科技", category: "zhtw",
+  twcertcc: {
+    name: "TWCERT/CC", category: "zhtw",
     desc: {
-      zh: "中文暗網研究與新聞。",
-      en: "Chinese-language dark web research and news."
+      zh: "台灣電腦網路危機處理暨協調中心官方帳號,中文資安警訊、漏洞通報與外洩情資。",
+      en: "Taiwan's national CERT: Chinese-language security alerts, vulnerability advisories and breach intel."
+    }
+  },
+  TeamT5_Official: {
+    name: "TeamT5 杜浦數位安全", category: "zhtw",
+    desc: {
+      zh: "台灣威脅情資公司,專精 APT 與地下活動研究,亞太區威脅研究領先團隊。",
+      en: "Taiwan threat-intel firm specializing in APT and underground research; a leading APAC team."
     }
   }
 };
@@ -296,7 +303,7 @@ const I18N = {
     docTitleArchive: "DARKWATCH — 歷史情資",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 13:00 更新",
     titleHtml: '暗網<span class="hl-a">威脅情資</span>即時<span class="hl-b">監控台</span>',
-    tagline: "彙整 22 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場、惡意軟體與資安新聞動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
+    tagline: "彙整 23 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場、惡意軟體與資安新聞動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
     updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 13:00 自動抓取",
     postsUnit: "則情資", newPosts: "本次新增",
     sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
@@ -336,7 +343,7 @@ const I18N = {
     docTitleArchive: "DARKWATCH — Threat Intel Archive",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 13:00",
     titleHtml: 'Dark Web <span class="hl-a">Threat Intel</span>, <span class="hl-b">Live Console</span>',
-    tagline: "Aggregates 22 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets, malware and security news — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
+    tagline: "Aggregates 23 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets, malware and security news — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
     updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 13:00",
     postsUnit: "posts", newPosts: "new this update",
     sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
