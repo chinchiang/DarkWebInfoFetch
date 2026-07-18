@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-18T06:17:28Z",
+ "generated_at": "2026-07-18T06:29:38Z",
  "source": "nitter",
- "new_count": 226,
+ "new_count": 41,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -24,7 +24,8 @@
   "MonThreat": "ok",
   "troyhunt": "ok",
   "InfoSec_zip": "ok",
-  "anwangkeji": "error"
+  "twcertcc": "ok",
+  "TeamT5_Official": "ok"
  },
  "categories": {
   "DailyDarkWeb": "core",
@@ -48,7 +49,8 @@
   "MonThreat": "extra",
   "troyhunt": "extra",
   "InfoSec_zip": "zhtw",
-  "anwangkeji": "zhtw"
+  "twcertcc": "zhtw",
+  "TeamT5_Official": "zhtw"
  },
  "posts": [
   {
@@ -61,8 +63,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "R 致@TheHackersNews：受影響的範圍現在分為： • 6.8.0–6.8.5：僅限 SQL 注入 • 6.9.0–6.9.4：完整的 RCE 鏈 • 7.0.0–7.0.1：完整的 RCE 鏈 截至 7 月 18 日，尚未公開利用情況，但該報告現已公開利用。漏洞利用路徑如何運作：https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
+   "text_zh": "R 致@TheHackersNews：受影響的範圍現在分為： • 6.8.0–6.8.5：僅限 SQL 注入 • 6.9.0–6.9.4：完整的 RCE 鏈 • 7.0.0–7.0.1：完整的 RCE 鏈 截至 7 月 18 日，尚未公開利用情況，但該報告現已公開利用。漏洞利用路徑如何運作：https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+   "score": 3
   },
   {
    "id": "2078351245321154870",
@@ -74,8 +76,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致 @TheHackersNews：有一個條件縮小了 RCE 路徑：它僅在 #WordPress 不使用持久物件快取時才有效。預設安裝沒有這樣的快取。 Redis 或 Memcached 可能會中斷此鏈，但它們無法修復 SQL 注入。"
+   "text_zh": "R 致 @TheHackersNews：有一個條件縮小了 RCE 路徑：它僅在 #WordPress 不使用持久物件快取時才有效。預設安裝沒有這樣的快取。 Redis 或 Memcached 可能會中斷此鏈，但它們無法修復 SQL 注入。",
+   "score": 1
   },
   {
    "id": "2078351120603423004",
@@ -87,8 +89,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "⚡ 更新：#wp2shell 現在有兩個 CVE，並且公開了有效的概念驗證。 > CVE-2026-63030 破壞 REST 批次路由 > CVE-2026-60137 注入 SQL Chained，它們讓匿名攻擊者在受影響的 WordPress 網站上執行程式碼。"
+   "text_zh": "⚡ 更新：#wp2shell 現在有兩個 CVE，並且公開了有效的概念驗證。 > CVE-2026-63030 破壞 REST 批次路由 > CVE-2026-60137 注入 SQL Chained，它們讓匿名攻擊者在受影響的 WordPress 網站上執行程式碼。",
+   "score": 3
   },
   {
    "id": "2078329667304464463",
@@ -100,8 +102,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 致@vxunderground：tldr，你向我發送惡意軟體很好，有時會發生非常有趣的事情。感謝您向我發送惡意軟體。另外，我真的想指出，我沒有做任何調查工作或其他什麼，我只是對其進行逆向工程，解釋它是如何工作的，記錄了一些 IP 或加密錢包，僅此而已。我只是惡意軟體的人。我什麼都不是。 BlockBlasters 出現後，有很多人聚集在一起，做了非常酷的事情並幫助了很多人。許多人公開分享識別人員身分的資訊。我只是用棍子敲打東西並看著貓"
+   "text_zh": "R 致@vxunderground：tldr，你向我發送惡意軟體很好，有時會發生非常有趣的事情。感謝您向我發送惡意軟體。另外，我真的想指出，我沒有做任何調查工作或其他什麼，我只是對其進行逆向工程，解釋它是如何工作的，記錄了一些 IP 或加密錢包，僅此而已。我只是惡意軟體的人。我什麼都不是。 BlockBlasters 出現後，有很多人聚集在一起，做了非常酷的事情並幫助了很多人。許多人公開分享識別人員身分的資訊。我只是用棍子敲打東西並看著貓",
+   "score": 2
   },
   {
    "id": "2078328596871921867",
@@ -113,8 +115,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "也許一年前，我不記得了，Steam 上出現了一款名為 BlockBlasters 的遊戲。 BlockBlasters 實際上是惡意軟體，它獲得認可主要是因為它被用來加密末期癌症患者。在人們開始通知我 Steam 上的遊戲可能是惡意軟體後，我是第一個（據我所知）對 BlockBlasters 進行逆向工程的人。這最終成為了一件大事，主要是因為 BlockBlasters 被用於有針對性的加密貨幣耗盡活動。不管怎樣，聯邦調查局已經開始逮捕這些人了。第一名被捕者是佛羅裡達州 21 歲的 Zyaire Dontaevious Zamarion Wilkins。我猜還會有更多人被逮捕。此人從惡意軟體活動中具體賺取了 22 萬美元，其中 32,000 美元來自一位身患絕症（現已死亡）的癌症患者。"
+   "text_zh": "也許一年前，我不記得了，Steam 上出現了一款名為 BlockBlasters 的遊戲。 BlockBlasters 實際上是惡意軟體，它獲得認可主要是因為它被用來加密末期癌症患者。在人們開始通知我 Steam 上的遊戲可能是惡意軟體後，我是第一個（據我所知）對 BlockBlasters 進行逆向工程的人。這最終成為了一件大事，主要是因為 BlockBlasters 被用於有針對性的加密貨幣耗盡活動。不管怎樣，聯邦調查局已經開始逮捕這些人了。第一名被捕者是佛羅裡達州 21 歲的 Zyaire Dontaevious Zamarion Wilkins。我猜還會有更多人被逮捕。此人從惡意軟體活動中具體賺取了 22 萬美元，其中 32,000 美元來自一位身患絕症（現已死亡）的癌症患者。",
+   "score": 2
   },
   {
    "id": "2078326305578451388",
@@ -126,8 +128,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致 @The_Cyber​​_News：WordPress 已發布 7.0.2 版本，以及 6.9.5 和 6.8.6 中的反向移植修復程序，解決了關鍵的 RCE 問題和高嚴重性的 SQL 注入缺陷。"
+   "text_zh": "R 致 @The_Cyber​​_News：WordPress 已發布 7.0.2 版本，以及 6.9.5 和 6.8.6 中的反向移植修復程序，解決了關鍵的 RCE 問題和高嚴重性的 SQL 注入缺陷。",
+   "score": 0
   },
   {
    "id": "2078318724784980094",
@@ -139,8 +141,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "🚨 新的 wp2shell RCE 漏洞影響數百萬 WordPress 網站，已發布緊急修補程式 來源：https://cybersecuritynews.com/wp2shell-rce-vulnerability/ 在 WordPress Core 中發現了一個名為「wp2shell」的關鍵預驗證遠端程式碼執行 (RCE) 漏洞，估計使未經身份驗證的網站面臨超過 5 億個身份驗證的網站面臨風險此缺陷源自 REST API 批次路由混淆問題，該問題會導致 SQL 注入並最終導致遠端程式碼執行。這個漏洞之所以特別危險，是因為它不需要先決條件，並且可以被完全匿名、未經身份驗證的用戶針對安裝了零個外掛程式的 WordPress 安裝進行利用。 #網路安全新聞"
+   "text_zh": "🚨 新的 wp2shell RCE 漏洞影響數百萬 WordPress 網站，已發布緊急修補程式 來源：https://cybersecuritynews.com/wp2shell-rce-vulnerability/ 在 WordPress Core 中發現了一個名為「wp2shell」的關鍵預驗證遠端程式碼執行 (RCE) 漏洞，估計使未經身份驗證的網站面臨超過 5 億個身份驗證的網站面臨風險此缺陷源自 REST API 批次路由混淆問題，該問題會導致 SQL 注入並最終導致遠端程式碼執行。這個漏洞之所以特別危險，是因為它不需要先決條件，並且可以被完全匿名、未經身份驗證的用戶針對安裝了零個外掛程式的 WordPress 安裝進行利用。 #網路安全新聞",
+   "score": 3
   },
   {
    "id": "2078277709310861739",
@@ -154,8 +156,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🚨🇦🇷 Instituto Ferrero de Neurología y Sueño 數據據稱被勒索 15 萬美元 一名論壇演員聲稱入侵了 Instituto Ferrero de Neurología y Sueño，一家專門研究神經系統和睡眠障礙的阿根廷醫療中心。該清單公佈了 636GB 的數據，其中包含與 103,315 個用戶相關的約 474,826 個檔案。該演員索要 15 萬美元，並威脅稱，如果在 2026 年 8 月 5 日之前不付款，將出售這些材料。據稱，洩露的資料可能包括患者、臨床、管理和其他內部記錄，但該貼文沒有提供暴露欄位的詳細分類。樣品是透過演員的 Telegram 頻道分享的。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇦🇷 Instituto Ferrero de Neurología y Sueño 數據據稱被勒索 15 萬美元 一名論壇演員聲稱入侵了 Instituto Ferrero de Neurología y Sueño，一家專門研究神經系統和睡眠障礙的阿根廷醫療中心。該清單公佈了 636GB 的數據，其中包含與 103,315 個用戶相關的約 474,826 個檔案。該演員索要 15 萬美元，並威脅稱，如果在 2026 年 8 月 5 日之前不付款，將出售這些材料。據稱，洩露的資料可能包括患者、臨床、管理和其他內部記錄，但該貼文沒有提供暴露欄位的詳細分類。樣品是透過演員的 Telegram 頻道分享的。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 5
   },
   {
    "id": "2078276404345496033",
@@ -167,8 +169,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "上帝正在懲罰我們沒有更多的惡意軟體"
+   "text_zh": "上帝正在懲罰我們沒有更多的惡意軟體",
+   "score": 2
   },
   {
    "id": "2078272907927499134",
@@ -180,8 +182,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "️️您可以透過免費掃描來檢查您是否受到wp2shell的影響：https://wp2shell.com"
+   "text_zh": "️️您可以透過免費掃描來檢查您是否受到wp2shell的影響：https://wp2shell.com",
+   "score": 0
   },
   {
    "id": "2078266008427454469",
@@ -194,8 +196,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇷🇴 據稱捆綁出售羅馬尼亞政府和商業資料集 一名論壇參與者聲稱正在出售一個捆綁包，該資料集被描述為六個羅馬尼亞資料集，其中包含財產、航空、教育、法院和快遞記錄。該清單公佈了 27,796,642 項國家財產登記記錄、437,809 起法院案件、超過 155 萬筆快遞遞送記錄、涵蓋所有 42 個縣的教師工資數據，以及據稱從布加勒斯特機場後端獲取的 94 個文件。完整套裝售價為 5,000 美元。據稱暴露的資訊包括姓名、CNP 識別碼、家庭和送貨地址、財產詳細資料、教師職位和工資、法庭當事人、IBAN、電話號碼、電子郵件地址、聽證會日期、航班資訊、管理員帳戶、密碼哈希、聯絡人提交資訊、訂閱者詳細資料和登入日誌。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇷🇴 據稱捆綁出售羅馬尼亞政府和商業資料集 一名論壇參與者聲稱正在出售一個捆綁包，該資料集被描述為六個羅馬尼亞資料集，其中包含財產、航空、教育、法院和快遞記錄。該清單公佈了 27,796,642 項國家財產登記記錄、437,809 起法院案件、超過 155 萬筆快遞遞送記錄、涵蓋所有 42 個縣的教師工資數據，以及據稱從布加勒斯特機場後端獲取的 94 個文件。完整套裝售價為 5,000 美元。據稱暴露的資訊包括姓名、CNP 識別碼、家庭和送貨地址、財產詳細資料、教師職位和工資、法庭當事人、IBAN、電話號碼、電子郵件地址、聽證會日期、航班資訊、管理員帳戶、密碼哈希、聯絡人提交資訊、訂閱者詳細資料和登入日誌。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2078256589266423998",
@@ -208,8 +210,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇧🇷 Receita Federal 資料集，據稱包含 2.79 億筆 CPF 記錄，據稱已掛牌出售 一名論壇參與者聲稱已從與巴西 Receita Federal 相關的系統中提取了當前資料集，其中包含 279,008,638 條記錄。該演員還聲稱擁有 2019 年創建的舊備份，其中包含約 2.48 億條 CPF 條目。新公佈的資料集被描述為一個 69.6GB 的文件，其中兩個樣本包含 10,000 條記錄，每個樣本作為證據發布。該演員要求為所謂的 2026 年數據集索要 10,000 美元，為 2019 年備份索要 1,300 美元，可以用比特幣或門羅幣支付。據稱暴露的資訊包括公積金號碼、全名、出生日期、電子郵件地址、電話號碼、居住地址、郵遞區號、城市、職業、國籍、父母姓名、性別、稅務登記日期、地籍狀況、外國居住指標和死亡相關記錄。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇧🇷 Receita Federal 資料集，據稱包含 2.79 億筆 CPF 記錄，據稱已掛牌出售 一名論壇參與者聲稱已從與巴西 Receita Federal 相關的系統中提取了當前資料集，其中包含 279,008,638 條記錄。該演員還聲稱擁有 2019 年創建的舊備份，其中包含約 2.48 億條 CPF 條目。新公佈的資料集被描述為一個 69.6GB 的文件，其中兩個樣本包含 10,000 條記錄，每個樣本作為證據發布。該演員要求為所謂的 2026 年數據集索要 10,000 美元，為 2019 年備份索要 1,300 美元，可以用比特幣或門羅幣支付。據稱暴露的資訊包括公積金號碼、全名、出生日期、電子郵件地址、電話號碼、居住地址、郵遞區號、城市、職業、國籍、父母姓名、性別、稅務登記日期、地籍狀況、外國居住指標和死亡相關記錄。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2078254777771692507",
@@ -222,8 +224,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 致@DarkWebInformer：另一個 PoC：https://github.com/sergiointel/wp2shell-poc"
+   "text_zh": "R 致@DarkWebInformer：另一個 PoC：https://github.com/sergiointel/wp2shell-poc",
+   "score": 2
   },
   {
    "id": "2078251636623851682",
@@ -235,8 +237,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "️🚨 CVE-2026-63030 // wp2shell-poc：WordPress 核心中未經驗證的 SQL 注入的概念驗證，透過 REST 批次路由混淆連結到遠端程式碼執行。概念驗證：https://github.com/Icex0/wp2shell-poc"
+   "text_zh": "️🚨 CVE-2026-63030 // wp2shell-poc：WordPress 核心中未經驗證的 SQL 注入的概念驗證，透過 REST 批次路由混淆連結到遠端程式碼執行。概念驗證：https://github.com/Icex0/wp2shell-poc",
+   "score": 3
   },
   {
    "id": "2078251285854531619",
@@ -248,8 +250,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致@troyhunt：未修復"
+   "text_zh": "R 致@troyhunt：未修復",
+   "score": 0
   },
   {
    "id": "2078249775762415639",
@@ -261,8 +263,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致@troyhunt：已修復！"
+   "text_zh": "R 致@troyhunt：已修復！",
+   "score": 0
   },
   {
    "id": "2078239712305676695",
@@ -274,8 +276,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "這是一個大膽的策略，科頓。讓我們看看這對他們是否有回報。"
+   "text_zh": "這是一個大膽的策略，科頓。讓我們看看這對他們是否有回報。",
+   "score": 0
   },
   {
    "id": "2078235259074756941",
@@ -287,8 +289,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：資料來源：https://wordpress.org/news/2026/07/wordpress-7-0-2-release/"
+   "text_zh": "R 至 @DarkWebInformer：資料來源：https://wordpress.org/news/2026/07/wordpress-7-0-2-release/",
+   "score": 2
   },
   {
    "id": "2078235256625266875",
@@ -300,8 +302,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "️新的 WordPress 更新修復了 1 個嚴重漏洞和 1 個高漏洞 REST API 批量路由混亂和導致遠端程式碼執行的 SQL 注入問題：https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-ff9f-jf42-662 的 `WP_Query 注入參數https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-fpp7-x2x2-2mjf"
+   "text_zh": "️新的 WordPress 更新修復了 1 個嚴重漏洞和 1 個高漏洞 REST API 批量路由混亂和導致遠端程式碼執行的 SQL 注入問題：https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-ff9f-jf42-662 的 `WP_Query 注入參數https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-fpp7-x2x2-2mjf",
+   "score": 1
   },
   {
    "id": "2078229714096013706",
@@ -313,8 +315,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "R 至 @TheHackersNews：截至 7 月 18 日，尚未報告任何利用該漏洞的情況，且該缺陷仍然沒有 CVE 或 CVSS 評分。在修補之前，防禦者可以阻止對兩個 REST 批次路由的匿名存取。"
+   "text_zh": "R 至 @TheHackersNews：截至 7 月 18 日，尚未報告任何利用該漏洞的情況，且該缺陷仍然沒有 CVE 或 CVSS 評分。在修補之前，防禦者可以阻止對兩個 REST 批次路由的匿名存取。",
+   "score": 3
   },
   {
    "id": "2078229640209125458",
@@ -326,8 +328,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 回覆 @TheHackersNews：受影響的版本： • WordPress 6.9.0 至 6.9.4 • WordPress 7.0.0 至 7.0.1 WordPress 6.9.5、7.0.2 和 7.1 beta2 包含此修復。"
+   "text_zh": "R 回覆 @TheHackersNews：受影響的版本： • WordPress 6.9.0 至 6.9.4 • WordPress 7.0.0 至 7.0.1 WordPress 6.9.5、7.0.2 和 7.1 beta2 包含此修復。",
+   "score": 1
   },
   {
    "id": "2078229587516080408",
@@ -339,8 +341,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致 @TheHackersNews：WordPress 表示，該缺陷來自 REST API 批量路由混淆和 SQL 注入，可能導致遠端程式碼執行。受影響的程式碼位於核心中，而不是插件中。"
+   "text_zh": "R 致 @TheHackersNews：WordPress 表示，該缺陷來自 REST API 批量路由混淆和 SQL 注入，可能導致遠端程式碼執行。受影響的程式碼位於核心中，而不是插件中。",
+   "score": 1
   },
   {
    "id": "md-116937421420521521",
@@ -352,8 +354,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "今年每次打開 BBC 新聞都覺得自己中風了"
+   "text_zh": "今年每次打開 BBC 新聞都覺得自己中風了",
+   "score": 0
   },
   {
    "id": "2078224507714838650",
@@ -365,8 +367,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "#ThreatProtection 威脅發起者 UAT-11795 部署#WLDR 記憶體植入和#Starland RAT。客製化惡意軟體透過木馬安裝程式傳遞，竊取憑證和加密貨幣錢包資料。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/uat-11795-leverages-trojanized-software-installers-to-deliver-custom-python-and-powershell-payloads"
+   "text_zh": "#ThreatProtection 威脅發起者 UAT-11795 部署#WLDR 記憶體植入和#Starland RAT。客製化惡意軟體透過木馬安裝程式傳遞，竊取憑證和加密貨幣錢包資料。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/uat-11795-leverages-trojanized-software-installers-to-deliver-custom-python-and-powershell-payloads",
+   "score": 3
   },
   {
    "id": "2078222983869460929",
@@ -417,8 +419,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "🛑 OpenSSL 悄悄修復了 HollowByte，這是一個缺陷，其中 11 位元組 TLS 請求可以為每個連線保留最多 131 KB 的伺服器記憶體。在研究人員測試的 glibc 系統上，該內存在重新啟動之前一直保持凍結狀態。完整詳細資訊：https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
+   "text_zh": "🛑 OpenSSL 悄悄修復了 HollowByte，這是一個缺陷，其中 11 位元組 TLS 請求可以為每個連線保留最多 131 KB 的伺服器記憶體。在研究人員測試的 glibc 系統上，該內存在重新啟動之前一直保持凍結狀態。完整詳細資訊：https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+   "score": 1
   },
   {
    "id": "2078214897427419171",
@@ -504,8 +506,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "GG兄弟。恐懼：https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad[.]onion/post/1556958b828c943566c7"
+   "text_zh": "GG兄弟。恐懼：https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad[.]onion/post/1556958b828c943566c7",
+   "score": 0
   },
   {
    "id": "2078208938680476110",
@@ -602,8 +604,8 @@
     "breach",
     "malware"
    ],
-   "score": 3,
-   "text_zh": "⚠️ 7 個惡意 npm 套件針對 Vite 開發者。它們在安裝過程中保持安靜。匯入一個，它就會啟動一個 RAT 傳遞鏈，可以竊取憑證、竊取檔案並開啟反向 shell。攻擊者將傳遞路徑儲存在公共區塊鏈交易中。查看受影響的軟體包和完整的攻擊鏈：https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+   "text_zh": "⚠️ 7 個惡意 npm 套件針對 Vite 開發者。它們在安裝過程中保持安靜。匯入一個，它就會啟動一個 RAT 傳遞鏈，可以竊取憑證、竊取檔案並開啟反向 shell。攻擊者將傳遞路徑儲存在公共區塊鏈交易中。查看受影響的軟體包和完整的攻擊鏈：https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+   "score": 3
   },
   {
    "id": "2078190547244650834",
@@ -668,8 +670,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "真正的人工智慧威脅是盲目信任：https://bit.ly/3RgVJvU 維克森林大學 R. ​​Justin Martin 的評論"
+   "text_zh": "真正的人工智慧威脅是盲目信任：https://bit.ly/3RgVJvU 維克森林大學 R. ​​Justin Martin 的評論",
+   "score": 0
   },
   {
    "id": "2078177212805836979",
@@ -681,8 +683,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致@The_Cyber​​_News：安永在信中表示，目前沒有證據表明暴露的數據被濫用，也沒有跡象表明特定個人遭到故意攻擊。"
+   "text_zh": "R 致@The_Cyber​​_News：安永在信中表示，目前沒有證據表明暴露的數據被濫用，也沒有跡象表明特定個人遭到故意攻擊。",
+   "score": 0
   },
   {
    "id": "2078175571842838659",
@@ -694,8 +696,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "代理人工智慧：馴服不可預測的事物：https://bit.ly/4yqWJOD 作者：Arielle Waldman #BHUSA #BlackHatUSA2026"
+   "text_zh": "代理人工智慧：馴服不可預測的事物：https://bit.ly/4yqWJOD 作者：Arielle Waldman #BHUSA #BlackHatUSA2026",
+   "score": 0
   },
   {
    "id": "2078174267196440831",
@@ -707,8 +709,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致 @The_Cyber​​_News：安永於 2026 年 4 月 23 日發現平台內存在異常活動，並立即啟動了事件回應程序。安永與一家獨立網路安全公司合作進行調查，確定未經授權的第三方實際上在 2026 年 3 月 28 日至 2026 年 4 月 12 日期間訪問了該平台，並在檢測到入侵之前下載了與許多安永客戶相關的文件。"
+   "text_zh": "R 致 @The_Cyber​​_News：安永於 2026 年 4 月 23 日發現平台內存在異常活動，並立即啟動了事件回應程序。安永與一家獨立網路安全公司合作進行調查，確定未經授權的第三方實際上在 2026 年 3 月 28 日至 2026 年 4 月 12 日期間訪問了該平台，並在檢測到入侵之前下載了與許多安永客戶相關的文件。",
+   "score": 1
   },
   {
    "id": "2078173858406764872",
@@ -720,8 +722,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "超過 100 萬封電子郵件使用隱藏文字來欺騙 AI 安全過濾器：https://bit.ly/44AywYE，作者：Nate Nelson"
+   "text_zh": "超過 100 萬封電子郵件使用隱藏文字來欺騙 AI 安全過濾器：https://bit.ly/44AywYE，作者：Nate Nelson",
+   "score": 1
   },
   {
    "id": "2078172826738024562",
@@ -747,8 +749,8 @@
    "tags": [
     "breach"
    ],
-   "score": 6,
-   "text_zh": "🚨 安永資料外洩 - 駭客取得 IT 支援系統存取權限並下載文件 來源：https://cybersecuritynews.com/ey-data-breach/ 安永會計師事務所 (EY) 通知客戶，未經授權的第三方入侵了其 IT 員工使用的支援票證平台，在今年春天大約兩週的時間內下載了包含客戶稅務資料的文件。這家四大會計和諮詢巨頭於 2026 年 7 月 15 日向加州總檢察長辦公室提交了違規通知，確認了事件的範圍。根據安永2026年7月13日的通知函，該公司使用第三方IT服務管理平台來協助其資訊科技人員支援處理涉稅客戶工作的內部團隊。 #網路安全新聞#資料洩露"
+   "text_zh": "🚨 安永資料外洩 - 駭客取得 IT 支援系統存取權限並下載文件 來源：https://cybersecuritynews.com/ey-data-breach/ 安永會計師事務所 (EY) 通知客戶，未經授權的第三方入侵了其 IT 員工使用的支援票證平台，在今年春天大約兩週的時間內下載了包含客戶稅務資料的文件。這家四大會計和諮詢巨頭於 2026 年 7 月 15 日向加州總檢察長辦公室提交了違規通知，確認了事件的範圍。根據安永2026年7月13日的通知函，該公司使用第三方IT服務管理平台來協助其資訊科技人員支援處理涉稅客戶工作的內部團隊。 #網路安全新聞#資料洩露",
+   "score": 6
   },
   {
    "id": "2078171330889892343",
@@ -760,8 +762,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "Gold Eagle Clearinghouse 瞄準了安全漏洞，但如何實現尚不清楚：https://bit.ly/4bIyKR9，作者：Alexander Culafi"
+   "text_zh": "Gold Eagle Clearinghouse 瞄準了安全漏洞，但如何實現尚不清楚：https://bit.ly/4bIyKR9，作者：Alexander Culafi",
+   "score": 1
   },
   {
    "id": "2078169520846332318",
@@ -786,8 +788,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "🛑 新的 NadMesh 殭屍網路惡意軟體會尋找暴露的 AI 服務來取得 AWS 金鑰和 Kubernetes 令牌。它針對 ComfyUI、Ollama、n8n、Gradio 和 MCP 部署，從受感染的主機提取雲端憑證、Docker 配置和模型存取權限。殭屍網路如何運作並在刪除後倖存下來：https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-expose-ai.html"
+   "text_zh": "🛑 新的 NadMesh 殭屍網路惡意軟體會尋找暴露的 AI 服務來取得 AWS 金鑰和 Kubernetes 令牌。它針對 ComfyUI、Ollama、n8n、Gradio 和 MCP 部署，從受感染的主機提取雲端憑證、Docker 配置和模型存取權限。殭屍網路如何運作並在刪除後倖存下來：https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-expose-ai.html",
+   "score": 3
   },
   {
    "id": "md-116936321307920807",
@@ -813,8 +815,8 @@
     "breach",
     "malware"
    ],
-   "score": 3,
-   "text_zh": "🚨 CylindricalCanine 使用偽造的螢幕截圖 ZIP 破壞了兩個 DigiCert 支援工作站。該組織獲得了 EV 代碼簽名證書來簽署Zhong Stealer。 DigiCert 撤銷了 60 項，其中 27 項與該組織有關。了解支援聊天漏洞如何導致簽署惡意軟體：https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+   "text_zh": "🚨 CylindricalCanine 使用偽造的螢幕截圖 ZIP 破壞了兩個 DigiCert 支援工作站。該組織獲得了 EV 代碼簽名證書來簽署Zhong Stealer。 DigiCert 撤銷了 60 項，其中 27 項與該組織有關。了解支援聊天漏洞如何導致簽署惡意軟體：https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+   "score": 3
   },
   {
    "id": "2078156920288866668",
@@ -922,8 +924,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "🚨 攻擊者的目標是訓練、託管和服務人工智慧的資料中心，而不僅僅是人工智慧模型本身。 Lava 發布了 FORGE：十大資料中心和人工智慧基礎設施安全風險：https://thn.news/forge-framework 與 Neoclouds、HPC 和企業安全領域的安全領導者和從業者共同建置 - 開放、免費且不斷發展。"
+   "text_zh": "🚨 攻擊者的目標是訓練、託管和服務人工智慧的資料中心，而不僅僅是人工智慧模型本身。 Lava 發布了 FORGE：十大資料中心和人工智慧基礎設施安全風險：https://thn.news/forge-framework 與 Neoclouds、HPC 和企業安全領域的安全領導者和從業者共同建置 - 開放、免費且不斷發展。",
+   "score": 1
   },
   {
    "id": "2078117794575757364",
@@ -935,8 +937,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "R 致@The_Cyber​​_News：LegacyHive 允許低權限用戶將另一個用戶的註冊表配置單元（特別是 UsrClass.dat 配置單元）安裝到他們自己的 HKEY_CLASSES_ROOT 中，從而暴露其他用戶的應用程式資料和配置，就好像它是他們自己的一樣。來源：https://cybersecuritynews.com/windows-legacyhive-0-day-vulnerability/"
+   "text_zh": "R 致@The_Cyber​​_News：LegacyHive 允許低權限用戶將另一個用戶的註冊表配置單元（特別是 UsrClass.dat 配置單元）安裝到他們自己的 HKEY_CLASSES_ROOT 中，從而暴露其他用戶的應用程式資料和配置，就好像它是他們自己的一樣。來源：https://cybersecuritynews.com/windows-legacyhive-0-day-vulnerability/",
+   "score": 4
   },
   {
    "id": "2078116696653709486",
@@ -948,8 +950,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "🚨 虛假的編碼測試可能就是整個攻擊。與北韓有關的駭客在看似普通的 SVG 旗幟圖像中隱藏惡意軟體。運行該項目，它會組裝一個與 OtterCookie 對齊的工具包，該工具包會竊取瀏覽器憑證、加密錢包資料、文件和剪貼簿內容，然後打開 SocketIO 後門。閱讀完整的攻擊鏈：https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+   "text_zh": "🚨 虛假的編碼測試可能就是整個攻擊。與北韓有關的駭客在看似普通的 SVG 旗幟圖像中隱藏惡意軟體。運行該項目，它會組裝一個與 OtterCookie 對齊的工具包，該工具包會竊取瀏覽器憑證、加密錢包資料、文件和剪貼簿內容，然後打開 SocketIO 後門。閱讀完整的攻擊鏈：https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+   "score": 3
   },
   {
    "id": "2078112083934150993",
@@ -975,8 +977,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "🛡️ 一個名為 LegacyHive (MSNightmare) 的 Windows 零日漏洞，濫用使用者設定檔服務來實現本地權限升級、篡改管理員帳戶和執行管理員等級的程式碼。 MSNightmare GitHub 帳戶的公開概念驗證 (PoC) 將此錯誤描述為「Windows 使用者設定檔服務任意設定單元載入特權提升漏洞」。 Will Dormann 示範了透過使用第二個標準使用者的憑證執行 LegacyHive.exe，指定管理員帳戶名稱，然後作為第二個使用者啟動 regedit.exe，非管理員可以直接存取管理員的類別。 #網路安全新聞"
+   "text_zh": "🛡️ 一個名為 LegacyHive (MSNightmare) 的 Windows 零日漏洞，濫用使用者設定檔服務來實現本地權限升級、篡改管理員帳戶和執行管理員等級的程式碼。 MSNightmare GitHub 帳戶的公開概念驗證 (PoC) 將此錯誤描述為「Windows 使用者設定檔服務任意設定單元載入特權提升漏洞」。 Will Dormann 示範了透過使用第二個標準使用者的憑證執行 LegacyHive.exe，指定管理員帳戶名稱，然後作為第二個使用者啟動 regedit.exe，非管理員可以直接存取管理員的類別。 #網路安全新聞",
+   "score": 6
   },
   {
    "id": "2078103554594861418",
@@ -988,8 +990,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "Mindgard 告訴 @TheHackersNews，VS Code 沒有顯示此行為，而 Cursor 似乎是在分叉後引入的。他認為 Cursor 在 Windows 上執行一個裸露的 git 命令，允許植入的 git.exe 從專案資料夾中執行。確切的呼叫路徑尚未得到驗證。最後在 Cursor 3.2.16 中確認："
+   "text_zh": "Mindgard 告訴 @TheHackersNews，VS Code 沒有顯示此行為，而 Cursor 似乎是在分叉後引入的。他認為 Cursor 在 Windows 上執行一個裸露的 git 命令，允許植入的 git.exe 從專案資料夾中執行。確切的呼叫路徑尚未得到驗證。最後在 Cursor 3.2.16 中確認：",
+   "score": 1
   },
   {
    "id": "2078101894522888418",
@@ -1001,8 +1003,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "軍事自主權不僅僅是一場平台競賽。這是資訊基礎設施的挑戰。無人機、船舶、衛星、人工智慧系統和盟友必須跨平台和安全域交換可信任的任​​務資料。為什麼未來的力量取決於連結它的因素：https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html"
+   "text_zh": "軍事自主權不僅僅是一場平台競賽。這是資訊基礎設施的挑戰。無人機、船舶、衛星、人工智慧系統和盟友必須跨平台和安全域交換可信任的任​​務資料。為什麼未來的力量取決於連結它的因素：https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+   "score": 1
   },
   {
    "id": "2078098037860450333",
@@ -1014,8 +1016,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "更新：Cursor 表示惡意 git.exe 缺陷超出了其漏洞賞金範圍，並認為使用者可以選擇開啟哪些儲存庫。它表示該問題僅影響 Windows，推薦 Workspace Trust，並承認其未能及時回覆研究人員。沒有宣布修復：https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+   "text_zh": "更新：Cursor 表示惡意 git.exe 缺陷超出了其漏洞賞金範圍，並認為使用者可以選擇開啟哪些儲存庫。它表示該問題僅影響 Windows，推薦 Workspace Trust，並承認其未能及時回覆研究人員。沒有宣布修復：https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+   "score": 1
   },
   {
    "id": "2078093622663405597",
@@ -1028,8 +1030,8 @@
     "breach",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "R 至 @The_Cyber​​_News：該惡意軟體專門在受害者的 Library 資料夾中搜尋 Telegram Desktop 的 tdata 目錄。它複製與會話相關的文件，包括 key_datas、地圖和匹配文件，將它們存放在臨時位置，壓縮集合，並將其與其他被盜資訊一起上傳。資料來源：https://cybersecuritynews.com/hackers-crack-telegram-2fa/"
+   "text_zh": "R 至 @The_Cyber​​_News：該惡意軟體專門在受害者的 Library 資料夾中搜尋 Telegram Desktop 的 tdata 目錄。它複製與會話相關的文件，包括 key_datas、地圖和匹配文件，將它們存放在臨時位置，壓縮集合，並將其與其他被盜資訊一起上傳。資料來源：https://cybersecuritynews.com/hackers-crack-telegram-2fa/",
+   "score": 6
   },
   {
    "id": "2078092712394494352",
@@ -1042,8 +1044,8 @@
     "breach",
     "malware"
    ],
-   "score": 2,
-   "text_zh": "❗️❗️macOS 資訊竊取惡意軟體正在將被盜的 Telegram 桌面資料轉化為即時帳戶存取權限。它不會猜測密碼或破壞雙重認證，而是複製證明使用者已登入的本機檔案。當這些檔案在另一台 Mac 上恢復時，Telegram 可以開啟並同步聊天，而無需顯示其通常的登入畫面。該行動的範圍遠遠超出了 Telegram 的範圍。該惡意軟體收集 macOS 鑰匙串資料、瀏覽器憑證和 cookie、Apple Notes 和加密貨幣錢包資料庫，然後使用虛假密碼提示來取得工作系統密碼。這種廣泛的方法類似於其他以 macOS 為重點的威脅，這些威脅在將竊取的資料傳送給操作員之前會尋找瀏覽器和鑰匙圈資料。"
+   "text_zh": "❗️❗️macOS 資訊竊取惡意軟體正在將被盜的 Telegram 桌面資料轉化為即時帳戶存取權限。它不會猜測密碼或破壞雙重認證，而是複製證明使用者已登入的本機檔案。當這些檔案在另一台 Mac 上恢復時，Telegram 可以開啟並同步聊天，而無需顯示其通常的登入畫面。該行動的範圍遠遠超出了 Telegram 的範圍。該惡意軟體收集 macOS 鑰匙串資料、瀏覽器憑證和 cookie、Apple Notes 和加密貨幣錢包資料庫，然後使用虛假密碼提示來取得工作系統密碼。這種廣泛的方法類似於其他以 macOS 為重點的威脅，這些威脅在將竊取的資料傳送給操作員之前會尋找瀏覽器和鑰匙圈資料。",
+   "score": 2
   },
   {
    "id": "md-116935260721493237",
@@ -1068,8 +1070,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致@TheHackersNews：有風險的設定是一個代理，它可以在不詢問的情況下讀取不受信任的郵件並寫入持久記憶體。 OpenClaw 建議使用沒有記憶體、檔案或 shell 工具的單獨電子郵件閱讀器，然後僅將摘要傳遞給主代理。"
+   "text_zh": "R 致@TheHackersNews：有風險的設定是一個代理，它可以在不詢問的情況下讀取不受信任的郵件並寫入持久記憶體。 OpenClaw 建議使用沒有記憶體、檔案或 shell 工具的單獨電子郵件閱讀器，然後僅將摘要傳遞給主代理。",
+   "score": 1
   },
   {
    "id": "2078090262363119661",
@@ -1081,8 +1083,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "⚡ MemGhost AI 記憶體攻擊現已通過 #Gmail 進行了測試，超出了原始實驗室設定。研究人員告訴@TheHackersNews，他們從正常的 Gmail 帳戶向#OpenClaw 發送了有毒的電子郵件。代理讀取它們，超過一半的測試以將有效負載保存到持久記憶體中而結束，而沒有明確通知或批准。某些變體被阻止或發送到垃圾郵件。"
+   "text_zh": "⚡ MemGhost AI 記憶體攻擊現已通過 #Gmail 進行了測試，超出了原始實驗室設定。研究人員告訴@TheHackersNews，他們從正常的 Gmail 帳戶向#OpenClaw 發送了有毒的電子郵件。代理讀取它們，超過一半的測試以將有效負載保存到持久記憶體中而結束，而沒有明確通知或批准。某些變體被阻止或發送到垃圾郵件。",
+   "score": 1
   },
   {
    "id": "md-116935154093058442",
@@ -1107,8 +1109,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "🔥 歐盟 (EU) 已命令 Google 向競爭對手的 AI 助理開放 #Android 功能，包括攝影機、麥克風、螢幕內容、鎖定螢幕熱字和後台應用程式控制。同意仍然適用。對於六項功能，Google 不能要求認證。以下是變更的內容以及時間 - https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
+   "text_zh": "🔥 歐盟 (EU) 已命令 Google 向競爭對手的 AI 助理開放 #Android 功能，包括攝影機、麥克風、螢幕內容、鎖定螢幕熱字和後台應用程式控制。同意仍然適用。對於六項功能，Google 不能要求認證。以下是變更的內容以及時間 - https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+   "score": 1
   },
   {
    "id": "2078082610681487772",
@@ -1164,8 +1166,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "#ThreatProtection CVE-2026-46817：Oracle E-Business Suite 的 Oracle Payments 產品中的漏洞。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/cve-2026-46817-vulnerability-in-the-oracle- payments-product-of-oracle-e-business-suite"
+   "text_zh": "#ThreatProtection CVE-2026-46817：Oracle E-Business Suite 的 Oracle Payments 產品中的漏洞。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/cve-2026-46817-vulnerability-in-the-oracle- payments-product-of-oracle-e-business-suite",
+   "score": 4
   },
   {
    "id": "2078066938505486831",
@@ -1177,8 +1179,8 @@
    "tags": [
     "malware"
    ],
-   "score": 1,
-   "text_zh": "#ThreatProtection ShadowRecruit 針對印度求職者，部署 SheetAgent RAT 和 ControlR 進行存取。了解更多關於賽門鐵克防護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/operation-shadowrecruit-deploys-rmm-and-sheetagent-rat"
+   "text_zh": "#ThreatProtection ShadowRecruit 針對印度求職者，部署 SheetAgent RAT 和 ControlR 進行存取。了解更多關於賽門鐵克防護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/operation-shadowrecruit-deploys-rmm-and-sheetagent-rat",
+   "score": 1
   },
   {
    "id": "2078062225470922806",
@@ -1190,8 +1192,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致 @The_Cyber​​_News：據 AWS 稱，該問題於太平洋夏令時間 7 月 16 日晚上 7:38 左右開始。初步更新稱，工程團隊正在調查 Cost Explorer 反映的估計帳單資訊不準確的原因。更多詳細資訊：https://cybersecuritynews.com/aws-cost-explorer-bug/"
+   "text_zh": "R 致 @The_Cyber​​_News：據 AWS 稱，該問題於太平洋夏令時間 7 月 16 日晚上 7:38 左右開始。初步更新稱，工程團隊正在調查 Cost Explorer 反映的估計帳單資訊不準確的原因。更多詳細資訊：https://cybersecuritynews.com/aws-cost-explorer-bug/",
+   "score": 1
   },
   {
    "id": "2078061308382245251",
@@ -1203,8 +1205,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "AWS 帳單和成本管理主控台和 Cost Explorer 開始顯示極高的預期雲端成本後，全球 AWS 客戶都感到震驚。一些組織報告估計每月帳單達到數萬億美元，觸發預算警報並引發對潛在未經授權的 AWS 使用的擔憂。 AWS 透過 X 上的 Health Dashboard 和 AWS Support 帳戶確認了該問題，並強調不準確的數字僅限於估計的帳單資料。該公司表示，實際費用和經過驗證的使用記錄不受影響。"
+   "text_zh": "AWS 帳單和成本管理主控台和 Cost Explorer 開始顯示極高的預期雲端成本後，全球 AWS 客戶都感到震驚。一些組織報告估計每月帳單達到數萬億美元，觸發預算警報並引發對潛在未經授權的 AWS 使用的擔憂。 AWS 透過 X 上的 Health Dashboard 和 AWS Support 帳戶確認了該問題，並強調不準確的數字僅限於估計的帳單資料。該公司表示，實際費用和經過驗證的使用記錄不受影響。",
+   "score": 0
   },
   {
    "id": "2078028915118047645",
@@ -1216,8 +1218,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "#ThreatProtection Microsoft 已揭露 CVE-2026-56155，這是 Active Directory 聯合身分驗證服務 (AD FS) 中的一個高嚴重性本地權限升級缺陷，該缺陷在野外被積極利用。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/active-directory-federation-services-privilege-escalation-flaw-cve-2026-56155"
+   "text_zh": "#ThreatProtection Microsoft 已揭露 CVE-2026-56155，這是 Active Directory 聯合身分驗證服務 (AD FS) 中的一個高嚴重性本地權限升級缺陷，該缺陷在野外被積極利用。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/active-directory-federation-services-privilege-escalation-flaw-cve-2026-56155",
+   "score": 6
   },
   {
    "id": "2078028367279042615",
@@ -1229,8 +1231,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "#ThreatProtection TuxBot v3 是一個使用 LLM 產生的程式碼建構的新 IoT 殭屍網路框架。它針對 17 種裝置架構進行 DDoS 攻擊。了解更多關於賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/tuxbot-v3-targets-iot-for-ddos-operations"
+   "text_zh": "#ThreatProtection TuxBot v3 是一個使用 LLM 產生的程式碼建構的新 IoT 殭屍網路框架。它針對 17 種裝置架構進行 DDoS 攻擊。了解更多關於賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/tuxbot-v3-targets-iot-for-ddos-operations",
+   "score": 3
   },
   {
    "id": "2078024094130524648",
@@ -1242,8 +1244,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "R 至 @The_Cyber​​_News：成功利用該漏洞可以使攻擊者無需有效憑證即可在易受攻擊的裝置上執行任意命令。 CVE-2026-39808 直接影響 Fortinet FortiSandbox。更多詳細資訊：https://cybersecuritynews.com/fortisandbox-vulnerability-exploited/"
+   "text_zh": "R 至 @The_Cyber​​_News：成功利用該漏洞可以使攻擊者無需有效憑證即可在易受攻擊的裝置上執行任意命令。 CVE-2026-39808 直接影響 Fortinet FortiSandbox。更多詳細資訊：https://cybersecuritynews.com/fortisandbox-vulnerability-exploited/",
+   "score": 6
   },
   {
    "id": "2078021085795352961",
@@ -1255,8 +1257,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "CISA 已在其已知利用漏洞 (KEV) 目錄中添加了兩個關鍵的 Fortinet FortiSandbox 漏洞，警告攻擊者正在積極利用現實世界攻擊中的缺陷。這些漏洞編號為 CVE-2026-39808 和 CVE-2026-25089，允許未經驗證的攻擊者透過特製的 HTTP 請求執行未經授權的作業系統命令。這兩個問題都被歸類為作業系統命令注入漏洞，當應用程式無法正確清理使用者控制的輸入時就會發生這種情況。"
+   "text_zh": "CISA 已在其已知利用漏洞 (KEV) 目錄中添加了兩個關鍵的 Fortinet FortiSandbox 漏洞，警告攻擊者正在積極利用現實世界攻擊中的缺陷。這些漏洞編號為 CVE-2026-39808 和 CVE-2026-25089，允許未經驗證的攻擊者透過特製的 HTTP 請求執行未經授權的作業系統命令。這兩個問題都被歸類為作業系統命令注入漏洞，當應用程式無法正確清理使用者控制的輸入時就會發生這種情況。",
+   "score": 6
   },
   {
    "id": "2077990692505157770",
@@ -1395,8 +1397,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "兩名駭客因入侵 148 個 TfL 系統、迫使 27,000 名員工重置密碼而被判入獄來源：https://cybersecuritynews.com/two-scattered-spider-hackers-jailed/ Scattered Spider 網路犯罪組織的兩名年輕成員因 2024 年的一次攻擊而被判入獄來源：該攻擊27,000 名員工親自重設密碼，並給該組織造成了約 2,900 萬英鎊的損失。所有 27,000 名倫敦交通局員工都必須前往辦公室重設密碼。關鍵系統需要手動解決方法。 Oyster 退款系統的數據被訪問，導致一些顧客等待退款的時間更長。倫敦交通局向倫敦市警察局的詐欺舉報服務部門報告了這起事件。 #網路安全新聞"
+   "text_zh": "兩名駭客因入侵 148 個 TfL 系統、迫使 27,000 名員工重置密碼而被判入獄來源：https://cybersecuritynews.com/two-scattered-spider-hackers-jailed/ Scattered Spider 網路犯罪組織的兩名年輕成員因 2024 年的一次攻擊而被判入獄來源：該攻擊27,000 名員工親自重設密碼，並給該組織造成了約 2,900 萬英鎊的損失。所有 27,000 名倫敦交通局員工都必須前往辦公室重設密碼。關鍵系統需要手動解決方法。 Oyster 退款系統的數據被訪問，導致一些顧客等待退款的時間更長。倫敦交通局向倫敦市警察局的詐欺舉報服務部門報告了這起事件。 #網路安全新聞",
+   "score": 1
   },
   {
    "id": "2077948864632615092",
@@ -1408,8 +1410,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "⚠️ 7-Zip 漏洞使數百萬用戶面臨遠端程式碼執行風險 來源：https://cybersecuritynews.com/7-zip-vulnerability-code-execution/ 7-Zip（最廣泛使用的開源檔案歸檔工具之一）中新披露的漏洞可能允許遠端攻擊者在受影響的系統上執行任意程式碼。此缺陷編號為 CVE-2026-14266，源自於 XZ 分塊資料的不當處理，已在最新的軟體更新中解決。此漏洞存在於 7-Zip 處理 XZ 壓縮資料流的方式中。具體來說，特製的 XZ 分塊資料可能會觸發基於堆疊的緩衝區溢出，這是當寫入緩衝區的資料超出其分配的空間時發生的記憶體損壞問題。 #網路安全新聞#漏洞"
+   "text_zh": "⚠️ 7-Zip 漏洞使數百萬用戶面臨遠端程式碼執行風險 來源：https://cybersecuritynews.com/7-zip-vulnerability-code-execution/ 7-Zip（最廣泛使用的開源檔案歸檔工具之一）中新披露的漏洞可能允許遠端攻擊者在受影響的系統上執行任意程式碼。此缺陷編號為 CVE-2026-14266，源自於 XZ 分塊資料的不當處理，已在最新的軟體更新中解決。此漏洞存在於 7-Zip 處理 XZ 壓縮資料流的方式中。具體來說，特製的 XZ 分塊資料可能會觸發基於堆疊的緩衝區溢出，這是當寫入緩衝區的資料超出其分配的空間時發生的記憶體損壞問題。 #網路安全新聞#漏洞",
+   "score": 4
   },
   {
    "id": "2077926080124420556",
@@ -1447,8 +1449,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "嗯，這不太好。想深入研究這個@Scott_Helme 嗎？看起來頁面中嵌入了流氓腳本，但尚未對其進行控制。"
+   "text_zh": "嗯，這不太好。想深入研究這個@Scott_Helme 嗎？看起來頁面中嵌入了流氓腳本，但尚未對其進行控制。",
+   "score": 0
   },
   {
    "id": "2077899946339021026",
@@ -1474,8 +1476,8 @@
     "breach",
     "malware"
    ],
-   "score": 2,
-   "text_zh": "Microsoft 對 ACR Stealer 活動增加的調查發現了兩種不同的入侵路徑，它們都從 ClickFix 開始，在執行上有所不同，但導致相同的結果：瀏覽器憑證、會話令牌和其他敏感資料的洩漏。 https://msft.it/6016v2sXq 一個攻擊鏈使用 WebDAV 交付的有效負載、基於 Python 的載入器和區塊鏈支援的死投基礎設施，而另一個攻擊鏈則依賴無檔案執行、混淆的 PowerShell 和隱寫術輔助的記憶體中有效負載交付。這項研究重點介紹了 ACR Stealer 等惡意軟體即服務 (MaaS) 資訊竊取者的營運商如何使用多個入侵鏈來實現相同的目標。請閱讀我們的博客，了解技術分析以及保育、檢測和狩獵指南。"
+   "text_zh": "Microsoft 對 ACR Stealer 活動增加的調查發現了兩種不同的入侵路徑，它們都從 ClickFix 開始，在執行上有所不同，但導致相同的結果：瀏覽器憑證、會話令牌和其他敏感資料的洩漏。 https://msft.it/6016v2sXq 一個攻擊鏈使用 WebDAV 交付的有效負載、基於 Python 的載入器和區塊鏈支援的死投基礎設施，而另一個攻擊鏈則依賴無檔案執行、混淆的 PowerShell 和隱寫術輔助的記憶體中有效負載交付。這項研究重點介紹了 ACR Stealer 等惡意軟體即服務 (MaaS) 資訊竊取者的營運商如何使用多個入侵鏈來實現相同的目標。請閱讀我們的博客，了解技術分析以及保育、檢測和狩獵指南。",
+   "score": 2
   },
   {
    "id": "2077882749784928451",
@@ -1500,8 +1502,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "10 分鐘後我的每週影片就會上線！克勞德家庭網路：克勞德 + UniFi MCP + Home Assistant MCP + Pi-Hole API = 成功？ https://youtube.com/live/ZGkOql9f97k?feature=share"
+   "text_zh": "10 分鐘後我的每週影片就會上線！克勞德家庭網路：克勞德 + UniFi MCP + Home Assistant MCP + Pi-Hole API = 成功？ https://youtube.com/live/ZGkOql9f97k?feature=share",
+   "score": 0
   },
   {
    "id": "2077864472115315073",
@@ -1526,8 +1528,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "Splunk 已發布安全性更新，解決 Splunk Enterprise 和 Splunk Cloud Platform 中的多個漏洞。了解更多：https://cybersecuritynews.com/multiple-splunk-enterprise-vulnerability-patched/ 這些缺陷可能會導致路徑遍歷、儲存的憑證雜湊洩漏以及任意執行 SPL（搜尋處理語言）搜尋等問題。影響 Splunk Enterprise 和 Splunk Cloud Platform 的三個安全漏洞已修復。這些問題會影響 REST API 和 Splunk Web 元件，可能允許授權使用者或網路釣魚攻擊者存取敏感資料、將檔案寫入非預期目錄或執行任意搜尋。 #網路安全新聞"
+   "text_zh": "Splunk 已發布安全性更新，解決 Splunk Enterprise 和 Splunk Cloud Platform 中的多個漏洞。了解更多：https://cybersecuritynews.com/multiple-splunk-enterprise-vulnerability-patched/ 這些缺陷可能會導致路徑遍歷、儲存的憑證雜湊洩漏以及任意執行 SPL（搜尋處理語言）搜尋等問題。影響 Splunk Enterprise 和 Splunk Cloud Platform 的三個安全漏洞已修復。這些問題會影響 REST API 和 Splunk Web 元件，可能允許授權使用者或網路釣魚攻擊者存取敏感資料、將檔案寫入非預期目錄或執行任意搜尋。 #網路安全新聞",
+   "score": 3
   },
   {
    "id": "2077854708702539881",
@@ -1631,8 +1633,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "儘管我生活在這個行業，但我仍然對年輕、缺乏經驗、資源不足的孩子對主要組織造成的傷害感到著迷。您認為這些人是公眾認為的網路犯罪的代表嗎？"
+   "text_zh": "儘管我生活在這個行業，但我仍然對年輕、缺乏經驗、資源不足的孩子對主要組織造成的傷害感到著迷。您認為這些人是公眾認為的網路犯罪的代表嗎？",
+   "score": 0
   },
   {
    "id": "2077822798567792788",
@@ -1671,8 +1673,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "西班牙警方搗毀了價值 1.4 億歐元的網路詐騙集團：https://bit.ly/3T42yl6 作者：Nate Nelson #DRGlobal"
+   "text_zh": "西班牙警方搗毀了價值 1.4 億歐元的網路詐騙集團：https://bit.ly/3T42yl6 作者：Nate Nelson #DRGlobal",
+   "score": 0
   },
   {
    "id": "2077815086459032034",
@@ -1684,8 +1686,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "歐洲國家已經在尋求減少對美國科技公司的依賴，但美國政府對 Anthropic 前沿模型的禁令給科技主權火上加油。 https://bit.ly/4vBB6bT 作者：羅布‧賴特"
+   "text_zh": "歐洲國家已經在尋求減少對美國科技公司的依賴，但美國政府對 Anthropic 前沿模型的禁令給科技主權火上加油。 https://bit.ly/4vBB6bT 作者：羅布‧賴特",
+   "score": 0
   },
   {
    "id": "2077809310415966432",
@@ -1710,8 +1712,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "「我想改變法律，」珍·艾利斯 (Jen Ellis) 告訴 Rapid7 時任執行長科里·托馬斯 (Corey Thomas)。這個簡單的聲明改變了產業與政府之間的關係。看看由 Ericka Chickowski 撰寫的 Dark Reading 最新 Security Pro 檔案 | Jen Ellis：將網路社群與政治機制連結起來 https://bit.ly/4aX2oSA"
+   "text_zh": "「我想改變法律，」珍·艾利斯 (Jen Ellis) 告訴 Rapid7 時任執行長科里·托馬斯 (Corey Thomas)。這個簡單的聲明改變了產業與政府之間的關係。看看由 Ericka Chickowski 撰寫的 Dark Reading 最新 Security Pro 檔案 | Jen Ellis：將網路社群與政治機制連結起來 https://bit.ly/4aX2oSA",
+   "score": 1
   },
   {
    "id": "2077808044113879522",
@@ -1723,8 +1725,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "⚠️ Chainguard 映像透過從容器基礎映像中刪除未使用的套件來提供接近零的 CVE。傳統的容器基礎鏡像附帶數百個不必要的包，每個包都是潛在的攻擊媒介。 @chainguard_dev 的最小的、無發行版的鏡像在構建時將這些漏洞剔除，從而在代碼投入生產之前消除了絕大多數已知的漏洞。在基準比較中，Chainguard 映像包含的 CVE 比 Ubuntu 或 Debian 基礎映像等標準替代方案少了 95%。"
+   "text_zh": "⚠️ Chainguard 映像透過從容器基礎映像中刪除未使用的套件來提供接近零的 CVE。傳統的容器基礎鏡像附帶數百個不必要的包，每個包都是潛在的攻擊媒介。 @chainguard_dev 的最小的、無發行版的鏡像在構建時將這些漏洞剔除，從而在代碼投入生產之前消除了絕大多數已知的漏洞。在基準比較中，Chainguard 映像包含的 CVE 比 Ubuntu 或 Debian 基礎映像等標準替代方案少了 95%。",
+   "score": 1
   },
   {
    "id": "2077804515370172558",
@@ -1736,8 +1738,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "🌍✨大消息！ Dark Reading 剛剛推出了專門的歐洲網路安全報道！從德國到希臘，從法國到義大利—我們為您提供威脅情報，並了解您面臨的獨特挑戰。滑動即可了解為什麼歐洲的網路格局需要自己的鏡頭👀 https://bit.ly/3Q3ERrH #Cyber​​Defense #Europe #InfoSec"
+   "text_zh": "🌍✨大消息！ Dark Reading 剛剛推出了專門的歐洲網路安全報道！從德國到希臘，從法國到義大利—我們為您提供威脅情報，並了解您面臨的獨特挑戰。滑動即可了解為什麼歐洲的網路格局需要自己的鏡頭👀 https://bit.ly/3Q3ERrH #Cyber​​Defense #Europe #InfoSec",
+   "score": 1
   },
   {
    "id": "2077803399966294451",
@@ -1749,8 +1751,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "Microsoft 的 2026 年 7 月補丁星期二有 622 個 CVE，是有史以來規模最大的一次。但真實的情況是，人工智慧驅動的漏洞發現如何迫使組織重新思考如何優先考慮和部署修補程式。 https://bit.ly/4po2o3N 作者：Jai Vijayan"
+   "text_zh": "Microsoft 的 2026 年 7 月補丁星期二有 622 個 CVE，是有史以來規模最大的一次。但真實的情況是，人工智慧驅動的漏洞發現如何迫使組織重新思考如何優先考慮和部署修補程式。 https://bit.ly/4po2o3N 作者：Jai Vijayan",
+   "score": 1
   },
   {
    "id": "2077797923031531832",
@@ -1763,8 +1765,8 @@
     "ransomware",
     "vuln"
    ],
-   "score": 5,
-   "text_zh": "身分攻擊取代漏洞利用成為勒索軟體的首要原因：https://bit.ly/3T7HxFZ，作者：Alexander Culafi"
+   "text_zh": "身分攻擊取代漏洞利用成為勒索軟體的首要原因：https://bit.ly/3T7HxFZ，作者：Alexander Culafi",
+   "score": 5
   },
   {
    "id": "2077795123874697284",
@@ -1776,8 +1778,8 @@
    "tags": [
     "malware"
    ],
-   "score": 0,
-   "text_zh": "被遺忘的引導程式揭露了安全引導盲點：https://bit.ly/457ucQI，作者：Jai Vijayan"
+   "text_zh": "被遺忘的引導程式揭露了安全引導盲點：https://bit.ly/457ucQI，作者：Jai Vijayan",
+   "score": 0
   },
   {
    "id": "2077786471885615558",
@@ -1789,8 +1791,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "R 致@The_Cyber​​_News：他也明確表示維護者應根據技術優點評估貢獻。實際上，這意味著人工智慧輔助的補丁在被接受之前仍然應該滿足 Linux 核心的正確性、可維護性、測試和人工審查標準。更多詳細資訊：https://cybersecuritynews.com/linus-torvalds-linux-ai/"
+   "text_zh": "R 致@The_Cyber​​_News：他也明確表示維護者應根據技術優點評估貢獻。實際上，這意味著人工智慧輔助的補丁在被接受之前仍然應該滿足 Linux 核心的正確性、可維護性、測試和人工審查標準。更多詳細資訊：https://cybersecuritynews.com/linus-torvalds-linux-ai/",
+   "score": 1
   },
   {
    "id": "2077785074125443516",
@@ -1802,8 +1804,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "Linux創辦人Linus Torvalds告訴核心開發者，Linux專案並不是反AI的，他認為判斷人工智慧和大型語言模型應該根據它們是否提供實用的技術價值。他強調，開發者不會被迫使用人工智慧工具，但反對不應阻止其他人負責任地使用它們。 Torvalds 在 Linux 核心郵件清單討論中發表了上述言論，討論涉及對人工智慧輔助程式碼審查以及維護人員越來越多地使用基於 LLM 的工具的擔憂。"
+   "text_zh": "Linux創辦人Linus Torvalds告訴核心開發者，Linux專案並不是反AI的，他認為判斷人工智慧和大型語言模型應該根據它們是否提供實用的技術價值。他強調，開發者不會被迫使用人工智慧工具，但反對不應阻止其他人負責任地使用它們。 Torvalds 在 Linux 核心郵件清單討論中發表了上述言論，討論涉及對人工智慧輔助程式碼審查以及維護人員越來越多地使用基於 LLM 的工具的擔憂。",
+   "score": 0
   },
   {
    "id": "2077782542539784605",
@@ -1854,8 +1856,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "R 至 @The_Cyber​​_News：漏洞詳細資訊：https://cybersecuritynews.com/anydesk-0-day-vulnerability/"
+   "text_zh": "R 至 @The_Cyber​​_News：漏洞詳細資訊：https://cybersecuritynews.com/anydesk-0-day-vulnerability/",
+   "score": 4
   },
   {
    "id": "2077777486113341861",
@@ -1894,8 +1896,8 @@
     "ransomware",
     "breach"
    ],
-   "score": 6,
-   "text_zh": "#Spirals - 針對亞洲 IT 公司部署的新型隱密 #勒索軟體 - 首次洩漏後不到 24 小時，勒索軟體有效負載就被推送到網路上的電腦。了解更多：https://www.security.com/threat-intelligence/ransomware-spirals-extortion"
+   "text_zh": "#Spirals - 針對亞洲 IT 公司部署的新型隱密 #勒索軟體 - 首次洩漏後不到 24 小時，勒索軟體有效負載就被推送到網路上的電腦。了解更多：https://www.security.com/threat-intelligence/ransomware-spirals-extortion",
+   "score": 6
   },
   {
    "id": "2077744987165368378",
@@ -2030,8 +2032,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 4,
-   "text_zh": "#NEW - #Spirals - 2026 年 6 月針對亞洲 IT 公司部署的新型隱密 #勒索軟體進行雙重勒索攻擊 - 其操作者的技能表明可能會出現更廣泛的活動。了解更多：https://www.security.com/threat-intelligence/ransomware-spirals-extortion"
+   "text_zh": "#NEW - #Spirals - 2026 年 6 月針對亞洲 IT 公司部署的新型隱密 #勒索軟體進行雙重勒索攻擊 - 其操作者的技能表明可能會出現更廣泛的活動。了解更多：https://www.security.com/threat-intelligence/ransomware-spirals-extortion",
+   "score": 4
   },
   {
    "id": "md-116929103318894959",
@@ -2166,8 +2168,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "#ThreatProtection 假 GitHub 儲存庫冒充合法供應商來提供 BoryptGrab 譜系資訊竊取程式。了解更多關於賽門鐵克防護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/daxin-returns-stealthy-malware-resurfaces-in-taiwan-alongside-a-new-backdoor"
+   "text_zh": "#ThreatProtection 假 GitHub 儲存庫冒充合法供應商來提供 BoryptGrab 譜系資訊竊取程式。了解更多關於賽門鐵克防護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/daxin-returns-stealthy-malware-resurfaces-in-taiwan-alongside-a-new-backdoor",
+   "score": 3
   },
   {
    "id": "2077662084511215777",
@@ -2303,8 +2305,8 @@
    "tags": [
     "malware"
    ],
-   "score": 6,
-   "text_zh": "R 致@GroupIB_TI：自 2026 年 5 月以來，Group-IB 威脅情報已在 33 個國家/地區識別出 100 多個 ClickLock Stealer 受害者，證明 macOS 威脅正在演變為超越罕見、複雜的攻擊。該惡意軟體使用受損的 WordPress 基礎設施進行有效負載傳輸，並在執行後自行刪除，留下最少的取證痕跡。請在此處閱讀 Group-IB 的完整技術細分：https://link.group-ib.com/4gC4lHJ"
+   "text_zh": "R 致@GroupIB_TI：自 2026 年 5 月以來，Group-IB 威脅情報已在 33 個國家/地區識別出 100 多個 ClickLock Stealer 受害者，證明 macOS 威脅正在演變為超越罕見、複雜的攻擊。該惡意軟體使用受損的 WordPress 基礎設施進行有效負載傳輸，並在執行後自行刪除，留下最少的取證痕跡。請在此處閱讀 Group-IB 的完整技術細分：https://link.group-ib.com/4gC4lHJ",
+   "score": 6
   },
   {
    "id": "2077652100951965977",
@@ -2317,8 +2319,8 @@
     "breach",
     "malware"
    ],
-   "score": 3,
-   "text_zh": "R 至 @GroupIB_TI：#malware 的目標是 8 個瀏覽器、31 個 #cryptowallet 擴充功能、7 個密碼管理器和 8 個桌面錢包應用程式。 ClickLock Stealer 採用模組化架構，採用偽裝成 iCloud 的 GSocket 後門安裝程式、憑證竊取程式、鑰匙圈竊取程式和以加密貨幣為中心的收割機，可跨 6 個鏈提取 #blockchain 位址。所有元件都透過#Telegram Bot API 竊取數據，而後門則提供持久的遠端存取。"
+   "text_zh": "R 至 @GroupIB_TI：#malware 的目標是 8 個瀏覽器、31 個 #cryptowallet 擴充功能、7 個密碼管理器和 8 個桌面錢包應用程式。 ClickLock Stealer 採用模組化架構，採用偽裝成 iCloud 的 GSocket 後門安裝程式、憑證竊取程式、鑰匙圈竊取程式和以加密貨幣為中心的收割機，可跨 6 個鏈提取 #blockchain 位址。所有元件都透過#Telegram Bot API 竊取數據，而後門則提供持久的遠端存取。",
+   "score": 3
   },
   {
    "id": "2077652094656663616",
@@ -2330,8 +2332,8 @@
    "tags": [
     "malware"
    ],
-   "score": 5,
-   "text_zh": "R 致@GroupIB_TI：#ClickLockStealer 實作了一種分層的憑證竊取方法。如果受害者自願輸入密碼，攻擊將在幾秒鐘內完成。如果他們拒絕，#malware 會安裝 LaunchAgents 以實現持久性，並每 210 毫秒啟動一個終止循環，終止 Finder、Dock、SystemUIServer 和終端，只在螢幕上留下一個假密碼對話框，直到實作 #compliance。同樣的強制技術會強制批准 macOS 鑰匙圈授權提示，以擷取 Chrome 的安全儲存 AES 金鑰。"
+   "text_zh": "R 致@GroupIB_TI：#ClickLockStealer 實作了一種分層的憑證竊取方法。如果受害者自願輸入密碼，攻擊將在幾秒鐘內完成。如果他們拒絕，#malware 會安裝 LaunchAgents 以實現持久性，並每 210 毫秒啟動一個終止循環，終止 Finder、Dock、SystemUIServer 和終端，只在螢幕上留下一個假密碼對話框，直到實作 #compliance。同樣的強制技術會強制批准 macOS 鑰匙圈授權提示，以擷取 Chrome 的安全儲存 AES 金鑰。",
+   "score": 5
   },
   {
    "id": "2077652089594114416",
@@ -2344,7 +2346,8 @@
     "malware",
     "vuln"
    ],
-   "score": 5
+   "score": 5,
+   "text_zh": "在 VirusTotal 上發現了一種名為 #ClickLockStealer 的新 #macOS 竊取程序，其目標是歐洲、北美和中東和非洲地區的用戶，檢測結果為零。該惡意軟體使用 #ClickFix 社交工程來誘騙受害者將惡意命令粘貼到終端中，然後強制輸入密碼以殺死所有可見應用程序，直到用戶遵守為止，充當“儲物櫃”。攻擊鏈無需利用任何漏洞或提升權限即可成功。 #威脅英特爾"
   },
   {
    "id": "2077637473836929180",
@@ -2424,7 +2427,21 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "Microsoft 發布了對 AsyncAPI npm 供應鏈危害的深入分析，從 CI/CD 危害到導入時執行的多階段有效負載，繞過常見的基於 npm 腳本的防禦。獲取技術資訊以及檢測和狩獵指導。 https://msft.it/6013v2GKb"
+  },
+  {
+   "id": "2077558839952437438",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Pinned: 📢 Registration for Threat Analyst Summit 2026 opens now! Join threat researchers, CTI analysts, and cybersecurity leaders for two days of intelligence sharing and cyber defense insights. 📅 December 2–3, 2026 📍 Taipei, Taiwan 👉Secure your seat with best price: https://teamt5.kktix.cc/events/tas2026 #TAS2026 #ThreatIntel #CyberSecurity",
+   "url": "https://x.com/TeamT5_Official/status/2077558839952437438",
+   "created_at": "2026-07-16T01:00:01Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "已置頂：📢 2026 年威脅分析師高峰會報名現已開放！與威脅研究人員、CTI 分析師和網路安全領導者一起參加為期兩天的情報共享和網路防禦見解。 📅2026 年 12 月 2-3 日📍台灣台北👉以最優惠的價格確保您的席位：https://teamt5.kktix.cc/events/tas2026 #TAS2026 #ThreatIntel #Cyber​​Security"
   },
   {
    "id": "2077497281255792815",
@@ -2436,7 +2453,8 @@
    "tags": [
     "other"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "在 @DarkReading 的最新一集《記者筆記本》中，TechTarget Cyber​​security 的 Sharon Shea 談到了當學校成為威脅行為者的目標時，有多少資訊面臨風險。在這裡查看完整劇集：https://bit.ly/4aWVbSr @Cyber​​SecDive @TechTargetNews"
   },
   {
    "id": "2077488640171639164",
@@ -2448,7 +2466,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "查看 DR Global 最新區域：歐洲的正式發布！為英國和歐盟的網路專業人士提供量身定制的見解的最佳途徑：https://bit.ly/3RH8TCt #DRGlobal"
   },
   {
    "id": "2077466081824809230",
@@ -2460,7 +2479,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "「科技退出」迫在眉睫嗎？英國在人工智慧衝突中加強主權推動：https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife 作者：Rob Wright #DRGlobal"
   },
   {
    "id": "2077465568156803410",
@@ -2472,7 +2492,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "Guten Tag，Bonjour，向我們的歐洲網路捍衛者致敬！ https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders 塔拉海豹 #DRGlobal"
   },
   {
    "id": "2077465007529287849",
@@ -2484,7 +2505,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "兩鍵遊標利用可實現開發環境接管：https://bit.ly/3QWSRUV，作者：Nate Nelson"
   },
   {
    "id": "2077463582913008100",
@@ -2496,7 +2518,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "什麼樣的企業可以算是合法的、合法的戰爭目標？比你想像的還要多。 https://bit.ly/3SRP1Nf 作者：內特‧尼爾森"
   },
   {
    "id": "2077462707763024102",
@@ -2508,7 +2531,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "隨著網路犯罪分子獲得更多利潤，尼日利亞深化網路安全工作：https://bit.ly/4yoxsVe 作者：Robert Lemos #DRGlobal"
   },
   {
    "id": "2077454900728881409",
@@ -2520,7 +2544,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "#Daxin 回歸 - 台灣製造公司部署了超複雜的惡意軟體以及名為 #Stupig 的新穎後門。了解更多：https://www.security.com/threat-intelligence/daxin-returns-stupig"
   },
   {
    "id": "2077445627248562345",
@@ -2532,7 +2557,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "Claude Flaw 自動向 AI 代理程式發送惡意提示：https://bit.ly/4vBdzHY，作者：Elizabeth Montalbano"
   },
   {
    "id": "2077442759376396626",
@@ -2544,7 +2570,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "記錄是用來打破的：星期二補丁提高了分類賭注：https://bit.ly/4po2o3N，作者：Jai Vijayan"
   },
   {
    "id": "2077435502098079931",
@@ -2556,7 +2583,8 @@
    "tags": [
     "other"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "「開發人員正在改造防禦者必須戰鬥的戰場。」https://msft.it/6011vFIcv 在 Microsoft 威脅情報播客的這一集中，新書《威脅驅動的軟體開發：防禦現代威脅行為者的線上服務》的作者討論了為什麼現代軟體安全必須以攻擊者的實際操作方式為指導。 Michael Howard、Lee Holmes、Sherrod DeGrippo 和 Shawn Hernan 借鑒了他們在威脅情報、軟體工程、身份安全和威脅建模方面的經驗，每一章都從威脅情報的角度開始，使用現實世界的攻擊者技術來構建隨後的技術指導。觀看最新的播客節目，了解這本書的靈感來源以及作者希望讀者學到的內容。您可以在這裡取得「威脅驅動的軟體開發：防禦現代威脅參與者的線上服務」：https://msft.it/6013vFIcx"
   },
   {
    "id": "md-116924972422301156",
@@ -2633,7 +2661,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "固定：#NEW - #Daxin 回歸：我們發現來自與中國有關的演員的最先進的惡意軟體在一家台灣製造公司內運行，並部署了一個新穎的後門。了解更多：https://www.security.com/threat-intelligence/daxin-returns-stupig"
   },
   {
    "id": "2077305402728055165",
@@ -2657,7 +2686,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "時間會做任何壞人都無法想像的事情"
   },
   {
    "id": "2077196702293901501",
@@ -2669,7 +2699,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "每週更新來啦！物聯網停工失敗：澳洲陽光之家；因物聯網鎖失敗而被鎖定；節後技術修復 https://www.troyhunt.com/weekly-update-512/"
   },
   {
    "id": "2077125769411903599",
@@ -2681,7 +2712,8 @@
    "tags": [
     "malware"
    ],
-   "score": 6
+   "score": 6,
+   "text_zh": "#ThreatProtection 一種新的本機 C++ macOS 資訊竊取程式 #CrashStealer，目標是本機登入鑰匙圈、瀏覽器憑證和加密錢包。它使用欺騙性對話框提示受害者輸入憑證並在本地驗證它們。了解更多：https://www.broadcom.com/support/security-center/protection-bulletin/crashstealer-malware-targets-macos-users-via-mimicked-crash-reporter"
   },
   {
    "id": "md-116919623857347486",
@@ -2706,7 +2738,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "2026 年 7 月安全性更新現已推出："
   },
   {
    "id": "md-116919617729163657",
@@ -2757,7 +2790,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "Microsoft 威脅情報正在追蹤 AsyncAPI 發布管道疑似遭到破壞的報告，該報告導致惡意包發佈到 asyncapi npm 命名空間。四個軟體包（五個版本）包含混淆的惡意軟體。這些軟體包每週的下載量總計超過 300 萬次： - asyncapi/generator@3.3.1 - asyncapi/specs@6.11.2-alpha.1 - asyncapi/generator-helpers@1.1.1 - asyncapi/specs@6.11.2 - helpers@1.1.1 - asyncapi/specs@6.11.2 - 0.com RAT（與公開報告的 Miasma 變體的特徵重疊；歸因未確認）透過隱藏的生成，然後從 IPFS 下載第二階段有效負載並在用戶 AppData 中保留為sync.js。 Microsoft Defender for Endpoint 客戶應針對以下警報採取行動： - Trojan:Script/Supychain.A 要緩解此問題：固定到已知良好的版本，使用鎖定文件，並輪換向受影響的 CI 運行程序公開的任何機密。"
   },
   {
    "id": "2077046268463870149",
@@ -2769,7 +2803,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "🚨 調查與協作請求 我們目前正在調查與以下 LNK 檔案相關的惡意活動：`1b3089a761da4a9b7a1bfb485cc857969346ce61` — `Employment_Verification_Details.lnk` 執行以下 DLL 後： `fc66b5d2f46dbb3bc8b29c611166dd56d5bb163e` — `mctsetup64.dll` 我們觀察到與以下命令與控制通訊： 🌐 `work[.]officialm[.]com` — VT 分數：0/91 lm `31[.]192[.]107[.]162:443` — VT 分數：0/91 如果您觀察到相關活動和/或擁有額外的智力，並且想要合作，請聯絡我們！ #DFIR #ThreatHunting #ThreatIntel"
   },
   {
    "id": "2076999157802258496",
@@ -2881,7 +2916,21 @@
    "tags": [
     "malware"
    ],
-   "score": 4
+   "score": 4,
+   "text_zh": "#ThreatProtection 假義大利銀行獎勵頁面將受害者推送至 Telegram 機器人，該機器人提供惡意 APK，該 APK 會刪除 Albiriox Android 銀行 RAT。了解更多有關賽門鐵克保護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/albiriox-android-rat-spread-via-fake-bank-rewards"
+  },
+  {
+   "id": "2076929686769381776",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Thank you for joining #ThreatHuntingForum2026. Nearly 100 participants have joined us. Our heartfelt thanks to everyone who attended the TeamT5 session. Our CTO and Chief Analyst Charles Li took the stage, delivering a talk titled \"From Incident to Infrastructure: Hunting and Expanding Adversary C2 Networks in Real-World Intrusions\". To learn more about our research: https://teamt5.org/en/blog/",
+   "url": "https://x.com/TeamT5_Official/status/2076929686769381776",
+   "created_at": "2026-07-14T07:19:59Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "感謝您加入#ThreatHuntingForum2026。已有近 100 名參與者加入了我們。我們衷心感謝參加 TeamT5 會議的所有人。我們的 CTO 兼首席分析師 Charles Li 上台發表了題為「從事件到基礎設施：在現實世界入侵中尋找和擴展對手 C2 網路」的演講。要了解有關我們研究的更多資訊：https://teamt5.org/en/blog/"
   },
   {
    "id": "2076919294596673967",
@@ -2924,6 +2973,19 @@
    "score": 2
   },
   {
+   "id": "2076834063508242674",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Not every threat deserves the same response. The real #challenge for security leaders is knowing: ✔ Which threats are relevant ✔ Which vulnerabilities need immediate attention ✔ Where limited resources will have the greatest impact That's where #threat #intelligence comes in. 👉https://teamt5.org/en/posts/limited-resources-endless-threats-why-you-need-intelligence-driven-security-decisions/ #CyberSecurity #ThreatIntelligence #RiskManagement #ThreatVision",
+   "url": "https://x.com/TeamT5_Official/status/2076834063508242674",
+   "created_at": "2026-07-14T01:00:01Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 1,
+   "text_zh": "並非所有威脅都應該得到相同的回應。安全領導者面臨的真正#挑戰是了解： ✔ 哪些威脅是相關的 ✔ 哪些漏洞需要立即關注 ✔ 有限的資源將在哪裡產生最大的影響 這就是 #threat #intelligence 的用武之地。 👉https://teamt5.org/en/posts/limited-resources-endless-threats-why-you-need-intelligence-driven-security-decisions/ #Cyber​​Security #ThreatIntelligence #風險管理#ThreatVision"
+  },
+  {
    "id": "2076830819893579968",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -2946,7 +3008,8 @@
    "tags": [
     "breach"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "Microsoft 發現了威脅行為者的活動，其中包括通常與 ShinyHunters 相關的重疊技術，包括語音網路釣魚、供應鏈洩漏以及基於 SaaS 的應用程式的錯誤配置的訪客存取。 https://msft.it/6016v0QtG 在入侵路徑中，威脅行為者濫用受信任的 OAuth 關係來獲得未經授權的存取、維持持久性並大規模竊取資料。透過繼承使用者和應用程式權限，威脅行為者能夠存取客戶數據，同時逃避傳統的以身份驗證為重點的偵測。 Microsoft 諮詢了 Salesforce，透過近乎即時的偵測、連接的應用程式歸因和擴展的應用程式權限洞察來提高 Microsoft Defender for Cloud Apps 遙測的細微度。閱讀 Microsoft Defender 研究團隊的最新博客，了解安全團隊如何防禦基於 SaaS 的攻擊路徑。"
   },
   {
    "id": "2076762208910913954",
@@ -2958,7 +3021,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "考慮下個月從澳洲長途跋涉到拉斯維加斯參加一年一度的網路活動。但路途遙遠，我們最近旅行了很多次，有什麼令人驚奇的事情發生可以說服我們扣動扳機嗎？"
   },
   {
    "id": "2076680496415686995",
@@ -3027,7 +3091,8 @@
    "tags": [
     "malware"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "#ThreatProtection 一項以物流為主題的活動會掉落 CrySome RAT。了解更多關於賽門鐵克防護的資訊：https://www.broadcom.com/support/security-center/protection-bulletin/crysome-rat-delivered-via-logistics-themed-phishing-campaign"
   },
   {
    "id": "2076576551458464191",
@@ -3094,7 +3159,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "幾分鐘後我的每週影片就會上線！每週更新 511：物聯網鎖定失敗 - 澳洲陽光之家；因物聯網鎖失敗而被鎖定；節後技術修復 https://youtube.com/live/GN7Xmsr5V34?feature=share"
   },
   {
    "id": "2076429307400872124",
@@ -3379,7 +3445,8 @@
    "tags": [
     "other"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "#ThreatProtection 威脅行為者正在不斷發展，不再局限於單一用途的擦拭器。 #GigaWiper 代表了一個模組化平台，將持久遠端控制、流程操縱和系統破壞結合在一個佔地面積中。了解更多：https://www.broadcom.com/support/security-center/protection-bulletin/gigawiper-implant-employs-modular-design-for-espionage-and-irreversible-wiping"
   },
   {
    "id": "2075621866132152489",
@@ -3404,7 +3471,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "#ThreatProtection #SalatStealer 部署與 Xeno Executor 工具捆綁在一起，請閱讀有關賽門鐵克防護的更多信息：https://www.broadcom.com/support/security-center/protection-bulletin/salat-stealer-deployments-bundled-with-x-bundledcut-cmal-bundled-with-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-with-x-bundled-vool-bundle-d"
   },
   {
    "id": "2075591060508623225",
@@ -3417,7 +3485,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6
+   "score": 6,
+   "text_zh": "#ThreatProtection #Everest #Ransomware 變體，了解有關賽門鐵克防護的更多資訊：https://www.broadcom.com/support/security-center/protection-bulletin/everest-ransomware-variant #malware"
   },
   {
    "id": "2075547719003717823",
@@ -3429,7 +3498,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "#ThreatProtection #SCMBANKER - 最近 #ClickFix 活動中利用的 PowerShell 工具包，了解有關賽門鐵克防護的更多信息：https://www.broadcom.com/support/security-center/protection-bulletin/scmbanker-a-powershell-toolkit-lever-t-mool-cV-cignx-afiwarec-xoolkit-cign-xool-cigna-Cigna-Cigna-Cigna-Cigna-Cigna-Cigna-Cigna-aM​​p-Mak-Mak-Mak-Mak-MakM-Mak-Mak-Mak-Mak-t-Mak-Mak-Mak-CMak-MakM-Mak-Mak-Mak-Mak-Mak-Mak-Mak-Mot-cM​​ik-Mak-a-Mak-MMPorxpppMPenxp."
   },
   {
    "id": "2075516454552682765",
@@ -3541,7 +3611,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "#ThreatProtection RedWing，一種具有銀行盜竊功能的 Android 間諜軟體。了解有關賽門鐵克保護的更多資訊：https://www.broadcom.com/support/security-center/protection-bulletin/android-malware-redwing"
   },
   {
    "id": "md-116891963258228019",
@@ -3566,7 +3637,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 4
+   "score": 4,
+   "text_zh": "#GodDamn #Ransomware：最新的 #Beast Rebrand 使用惡意驅動程式來停用防禦 - PoisonX 核心驅動程式用於在部署勒索軟體之前禁用端點防禦。了解更多：https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand"
   },
   {
    "id": "2075234927042338942",
@@ -3579,7 +3651,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6
+   "score": 6,
+   "text_zh": "在調查擦除攻擊時，微軟威脅情報發現了 GigaWiper，這是一種破壞性後門，它將多種擦除和類似勒索軟體的功能結合到一個植入程式中。 https://msft.it/6014vIRAe 我們的分析發現，後門將先前單獨的惡意軟體系列嵌入為按需命令：獨立的磁碟擦除器、源自 Crucio 勒索軟體的程式碼以及 Golang 中的 FlockWiper 擦除器的重新實作。閱讀我們最新的博客，了解 GigaWiper 的代碼級分析、其持久性、命令與控制和破壞性功能的詳細分析，以及幫助防御者調查、檢測和防禦類似威脅的指南。"
   },
   {
    "id": "md-116890614496220263",
@@ -3632,7 +3705,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "這太酷了😎"
   },
   {
    "id": "2075115606777704722",
@@ -3645,7 +3719,8 @@
     "malware",
     "vuln"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "R 對@GroupIB_TI：RedHook 如何實現持久性和特權濫用？這項技術深入探討了惡意軟體的自助 ADB 利用、持久性技術、擴展的 C2 基礎設施以及不斷發展的行動威脅情勢。請在此處閱讀完整分析：https://link.group-ib.com/3ST0nR9"
   },
   {
    "id": "2075115602596045063",
@@ -3657,7 +3732,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 致 @GroupIB_TI：除了越南之外，RedHook 還擴大了目標範圍，將印尼用戶納入其中，這表明 RedHook 將更加關注整個東南亞地區。透過欺騙性的政府和金融網站進行分發，惡意#APK有效負載託管在受信任的平台上，包括AWS S3儲存桶和#GitHub儲存庫，以增強交付可靠性。 #AndroidSecurity"
   },
   {
    "id": "2075115598397440077",
@@ -3669,7 +3745,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "R 到 @GroupIB_TI：RedHook 整合 #Shizuku 框架中的程式碼，以便在啟用 ADB 無線偵錯後執行受保護的系統 API。該惡意軟體透過輔助功能手勢導航「設定」螢幕，啟用「開發人員選項」並與其自己的 ADB 守護程式配對。 #惡意軟體分析"
   },
   {
    "id": "2075115593519563251",
@@ -3681,7 +3758,21 @@
    "tags": [
     "malware"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "#RedHook Android RAT 带着危险的升级回来了。该恶意软件现在自动滥用 ADB 无线调试来获取 shell 级权限 (uid 2000)，而无需 root 访问权限。这是第一个观察到的 #malware 利用此技术在野外滥用权限的实例。 #威脅情報"
+  },
+  {
+   "id": "2075097618200297649",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Thank you to everyone who visited TeamT5 at #InfoSecTaiwan2026! As AI transforms the enterprise, endpoint visibility is becoming the new security foundation. With ThreatSonar Plus, organizations can discover AI-enabled assets, assess endpoint risks, and identify security gaps before attackers do. 👉https://teamt5.org/en/products/threatsonar-plus/ See you at the next event! #AISecurity #EndpointSecurity #ThreatSonarPlus #TeamT5",
+   "url": "https://x.com/TeamT5_Official/status/2075097618200297649",
+   "created_at": "2026-07-09T06:00:00Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "感謝所有在 #InfoSecTaiwan2026 造訪 TeamT5 的人！隨著人工智慧改變企業，端點可見度正成為新的安全基礎。借助 ThreatSonar Plus，組織可以在攻擊者之前發現支援 AI 的資產、評估端點風險並識別安全漏洞。 👉https://teamt5.org/en/products/threatsonar-plus/ 下次活動見！ #AISecurity #EndpointSecurity #ThreatSonarPlus #TeamT5"
   },
   {
    "id": "md-116887552558648887",
@@ -3695,6 +3786,19 @@
    ],
    "text_zh": "一家中國安全公司的另一起洩密事件暴露了另一個可能的中國網路承包商/APT https://netasari.substack.com/p/zron-full-digital-espionage-service",
    "score": 3
+  },
+  {
+   "id": "2075022124255764776",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "🌟Bring your research to TAS 2026🌟 Have #vulnerability research, cybercrime analysis, or incident response case studies to share? If you have valuable findings from your research or operations, we'd love to hear from you. 👉https://tas.teamt5.org/cfp2026 #ThreatIntelligence #CyberSecurity #CallForPapers",
+   "url": "https://x.com/TeamT5_Official/status/2075022124255764776",
+   "created_at": "2026-07-09T01:00:01Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 1,
+   "text_zh": "🌟將您的研究帶到 TAS 2026🌟 有#漏洞研究、網路犯罪分析或事件回應案例研究可供分享嗎？如果您的研究或操作有有價值的發現，我們很樂意聽取您的意見。 👉https://tas.teamt5.org/cfp2026 #ThreatIntelligence #Cyber​​Security #CallForPapers"
   },
   {
    "id": "md-116885980818942878",
@@ -3745,7 +3849,8 @@
    "tags": [
     "breach"
    ],
-   "score": 5
+   "score": 5,
+   "text_zh": "每週更新來啦！住在我的馬拉喀什 Riad：西班牙、義大利和摩洛哥遊記；游泳池、小便和資料外洩；我又被坑了 https://www.troyhunt.com/weekly-update-511/"
   },
   {
    "id": "2074841645724447006",
@@ -3757,7 +3862,8 @@
    "tags": [
     "other"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "進入真正的調查。真實的資料、真實的案例、真實的威脅行為者、真實的間諜手段。加入 DFIR 實驗室，測試您的技能並從真實的入侵中獲得洞察力。 🧪 您的實驗室正在等待：https://thedfirreport.com/products/dfir-labs/"
   },
   {
    "id": "2074817750464143758",
@@ -3840,7 +3946,8 @@
    "tags": [
     "breach"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "R 致@troyhunt：值得讚揚的是，我得到了快速回應。但這就是功勞的結束 - 根據別名中的學生 ID，這實際上是孩子們的學校電子郵件地址。我的部分回應：現在，有人向我 13 歲的女兒發送包含此上下文的電子郵件是微不足道的（是的，學校允許從外部來源向孩子發送入站電子郵件）。特別是在某人可能面臨更大的成為攻擊目標的風險的情況下（由於我的工作性質，我的情況就是如此），這是非常令人震驚的，並且在您的披露通知中完全被忽視了。令人失望的是看到樣板違規回應（包括拼字錯誤的幫助台電子郵件地址），而更嚴重的隱私風險完全被忽視。顯然，學生證不僅僅是一個「內部識別碼」。兒童資料發佈到的論壇很容易找到，我會假設資料本身會在某個時候進入更廣泛的流通。該演員表示，有超過 15 萬筆記錄受到影響，其中有大量兒童（我認為還有年輕人）的個人可識別記錄。至少從揭露公告的內容來看，銀玫瑰似乎不理解這一點。"
   },
   {
    "id": "2074599543493026235",
@@ -3852,7 +3959,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "噪音低。高訊號。這不是行銷語言——這就是我們建構威脅源的方式。如果您在您的環境中從我們的來源收到警報，請與我們聯絡。我們將幫助對其進行分類。這就是我們對訊號的信任程度。我們為那些厭倦了在低保真警報中追逐幽靈和燃燒循環的防御者構建了這個。當它火起來的時候，你的時間就值得了。 🔎 真實上下文 🎯 高置信度檢測 ⚡ 為響應而構建，而不是儀表板 了解有關威脅源的更多信息：https://thedfirreport.com/products/threat-feed/"
   },
   {
    "id": "md-116880197201568737",
@@ -3877,7 +3985,8 @@
    "tags": [
     "breach"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "我有很多替代描述，我很想為這起事件寫下🤐但是@TheRegister自己做得很好：https://www.theregister.com/security/2026/07/06/moody-bible-institute-breach-leaves-23m-accounts-needing-salvation-says-cyber-expert/leaves-238275525"
   },
   {
    "id": "md-116879236805690543",
@@ -3985,7 +4094,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 致@GroupIB_TI：安全團隊面臨複雜的對手形勢，逮捕少數人並不能阻止整體威脅。 Scattered Spider 及其子群集的去中心化性質使其成為一種不斷發展的威脅，專注於社會工程以繞過傳統的 MFA。全面了解他們的策略、目標以及集體的運作方式。在此閱讀完整部落格：https://link.group-ib.com/4ba31rU"
   },
   {
    "id": "2074412442348839076",
@@ -3998,7 +4108,8 @@
     "malware",
     "vuln"
    ],
-   "score": 6
+   "score": 6,
+   "text_zh": "R 致@GroupIB_TI：ScatteredSpider 初始訪問的主要向量是高度針對性的社會工程，但它依賴於特定的工具集來利用人類信任。子叢集部署複雜的 #phishing 工具包，模仿 Okta、Microsoft 和 Citrix 登入頁面，有時僅在通話期間保持線上幾分鐘。我們深入研究了這些攻擊是如何精心策劃的，結合了語音釣魚和網路釣魚技術，在傳遞 #RAT 或其他有效負載之前將受害者引導至憑證收集網站。"
   },
   {
    "id": "2074412430243811756",
@@ -4010,7 +4121,8 @@
    "tags": [
     "other"
    ],
-   "score": 4
+   "score": 4,
+   "text_zh": "R 致@GroupIB_TI：我們的分析表明，分散的蜘蛛子集群始終以主要身份提供商和營銷平台（如 Twilio 和 Mailchimp）的員工作為墊腳石。最終目標很少是最初的受害者；它是利用內部工具針對#cryptocurrency 用戶進行網路釣魚活動。針對 #Okta 登入頁面和加密錢包的同時操作證明，這些獨立子集群的主要目標仍然是透過加密盜竊獲得經濟利益。"
   },
   {
    "id": "2074412421922631723",
@@ -4022,7 +4134,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "R 致@GroupIB_TI：除了數字#socialengineering 之外，還觀察到一個 ScatteredSpider 子集群採取物理盜竊手段，特別是從移動運營商零售店竊取員工的 iPad。為了繞過設備鎖，攻擊者會冒充內部部門，對商店員工的密碼進行社會設計。這種實體-數位混合策略凸顯了這些子叢集將在 SIM 交換作業上花費大量時間，目標是電信員工和 Verizon、AT&T 和 T-Mobile 等授權零售商。 #威脅情報"
   },
   {
    "id": "2074412416558055823",
@@ -4034,7 +4147,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "最近的研究表明，#ScatteredSpider 並不是一個單一的有組織團體，而是由多個獨立子集群組成的去中心化的#cybercrime 集體。營運商的這種鬆散聯繫（主要透過共享 TTP 和社會工程技術進行連接）對歸因提出了獨特的挑戰。我們的最新分析解釋了這種類似於駭客運動的結構如何提供針對#lawenforcement 行動的固有彈性。它不是一個需要追蹤的單一群體，而是一種持續發展的持續網路犯罪文化。"
   },
   {
    "id": "md-116877631053362393",
@@ -4093,6 +4207,21 @@
    "score": 5
   },
   {
+   "id": "2074297350684643376",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "#Cybercrime doesn’t start when an alert appears. It often starts deep inside underground forums, dark web marketplaces, and criminal networks. Our latest blog explains why Deep & Dark Web monitoring alone isn’t enough — defenders need contextual cybercrime intelligence to understand attacker behaviors, tools, and evolving tactics. Learn how ThreatVision helps organizations turn fragmented signals into actionable defense: https://pse.is/93ph34 #CyberSecurity #ThreatIntelligence #DarkWeb #Ransomware #ThreatVision",
+   "url": "https://x.com/TeamT5_Official/status/2074297350684643376",
+   "created_at": "2026-07-07T01:00:01Z",
+   "tags": [
+    "ransomware",
+    "market",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "當警報出現時，#Cyber​​crime 不會開始。它通常始於地下論壇、暗網市場和犯罪網絡的深處。我們最新的部落格解釋了為什麼僅靠深網和暗網監控還不夠——防禦者需要上下文網路犯罪情報來了解攻擊者的行為、工具和不斷發展的策略。了解 ThreatVision 如何幫助組織將碎片訊號轉化為可行的防禦：https://pse.is/93ph34 #Cyber​​Security #ThreatIntelligence #DarkWeb #Ransomware #ThreatVision"
+  },
+  {
    "id": "2074275787276963915",
    "handle": "SwiftOnSecurity",
    "name": "SwiftOnSecurity",
@@ -4102,7 +4231,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "「特工在這群人居住的 Airbnb 上執行了搜查令。調查人員找到了大規模金融詐欺行動的證據，包括： • 超過 150 個盜錄設備 • 237 張重新編碼的禮品卡」 https://www.dallascounty.org/Assets/uploads/docs/district-attorney/"
   },
   {
    "id": "2074195836502684149",
@@ -4114,7 +4244,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "「隱藏你的 SSID」是一個愚蠢的早期協議駭客，而不是一個精心設計的隱私功能，這是一個很好的例子，說明你需要熟悉實作而不是標籤。"
   },
   {
    "id": "2074140123273306191",
@@ -4126,7 +4257,8 @@
    "tags": [
     "breach"
    ],
-   "score": 5
+   "score": 5,
+   "text_zh": "我的每週影片即將上線…現在！住在我的馬拉喀什 Riad：西班牙、義大利和摩洛哥遊記；游泳池、小便和資料外洩；我又被打敗了：https://www.youtube.com/live/_TfYZuIRvPA?si=obrGyteI2Z4pFaeu"
   },
   {
    "id": "2074136396571275620",
@@ -4138,7 +4270,8 @@
    "tags": [
     "breach"
    ],
-   "score": 5
+   "score": 5,
+   "text_zh": "R 致 @troyhunt：讓我們看看事情進展如何（現在故意簡短而簡單）：親愛的 Silver Rose，今天我收到了一份資料外洩揭露通知[已編輯]。我和我的一個或多個孩子的個人資訊似乎被洩露了。我希望您向我發送您所掌握的關於我自己和我的孩子的所有數據的副本，以便我可以親自評估它對他們和我自己構成的風險。"
   },
   {
    "id": "2074133872468471991",
@@ -4150,7 +4283,8 @@
    "tags": [
     "market"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "R 致 @troyhunt：我將從兩個不同的來源請求我的資料：Silver Rose 和在論壇上發佈出售資料的人（很容易找到）。讓我們看看這會走向何方🍿"
   },
   {
    "id": "2074133496029741140",
@@ -4162,7 +4296,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 致@troyhunt：假設資料存在，根據其他可用字段，存在大量網路釣魚機會。我認為揭露通知沒有充分解決這個問題，最後一段積極淡化了風險。"
   },
   {
    "id": "2074133007854662024",
@@ -4174,7 +4309,21 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "R 致@troyhunt：这是我的主要问题：学生证。這些用作兒童學校電子郵件地址的別名，因此它們既可以識別個人身份，也可以用來聯繫孩子（FWIW，我有一個 13 歲和一個 16 歲，所以顯然涉及孩子的數據）。"
+  },
+  {
+   "id": "2074111353816572088",
+   "handle": "troyhunt",
+   "name": "troyhunt",
+   "text": "So it looks like I’m pwned. Again. It’s the kids’ fault this time, as in my own kids. What do we think of this breach notice? I’m spotting at least one really major, glaring issue. Comments?",
+   "url": "https://x.com/troyhunt/status/2074111353816572088",
+   "created_at": "2026-07-06T12:40:56Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 2,
+   "text_zh": "所以看來我被pw了。再次。這次是孩子的錯，就像我自己的孩子一樣。我們對這個違規通知有何看法？我至少發現了一個非常重大、突出的問題。評論？"
   },
   {
    "id": "md-116868612051642228",
@@ -4199,7 +4348,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 對@SwiftOnSecurity：這絕對不是在爭論品種的質量，而是在爭論一種類型。廣泛的專家將繼續吸收資訊。但是，對於作為一種形式產生的次文化論壇接觸點的漫無目的的強制資訊攝取方式來說，有些東西可能是不可複製的。"
   },
   {
    "id": "2073804467611308539",
@@ -4211,7 +4361,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "我覺得像道格·德穆羅（Doug Demuro）這樣的人可能是曇花一現的品種。從 90 年代的年輕時代到 Discord 的出現，論壇文化的全面性、廣度和中心性是無法以其他方式完全複製的，尤其是現在。"
   },
   {
    "id": "2073800681132020182",
@@ -4238,7 +4389,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "祝 Microsoft bae 實習生電子郵件十週年快樂。 🥳 週一晚上與 HELLA NOMS 和 YAMMER 啤酒乒乓球桌一起點燃是的，我為此設置了提醒。"
   },
   {
    "id": "2073507756880122057",
@@ -4250,7 +4402,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "我想像作為一名年輕的專業人士，首次進入後海灣、後蘇聯、9/11 之前的美國時的西格瑪水平。為什麼我生得這麼晚才嚐到它的滋味，一個被時間命運捉弄的無助小孩。把阿帕契人帶回來。把它們帶回來，讓我知道生活是什麼"
   },
   {
    "id": "2073497922742726694",
@@ -4262,7 +4415,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "哇哦"
   },
   {
    "id": "2073217494123249910",
@@ -4274,7 +4428,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "抱歉，我在街機上度過了我的生活，不像你們那些自食其果的失敗者"
   },
   {
    "id": "2073181154694377643",
@@ -4286,7 +4441,8 @@
    "tags": [
     "other"
    ],
-   "score": 0
+   "score": 0,
+   "text_zh": "> 一生中身體狀況的絕對巔峰 > 獲得永遠永垂不朽的模特工作 > 用曬黑油潤滑 > 穿上這款泳池浮標"
   },
   {
    "id": "2073138536325214486",
@@ -4298,7 +4454,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "我有一種奇怪的、可能令人惱火的放縱的寫作風格，我很高興在每個人現在都認為這是一些法學碩士在自我打擊之前我有樣本。"
   },
   {
    "id": "2073115747593670925",
@@ -4310,7 +4467,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 至 @SwiftOnSecurity：當我嘗試最新版本並獲得更多經驗時，我將更多地討論這一點。我可以討論歷史 - 但如今 Windows 平台安全的大部分內容與添加奇怪的核心驅動程式無關。它使用的是已經內建的東西，但是晦澀難懂且笨拙。"
   },
   {
    "id": "2073114915527692779",
@@ -4322,7 +4480,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "我的天啊。 @Cyber​​CakeX 已經將他們的 Harden Windows Security 應用程式發展到了驚人的程度。它甚至在 App Store 上！ https://hotcakex.github.io/ 我之前已經提到過，但這本質上是價值 25 萬美元的網路顧問安全建議和針對家庭用戶機器的工具。"
   },
   {
    "id": "2072950369856954758",
@@ -4337,6 +4496,19 @@
    ],
    "text_zh": "👇 網路犯罪不再看起來像是孤立的攻擊。它看起來像一門生意。許多資料竊取集團的發展已經超越了竊取資料庫的範圍。他們現在具有明確的角色、可重複的工作流程、客戶支援、聯盟網絡和多種收入來源。在許多情況下，被盜資料只是起點。了解這些業務如何產生利潤有助於解釋為什麼它們變得更快、更具可擴展性和更持久。 🕵️ 在 ThreatMon，我們研究了一個資料竊取集團如何演變為結構化犯罪企業，以及為什麼這種演變對每個安全團隊都很重要。深入了解我們的研究：http://threatmon.io/how-a-data-theft-crew-became-a-business #Cyber​​Security #ThreatIntelligence #DataBreach #Cyber​​Crime #DarkWeb #ThreatMon",
    "score": 3
+  },
+  {
+   "id": "2072847800799264787",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Cyber risk isn’t uniform. Different regions and industries face different threat dynamics—and context is critical to understanding real exposure. Our latest podcast explores how regional factors and industry profiles shape cyber risk. 🎧https://youtu.be/lPrhaiy4CU4 #CyberRisk #APAC #CyberDefense #IndustrySecurity #Podcast",
+   "url": "https://x.com/TeamT5_Official/status/2072847800799264787",
+   "created_at": "2026-07-03T01:00:02Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "網路風險並不統一。不同的地區和產業面臨不同的威脅動態，而背景對於了解真正的威脅至關重要。我們最新的播客探討了區域因素和行業概況如何影響網路風險。 🎧https://youtu.be/lPrhaiy4CU4 #Cyber​​Risk #APAC #Cyber​​Defense #IndustrySecurity #Podcast"
   },
   {
    "id": "md-116851348364373962",
@@ -4413,6 +4585,19 @@
    "text_zh": "🚨 威脅行為者聲稱在暗網上出售了 400 萬筆 ISSSTE 記錄 地下論壇上的一個清單聲稱出售了一個歷史資料庫，其中包含墨西哥國家工人社會保障和社會服務研究所 (ISSSTE) 的超過 400 萬筆記錄。該貼文日期為 2026 年 7 月 1 日，聲稱可以存取屬於國家僱員的敏感個人和就業資料。根據該帖子，該資料集包含廣泛的個人識別資訊 (PII) 和財務詳細資訊。攻擊者列出了轉儲中存在的以下資料欄位： * CURP（唯一人口登記代碼） * RFC（聯邦納稅人識別碼） * NSS（社會安全號碼） * ISSSTE 號碼 * 全名（姓名、父親姓氏、母親姓氏） * 薪資詳細資料（ISSSTE 薪資、SAR 薪資、總薪資）是墨西哥的重要政府實體，為數百萬聯邦公務員提供社會安全福利。此類全面的就業和稅務資料的暴露可能會助長身分盜竊、社會工程攻擊和針對國家工作人員的有針對性的詐欺。該貼文表明資料庫的價格是可以協商的，並指示有興趣的買家透過 Signal 與賣家聯繫。截至本報告發佈時，所指控的違規行為尚未得到安全研究人員的獨立核實，也沒有 ISSSTE 的官方聲明。"
   },
   {
+   "id": "2072565373531234509",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "See you at Threat Hunting Forum 2026! 📅 July 10th (Fri) 13:00-19:00 📍 Tokyo, Japan 🗣️ Japanese & English 📌Participation Fee: Free (advance reservation required)",
+   "url": "https://x.com/TeamT5_Official/status/2072565373531234509",
+   "created_at": "2026-07-02T06:17:46Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "2026 年威脅狩獵論壇見！ 📅7月10日（星期五）13:00-19:00 📍日本東京 🗣️日語&英語 📌參加費用：免費（需提前預約）"
+  },
+  {
    "id": "md-116846648695885111",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -4435,7 +4620,21 @@
    "tags": [
     "vuln"
    ],
-   "score": 3
+   "score": 3,
+   "text_zh": "人工智慧正在加速安全等式兩邊的漏洞研究，使防禦者能夠更快地發現問題並確定優先級，同時降低威脅行為者的障礙。隨著這些功能變得越來越容易取得，網路安全專家預計漏洞數量將持續成長。 https://msft.it/6018vtb2M 軟體開發的快速步伐使得負責任的揭露變得越來越複雜。安全研究人員必須平衡發布漏洞發現的價值，以幫助防禦者抵禦向對手提供相同見解的風險。安全團隊面臨的未來是，幾乎每個人都可以使用人工智慧驅動的功能，但其影響超出了技術範圍。隨著人工智慧承擔更多的安全任務，網路安全專業人士繼續努力思考哪些決策應該由人類驅動，哪些專業知識、判斷力和社群最重要。透過 Sherrod DeGrippo 的 Microsoft 威脅情報播客，了解 Bugcrowd 創始人兼 @disclose_io 聯合創始人 Casey Ellis 的更多資訊。"
+  },
+  {
+   "id": "2072123024560869426",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "⏰ COUNTDOWN Don't miss @FiligranHQ & TeamT5 exploring how to turn complex threat data into proactive defense against China-nexus APT groups. 🗓️ July 7 | 11:00 AM UTC+8 🔗 Final chance to sign up: https://forms.gle/XNBiYUPMTsg7L3Gp7 #CyberSecurity #Webinar",
+   "url": "https://x.com/TeamT5_Official/status/2072123024560869426",
+   "created_at": "2026-07-01T01:00:01Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "⏰ 倒數計時 不要錯過 @FiligranHQ 和 TeamT5 探索如何將複雜的威脅資料轉化為針對與中國關係的 APT 組織的主動防禦。 🗓️ 7 月 7 日 |上午 11:00 UTC+8 🔗 最後報名機會：https://forms.gle/XNBiYUPMTsg7L3Gp7 #Cyber​​Security #Webinar"
   },
   {
    "id": "md-116841279439904939",
@@ -4486,7 +4685,8 @@
    "tags": [
     "other"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "隨著企業部署的成熟，一些企業人工智慧代理正在從閱讀內容轉向採取行動，這為威脅行為者濫用代理工作流程中的信任關係創造了機會。 https://msft.it/6010vssTs 在這篇部落格中，Microsoft 事件回應探索了一種針對模型上下文協定 (MCP) 工具的攻擊模式，其中中毒的工具元資料可以巧妙地影響代理決策並將合法工作流程重定向到意外的操作和結果。由於每個單獨的行為看起來都是合法的，因此濫用行為可能很難識別。問題在於批准的工具、代理權限和連接系統之間的信任邊界，而不是任何單一系統。閱讀實用手冊的完整分析，該手冊映射到 OWASP Top 10 代理應用程序，包括管理代理供應鏈、建立更強有力的控制和檢測代理異常行為的指南。"
   },
   {
    "id": "2071930540521828863",
@@ -4499,7 +4699,8 @@
     "ransomware",
     "vuln"
    ],
-   "score": 5
+   "score": 5,
+   "text_zh": "「從第二輪利用期間記錄的網路流量中，我們看到 ActiveMQ 伺服器進程下載了惡意 XML 文件，其中包含要在命令列介面中執行的命令：」報告：https://thedfirreport.com/2026/02/23/apache-activemq-exploit-leads-to-lockbit-ransomware/"
   },
   {
    "id": "2071640195212902857",
@@ -4513,7 +4714,8 @@
     "breach",
     "malware"
    ],
-   "score": 6
+   "score": 6,
+   "text_zh": "➡️ Jake、Dino、Ahmed Farouk、@MittenSec、@angelo_violetti 和 @r3nzsec 今天發布的新報告。從 Bing 搜尋到勒索軟體：Bumblebee 和 AdaptixC2 Deliver Akira 🔎 搜尋 ManageEngine OpManager 的使用者被引導至虛假下載網站並安裝了木馬 MSI。 🐝 該安裝啟動了 BumbleBee，它引入了 AdaptixC2，並為威脅行為者在網路中提供了立足點。 🔐 從那裡，攻擊者創建了特權帳戶，移動到網域控制器和備份伺服器，轉儲憑證並竊取資料。 💥 入侵以 Akira 勒索軟體跨根域結束，兩天後又返回以加密子域。 https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira"
   },
   {
    "id": "2071636792449659306",
@@ -4525,7 +4727,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "R 致@MsftSecIntel：組織應加強使用者對以人工智慧為主題的社會工程的認識，並使用將指標、行為訊號和威脅情報關聯起來的分層防禦。請閱讀我們的最新博客，以了解惡意擴充功能的詳細分析以及 Microsoft Defender 偵測、緩解和保護指南。"
   },
   {
    "id": "2071636789622632925",
@@ -4537,7 +4740,20 @@
    "tags": [
     "other"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "R 致@MsftSecIntel：雖然瀏覽器搜尋劫持並不新鮮，但這項研究強調了威脅行為者如何利用人工智慧來加速攻擊，特別是使用人工智慧品牌作為社會工程載體。 https://msft.it/6012vsBDK"
+  },
+  {
+   "id": "2071636786493735002",
+   "handle": "MsftSecIntel",
+   "name": "MsftSecIntel",
+   "text": "R to @MsftSecIntel: Microsoft Threat Intelligence observed the extension using Manifest Version 3 capabilities and intermediary infrastructure to intercept search queries while preserving the appearance of legitimate search results. The extension has been taken down following responsible disclosure to Google.",
+   "url": "https://x.com/MsftSecIntel/status/2071636786493735002",
+   "created_at": "2026-06-29T16:47:53Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1
   },
   {
    "id": "2071636783125737728",
@@ -4550,6 +4766,18 @@
     "other"
    ],
    "score": 0
+  },
+  {
+   "id": "2071398245314773021",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "🌟Reminder: CFP submissions for #TAS26 are still open. Have research on APTs, malware, threat intel, or emerging cyber threats in APAC? Share your findings with the global security community. Submit now: https://tas.teamt5.org/cfp2026 (Proposal submissions are open until July 15.) #CyberSecurity #ThreatIntelligence #CyberThreats",
+   "url": "https://x.com/TeamT5_Official/status/2071398245314773021",
+   "created_at": "2026-06-29T01:00:01Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 3
   },
   {
    "id": "2071247475243954640",
@@ -4738,6 +4966,18 @@
    "score": 3
   },
   {
+   "id": "2069948693860831459",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Collecting threat intelligence isn't enough—you have to operationalize it. Learn how to defend your APAC infrastructure against advanced China-nexus espionage in our upcoming live session with TeamT5 & @FiligranHQ. 🗓️ July 7, 11:00 AM UTC+8 🔗 Grab your spot: https://forms.gle/XNBiYUPMTsg7L3Gp7 #cybersecurity #CISO #APAC",
+   "url": "https://x.com/TeamT5_Official/status/2069948693860831459",
+   "created_at": "2026-06-25T01:00:01Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1
+  },
+  {
    "id": "2069801763209687542",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
@@ -4905,6 +5145,18 @@
    "text_zh": "兩名男子對價值 3900 萬英鎊的倫敦交通局網路攻擊認罪 https://www. bbc.co.uk/news/articles/czx5yp 9qy0do"
   },
   {
+   "id": "2068861533556187612",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Thank you all for visiting our booth at #FIRSTCON26 ! We had an incredible time connecting with cybersecurity professionals passionate about Asia-Pacific threat research. Know more about our #insights 👉https://pse.is/7sugbv",
+   "url": "https://x.com/TeamT5_Official/status/2068861533556187612",
+   "created_at": "2026-06-22T01:00:01Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1
+  },
+  {
    "id": "2068713294517473374",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
@@ -4982,6 +5234,18 @@
    "score": 0
   },
   {
+   "id": "2067411976893194399",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Hear from the front lines of cyber defense! 🛡️ On July 7, Ray Huang (@FiligranHQ) & Jay Hsia (@TeamT5_Official will share expertise on countering China-nexus APTs in the APAC region. Be ready to transform your strategy. Seats are limited—register now: https://forms.gle/XNBiYUPMTsg7L3Gp7 #CISO",
+   "url": "https://x.com/TeamT5_Official/status/2067411976893194399",
+   "created_at": "2026-06-18T01:00:00Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
    "id": "2067204383691919430",
    "handle": "TheDFIRReport",
    "name": "TheDFIRReport",
@@ -5006,6 +5270,18 @@
    "score": 3
   },
   {
+   "id": "2066355017401917609",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Threats evolve fast. Defense needs visibility, context, and actionable intelligence. #ThreatVision helps organizations strengthen cyber resilience through: 🔹 Strategic intelligence for decision-makers 🔹 Operational intelligence for security leaders 🔹 Tactical intelligence for frontline defenders From IoCs to dark web monitoring and threat hunting tools, ThreatVision turns fragmented data into defense-ready intelligence. Read more 👉https://pse.is/93pfyg #CyberSecurity #ThreatIntelligence #APT #ThreatVision",
+   "url": "https://x.com/TeamT5_Official/status/2066355017401917609",
+   "created_at": "2026-06-15T03:00:01Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 6
+  },
+  {
    "id": "2065381301809512601",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
@@ -5017,6 +5293,42 @@
    ],
    "text_zh": "用於 #CC 驗證的西班牙語 Telegram 機器人洩漏。 Ben 在這裡做了很好的分析，顯示了卡在哪裡被驗證以及哪些 #ResidentialProxy 提供者被濫用。非常有趣，尤其是因為我最近分析了很多#magecart🧐",
    "score": 2
+  },
+  {
+   "id": "2065298048452841581",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "From disclosure to exploitation, the window for defenders is shrinking. TeamT5’s #investigation into Apache ActiveMQ CVE-2026-34197 shows how a critical RCE vulnerability was rapidly weaponized by threat actors, including the China-nexus APT SLIME88. 👉https://pse.is/975422 #ThreatIntel #CyberSecurity #ThreatHunting #ActiveMQ #TeamT5",
+   "url": "https://x.com/TeamT5_Official/status/2065298048452841581",
+   "created_at": "2026-06-12T05:00:00Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 6
+  },
+  {
+   "id": "2065237652220321907",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "🔍 Understand APAC threats. Defend with clarity. Meet TeamT5 at FIRSTCon 2026 and learn how Asia-born threat intelligence brings deeper visibility into APT and ransomware campaigns across APAC. 📍 Visit us at our booth 🎯 See how #ThreatVision turns local intelligence into actionable defense. #FIRSTCON26 #ThreatIntelligence #CyberDefense #APT #Ransomware #APAC #TeamT5",
+   "url": "https://x.com/TeamT5_Official/status/2065237652220321907",
+   "created_at": "2026-06-12T01:00:01Z",
+   "tags": [
+    "ransomware"
+   ],
+   "score": 4
+  },
+  {
+   "id": "2064875265042366940",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "📢 Threat Hunting Forum 2026: Register Start 📅7/10 (Fri) 13:00-19:00 📍 Mizuho Marunouchi Tower 🗣️ Japanese & English (Simultaneous interpretation available) ✅Participation Fee: Free As #CyberAttack becomes more sophisticated, simply \"preventing intrusions\" is no longer sufficient. In this context, attention is growing on \"#ThreatHunting,\" which actively detects and analyzes signs of threats lurking within organizations as part of breach-based defense. This event brings together experts from government agencies, financial institutions, and security vendors. From each perspective, we share the current state of threat hunting and practical knowledge. 👉https://peatix.com/event/5027167 #CyberSecurity",
+   "url": "https://x.com/TeamT5_Official/status/2064875265042366940",
+   "created_at": "2026-06-11T01:00:01Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 3
   },
   {
    "id": "2064692911862628757",
@@ -5066,6 +5378,30 @@
     "other"
    ],
    "score": 4
+  },
+  {
+   "id": "2064168936451752436",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "TeamT5 will be exhibiting at Cyber Defense Symposium Atami 2026, a premier event focused on defense and national security. As Japan continues to advance its Active Cyber Defense initiatives, proactive cybersecurity capabilities have become more critical than ever. At our booth, we will showcase our APAC-focused #ThreatIntelligence and #ThreatHunting solutions, designed to help organizations identify, understand, and respond to emerging cyber threats with greater speed and precision. 📅 June 20 (Sat.) ~ June 21 (Sun.) 📍 Atami Korakuen Hotel (Atami City, Shizuoka, Japan) 👉More details: https://www.5th-battlefield.com/ #5thbf @Battlefield5th",
+   "url": "https://x.com/TeamT5_Official/status/2064168936451752436",
+   "created_at": "2026-06-09T02:13:19Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1
+  },
+  {
+   "id": "2063788097792606563",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "How can APAC organizations turn threat intelligence into real-world security action? 🛑 Join @FiligranHQ & @TeamT5 on July 7 to dissect China-nexus APTs and learn how to empower your SOC. 🎙️ Speakers: Ray Huang (Lead Solution Architect, APAC, Filigran) & Jay Hsia (Head of Global Business Development, TeamT5) 🗓️ July 7, 11 AM (UTC+8) 👉 Register: https://forms.gle/XNBiYUPMTsg7L3Gp7 #CyberSecurity #ThreatIntel",
+   "url": "https://x.com/TeamT5_Official/status/2063788097792606563",
+   "created_at": "2026-06-08T01:00:00Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1
   },
   {
    "id": "1936177266662514838",
@@ -5313,6 +5649,246 @@
    ],
    "text_zh": "最新的 CrowdStrike 威脅參與者命名方案來源/PDF：https://go.crowdstrike.com/rs/281-OBQ-266/images/24-MA-099_2024-Threat-Hunting-Report_11.pdf",
    "score": 2
+  },
+  {
+   "id": "1740009113403490566",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【資安趨勢】Lazarus、Kimsuki、Andariel 等多個駭侵團體自 2017 年至今竊得加密貨幣超過 30 億美元 更多內容：https://www.twcert.org.tw/tw/cp-104-7657-2b437-1.html",
+   "url": "https://x.com/twcertcc/status/1740009113403490566",
+   "created_at": "2023-12-27T13:57:55Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740008977809961044",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【國際政府組織資安資訊】CISA 要求科技製造廠停止提供預設密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7655-d6d47-1.html",
+   "url": "https://x.com/twcertcc/status/1740008977809961044",
+   "created_at": "2023-12-27T13:57:22Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740008680094073113",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【社群媒體資安近況】WordPress 外掛程式含有嚴重 RCE 漏洞，下載次數超過 9 萬次 更多內容：https://www.twcert.org.tw/tw/cp-104-7653-0096a-1.html",
+   "url": "https://x.com/twcertcc/status/1740008680094073113",
+   "created_at": "2023-12-27T13:56:11Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740008544156660212",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟硬體漏洞資訊】Microsoft 推出 2023 年 12 月 Patch Tuesday 每月例行更新修補包，共修復 34 個資安漏洞，內含 1 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7651-6abff-1.html",
+   "url": "https://x.com/twcertcc/status/1740008544156660212",
+   "created_at": "2023-12-27T13:55:39Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 4
+  },
+  {
+   "id": "1740008362534941073",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟硬體漏洞資訊】Apple 緊急為較舊產品修復 2 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7649-5db31-1.html",
+   "url": "https://x.com/twcertcc/status/1740008362534941073",
+   "created_at": "2023-12-27T13:54:56Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 3
+  },
+  {
+   "id": "1740008243559309448",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【資安趨勢】現今仍有 38% Log4J 應用程式使用有漏洞舊版程式庫 更多內容：https://www.twcert.org.tw/tw/cp-104-7647-79644-1.html",
+   "url": "https://x.com/twcertcc/status/1740008243559309448",
+   "created_at": "2023-12-27T13:54:27Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740008089829675195",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【行動裝置資安訊息】AutoSpill 攻擊可自 Android 密碼管理工具中竊取密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7645-5da00-1.html",
+   "url": "https://x.com/twcertcc/status/1740008089829675195",
+   "created_at": "2023-12-27T13:53:51Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740007957759512975",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟硬體漏洞資訊】全新 SLAM 攻擊，可自 AMD、Intel 處理器竊取機敏資訊 更多內容：https://www.twcert.org.tw/tw/cp-104-7643-45300-1.html",
+   "url": "https://x.com/twcertcc/status/1740007957759512975",
+   "created_at": "2023-12-27T13:53:19Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740007819443917028",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【國際政府組織資安資訊】駭侵者利用 Adobe ColdFusion 漏洞攻擊美國政府包商 更多內容：https://www.twcert.org.tw/tw/cp-104-7641-d7840-1.html",
+   "url": "https://x.com/twcertcc/status/1740007819443917028",
+   "created_at": "2023-12-27T13:52:46Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740007658386866357",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【新興應用資安】Web3 泛用開源程式庫漏洞，可能造成多個 NFT 收藏集遭攻擊 更多內容：https://www.twcert.org.tw/tw/cp-104-7639-7b342-1.html",
+   "url": "https://x.com/twcertcc/status/1740007658386866357",
+   "created_at": "2023-12-27T13:52:08Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1740007531848856055",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟體系統資安議題】基因測試公司 23andMe 共 690 萬使用者資料遭竊 更多內容：https://www.twcert.org.tw/tw/cp-104-7637-3ccb0-1.html",
+   "url": "https://x.com/twcertcc/status/1740007531848856055",
+   "created_at": "2023-12-27T13:51:38Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1735188775725133932",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【社群媒體資安近況】假冒 WordPress 資安更新，內含惡意後門外掛程式 更多內容：https://www.twcert.org.tw/tw/cp-104-7588-a5eea-1.html",
+   "url": "https://x.com/twcertcc/status/1735188775725133932",
+   "created_at": "2023-12-14T06:43:37Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1735188564911239303",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【行動裝置資安訊息】Android 十二月更新修復 85 個漏洞，內含一個嚴重 RCE 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7586-dd363-1.html",
+   "url": "https://x.com/twcertcc/status/1735188564911239303",
+   "created_at": "2023-12-14T06:42:46Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1735188031257321695",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【資安趨勢】超過 20,000 台含漏洞舊版 MS Exchange Server 曝露於攻擊風險之下 更多內容：https://www.twcert.org.tw/tw/cp-104-7584-3732e-1.html",
+   "url": "https://x.com/twcertcc/status/1735188031257321695",
+   "created_at": "2023-12-14T06:40:39Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1735187787245322347",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【行動裝置資安訊息】Apple 緊急修復 2 個 iOS 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7582-3d8ef-1.html",
+   "url": "https://x.com/twcertcc/status/1735187787245322347",
+   "created_at": "2023-12-14T06:39:41Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 3
+  },
+  {
+   "id": "1730525285563691397",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟硬體漏洞資訊】全新發現的 BLUFFS 攻擊，可挾持藍牙連線並竊聽通訊內容 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7565-044bf-1.html",
+   "url": "https://x.com/twcertcc/status/1730525285563691397",
+   "created_at": "2023-12-01T09:52:34Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1730525124498239627",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【國際政府組織資安資訊】多國檢警合作破獲大型勒贖集團，受害者遍及全球 71 國 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7563-92b27-1.html",
+   "url": "https://x.com/twcertcc/status/1730525124498239627",
+   "created_at": "2023-12-01T09:51:55Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1730524915630297413",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟硬體漏洞資訊】Google Chrome 緊急推出 0-day 漏洞更新 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7561-c0ae1-1.html",
+   "url": "https://x.com/twcertcc/status/1730524915630297413",
+   "created_at": "2023-12-01T09:51:06Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 3
+  },
+  {
+   "id": "1730524752203366854",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟體系統資安議題】斯洛維尼亞最大電力公司 HSE 遭勒贖攻擊 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7559-accbb-1.html",
+   "url": "https://x.com/twcertcc/status/1730524752203366854",
+   "created_at": "2023-12-01T09:50:27Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
+  },
+  {
+   "id": "1730524557176688969",
+   "handle": "twcertcc",
+   "name": "twcertcc",
+   "text": "【軟體系統資安議題】勒贖攻擊導致獨立遊戲 17,000 位玩家資料全遭刪除 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7557-82c33-1.html",
+   "url": "https://x.com/twcertcc/status/1730524557176688969",
+   "created_at": "2023-12-01T09:49:40Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0
   },
   {
    "id": "md-111438184138523000",
