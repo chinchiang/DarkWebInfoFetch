@@ -28,17 +28,31 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "feed.json"
 
-# category: core = 高度推薦, strong = 強力推薦, extra = 補充推薦
+# category: core = 高度推薦(暗網專門), strong = 強力推薦(威脅情報),
+#           news = 資安新聞, extra = 補充推薦, zhtw = 中文情資
 ACCOUNTS = [
     {"handle": "DailyDarkWeb", "category": "core"},
     {"handle": "DarkWebInformer", "category": "core"},
     {"handle": "jms_dot_py", "category": "strong"},
     {"handle": "campuscodi", "category": "strong"},
     {"handle": "GossiTheDog", "category": "strong"},
+    {"handle": "GroupIB_TI", "category": "strong"},
+    {"handle": "CTI_Alerts", "category": "strong"},
+    {"handle": "TheDFIRReport", "category": "strong"},
+    {"handle": "SwiftOnSecurity", "category": "news"},
+    {"handle": "darkreading", "category": "news"},
+    {"handle": "TheHackersNews", "category": "news"},
+    {"handle": "MsftSecIntel", "category": "news"},
+    {"handle": "threatintel", "category": "news"},
+    {"handle": "CyberSec__News", "category": "news"},
+    {"handle": "The_Cyber_News", "category": "news"},
     {"handle": "briankrebs", "category": "extra"},
     {"handle": "vxunderground", "category": "extra"},
     {"handle": "Gi7w0rm", "category": "extra"},
     {"handle": "MonThreat", "category": "extra"},
+    {"handle": "troyhunt", "category": "extra"},
+    {"handle": "InfoSec_zip", "category": "zhtw"},
+    {"handle": "anwangkeji", "category": "zhtw"},
 ]
 
 NITTER_INSTANCES = [
@@ -77,9 +91,10 @@ SIGNAL_RULES = [
 def score_post(text):
     return sum(w for w, rx in SIGNAL_RULES if rx.search(text))
 
-# Keep enough history per account for the archive page (~7+ weeks of
-# posts for active accounts) without letting feed.json grow unbounded.
-MAX_PER_ACCOUNT = 60
+# Keep history for the archive page without letting feed.json grow
+# unbounded now that 22 accounts are tracked.
+MAX_PER_ACCOUNT = 40
+MAX_TOTAL_POSTS = 800
 
 # Keyless Google Translate endpoint used to cache a zh-TW rendition of
 # each post (text_zh). Translations are incremental: only posts that
@@ -336,7 +351,7 @@ def merge(existing_posts, new_posts):
         if count < MAX_PER_ACCOUNT:
             capped.append(post)
             per_account[post["handle"]] = count + 1
-    return capped
+    return capped[:MAX_TOTAL_POSTS]
 
 
 def main():
