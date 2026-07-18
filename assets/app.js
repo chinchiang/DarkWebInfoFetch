@@ -20,6 +20,20 @@ const ACCOUNT_META = {
       en: "Dark & clear web threat intel: ransomware, breaches, dark web market activity and IOCs."
     }
   },
+  ransomwatcher: {
+    name: "RansomWatcher", category: "core",
+    desc: {
+      zh: "勒索軟體洩密網站自動監控機器人:受害者名單一更新立即發布,純情資流。",
+      en: "Automated ransomware leak-site monitor: posts the moment victim lists update. Pure intel feed."
+    }
+  },
+  tmransommonitor: {
+    name: "ThreatMon Ransomware Monitor", category: "core",
+    desc: {
+      zh: "ThreatMon 勒索軟體監控機器人,自動追蹤各勒索軟體家族洩密網站的受害者公告。",
+      en: "ThreatMon's ransomware monitoring bot; auto-tracks victim announcements across leak sites."
+    }
+  },
   jms_dot_py: {
     name: "Justin Seitz", category: "strong",
     desc: {
@@ -232,7 +246,7 @@ const I18N = {
     docTitleArchive: "DARKWATCH — 歷史情資",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 13:00 更新",
     titleHtml: '暗網<span class="hl-a">威脅情資</span>即時<span class="hl-b">監控台</span>',
-    tagline: "彙整 13 個以暗網為主的精選 X(Twitter)情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
+    tagline: "彙整 15 個以暗網為主的精選 X(Twitter)情資帳號:暗網資料外洩、勒索軟體洩密網站、地下市場與惡意軟體動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
     updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 13:00 自動抓取",
     postsUnit: "則情資", newPosts: "本次新增",
     sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
@@ -272,7 +286,7 @@ const I18N = {
     docTitleArchive: "DARKWATCH — Threat Intel Archive",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 13:00",
     titleHtml: 'Dark Web <span class="hl-a">Threat Intel</span>, <span class="hl-b">Live Console</span>',
-    tagline: "Aggregates 13 curated, dark-web-focused X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
+    tagline: "Aggregates 15 curated, dark-web-focused X (Twitter) accounts: dark web data leaks, ransomware leak sites, underground markets and malware activity — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
     updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 13:00",
     postsUnit: "posts", newPosts: "new this update",
     sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
