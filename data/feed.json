@@ -1,10 +1,12 @@
 {
- "generated_at": "2026-07-18T06:41:38Z",
+ "generated_at": "2026-07-18T12:01:00Z",
  "source": "nitter",
- "new_count": 0,
+ "new_count": 23,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
+  "ransomwatcher": "ok",
+  "tmransommonitor": "error",
   "jms_dot_py": "ok",
   "campuscodi": "ok_mastodon",
   "GossiTheDog": "ok_mastodon",
@@ -20,6 +22,8 @@
  "categories": {
   "DailyDarkWeb": "core",
   "DarkWebInformer": "core",
+  "ransomwatcher": "core",
+  "tmransommonitor": "core",
   "jms_dot_py": "strong",
   "campuscodi": "strong",
   "GossiTheDog": "strong",
@@ -33,6 +37,48 @@
   "TeamT5_Official": "zhtw"
  },
  "posts": [
+  {
+   "id": "2078370596061098132",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇧🇷 Brazil - Receita Federal (RFB) Data Breach Exposes 279 Million Brazilian CPFs Receita Federal, Brazil's federal tax authority, has allegedly been compromised, leading to the exposure of personal data for 279 million Brazilian citizens. An anonymous entity claims to have initially discovered a legacy system backup from 2019 containing 248 million CPFs. Following the government's denial of this initial claim, the entity states they subsequently extracted 279 million rows directly from the government's active system, alleging this newer data is current and not recycled. The group also criticized the Receita Federal for dismissing the initial claims as \"fake news\" and for not opening an investigation, despite inconsistencies noted in the data management. The Receita Federal has a history of denying data leaks, even when extensive CPF data has been exposed in the past, such as the 2021 incident involving 223 million Brazilians [8, 9]. The allegedly compromised data includes: * CPF numbers * Year of exercise * Year of death * Neighborhood * Postal code * Municipality of residence * Municipality of naturalization * Occupation nature * Occupation * Country of nationality * Country of foreign resident * Sex * Cadastral status (such as Regular, Suspended, Canceled, Pendente de Regularização, Nula, and Cancelada de Ofício) [11, 12] * Administrative unit * Address complement * CPF registration date * Birth date * Email addresses * Foreign status * Foreign resident status * Street name * Full name of the person * Mother's full name * Social name * Street number * Phone number * Residence street type * UF of residence * UF of naturalization * Last update date The listing highlights various inconsistencies within the database, such as 144,376 CPFs with invalid check digits and records for individuals purportedly born in the 12th century, indicating potential data management issues within the Receita Federal's systems. The volume of data for sale is 69.6 GB, with the 2026 database priced at $10,000 and the 2019 database at $1,300. Source: https://breached[.]su/threads/279-million-cpfs-receita-federal-2026-exposed.89277/",
+   "url": "https://x.com/DailyDarkWeb/status/2078370596061098132",
+   "created_at": "2026-07-18T06:45:39Z",
+   "tags": [
+    "breach",
+    "market"
+   ],
+   "score": 5,
+   "text_zh": "🇧🇷巴西 - Receita Federal (RFB) 資料外洩導致 2.79 億巴西 CPF 據稱巴西聯邦稅務機關 Receita Federal 遭到洩露，導致 2.79 億巴西公民的個人資料外洩。一個匿名實體聲稱最初發現了 2019 年的遺留系統備份，其中包含 2.48 億個 CPF。在政府否認這一最初說法後，該實體表示，他們隨後直接從政府的活動系統中提取了 2.79 億行數據，並聲稱這些較新的數據是最新的且未回收。該組織還批評雷塞塔聯邦將最初的說法駁回為“假新聞”，並且儘管發現數據管理中存在不一致之處，但沒有展開調查。 Receita Federal 歷來否認資料洩露，即使過去曾曝光過大量公積金數據，例如 2021 年涉及 2.23 億巴西人的事件 [8, 9]。據稱外洩的資料包括： * 公積金號碼 * 行使年份 * 死亡年份 * 社區 * 郵遞區號 * 居住市鎮 * 入籍市鎮 * 職業性質 * 職業 * 國籍 * 外國居民所在國家 * 性別 * 地籍狀態（如正常、暫停、取消、Pendente de Regularção、Nula 和 Canadas（如正常） * 出生日期 * 電子郵件地址 * 外國身分 * 外國居民身分 * 街道名稱 * 人全名 * 母親全名 * 社會姓名 * 街道號碼 * 電話號碼 * 居住街道類型 * 居住 UF * 入籍 UF * 社會名稱 資料表突出顯示了資料庫中各種不同的街道類型 * 居住 UF * 入籍 UF *PF 的校驗聯邦系統內的問題。出售的數據量為 69.6 GB，2026 年資料庫售價為 10,000 美元，2019 年資料庫售價為 1,300 美元。來源：https://breached[.]su/threads/279-million-cpfs-receita-federal-2026-exposed.89277/"
+  },
+  {
+   "id": "2078369904441413814",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Fairlife ransomware attack halts U.S. dairy production Coca-Cola disclosed that a ransomware attack on its Fairlife subsidiary affected production-related systems and temporarily suspended production across the United States. The intrusion was detected Thursday, July 16. Fairlife’s Canadian operations and product safety were reportedly unaffected, while the full scope remains under investigation. No ransomware group has been publicly identified, and Coca-Cola has not confirmed data theft. #DDW #CocaCola #Ransomware #DarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2078369904441413814",
+   "created_at": "2026-07-18T06:42:54Z",
+   "tags": [
+    "ransomware",
+    "darkweb"
+   ],
+   "score": 5,
+   "text_zh": "Fairlife勒索軟體攻擊導緻美國乳製品生產暫停 可口可樂透露，對其子公司Fairlife的勒索軟體攻擊影響了生產相關係統，並導緻美國各地的生產暫時停止。這次入侵於 7 月 16 日星期四被發現。據報道，Fairlife 的加拿大業務和產品安全沒有受到影響，但整個範圍仍在調查中。目前尚未公開任何勒索軟體組織的身份，可口可樂也未證實資料被盜。 #DDW #可口可樂 #勒索軟體 #DarkWeb"
+  },
+  {
+   "id": "2078369092709343739",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Abbott confirms unauthorized access as ShinyHunters threatens a major medical-data leak Abbott Laboratories confirmed unauthorized access to a limited number of legacy Exact Sciences systems in its Cancer Diagnostics business after ShinyHunters listed the company on its extortion site. Abbott says operations, manufacturing, laboratories, products, and patient services were unaffected. ShinyHunters claims it compromised an employee through voice phishing, obtained Microsoft Entra SSO access, and stole data from several connected SaaS platforms. The group alleges the haul includes more than 30 million rows of personal information, over one million Social Security numbers, medical orders, and doctor-patient notes. Those volume and content claims have not been independently verified. No data had been publicly released at the time of reporting. #DDW #ShinyHunters #Abbott #Ransomware",
+   "url": "https://x.com/DailyDarkWeb/status/2078369092709343739",
+   "created_at": "2026-07-18T06:39:40Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "ShinyHunters 威脅重大醫療數據洩露，雅培證實存在未經授權的訪問 在 ShinyHunters 將公司列入勒索網站後，雅培實驗室證實其癌症診斷業務中有限數量的傳統 Exact Sciences 系統受到未經授權的訪問。雅培表示，營運、製造、實驗室、產品和病患服務未受到影響。 ShinyHunters 聲稱，它透過語音網路釣魚攻擊了一名員工，獲得了 Microsoft Entra SSO 存取權限，並從多個連接的 SaaS 平台竊取了資料。該組織聲稱，這些資訊包括超過 3,000 萬行個人資訊、超過 100 萬條社會安全號碼、醫療訂單和醫病筆記。這些數量和內容的說法尚未得到獨立驗證。截至本報告發佈時，尚未公開發布任何數據。 #DDW #ShinyHunters #Abbott #Ransomware"
+  },
   {
    "id": "2078329667304464463",
    "handle": "vxunderground",
@@ -1516,47 +1562,6 @@
    ],
    "score": 3,
    "text_zh": "🇲🇽 駭客論壇上宣傳墨西哥政府資料庫洩露 一名威脅行為者正在宣傳他們聲稱的資料庫，其中包含來自「Declara Chiapas」（與墨西哥恰帕斯州相關的線上申報平台）的 150,000 多筆記錄。根據該帖子，該資料集據稱包括： * 150,000 多條 CSV 格式的記錄 * 全名 * CURP（墨西哥國民身分證號碼） * 電子郵件地址 * 電話號碼 截至撰寫本文時，沒有獨立驗證資料的真實性或透過妥協獲得。分析師註釋：如果得到證實，CURP 識別碼和聯絡資訊的暴露可能會顯著增加針對受影響個人的身份盜竊、網路釣魚和有針對性的社會工程攻擊的風險。 #DDW #Intelligence #DarkWeb #Mexico"
-  },
-  {
-   "id": "2077635679379452248",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🚨 Doxing Campaign Targeting an Individual Shared on Hacking Forum A threat actor has published a thread on a hacking forum claiming to expose the personal information of an individual allegedly involved in online abuse and extortion. According to the post: * The thread contains alleged personally identifiable information (PII), including the individual's name, age, nationality, phone number, and telecom details. * The actor accuses the individual of targeting minors, extortion, and harassment, though these allegations have not been independently verified. * The post encourages others to harass the individual and promises to continue publishing additional personal information. Analyst Note: Regardless of the allegations, publishing personal information and encouraging harassment significantly increases the risk of vigilantism, swatting, and other real-world harm. Claims made in these posts should be treated as unverified until confirmed by law enforcement or other credible sources. #DDW #Intelligence #DarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2077635679379452248",
-   "created_at": "2026-07-16T06:05:21Z",
-   "tags": [
-    "darkweb"
-   ],
-   "score": 3,
-   "text_zh": "🚨 針對黑客論壇上分享的個人的人肉搜索活動 一名威脅行為者在黑客論壇上發布了一條帖子，聲稱要公開涉嫌參與在線濫用和勒索的個人的個人信息。根據該貼文： * 該貼文包含所謂的個人識別資訊 (PII)，包括個人姓名、年齡、國籍、電話號碼和電信詳細資料。 * 該演員指控該人針對未成年人、敲詐勒索和騷擾，但這些指控尚未得到獨立證實。 * 該貼文鼓勵其他人騷擾該個人，並承諾繼續發布更多個人資訊。分析師註：無論指控如何，發布個人資訊和鼓勵騷擾都會顯著增加私刑、毆打和其他現實世界傷害的風險。在執法部門或其他可靠來源確認之前，這些貼文中的說法應被視為未經證實。 #DDW #Intelligence #DarkWeb"
-  },
-  {
-   "id": "2077632490215489831",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "U.S. charges operators of bulletproof hosting services used by ransomware groups U.S. prosecutors unsealed charges against three Russian nationals accused of operating Media Land and http://ML.Cloud, bulletproof hosting providers allegedly used for ransomware, malware delivery, phishing and command-and-control infrastructure. Authorities attribute more than $62 million in victim damages to criminal activity supported by the services. The U.S. is also offering rewards of up to $10 million for information concerning government-linked associates or use of the infrastructure. #DDW #Intelligence #USA",
-   "url": "https://x.com/DailyDarkWeb/status/2077632490215489831",
-   "created_at": "2026-07-16T05:52:40Z",
-   "tags": [
-    "ransomware",
-    "malware"
-   ],
-   "score": 6,
-   "text_zh": "美國指控勒索軟體組織使用的防彈託管服務運營商 美國檢察官對三名俄羅斯國民提出指控，他們被指控運營 Media Land 和 http://ML.Cloud，這兩家防彈託管提供商涉嫌用於勒索軟體、惡意軟體傳播、網路釣魚和命令與控制基礎設施。當局將超過 6,200 萬美元的受害者損失歸因於這些服務支持的犯罪活動。美國也對與政府有關聯的員工或基礎設施使用相關的資訊提供高達 1000 萬美元的獎勵。 #DDW #情報 #美國"
-  },
-  {
-   "id": "2077631694287646801",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇫🇷 Alleged Data Breach Exposes Sensitive Records from French Holiday Camp Organization A threat actor claims to have compromised http://CroqVacances.org, a French holiday camp organization, and is advertising a large collection of user and applicant data. According to the forum post: * The actor claims the dataset contains information on 72,916 individuals. * The advertised data allegedly includes 72,639 user accounts (including 69,477 bcrypt password hashes and 25 administrator accounts), 71,181 contact records, and 9,021 job applications. * The post also claims access to approximately 24 GB of uploaded documents, including CVs, diplomas, ID scans, vaccination records, and photos. * Additional allegedly exposed information includes Social Security numbers, national ID numbers, passport numbers, transport card numbers, medical records, names, addresses, phone numbers, email addresses, dates of birth, and driver's licenses. Analyst Note: These claims have not been independently verified. If confirmed, the combination of identity documents, medical information, and employment records would represent a highly sensitive exposure that could significantly increase the risk of identity theft, fraud, and targeted social engineering. #DDW #Intelligence #DarkWeb #France",
-   "url": "https://x.com/DailyDarkWeb/status/2077631694287646801",
-   "created_at": "2026-07-16T05:49:31Z",
-   "tags": [
-    "breach",
-    "darkweb"
-   ],
-   "score": 6,
-   "text_zh": "🇫🇷 涉嫌資料外洩揭露了法國度假營組織的敏感記錄 一名威脅行為者聲稱已經入侵了法國度假營組織 http://CroqVacances.org，並正在宣傳大量用戶和申請人資料。根據論壇貼文： * 該行為者聲稱該資料集包含 72,916 個人的資訊。 * 據稱，廣告資料包括 72,639 個使用者帳戶（包括 69,477 個 bcrypt 密碼雜湊值和 25 個管理員帳戶）、71,181 個聯絡人記錄和 9,021 份工作申請。 * 該貼文還聲稱可以存取約 24 GB 的上傳文件，包括簡歷、文憑、身分證掃描件、疫苗接種記錄和照片。 * 據稱洩漏的其他資訊包括社會安全號碼、國民身分證號碼、護照號碼、交通卡號碼、醫療記錄、姓名、地址、電話號碼、電子郵件地址、出生日期和駕照。分析師註：這些說法尚未得到獨立證實。如果得到證實，身分證件、醫療資訊和就業記錄的組合將代表高度敏感的暴露，可能會顯著增加身分盜竊、詐欺和有針對性的社會工程的風險。 #DDW #Intelligence #DarkWeb #France"
   },
   {
    "id": "2077580173315055738",
@@ -3097,8 +3102,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "🌟提醒：#TAS26 的 CFP 提交仍然開放。對亞太地區的 APT、惡意軟體、威脅情報或新興網路威脅有研究嗎？與全球安全社群分享您的發現。立即提交：https://tas.teamt5.org/cfp2026（提案提交截止日期為 7 月 15 日。）#Cyber​​Security #ThreatIntelligence #Cyber​​Threats"
+   "text_zh": "🌟提醒：#TAS26 的 CFP 提交仍然開放。對亞太地區的 APT、惡意軟體、威脅情報或新興網路威脅有研究嗎？與全球安全社群分享您的發現。立即提交：https://tas.teamt5.org/cfp2026（提案提交截止日期為 7 月 15 日。）#Cyber​​Security #ThreatIntelligence #Cyber​​Threats",
+   "score": 3
   },
   {
    "id": "md-116822420882805094",
@@ -3162,8 +3167,8 @@
    "tags": [
     "malware"
    ],
-   "score": 0,
-   "text_zh": "R 向@GroupIB_TI 提問：Millenium RAT 開發人員「ShinyEnigma」如何透過低成本 MaaS 模型實現對這種威脅的廣泛存取？閱讀我們關於命令結構、持久性機制和完整 MITRE ATT&CK 映射的完整技術分析，以保護您的組織：https://link.group-ib.com/4eGkRE1"
+   "text_zh": "R 向@GroupIB_TI 提問：Millenium RAT 開發人員「ShinyEnigma」如何透過低成本 MaaS 模型實現對這種威脅的廣泛存取？閱讀我們關於命令結構、持久性機制和完整 MITRE ATT&CK 映射的完整技術分析，以保護您的組織：https://link.group-ib.com/4eGkRE1",
+   "score": 0
   },
   {
    "id": "2070090374924956151",
@@ -3175,8 +3180,8 @@
    "tags": [
     "other"
    ],
-   "score": 2,
-   "text_zh": "R 致 @GroupIB_TI：Y2K Operators 威脅行為者正在使用複雜的 #socialengineering 誘餌，將有效負載偽裝成合法軟體、破解應用程式、遊戲作弊工具（例如 Roblox），並使用 PDF 誘餌文件。"
+   "text_zh": "R 致 @GroupIB_TI：Y2K Operators 威脅行為者正在使用複雜的 #socialengineering 誘餌，將有效負載偽裝成合法軟體、破解應用程式、遊戲作弊工具（例如 Roblox），並使用 PDF 誘餌文件。",
+   "score": 2
   },
   {
    "id": "2070090368113385804",
@@ -3188,8 +3193,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致 @GroupIB_TI：Group-IB 遙測已識別出感染 #MilleniumRAT (4.x) 的 160 多個國家/地區的 62,000 多個受損端點。感染速度驚人，光是 2026 年第一季就檢測到了 39,000 多起此類感染，佔所有感染的 64%。這顯示全球運動正在迅速加速。"
+   "text_zh": "R 致 @GroupIB_TI：Group-IB 遙測已識別出感染 #MilleniumRAT (4.x) 的 160 多個國家/地區的 62,000 多個受損端點。感染速度驚人，光是 2026 年第一季就檢測到了 39,000 多起此類感染，佔所有感染的 64%。這顯示全球運動正在迅速加速。",
+   "score": 0
   },
   {
    "id": "2070090361473732776",
@@ -3201,8 +3206,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "固定：#MilleniumRAT (v4.x) 標誌著威脅格局的重大演變。 #malware 已從 .NET 完全重寫為本機 C++ 應用程序，刪除了 .NET 依賴項。這種架構轉變可實現更大的隱密性和彈性，使檢測更具挑戰性。 #Telegram Bot API 仍然是核心 C2 機制。"
+   "text_zh": "固定：#MilleniumRAT (v4.x) 標誌著威脅格局的重大演變。 #malware 已從 .NET 完全重寫為本機 C++ 應用程序，刪除了 .NET 依賴項。這種架構轉變可實現更大的隱密性和彈性，使檢測更具挑戰性。 #Telegram Bot API 仍然是核心 C2 機制。",
+   "score": 3
   },
   {
    "id": "2069948693860831459",
@@ -3214,8 +3219,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "收集威脅情報是不夠的，您必須將其付諸實施。在我們即將與 TeamT5 和 @FiligranHQ 進行的現場會議中，了解如何保護您的亞太地區基礎設施免受先進的中國間諜活動的影響。 🗓️ 7 月 7 日上午 11:00 UTC+8 🔗 搶佔席位：https://forms.gle/XNBiYUPMTsg7L3Gp7 #cybersecurity #CISO #APAC"
+   "text_zh": "收集威脅情報是不夠的，您必須將其付諸實施。在我們即將與 TeamT5 和 @FiligranHQ 進行的現場會議中，了解如何保護您的亞太地區基礎設施免受先進的中國間諜活動的影響。 🗓️ 7 月 7 日上午 11:00 UTC+8 🔗 搶佔席位：https://forms.gle/XNBiYUPMTsg7L3Gp7 #cybersecurity #CISO #APAC",
+   "score": 1
   },
   {
    "id": "2069801763209687542",
@@ -3261,7 +3266,7 @@
    "id": "2069800799715135549",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
-   "text": "New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
+   "text": "Pinned: New #OperationEndgame actions revealed. This time targeting: #StealC The blip video is hardcore. 1. #StealC Admin stole data from his affiliates/users 2. #StealC was so vulnerable, even Law Enforcement is laughing about them, directly mentioning the exploits being leveraged to steal their stuff. 3. Also a lot of affiliates seem to be named on the number plates of the vehicles, showing #OpEndgame knows exactly who they are up against. 4. Seems Law Enforcement themselves realized that they are only a \"Bonus Stage\" to ending an already completely broken product XD I guess we can call this blip #EndgameLevelTrolling ^^ More links on this in the first comment below.",
    "url": "https://x.com/Gi7w0rm/status/2069800799715135549",
    "created_at": "2026-06-24T15:12:20Z",
    "tags": [
@@ -3319,8 +3324,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "感謝大家參觀我們#FIRSTCON26 的攤位！我們與熱衷於亞太威脅研究的網路安全專業人士度過了一段難忘的時光。了解更多關於我們的#insights 👉https://pse.is/7sugbv"
+   "text_zh": "感謝大家參觀我們#FIRSTCON26 的攤位！我們與熱衷於亞太威脅研究的網路安全專業人士度過了一段難忘的時光。了解更多關於我們的#insights 👉https://pse.is/7sugbv",
+   "score": 1
   },
   {
    "id": "2068713294517473374",
@@ -3397,8 +3402,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "聆聽網路防禦前線的聲音！ 🛡️ 7 月 7 日，Ray Huang (@FiligranHQ) 和 Jay Hsia (@TeamT5_Official) 將分享在亞太地區反擊中國關聯 APT 的專業知識。準備好改變您的策略。席位有限－立即報名：https://forms.gle/XNBiYUPMTsg7L3Gp7 #CISO"
+   "text_zh": "聆聽網路防禦前線的聲音！ 🛡️ 7 月 7 日，Ray Huang (@FiligranHQ) 和 Jay Hsia (@TeamT5_Official) 將分享在亞太地區反擊中國關聯 APT 的專業知識。準備好改變您的策略。席位有限－立即報名：https://forms.gle/XNBiYUPMTsg7L3Gp7 #CISO",
+   "score": 0
   },
   {
    "id": "2066355017401917609",
@@ -3410,8 +3415,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 6,
-   "text_zh": "威脅發展迅速。國防需要可見性、背景和可操作的情報。 #ThreatVision 透過以下方式幫助組織增強網路彈性： 🔹 決策者的策略情報 🔹 安全領導者的營運情報 🔹 一線防禦者的戰術情報 從 IoC 到暗網監控和威脅狩獵工具，ThreatVision 將碎片資料轉化為防禦就緒情報。閱讀更多👉https://pse.is/93pfyg #Cyber​​Security #ThreatIntelligence #APT #ThreatVision"
+   "text_zh": "威脅發展迅速。國防需要可見性、背景和可操作的情報。 #ThreatVision 透過以下方式幫助組織增強網路彈性： 🔹 決策者的策略情報 🔹 安全領導者的營運情報 🔹 一線防禦者的戰術情報 從 IoC 到暗網監控和威脅狩獵工具，ThreatVision 將碎片資料轉化為防禦就緒情報。閱讀更多👉https://pse.is/93pfyg #Cyber​​Security #ThreatIntelligence #APT #ThreatVision",
+   "score": 6
   },
   {
    "id": "2065381301809512601",
@@ -3436,8 +3441,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "從揭露到利用，防禦者的視窗正在縮小。 TeamT5 對 Apache ActiveMQ CVE-2026-34197 的 #investigation 顯示了一個關鍵的 RCE 漏洞如何被包括 China-nexus APT SLIME88 在內的威脅行為者迅速武器化。 👉https://pse.is/975422 #ThreatIntel #Cyber​​Security #ThreatHunting #ActiveMQ #TeamT5"
+   "text_zh": "從揭露到利用，防禦者的視窗正在縮小。 TeamT5 對 Apache ActiveMQ CVE-2026-34197 的 #investigation 顯示了一個關鍵的 RCE 漏洞如何被包括 China-nexus APT SLIME88 在內的威脅行為者迅速武器化。 👉https://pse.is/975422 #ThreatIntel #Cyber​​Security #ThreatHunting #ActiveMQ #TeamT5",
+   "score": 6
   },
   {
    "id": "2065237652220321907",
@@ -3449,8 +3454,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 4,
-   "text_zh": "🔍 了解亞太地區的威脅。防守清晰。在 FIRSTCon 2026 上與 TeamT5 會面，了解源自亞洲的威脅情報如何更深入地了解整個亞太地區的 APT 和勒索軟體活動。 📍參觀我們的展位🎯看看#ThreatVision如何將本地情報轉化為可行的防禦。 #FIRSTCON26 #ThreatIntelligence #Cyber​​Defense #APT #Ransomware #APAC #TeamT5"
+   "text_zh": "🔍 了解亞太地區的威脅。防守清晰。在 FIRSTCon 2026 上與 TeamT5 會面，了解源自亞洲的威脅情報如何更深入地了解整個亞太地區的 APT 和勒索軟體活動。 📍參觀我們的展位🎯看看#ThreatVision如何將本地情報轉化為可行的防禦。 #FIRSTCON26 #ThreatIntelligence #Cyber​​Defense #APT #Ransomware #APAC #TeamT5",
+   "score": 4
   },
   {
    "id": "2064875265042366940",
@@ -3462,8 +3467,8 @@
    "tags": [
     "breach"
    ],
-   "score": 3,
-   "text_zh": "📢威脅狩獵論壇2026：報名開始 📅7/10（週五）13:00-19:00 📍瑞穗丸之內大廈 🗣️日語和英語（提供同聲傳譯） ✅參與費用：免費#Cyber​​Attack變得更加複雜，僅僅不夠“了“ttack”已經更加複雜。在這種背景下，「#ThreatHunting」受到越來越多的關注，它主動檢測和分析組織內潛伏的威脅跡象，作為基於漏洞的防禦的一部分。此次活動匯集了來自政府機構、金融機構和安全廠商的專家。我們從各個角度分享威脅追蹤的現狀和實務知識。 👉https://peatix.com/event/5027167 #Cyber​​Security"
+   "text_zh": "📢威脅狩獵論壇2026：報名開始 📅7/10（週五）13:00-19:00 📍瑞穗丸之內大廈 🗣️日語和英語（提供同聲傳譯） ✅參與費用：免費#Cyber​​Attack變得更加複雜，僅僅不夠“了“ttack”已經更加複雜。在這種背景下，「#ThreatHunting」受到越來越多的關注，它主動檢測和分析組織內潛伏的威脅跡象，作為基於漏洞的防禦的一部分。此次活動匯集了來自政府機構、金融機構和安全廠商的專家。我們從各個角度分享威脅追蹤的現狀和實務知識。 👉https://peatix.com/event/5027167 #Cyber​​Security",
+   "score": 3
   },
   {
    "id": "2064692911862628757",
@@ -3488,8 +3493,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 向 @GroupIB_TI 提問：威脅行為者如何將會話劫持、瀏覽器設定檔複製、HVNC 和以加密貨幣為中心的工具結合到商業惡意軟體即服務產品中？我們對 SilabRAT 的最新分析探討了其基礎設施、ClickFix 驅動的感染鏈、技術能力及其開發背後的威脅參與者。閱讀完整報告：https://link.group-ib.com/4xluZub"
+   "text_zh": "R 向 @GroupIB_TI 提問：威脅行為者如何將會話劫持、瀏覽器設定檔複製、HVNC 和以加密貨幣為中心的工具結合到商業惡意軟體即服務產品中？我們對 SilabRAT 的最新分析探討了其基礎設施、ClickFix 驅動的感染鏈、技術能力及其開發背後的威脅參與者。閱讀完整報告：https://link.group-ib.com/4xluZub",
+   "score": 2
   },
   {
    "id": "2064614133719523722",
@@ -3501,8 +3506,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 致 @GroupIB_TI：SilabRAT 非常重視#cryptocurrency 竊盜。除了收集憑證和瀏覽器資料之外，它還可以識別與錢包相關的工件，並使用從受感染系統收集的憑證自動嘗試恢復密碼。這些新增內容反映了現代#惡意軟體生態系統中對直接貨幣化的日益關注。"
+   "text_zh": "R 致 @GroupIB_TI：SilabRAT 非常重視#cryptocurrency 竊盜。除了收集憑證和瀏覽器資料之外，它還可以識別與錢包相關的工件，並使用從受感染系統收集的憑證自動嘗試恢復密碼。這些新增內容反映了現代#惡意軟體生態系統中對直接貨幣化的日益關注。",
+   "score": 2
   },
   {
    "id": "2064614128929644583",
@@ -3514,8 +3519,8 @@
    "tags": [
     "other"
    ],
-   "score": 4,
-   "text_zh": "R 致@GroupIB_TI：SilabRAT 最顯著的功能之一是它使用隱藏虛擬網路運算 (HVNC)。透過直接從受害者的裝置與服務交互，攻擊者可以執行帳戶活動、存取敏感平台並進行詐騙操作，同時表現為來自受信任裝置和 IP 位址的合法使用者。 #資訊安全"
+   "text_zh": "R 致@GroupIB_TI：SilabRAT 最顯著的功能之一是它使用隱藏虛擬網路運算 (HVNC)。透過直接從受害者的裝置與服務交互，攻擊者可以執行帳戶活動、存取敏感平台並進行詐騙操作，同時表現為來自受信任裝置和 IP 位址的合法使用者。 #資訊安全",
+   "score": 4
   },
   {
    "id": "2064168936451752436",
@@ -3527,8 +3532,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "TeamT5 將參加 2026 年熱海網路防禦研討會，這是一場專注於國防和國家安全的重要活動。隨著日本不斷推進其主動網路防禦計劃，主動網路安全能力變得比以往任何時候都更加重要。在我們的展位上，我們將展示專注於亞太地區的#ThreatIntelligence 和#ThreatHunting 解決方案，旨在幫助組織更快、更精確地識別、理解和響應新興網路威脅。 📅6月20日（週六）~6月21日（週日）📍熱海後樂園飯店（日本靜岡縣熱海市）👉更多詳情：https://www.5th-battlefield.com/ #5thbf @Battlefield5th"
+   "text_zh": "TeamT5 將參加 2026 年熱海網路防禦研討會，這是一場專注於國防和國家安全的重要活動。隨著日本不斷推進其主動網路防禦計劃，主動網路安全能力變得比以往任何時候都更加重要。在我們的展位上，我們將展示專注於亞太地區的#ThreatIntelligence 和#ThreatHunting 解決方案，旨在幫助組織更快、更精確地識別、理解和響應新興網路威脅。 📅6月20日（週六）~6月21日（週日）📍熱海後樂園飯店（日本靜岡縣熱海市）👉更多詳情：https://www.5th-battlefield.com/ #5thbf @Battlefield5th",
+   "score": 1
   },
   {
    "id": "2063788097792606563",
@@ -3540,8 +3545,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "亞太地區組織如何將威脅情報轉化為現實世界的安全行動？ 🛑 7 月 7 日加入@FiligranHQ 和@TeamT5，剖析 China-nexus APT 並了解如何增強您的 SOC。 🎙️ 演講者：Ray Huang（Filigran 亞太區首席解決方案架構師）和 Jay Hsia（TeamT5 全球業務開發主管） 🗓️ 7 月 7 日上午 11 點（UTC+8）👉 註冊：https://forms.gle/XNBiYiY."
+   "text_zh": "亞太地區組織如何將威脅情報轉化為現實世界的安全行動？ 🛑 7 月 7 日加入@FiligranHQ 和@TeamT5，剖析 China-nexus APT 並了解如何增強您的 SOC。 🎙️ 演講者：Ray Huang（Filigran 亞太區首席解決方案架構師）和 Jay Hsia（TeamT5 全球業務開發主管） 🗓️ 7 月 7 日上午 11 點（UTC+8）👉 註冊：https://forms.gle/XNBiYiY.",
+   "score": 1
   },
   {
    "id": "1936177266662514838",
@@ -3800,8 +3805,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【資安趨勢】Lazarus、Kimsuki、Andariel 等多個駭侵團體自 2017 年至今竊得加密貨幣超過 30 億美元 更多內容：https://www.twcert.org.tw/tw/cp-104-7657-2b437-1.html"
+   "text_zh": "【資安趨勢】Lazarus、Kimsuki、Andariel 等多個駭侵團體自 2017 年至今竊得加密貨幣超過 30 億美元 更多內容：https://www.twcert.org.tw/tw/cp-104-7657-2b437-1.html",
+   "score": 0
   },
   {
    "id": "1740008977809961044",
@@ -3813,8 +3818,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【國際政府組織資安資訊】CISA 要求科技製造廠停止提供預設密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7655-d6d47-1.html"
+   "text_zh": "【國際政府組織資安資訊】CISA 要求科技製造廠停止提供預設密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7655-d6d47-1.html",
+   "score": 0
   },
   {
    "id": "1740008680094073113",
@@ -3826,8 +3831,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【社群媒體資安近況】WordPress 外掛程式含有嚴重 RCE 漏洞，下載次數超過 9 萬次 更多內容：https://www.twcert.org.tw/tw/cp-104-7653-0096a-1.html"
+   "text_zh": "【社群媒體資安近況】WordPress 外掛程式含有嚴重 RCE 漏洞，下載次數超過 9 萬次 更多內容：https://www.twcert.org.tw/tw/cp-104-7653-0096a-1.html",
+   "score": 0
   },
   {
    "id": "1740008544156660212",
@@ -3839,8 +3844,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "【軟硬體漏洞資訊】Microsoft 推出 2023 年 12 月 Patch Tuesday 每月例行更新修補包，共修復 34 個資安漏洞，內含 1 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7651-6abff-1.html"
+   "text_zh": "【軟硬體漏洞資訊】Microsoft 推出 2023 年 12 月 Patch Tuesday 每月例行更新修補包，共修復 34 個資安漏洞，內含 1 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7651-6abff-1.html",
+   "score": 4
   },
   {
    "id": "1740008362534941073",
@@ -3852,8 +3857,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "【軟硬體漏洞資訊】Apple 緊急為較舊產品修復 2 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7649-5db31-1.html"
+   "text_zh": "【軟硬體漏洞資訊】Apple 緊急為較舊產品修復 2 個 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7649-5db31-1.html",
+   "score": 3
   },
   {
    "id": "1740008243559309448",
@@ -3865,8 +3870,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【資安趨勢】現今仍有 38% Log4J 應用程式使用有漏洞舊版程式庫 更多內容：https://www.twcert.org.tw/tw/cp-104-7647-79644-1.html"
+   "text_zh": "【資安趨勢】現今仍有 38% Log4J 應用程式使用有漏洞舊版程式庫 更多內容：https://www.twcert.org.tw/tw/cp-104-7647-79644-1.html",
+   "score": 0
   },
   {
    "id": "1740008089829675195",
@@ -3878,8 +3883,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【行動裝置資安訊息】AutoSpill 攻擊可自 Android 密碼管理工具中竊取密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7645-5da00-1.html"
+   "text_zh": "【行動裝置資安訊息】AutoSpill 攻擊可自 Android 密碼管理工具中竊取密碼 更多內容：https://www.twcert.org.tw/tw/cp-104-7645-5da00-1.html",
+   "score": 0
   },
   {
    "id": "1740007957759512975",
@@ -3891,8 +3896,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【軟硬體漏洞資訊】全新 SLAM 攻擊，可自 AMD、Intel 處理器竊取機敏資訊 更多內容：https://www.twcert.org.tw/tw/cp-104-7643-45300-1.html"
+   "text_zh": "【軟硬體漏洞資訊】全新 SLAM 攻擊，可自 AMD、Intel 處理器竊取機敏資訊 更多內容：https://www.twcert.org.tw/tw/cp-104-7643-45300-1.html",
+   "score": 0
   },
   {
    "id": "1740007819443917028",
@@ -3904,8 +3909,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【國際政府組織資安資訊】駭侵者利用 Adobe ColdFusion 漏洞攻擊美國政府包商 更多內容：https://www.twcert.org.tw/tw/cp-104-7641-d7840-1.html"
+   "text_zh": "【國際政府組織資安資訊】駭侵者利用 Adobe ColdFusion 漏洞攻擊美國政府包商 更多內容：https://www.twcert.org.tw/tw/cp-104-7641-d7840-1.html",
+   "score": 0
   },
   {
    "id": "1740007658386866357",
@@ -3917,8 +3922,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【新興應用資安】Web3 泛用開源程式庫漏洞，可能造成多個 NFT 收藏集遭攻擊 更多內容：https://www.twcert.org.tw/tw/cp-104-7639-7b342-1.html"
+   "text_zh": "【新興應用資安】Web3 泛用開源程式庫漏洞，可能造成多個 NFT 收藏集遭攻擊 更多內容：https://www.twcert.org.tw/tw/cp-104-7639-7b342-1.html",
+   "score": 0
   },
   {
    "id": "1740007531848856055",
@@ -3930,8 +3935,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【軟體系統資安議題】基因測試公司 23andMe 共 690 萬使用者資料遭竊 更多內容：https://www.twcert.org.tw/tw/cp-104-7637-3ccb0-1.html"
+   "text_zh": "【軟體系統資安議題】基因測試公司 23andMe 共 690 萬使用者資料遭竊 更多內容：https://www.twcert.org.tw/tw/cp-104-7637-3ccb0-1.html",
+   "score": 0
   },
   {
    "id": "1735188775725133932",
@@ -3943,8 +3948,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【社群媒體資安近況】假冒 WordPress 資安更新，內含惡意後門外掛程式 更多內容：https://www.twcert.org.tw/tw/cp-104-7588-a5eea-1.html"
+   "text_zh": "【社群媒體資安近況】假冒 WordPress 資安更新，內含惡意後門外掛程式 更多內容：https://www.twcert.org.tw/tw/cp-104-7588-a5eea-1.html",
+   "score": 0
   },
   {
    "id": "1735188564911239303",
@@ -3956,8 +3961,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【行動裝置資安訊息】Android 十二月更新修復 85 個漏洞，內含一個嚴重 RCE 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7586-dd363-1.html"
+   "text_zh": "【行動裝置資安訊息】Android 十二月更新修復 85 個漏洞，內含一個嚴重 RCE 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7586-dd363-1.html",
+   "score": 0
   },
   {
    "id": "1735188031257321695",
@@ -3969,8 +3974,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【資安趨勢】超過 20,000 台含漏洞舊版 MS Exchange Server 曝露於攻擊風險之下 更多內容：https://www.twcert.org.tw/tw/cp-104-7584-3732e-1.html"
+   "text_zh": "【資安趨勢】超過 20,000 台含漏洞舊版 MS Exchange Server 曝露於攻擊風險之下 更多內容：https://www.twcert.org.tw/tw/cp-104-7584-3732e-1.html",
+   "score": 0
   },
   {
    "id": "1735187787245322347",
@@ -3982,8 +3987,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "【行動裝置資安訊息】Apple 緊急修復 2 個 iOS 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7582-3d8ef-1.html"
+   "text_zh": "【行動裝置資安訊息】Apple 緊急修復 2 個 iOS 0-day 漏洞 更多內容：https://www.twcert.org.tw/tw/cp-104-7582-3d8ef-1.html",
+   "score": 3
   },
   {
    "id": "1730525285563691397",
@@ -3995,8 +4000,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【軟硬體漏洞資訊】全新發現的 BLUFFS 攻擊，可挾持藍牙連線並竊聽通訊內容 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7565-044bf-1.html"
+   "text_zh": "【軟硬體漏洞資訊】全新發現的 BLUFFS 攻擊，可挾持藍牙連線並竊聽通訊內容 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7565-044bf-1.html",
+   "score": 0
   },
   {
    "id": "1730525124498239627",
@@ -4008,8 +4013,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【國際政府組織資安資訊】多國檢警合作破獲大型勒贖集團，受害者遍及全球 71 國 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7563-92b27-1.html"
+   "text_zh": "【國際政府組織資安資訊】多國檢警合作破獲大型勒贖集團，受害者遍及全球 71 國 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7563-92b27-1.html",
+   "score": 0
   },
   {
    "id": "1730524915630297413",
@@ -4021,8 +4026,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "【軟硬體漏洞資訊】Google Chrome 緊急推出 0-day 漏洞更新 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7561-c0ae1-1.html"
+   "text_zh": "【軟硬體漏洞資訊】Google Chrome 緊急推出 0-day 漏洞更新 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7561-c0ae1-1.html",
+   "score": 3
   },
   {
    "id": "1730524752203366854",
@@ -4034,8 +4039,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【軟體系統資安議題】斯洛維尼亞最大電力公司 HSE 遭勒贖攻擊 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7559-accbb-1.html"
+   "text_zh": "【軟體系統資安議題】斯洛維尼亞最大電力公司 HSE 遭勒贖攻擊 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7559-accbb-1.html",
+   "score": 0
   },
   {
    "id": "1730524557176688969",
@@ -4047,8 +4052,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "【軟體系統資安議題】勒贖攻擊導致獨立遊戲 17,000 位玩家資料全遭刪除 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7557-82c33-1.html"
+   "text_zh": "【軟體系統資安議題】勒贖攻擊導致獨立遊戲 17,000 位玩家資料全遭刪除 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7557-82c33-1.html",
+   "score": 0
   },
   {
    "id": "md-111438184138523000",
@@ -4101,6 +4106,299 @@
    ],
    "text_zh": "以下是現有威脅組織的新舊名稱清單 https://learn.microsoft.com/en-us/micr osoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
    "score": 1
+  },
+  {
+   "id": "1611116034928386055",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#BlackByte: #About the victim: #Kansas City Homes From our earliest days in Kansas City, we have remained brokerage leaders in the real estate industry by developing re... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1611116034928386055",
+   "created_at": "2023-01-05T21:42:50Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#BlackByte：#關於受害者：#Kansas City Homes 從我們在堪薩斯城成立之初起，我們就透過開發... #ransomware #leaks #infosec #databreach #cyberattack 一直是房地產行業的經紀領導者。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610757270664536064",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#BlackByte: #About the victim: #CAPMC Community Action Partnership of Madera County (CAPMC). Since it was incorporated in 1965, CAPMC has been making a positive differe... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610757270664536064",
+   "created_at": "2023-01-04T21:57:14Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#BlackByte：#關於受害者：#CAPMC 馬德拉縣社區行動夥伴關係 (CAPMC)。自 1965 年成立以來，CAPMC 一直在做出積極的貢獻... #ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630139779350529",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#RansomHouse: BRYCON Construction https://www.brycon.com/ #About the victim: Founded in 1990, Brycon Corporation is a construction company that specializes in the constructio... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630139779350529",
+   "created_at": "2023-01-04T13:32:04Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#RansomHouse：BRYCON Construction https://www.brycon.com/ #關於受害者：Brycon Corporation 成立於 1990 年，是一家專門從事建築工程的建築公司... #ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630136705032192",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#RansomHouse: Republic of Vanuatu https://www.gov.vu/ #About the victim: The Republic of Vanuatu is an island nation located in the South Pacific Ocean. The archipelago is lo... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630136705032192",
+   "created_at": "2023-01-04T13:32:03Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#RansomHouse：瓦努阿圖共和國 https://www.gov.vu/ #關於受害者：瓦努阿圖共和國是位於南太平洋的島國。群島位於...#ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630133794177024",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#RansomHouse: Keralty https://www.keralty.com/ #About the victim: We are a leading multinational health group committed to keeping communities healthy through our own Compreh... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630133794177024",
+   "created_at": "2023-01-04T13:32:02Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#RansomHouse：Keralty https://www.keralty.com/ # 關於受害者：我們是一家領先的跨國健康組織，致力於透過我們自己的 Compreh 保持社區健康... #ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630130791026688",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#RansomHouse: Strem Chemicals https://www.strem.com/ #About the victim: Strem established in 1964, is a company that manufactures and markets specialty chemicals of high puri... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630130791026688",
+   "created_at": "2023-01-04T13:32:01Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#RansomHouse：Strem Chemicals https://www.strem.com/ # 關於受害者：Strem 成立於 1964 年，是一家生產和銷售高純度特種化學品的公司... #ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630060356124673",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Guilford College N/A #Url:http://pkbojoo6sttjllqyvbxfxjeu5exurvesuhezkuwaopserh4thjvhj2ad.onion/ #Password N/A #Leak date: 22/11/2022 1... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630060356124673",
+   "created_at": "2023-01-04T13:31:45Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info Guilford College N/A #Url：http://pkbojoo6sttjllqyvbxfxjeu5exurvesuhezkuwaopserh4thjvhj2ad.onion/ #Password N/A #洩漏日期：2022 年 11 月 22 日 1... # 22 日更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630046338744320",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Hydro-Gear & Agri-Fab Hydro-Gear, headquartered in Sullivan, Illinois, is a manufacturing company that specializes in precision drive solutions for the indu... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630046338744320",
+   "created_at": "2023-01-04T13:31:41Z",
+   "tags": [
+    "ransomware",
+    "breach"
+   ],
+   "score": 6,
+   "text_zh": "#Hive Leaks：#Info Hydro-Gear 和 Agri-Fab Hydro-Gear 總部位於伊利諾州沙利文，是一家專門為工業領域提供精密驅動解決方案的製造公司... #ransomware #leaks #infosec #databreach #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630041993445376",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info PART ONE 30% Finance \\ HR \\ Contracts #Url:http://ger6heo5mfiyrjoqwtd5rxdxsjgdo2fkxojpp4wj2w26zxuwyq2tvxqd.onion/INTERFACE/dwqeWQEpd7da/INTERFACE.part... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630041993445376",
+   "created_at": "2023-01-04T13:31:40Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info 第 1 部分 30% 財務 \\ HR \\ 合約 #Url：http://ger6heo5mfiyrjoqwtd5rxdxsjgdo2fkxojpp4wj2w26zxuwyq2tvxqd.onion/INTERFACE/pp4wj2w26zxuwyq2tvxqd.onion/INTERFACE/pp4wj2w26zxuwyq2tvxqd.onion/INTERFACE/pp4wj2w26zxuws/Exqd.onion/INTERFACE/pp4wj2w. #網路攻擊。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630030748536833",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info MHMR Authority Of Brazos Valley data #Url:http://k4k5gdmianuparqmnhrhi2p4mnotyy7cgndi3q5r2jqvwtcuf3t6pdyd.onion/ #Password N/A #Leak date:... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630030748536833",
+   "created_at": "2023-01-04T13:31:38Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info MHMR 布拉索斯谷資料權威 #Url：http://k4k5gdmianuparqmnhrhi2p4mnotyy7cgndi3q5r2jqvwtcuf3t6pdyd.onion/ #Password N/A #3q5r2jqvwtcuf3t6pdyd.onion/ #Password /A #更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610630001820422144",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info DATA of Huntsville Huntsville, Texas #Url:http://ak5quabcpv53mkinf5psw5orwmc3fdgxsbcnfz3nad7zvpn3a2qp6eqd.onion/ #Password N/A #Leak date:... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610630001820422144",
+   "created_at": "2023-01-04T13:31:31Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：德克薩斯州亨茨維爾亨茨維爾的 #Info DATA #Url:http://ak5quabcpv53mkinf5psw5orwmc3fdgxsbcnfz3nad7zvpn3a2qp6eqd.onion/ #Password N/A #洩漏日期：... #pnsomware #leaks.... #t 它 #Oxer。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629998842355712",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Expand N/A #Url:http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/expandgroup/ #Password N/A #Leak date: 14/12/2022... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629998842355712",
+   "created_at": "2023-01-04T13:31:30Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info Expand N/A #Url：http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/expandgroup/ #Password N/A #brebres3ee55gw66kad.onion/expandgroup/ #Password N/A #brebres3ee55gw66kad.onion/expandgroup/ #Password N/A #brek3ee55gw66kad.onion/expandgroup/ #Password N/A #brek3ee55gw66kad.onion/expandgroup/ #Password N/A #brek3ee55gw66kad.onion/expandgroup/ #Password N/A #brek3ee：14/12/2022 月 #secackks更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629991762464768",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info !!!! N/A #Url:http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/cmvc/ #Password N/A #Leak date: 29/12/2022 09:59:30... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629991762464768",
+   "created_at": "2023-01-04T13:31:28Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info!!!!不適用 #Url：http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/cmvc/ #密碼不適用 #洩漏日期：29/1292022000:5229/12920229/129:5229/129:5229/129:5229/129:5229/1299 #cyberattack。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629958908448772",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Jakks N/A #Url: http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/jakks/ #Password N/A #Leak date: 19/12/2022 14:4... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629958908448772",
+   "created_at": "2023-01-04T13:31:20Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info Jakks N/A #Url：http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/jakks/ #Password N/A #ksg3ee55gw66kad.onion/jakks/ #Password N/A #ks23ee55gw66kad.onion/jakks/ #Password N/A #ks3ee55gw66kad.onion/jakks/ #Password N/A #ks3ee55gw66kad.onion/jakks/ #Password N/A #ks.19/12/202...d #網路攻擊。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629884723748864",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Part 1 N/A #Url:http://2u262hijtvt3aguqs4sz7qpbosdrxqytjj25wr6erlgsuifzyoa73ryd.onion #Password N/A #Leak date: 08/12/2022 01:04:00 #Leak si... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629884723748864",
+   "created_at": "2023-01-04T13:31:03Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info 第 1 部分 N/A #Url：http://2u262hijtvt3aguqs4sz7qpbosdrxqytjj25wr6erlgsuifzyoa73ryd.onion #Password N/A #洩漏日期：08/12/2022 01:044omd: #資料外洩#網路攻擊。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629876226080769",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info North Idaho College N/A #Url:http://fkwtq7nkuuqib2co2ixaveym7sjt6gtbp3sx6luhdfrgy4ncchjea4yd.onion #Password N/A #Leak date: 30/11/2022... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629876226080769",
+   "created_at": "2023-01-04T13:31:01Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 外洩：#Info North Idaho College N/A #Url：http://fkwtq7nkuuqib2co2ixaveym7sjt6gtbp3sx6luhdfrgy4ncchjea4yd.onion #Password N/A #洩漏日期：30/11/2022... #ransomware #Password N/A #Cleaks #Oxx6更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629867715821568",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info DATA_Camst_Group #Url:http://jh4nf7dgbsf6jgmq5fxn4svfxhak6qq3mgrp3wcf7pqai4fakqdk7lad.onion/ #Password N/A #Leak date: 30/12/2022 06:1... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629867715821568",
+   "created_at": "2023-01-04T13:30:59Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info DATA_Camst_Group #Url：http://jh4nf7dgbsf6jgmq5fxn4svfxhak6qq3mgrp3wcf7pqai4fakqdk7lad.onion/ #Password N/A #infos：30/12/20221262022 月 005 月200/1262022129750/1262022 月。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629864754651138",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info IEMINC Documents (Part1) N/A #Url:http://sj7cw332z2ndz7cfpsrsldi4nlfbhbn63wvitdundmmuiixkhhwf4oad.onion/ #Password N/A #Leak date: 18/1... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629864754651138",
+   "created_at": "2023-01-04T13:30:58Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info IEMINC 文件（第 1 部分）不適用 #Url：http://sj7cw332z2ndz7cfpsrsldi4nlfbhbn63wvitdundmmuiixkhhwf4oad.onion/ #Password N/A #ttbres：18/waremmuiixkhhwf4oad.onion/ #Password N/A #Oxject：18/ware135om20ware...更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629837328089088",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Mark-Taylor N/A #Url:http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/taylor/ #Password N/A #Leak date: 14/12/202... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629837328089088",
+   "created_at": "2023-01-04T13:30:51Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info Mark-Taylor N/A #Url：http://u237r6z6axkagn6t2qiwx2rrvmq7pvz53tph7hl64geg3ee55gw66kad.onion/taylor/ #Password N/A #breg3ee55gw66kad.onion/taylor/ #Password N/A #breks3ee55gw66kad.onion/taylor/ #Password N/A #breks3ee55gw66kad.onion/taylor/ #Password N/A #breks3ee55gw66kad.onion/taylor/ #Password N/A #breks3ee55gw66kad.onion/taylor/ #Password N/A #breks.14/12/20202/202020202020 月。更多@：https://t.me/ransomwatcher"
+  },
+  {
+   "id": "1610629831691014144",
+   "handle": "ransomwatcher",
+   "name": "ransomwatcher",
+   "text": "#Hive Leaks: #Info Part 1 http://yy336wnsoawsjfmnjgczmks3uxnfoytzmpcsqdyg6ts6ahlgncqv3iid.onion #Url:http://yy336wnsoawsjfmnjgczmks3uxnfoytzmpcsqdyg6ts6ahlgncqv3iid.onio... #ransomware #leaks #infosec #databreach #cyberattack. More @:https://t.me/ransomwatcher",
+   "url": "https://x.com/ransomwatcher/status/1610629831691014144",
+   "created_at": "2023-01-04T13:30:50Z",
+   "tags": [
+    "ransomware",
+    "breach",
+    "darkweb"
+   ],
+   "score": 6,
+   "text_zh": "#Hive 洩漏：#Info 第 1 部分 http://yy336wnsoawsjfmnjgczmks3uxnfoytzmpcsqdyg6ts6ahlgncqv3iid.onion #Url：http://yy336wnsoawsjfmnjgczmks3uxnfoytzcsqgndy63336wnsoawsjfmnjgczmks3uxnfoytzcsqgndy6336wnsOpksjfmnjgczm3uxnfoytzcsqcx6364 月。 #cyberattack。更多@：https://t.me/ransomwatcher"
   },
   {
    "id": "1610056829731766273",
@@ -4204,8 +4502,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/news/hackers-hacked-into-a-space-satellite-to-show-movies-anyone-can-repeat/ 黑客侵入太空衛星播放電影：任何人都可以重複#infosec #infosecurity #cybersecurity #threatintelclothrdatpawem; #malware #勒索軟體"
+   "text_zh": "https://cyberthreatintelligence.com/news/hackers-hacked-into-a-space-satellite-to-show-movies-anyone-can-repeat/ 黑客侵入太空衛星播放電影：任何人都可以重複#infosec #infosecurity #cybersecurity #threatintelclothrdatpawem; #malware #勒索軟體",
+   "score": 6
   },
   {
    "id": "1561495202912772096",
@@ -4218,8 +4516,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/experts/iphone-and-ipad-update-them-immediately-to-avoid-hacker-attacks/ iPhone和iPad，立即更新以避免駭客攻擊#infosec #infosecurity #cybersecurity #threatintel #threatintelligcloence # #ransomware"
+   "text_zh": "https://cyberthreatintelligence.com/experts/iphone-and-ipad-update-them-immediately-to-avoid-hacker-attacks/ iPhone和iPad，立即更新以避免駭客攻擊#infosec #infosecurity #cybersecurity #threatintel #threatintelligcloence # #ransomware",
+   "score": 6
   },
   {
    "id": "1561492109202493440",
@@ -4232,8 +4530,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/news/new-android-13-security-checks-bugdrop-malware-tries-to-bypass-them/ 新的 Android 13 安全檢查，BugDrop 惡意軟體試圖繞過它們 #infosec #infosecurity #cybersecurity #threatintel hackwaltint #cloudsecurity #cloudcomputing #malware #勒索軟體"
+   "text_zh": "https://cyberthreatintelligence.com/news/new-android-13-security-checks-bugdrop-malware-tries-to-bypass-them/ 新的 Android 13 安全檢查，BugDrop 惡意軟體試圖繞過它們 #infosec #infosecurity #cybersecurity #threatintel hackwaltint #cloudsecurity #cloudcomputing #malware #勒索軟體",
+   "score": 6
   },
   {
    "id": "1561488570384252929",
@@ -4245,8 +4543,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "https://cyberthreatintelligence.com/experts/cybercrime-and-public-gaming-this-is-why-security-strategies-need-to-be-strengthened/ 網路犯罪與公共遊戲：這就是為什麼需要加強安全策略的原因 #infosec #infosecurity #cybertidity #pcymw #threathunting #cloudsecurity #雲端運算#惡意軟體"
+   "text_zh": "https://cyberthreatintelligence.com/experts/cybercrime-and-public-gaming-this-is-why-security-strategies-need-to-be-strengthened/ 網路犯罪與公共遊戲：這就是為什麼需要加強安全策略的原因 #infosec #infosecurity #cybertidity #pcymw #threathunting #cloudsecurity #雲端運算#惡意軟體",
+   "score": 3
   },
   {
    "id": "1561436679151517697",
@@ -4259,8 +4557,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/experts/the-code-dark-to-limit-hacks-to-hospitals-what-it-is-and-how-it-works/ 黑暗程式碼，限制對醫院的駭客攻擊：它是什麼以及它如何運作#infosec #infosecurity #cybersecurity #cybertel #cloudsecurity #雲端運算 #惡意軟體 #勒索軟體"
+   "text_zh": "https://cyberthreatintelligence.com/experts/the-code-dark-to-limit-hacks-to-hospitals-what-it-is-and-how-it-works/ 黑暗程式碼，限制對醫院的駭客攻擊：它是什麼以及它如何運作#infosec #infosecurity #cybersecurity #cybertel #cloudsecurity #雲端運算 #惡意軟體 #勒索軟體",
+   "score": 6
   },
   {
    "id": "1561434302373584899",
@@ -4272,8 +4570,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/news/intel-sa-00086-vulnerability-and-cpu-firmware-security-what-impacts-in-the-cyber-landscape/ 英特爾 SA-00086 漏洞和 CPU 韌體安全性：對網路環境有何影響力 #secinfo #cybernews #cyberattack #threathunting #雲端安全"
+   "text_zh": "https://cyberthreatintelligence.com/news/intel-sa-00086-vulnerability-and-cpu-firmware-security-what-impacts-in-the-cyber-landscape/ 英特爾 SA-00086 漏洞和 CPU 韌體安全性：對網路環境有何影響力 #secinfo #cybernews #cyberattack #threathunting #雲端安全",
+   "score": 1
   },
   {
    "id": "1561430813950070785",
@@ -4285,8 +4583,8 @@
    "tags": [
     "market"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/news/defense-ministry-data-for-sale-on- Russian-forums-but-it-sounds-like-a-false-alarm-for-do-we-know/ 國防部資料在俄羅斯論壇上出售，但這只為虛驚。 #cybernews #網路攻擊 #威脅狩獵 #cloudsecurity"
+   "text_zh": "https://cyberthreatintelligence.com/news/defense-ministry-data-for-sale-on- Russian-forums-but-it-sounds-like-a-false-alarm-for-do-we-know/ 國防部資料在俄羅斯論壇上出售，但這只為虛驚。 #cybernews #網路攻擊 #威脅狩獵 #cloudsecurity",
+   "score": 1
   },
   {
    "id": "1561426608690429952",
@@ -4298,8 +4596,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 4,
-   "text_zh": "https://cyberthreatintelligence.com/experts/microsoft-updates-august-2022-there-is-also-the-patch-for-a-zero-day-already-under-attack/ Microsoft 2022 年 8 月更新：還有針對已受到攻擊的零日漏洞的補丁 #info #cybernews #cyberattack #threathhunting #cloudsecurity #cloudcomputing"
+   "text_zh": "https://cyberthreatintelligence.com/experts/microsoft-updates-august-2022-there-is-also-the-patch-for-a-zero-day-already-under-attack/ Microsoft 2022 年 8 月更新：還有針對已受到攻擊的零日漏洞的補丁 #info #cybernews #cyberattack #threathhunting #cloudsecurity #cloudcomputing",
+   "score": 4
   },
   {
    "id": "1561397213997449216",
@@ -4312,8 +4610,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/experts/public-wi-fi-privacy-and-passwords-at-risk-lets-be-clear/ 公共 Wi-Fi、隱私和密碼面臨風險嗎？讓我們說清楚#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #threathunting #cloudsecurity #cloudcomputing #malware #ransomware"
+   "text_zh": "https://cyberthreatintelligence.com/experts/public-wi-fi-privacy-and-passwords-at-risk-lets-be-clear/ 公共 Wi-Fi、隱私和密碼面臨風險嗎？讓我們說清楚#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #threathunting #cloudsecurity #cloudcomputing #malware #ransomware",
+   "score": 6
   },
   {
    "id": "1561374102878814209",
@@ -4326,8 +4624,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/experts/evolution-of-ransomware-incidents-enisa-recommendations-to-mitigate-the-threat/ 勒索軟體事件的演進：ENISA 緩解威脅的建議 #infosec #infosecurity #cybersecurity #secdrea #雲端運算 #惡意軟體 #勒索軟體"
+   "text_zh": "https://cyberthreatintelligence.com/experts/evolution-of-ransomware-incidents-enisa-recommendations-to-mitigate-the-threat/ 勒索軟體事件的演進：ENISA 緩解威脅的建議 #infosec #infosecurity #cybersecurity #secdrea #雲端運算 #惡意軟體 #勒索軟體",
+   "score": 6
   },
   {
    "id": "1561371157416316928",
@@ -4339,8 +4637,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/experts/android-updates-august-2022- Corrected-37-vulnerability-we-secure-devices/ Android 更新 2022 年 8 月，修正了 37 個漏洞：我們保護裝置 #infosec #infosecurity #cyberteluritynewsthtint #threathunting #cloudsecurity #cloudcomputing"
+   "text_zh": "https://cyberthreatintelligence.com/experts/android-updates-august-2022- Corrected-37-vulnerability-we-secure-devices/ Android 更新 2022 年 8 月，修正了 37 個漏洞：我們保護裝置 #infosec #infosecurity #cyberteluritynewsthtint #threathunting #cloudsecurity #cloudcomputing",
+   "score": 1
   },
   {
    "id": "1561368166508498949",
@@ -4353,8 +4651,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/experts/vmware-fixed-ritic-authentication-bypass-bug-update-now/ VMware，修正了關鍵身份驗證繞過錯誤：立即更新 #infosec #infosecurity #cybersecurity #threatintel #threatintelligance #hackmity>news p #ransomware"
+   "text_zh": "https://cyberthreatintelligence.com/experts/vmware-fixed-ritic-authentication-bypass-bug-update-now/ VMware，修正了關鍵身份驗證繞過錯誤：立即更新 #infosec #infosecurity #cybersecurity #threatintel #threatintelligance #hackmity>news p #ransomware",
+   "score": 6
   },
   {
    "id": "1561365390940315649",
@@ -4366,8 +4664,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/experts/lockbit-now-abuses-windows-defender-to-spread-more-malicious-code-the-details/ Lockbit 現在濫用 Windows Defender 傳播更多惡意程式碼 - 詳細資訊 #infosec #infosecurity #cybersecurity #sec4454ttidttwion #cloudcomputing"
+   "text_zh": "https://cyberthreatintelligence.com/experts/lockbit-now-abuses-windows-defender-to-spread-more-malicious-code-the-details/ Lockbit 現在濫用 Windows Defender 傳播更多惡意程式碼 - 詳細資訊 #infosec #infosecurity #cybersecurity #sec4454ttidttwion #cloudcomputing",
+   "score": 1
   },
   {
    "id": "1561359116789903361",
@@ -4379,8 +4677,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/experts/twitter-accounts-turned-into-bots-here-is-the-danger-hidden-in-thousands-of-ios-and-android-apps/ Twitter 帳戶變成了機器人：這是隱藏在數千個info 和 Android 應用程式的危險info #cybernews #cyberattack #威脅狩獵#cloudsecurity"
+   "text_zh": "https://cyberthreatintelligence.com/experts/twitter-accounts-turned-into-bots-here-is-the-danger-hidden-in-thousands-of-ios-and-android-apps/ Twitter 帳戶變成了機器人：這是隱藏在數千個info 和 Android 應用程式的危險info #cybernews #cyberattack #威脅狩獵#cloudsecurity",
+   "score": 1
   },
   {
    "id": "1561355731890315264",
@@ -4392,8 +4690,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/experts/malicious-facebook-advertising-promotes-dangerous-adware-apps-for-android-the-details/ 惡意 Facebook 廣告宣傳 Android 版危險廣告軟體應用程式 - 詳細資訊 #infosec #infosecurity #infosecurity #thcybertel #cloudsecurity"
+   "text_zh": "https://cyberthreatintelligence.com/experts/malicious-facebook-advertising-promotes-dangerous-adware-apps-for-android-the-details/ 惡意 Facebook 廣告宣傳 Android 版危險廣告軟體應用程式 - 詳細資訊 #infosec #infosecurity #infosecurity #thcybertel #cloudsecurity",
+   "score": 1
   },
   {
    "id": "1557452705068621831",
@@ -4406,8 +4704,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/news/ddos-attacks-on-taiwanese-government-sites-during-pelosi-visit/ 佩洛西在訪問期間對台灣政府網站的 DDoS 攻擊 #infosec #infosecurity #cybersecurity #threatintel #tadaltintelligence #hacking #infosecurity #cybersecurity #threatintel #thtal下來#malware #ransomware"
+   "text_zh": "https://cyberthreatintelligence.com/news/ddos-attacks-on-taiwanese-government-sites-during-pelosi-visit/ 佩洛西在訪問期間對台灣政府網站的 DDoS 攻擊 #infosec #infosecurity #cybersecurity #threatintel #tadaltintelligence #hacking #infosecurity #cybersecurity #threatintel #thtal下來#malware #ransomware",
+   "score": 6
   },
   {
    "id": "1557452519948926977",
@@ -4419,8 +4717,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/news/british-parliament-suspends-tiktok-account-over-data-security-concerns/ 英國議會因資料安全問題暫停 TikTok 帳號 #infosec #infosecurity #cybersecurity #threatintelclothreatindttclothatreatinuence #hacking #infosec"
+   "text_zh": "https://cyberthreatintelligence.com/news/british-parliament-suspends-tiktok-account-over-data-security-concerns/ 英國議會因資料安全問題暫停 TikTok 帳號 #infosec #infosecurity #cybersecurity #threatintelclothreatindttclothatreatinuence #hacking #infosec",
+   "score": 1
   },
   {
    "id": "1557452384330186752",
@@ -4434,8 +4732,8 @@
     "breach",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/news/nearly-6-million-stolen-by-hacking-crypto-wallets/ 駭客加密錢包被偷走近 600 萬美元#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #infosecware 月 #tcomacings>"
+   "text_zh": "https://cyberthreatintelligence.com/news/nearly-6-million-stolen-by-hacking-crypto-wallets/ 駭客加密錢包被偷走近 600 萬美元#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #infosecware 月 #tcomacings>",
+   "score": 6
   },
   {
    "id": "1557452259558137860",
@@ -4448,8 +4746,8 @@
     "ransomware",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "https://cyberthreatintelligence.com/news/weapons-manufacturer-mbda-denies-hack-confirms-data-theft/ 武器製造商MBDA否認駭客攻擊，確認資料竊盜#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #secattowional; #ransomware"
+   "text_zh": "https://cyberthreatintelligence.com/news/weapons-manufacturer-mbda-denies-hack-confirms-data-theft/ 武器製造商MBDA否認駭客攻擊，確認資料竊盜#infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #secattowional; #ransomware",
+   "score": 6
   },
   {
    "id": "1557452114770763784",
@@ -4461,8 +4759,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "https://cyberthreatintelligence.com/news/indonesia-blocks-several-online-services-include-paypal-and-yahoo/ 印尼封鎖了多項線上服務，包括 PayPal 和 Yahoo #infosec #infosecurity #cybersecurity #threatintel #threatintellig;"
+   "text_zh": "https://cyberthreatintelligence.com/news/indonesia-blocks-several-online-services-include-paypal-and-yahoo/ 印尼封鎖了多項線上服務，包括 PayPal 和 Yahoo #infosec #infosecurity #cybersecurity #threatintel #threatintellig;",
+   "score": 1
   }
  ]
 }
