@@ -379,11 +379,23 @@ def main():
         log("[fetch] no new posts fetched this run; keeping existing data")
         source = existing.get("source", source)
 
+    # Track consecutive failed runs per account (reset on success) so
+    # chronically dead accounts are easy to spot and retire.
+    prev_failures = existing.get("account_failures", {})
+    failures = {}
+    for account in ACCOUNTS:
+        handle = account["handle"]
+        ok = status.get(handle, "").startswith("ok")
+        failures[handle] = 0 if ok else prev_failures.get(handle, 0) + 1
+        if failures[handle] >= 10:  # ~5 days at 2 runs/day
+            log(f"[health] {handle} has failed {failures[handle]} consecutive runs — consider removing")
+
     feed = {
         "generated_at": iso(datetime.now(timezone.utc)),
         "source": source if new_posts else f"{source}_stale",
         "new_count": fresh_count,
         "account_status": status,
+        "account_failures": failures,
         "categories": {a["handle"]: a["category"] for a in ACCOUNTS},
         "posts": posts,
     }
