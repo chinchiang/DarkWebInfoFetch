@@ -55,62 +55,6 @@ const ACCOUNT_META = {
       en: "Continuous threat-intel alerts monitoring IOCs and attacker TTPs."
     }
   },
-  TheDFIRReport: {
-    name: "The DFIR Report", category: "strong",
-    desc: {
-      zh: "詳細的入侵事件回應與鑑識分析報告。",
-      en: "Detailed intrusion incident-response and forensic analysis reports."
-    }
-  },
-  SwiftOnSecurity: {
-    name: "SwiftOnSecurity", category: "news",
-    desc: {
-      zh: "資安實務專家,以幽默且實務的角度分享威脅、工具與最佳實務。",
-      en: "Security practitioner sharing threats, tools and best practices with a practical, witty angle."
-    }
-  },
-  darkreading: {
-    name: "Dark Reading", category: "news",
-    desc: {
-      zh: "專業資安新聞網站,深度報導、趨勢分析與產業新聞。",
-      en: "Professional security news outlet: in-depth reporting, trends and industry coverage."
-    }
-  },
-  TheHackersNews: {
-    name: "The Hacker News", category: "news",
-    desc: {
-      zh: "快速報導漏洞、攻擊與資安事件,常為第一手消息來源。",
-      en: "Fast reporting on vulnerabilities, attacks and incidents — often first to break."
-    }
-  },
-  MsftSecIntel: {
-    name: "Microsoft Threat Intelligence", category: "news",
-    desc: {
-      zh: "微軟官方威脅情報,涵蓋 APT、惡意軟體與全球趨勢。",
-      en: "Microsoft's official threat intelligence: APTs, malware and global trends."
-    }
-  },
-  threatintel: {
-    name: "Threat Intel", category: "news",
-    desc: {
-      zh: "經典威脅情報更新(Symantec 系)。",
-      en: "Classic threat-intelligence updates (Symantec lineage)."
-    }
-  },
-  CyberSec__News: {
-    name: "CyberSec News", category: "news",
-    desc: {
-      zh: "資安新聞彙整帳號。",
-      en: "Security news aggregation."
-    }
-  },
-  The_Cyber_News: {
-    name: "The Cyber News", category: "news",
-    desc: {
-      zh: "資安新聞彙整帳號。",
-      en: "Security news aggregation."
-    }
-  },
   briankrebs: {
     name: "Brian Krebs", category: "extra",
     desc: {
@@ -139,20 +83,6 @@ const ACCOUNT_META = {
       en: "ThreatMon — Middle East & global threat intelligence, including dark web tracking."
     }
   },
-  troyhunt: {
-    name: "Troy Hunt", category: "extra",
-    desc: {
-      zh: "Have I Been Pwned 創辦人,資料外洩追蹤與查詢服務。",
-      en: "Creator of Have I Been Pwned; data-breach tracking and lookup."
-    }
-  },
-  InfoSec_zip: {
-    name: "資安解壓縮", category: "zhtw",
-    desc: {
-      zh: "中文資安 Podcast,入門與解釋性內容。",
-      en: "Chinese-language infosec podcast; approachable explainers."
-    }
-  },
   twcertcc: {
     name: "TWCERT/CC", category: "zhtw",
     desc: {
@@ -172,11 +102,10 @@ const ACCOUNT_META = {
 const CATEGORIES = {
   core:   { color: "var(--red)",     chip: "chip-red" },
   strong: { color: "var(--blue)",    chip: "chip-blue" },
-  news:   { color: "var(--purple)",  chip: "chip-purple" },
   extra:  { color: "var(--orange)",  chip: "chip-orange" },
   zhtw:   { color: "var(--magenta)", chip: "chip-magenta" }
 };
-const CATEGORY_ORDER = ["core", "strong", "news", "extra", "zhtw"];
+const CATEGORY_ORDER = ["core", "strong", "extra", "zhtw"];
 
 const TAGS = {
   ransomware: { color: "var(--red)",     chip: "chip-red" },
@@ -303,13 +232,13 @@ const I18N = {
     docTitleArchive: "DARKWATCH — 歷史情資",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · 每日 05:00 / 13:00 更新",
     titleHtml: '暗網<span class="hl-a">威脅情資</span>即時<span class="hl-b">監控台</span>',
-    tagline: "彙整 23 個精選 X(Twitter)資安情資帳號:暗網資料外洩、勒索軟體、地下市場、惡意軟體與資安新聞動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
+    tagline: "彙整 13 個以暗網為主的精選 X(Twitter)情資帳號:暗網資料外洩、勒索軟體、地下市場與惡意軟體動態,每日約 05:00 與 13:00(UTC+8)自動抓取更新。",
     updated: "最後更新", source: "資料來源", cadence: "每日 05:00 / 13:00 自動抓取",
     postsUnit: "則情資", newPosts: "本次新增",
     sampleNotice: "目前顯示為示範資料 — 首次排程抓取完成後,將自動替換為各帳號的即時貼文。",
     searchPlaceholder: "搜尋全部貼文:關鍵字、帳號、CVE…",
     catLabel: "分類", tagLabel: "主題",
-    catAll: "全部", catCore: "高度推薦", catStrong: "強力推薦", catNews: "資安新聞", catExtra: "補充推薦", catZh: "中文情資",
+    catAll: "全部", catCore: "高度推薦", catStrong: "強力推薦", catExtra: "補充推薦", catZh: "中文情資",
     tagNames: { ransomware: "勒索軟體", breach: "資料外洩", market: "暗網市場", malware: "惡意軟體", vuln: "漏洞/利用", darkweb: "Onion/Tor", other: "其他" },
     sortLabel: "排序", sortPriority: "⚡ 優先", sortLatest: "最新",
     priorityBadge: "⚡ 高優先",
@@ -343,13 +272,13 @@ const I18N = {
     docTitleArchive: "DARKWATCH — Threat Intel Archive",
     eyebrow: "DARK WEB · THREAT INTELLIGENCE · REFRESHED DAILY AT 05:00 & 13:00",
     titleHtml: 'Dark Web <span class="hl-a">Threat Intel</span>, <span class="hl-b">Live Console</span>',
-    tagline: "Aggregates 23 curated X (Twitter) accounts: dark web data leaks, ransomware, underground markets, malware and security news — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
+    tagline: "Aggregates 13 curated, dark-web-focused X (Twitter) accounts: dark web data leaks, ransomware, underground markets and malware activity — automatically fetched twice daily around 05:00 & 13:00 (UTC+8).",
     updated: "Updated", source: "Source", cadence: "Auto-fetch 05:00 & 13:00",
     postsUnit: "posts", newPosts: "new this update",
     sampleNotice: "Showing sample data — it will be replaced with live posts after the first scheduled fetch completes.",
     searchPlaceholder: "Search all posts: keywords, accounts, CVEs…",
     catLabel: "Category", tagLabel: "Topic",
-    catAll: "All", catCore: "Top picks", catStrong: "Strong", catNews: "News", catExtra: "Extra", catZh: "Chinese",
+    catAll: "All", catCore: "Top picks", catStrong: "Strong", catExtra: "Extra", catZh: "Chinese",
     tagNames: { ransomware: "Ransomware", breach: "Data breach", market: "Dark market", malware: "Malware", vuln: "Vuln/Exploit", darkweb: "Onion/Tor", other: "Other" },
     sortLabel: "Sort", sortPriority: "⚡ Priority", sortLatest: "Latest",
     priorityBadge: "⚡ PRIORITY",
@@ -587,12 +516,12 @@ function renderChips() {
   const L = t();
   const posts = state.data.posts || [];
 
-  const catCounts = { core: 0, strong: 0, news: 0, extra: 0, zhtw: 0 };
+  const catCounts = { core: 0, strong: 0, extra: 0, zhtw: 0 };
   posts.forEach(p => {
     const m = ACCOUNT_META[p.handle];
     if (m) catCounts[m.category]++;
   });
-  const catNames = { all: L.catAll, core: L.catCore, strong: L.catStrong, news: L.catNews, extra: L.catExtra, zhtw: L.catZh };
+  const catNames = { all: L.catAll, core: L.catCore, strong: L.catStrong, extra: L.catExtra, zhtw: L.catZh };
   let html = `<span class="chip-label">${escapeHtml(L.catLabel)}</span>`;
   html += chipHtml("cat:all", "chip-plain", catNames.all, posts.length, state.cat === "all");
   for (const c of CATEGORY_ORDER) {
@@ -624,7 +553,7 @@ function renderAccounts() {
   const counts = {};
   posts.forEach(p => { counts[p.handle] = (counts[p.handle] || 0) + 1; });
   const L = t();
-  const catNames = { core: L.catCore, strong: L.catStrong, news: L.catNews, extra: L.catExtra, zhtw: L.catZh };
+  const catNames = { core: L.catCore, strong: L.catStrong, extra: L.catExtra, zhtw: L.catZh };
   let html = "";
   for (const [handle, meta] of Object.entries(ACCOUNT_META)) {
     const color = CATEGORIES[meta.category].color;

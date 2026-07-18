@@ -6,15 +6,14 @@ Automatically fetches the latest posts from curated dark-web threat-intel
 accounts on X twice daily around 05:00 and 13:00 Taipei time (UTC+8), and
 presents them on an interactive bilingual (繁中/EN) website.
 
-## 追蹤帳號 / Tracked accounts(23)
+## 追蹤帳號 / Tracked accounts(13,以暗網為主 dark-web-focused)
 
 | 分類 Category | 帳號 Accounts |
 |---|---|
 | 高度推薦(暗網專門)Top picks | @DailyDarkWeb, @DarkWebInformer |
-| 強力推薦(威脅情報)Strong | @jms_dot_py, @campuscodi, @GossiTheDog, @GroupIB_TI, @CTI_Alerts, @TheDFIRReport |
-| 資安新聞 News | @SwiftOnSecurity, @darkreading, @TheHackersNews, @MsftSecIntel, @threatintel, @CyberSec__News, @The_Cyber_News |
-| 補充推薦 Extra | @briankrebs, @vxunderground, @Gi7w0rm, @MonThreat, @troyhunt |
-| 中文情資 Chinese | @InfoSec_zip, @twcertcc, @TeamT5_Official |
+| 強力推薦(暗網/地下威脅情報)Strong | @jms_dot_py, @campuscodi, @GossiTheDog, @GroupIB_TI, @CTI_Alerts |
+| 補充推薦 Extra | @briankrebs, @vxunderground, @Gi7w0rm, @MonThreat |
+| 中文情資 Chinese | @twcertcc, @TeamT5_Official |
 
 ## 架構 / How it works
 

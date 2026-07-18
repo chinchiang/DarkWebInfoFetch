@@ -28,8 +28,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "feed.json"
 
-# category: core = 高度推薦(暗網專門), strong = 強力推薦(威脅情報),
-#           news = 資安新聞, extra = 補充推薦, zhtw = 中文情資
+# Dark-web-focused roster only. category: core = 高度推薦(暗網專門),
+# strong = 強力推薦(暗網/地下威脅情報), extra = 補充推薦, zhtw = 中文情資
 ACCOUNTS = [
     {"handle": "DailyDarkWeb", "category": "core"},
     {"handle": "DarkWebInformer", "category": "core"},
@@ -38,20 +38,10 @@ ACCOUNTS = [
     {"handle": "GossiTheDog", "category": "strong"},
     {"handle": "GroupIB_TI", "category": "strong"},
     {"handle": "CTI_Alerts", "category": "strong"},
-    {"handle": "TheDFIRReport", "category": "strong"},
-    {"handle": "SwiftOnSecurity", "category": "news"},
-    {"handle": "darkreading", "category": "news"},
-    {"handle": "TheHackersNews", "category": "news"},
-    {"handle": "MsftSecIntel", "category": "news"},
-    {"handle": "threatintel", "category": "news"},
-    {"handle": "CyberSec__News", "category": "news"},
-    {"handle": "The_Cyber_News", "category": "news"},
     {"handle": "briankrebs", "category": "extra"},
     {"handle": "vxunderground", "category": "extra"},
     {"handle": "Gi7w0rm", "category": "extra"},
     {"handle": "MonThreat", "category": "extra"},
-    {"handle": "troyhunt", "category": "extra"},
-    {"handle": "InfoSec_zip", "category": "zhtw"},
     {"handle": "twcertcc", "category": "zhtw"},
     {"handle": "TeamT5_Official", "category": "zhtw"},
 ]
@@ -374,6 +364,8 @@ def main():
     existing_ids = {p["id"] for p in existing.get("posts", []) if not p.get("sample")}
     fresh_count = len({p["id"] for p in new_posts} - existing_ids)
     posts = merge(existing.get("posts", []), new_posts)
+    known = {a["handle"] for a in ACCOUNTS}
+    posts = [p for p in posts if p["handle"] in known or p.get("sample")]
     for post in posts:  # tags/score are derived from text: recompute so
         if post.get("sample"):  # stored posts pick up rule improvements
             continue
