@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-19T21:12:29Z",
+ "generated_at": "2026-07-20T07:40:32Z",
  "source": "nitter",
- "new_count": 25,
+ "new_count": 9,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -23,7 +23,7 @@
   "DailyDarkWeb": 0,
   "DarkWebInformer": 0,
   "ransomwatcher": 0,
-  "tmransommonitor": 2,
+  "tmransommonitor": 3,
   "jms_dot_py": 0,
   "campuscodi": 0,
   "GossiTheDog": 0,
@@ -55,6 +55,124 @@
  },
  "posts": [
   {
+   "id": "2079079124673368104",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: Wait, no. The C2 domain changed and the C2 blocked my IP. Give me your goopies.",
+   "url": "https://x.com/vxunderground/status/2079079124673368104",
+   "created_at": "2026-07-20T05:41:05Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "R 對@vxunderground：等等，不。 C2 網域發生變化，C2 封鎖了我的 IP。把你的果醬給我。"
+  },
+  {
+   "id": "2079077631144726665",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Found a compromised website with ClickFix that successfully bypasses uBlock. The ClickFix payload uses LOLBINs and uses a WebDAV server. It was promising. The C2 is dead. YOU LIED TO ME",
+   "url": "https://x.com/vxunderground/status/2079077631144726665",
+   "created_at": "2026-07-20T05:35:09Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "使用 ClickFix 發現了一個受感染的網站，該網站成功繞過了 uBlock。 ClickFix 有效負載使用 LOLBIN 並使用 WebDAV 伺服器。這是有希望的。 C2已經死了。你對我撒謊了"
+  },
+  {
+   "id": "2079030787006226434",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> be me > havent taken malware inventory in a long time > lol how much malware do i actually have? > usually estimate 32,000,000-ish > look inside Argus Collection (archived): 24,830 ATM Malware (archived): 285 Bazaar (actively collected): 733,985 Families (retired): 122,888 InTheWild (actively collected): 8,195,377 Malware Analysis (actively collected): 53,746 Malware Ingestion (retired): 7,511,822 OpenSourceMalware (archived): 40 Twitter IOC Collection (archived): 40,324 VirusShare (actively collected): 23,775,600 VirusSign (actively collected): 1,786,542 Total malwares: 42,225,439 Total archives (7z files): 128,786 Total size: 12.9TB (7z ultra compressed) Time performed collecting malware: 2,618 days",
+   "url": "https://x.com/vxunderground/status/2079030787006226434",
+   "created_at": "2026-07-20T02:29:00Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 5,
+   "text_zh": "> 做我自己 > 很長一段時間沒有統計惡意軟體清單 > 哈哈，我實際上有多少惡意軟體？ > 通常估計 32,000,000 左右 > 查看 Argus Collection（已存檔）：24,830 ATM 惡意軟體（已存檔）：285 Bazaar（主動收集）：733,985 Families（已退休）：122,888 InTheWild（主動收集）：8,195,37765,377）：8,195,3775）惡意軟體攝取（已停用）：7,511,822 OpenSourceMalware（已存檔）：40 Twitter IOC 收集（已存檔）：40,324 VirusShare（主動收集）：23,775,600 VirusSign（主動收集）：1,786,542 惡意軟體總數：42,128728272727272727272727279位檔案總檔（272,721272,7273933年（3233個檔案）：12727272727272727275年（3273個檔案）：1272727272727272727275年/37275753333年位檔案。總大小：12.9TB（7z 超壓縮） 收集惡意軟體的時間：2,618 天"
+  },
+  {
+   "id": "2079011007280672930",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Hello, People Living Inside My Computer (PLIMC), If you're someone who enjoys malware, I have good news. If you're someone who dislikes malware, I have bad news. I have uploaded 176,000 malwares and some malware papers. Please download it. https://vx-underground.org/Updates",
+   "url": "https://x.com/vxunderground/status/2079011007280672930",
+   "created_at": "2026-07-20T01:10:24Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "大家好，住在我的電腦內的人們 (PLIMC)，如果您喜歡惡意軟體，我有個好消息。如果您不喜歡惡意軟體，我有壞消息。我已經上傳了 176,000 個惡意軟體和一些惡意軟體論文。請下載。 https://vx-underground.org/Updates"
+  },
+  {
+   "id": "2079008396192239781",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Threat intelligence isn’t about more data—it’s about better decisions. Our latest podcast explores what CISOs must rethink when building intelligence-led defense strategies in APAC. 🎧https://youtu.be/OpTpn7MZjpA #CISO #ThreatIntelligence #CyberStrategy #SecurityLeadership #Podcast",
+   "url": "https://x.com/TeamT5_Official/status/2079008396192239781",
+   "created_at": "2026-07-20T01:00:02Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "威脅情報不是更多的數據，而是更好的決策。我們最新的播客探討了首席資訊安全官在亞太地區制定情報主導的防禦戰略時必須重新思考的問題。 🎧https://youtu.be/OpTpn7MZjpA #CISO #ThreatIntelligence #Cyber​​Strategy #SecurityLeadership #Podcast"
+  },
+  {
+   "id": "2078976950866161722",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇪🇸 Endesa customer and IBAN dataset allegedly listed for sale A forum actor claims to be selling a dataset allegedly obtained from Endesa, a Spanish energy company serving residential and business customers. The listing advertises information tied to more than 20 million individuals in a single SQL file. The actor describes the material as fresh 2026 data and lists a total size of approximately 1.06TB. The post specifically references IBAN information and includes links to a file-tree preview, a sample archive, and 10,000 sample records. This claim is currently unverified. 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2078976950866161722",
+   "created_at": "2026-07-19T22:55:05Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇪🇸 據稱掛牌出售的 Endesa 客戶和 IBAN 資料集 一名論壇參與者聲稱正在出售據稱從 Endesa（一家為住宅和商業客戶提供服務的西班牙能源公司）獲得的資料集。該清單在一個 SQL 檔案中公佈了與超過 2000 萬人相關的資訊。該演員將該材料描述為 2026 年的新鮮數據，並列出了大約 1.06TB 的總大小。該帖子特別引用了 IBAN 信息，並包含文件樹預覽、示例存檔和 10,000 條示例記錄的連結。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2078963684894732610",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🇪🇸🇪🇸🇪🇸",
+   "url": "https://x.com/DarkWebInformer/status/2078963684894732610",
+   "created_at": "2026-07-19T22:02:22Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "🇪🇸🇪🇸🇪🇸"
+  },
+  {
+   "id": "2078962727981056368",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "Video",
+   "url": "https://x.com/DarkWebInformer/status/2078962727981056368",
+   "created_at": "2026-07-19T21:58:34Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "影片"
+  },
+  {
+   "id": "2078953789986423043",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "⚠️ When two \"medium-looking\" vulnerabilities meet, the outcome isn't always medium. The recently disclosed wp2shell chain is a good example of why vulnerabilities should be evaluated as attack paths rather than isolated CVEs. A REST API authorization bypass (CVE-2026-63030) removes the authentication barrier. A separate SQL injection (CVE-2026-60137) suddenly becomes reachable. Neither issue tells the full story on its own, but together they can lead to administrative compromise and, ultimately, remote code execution. What makes this case stand out is that the vulnerabilities affect WordPress Core, not a third-party plugin or theme. In our latest blog, we explain: • How the exploit chain works • Which WordPress versions are affected • Why the combined risk is much higher than the individual CVSS scores suggest • What defenders should verify after applying the patches If you're responsible for WordPress environments, this is worth reviewing. ➡️ http://threatmon.io/inside-wp2shell-how-two-wordpress-core-bugs-became-a-critical-rce-chain #WordPress #CyberSecurity #ThreatIntelligence #ApplicationSecurity #RCE #CVE",
+   "url": "https://x.com/MonThreat/status/2078953789986423043",
+   "created_at": "2026-07-19T21:23:03Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 6,
+   "text_zh": "⚠️ 當兩個「中等」的漏洞相遇時，結果並不總是中等。最近揭露的 wp2shell 鍊是一個很好的例子，說明了為什麼漏洞應該被評估為攻擊路徑而不是孤立的 CVE。 REST API 授權繞過 (CVE-2026-63030) 消除了身分驗證障礙。突然可以存取單獨的 SQL 注入 (CVE-2026-60137)。這兩個問題本身都無法說明全部問題，但它們結合起來可能會導致管理妥協，並最終導致遠端程式碼執行。這個案例之所以引人注目，是因為這些漏洞影響的是 WordPress 核心，而不是第三方外掛或主題。在我們最新的部落格中，我們解釋了： • 漏洞利用鍊如何運作 • 哪些 WordPress 版本受到影響 • 為什麼綜合風險遠高於單一 CVSS 分數建議的風險 • 應用修補程式後防禦者應驗證哪些內容 如果您負責 WordPress 環境，則值得查看。 ➡️ http://threatmon.io/inside-wp2shell-how-two-wordpress-core-bugs-became-a-ritic-rce-chain #WordPress #Cyber​​Security #ThreatIntelligence #ApplicationSecurity #RCE #CVE"
+  },
+  {
    "id": "2078925068936056950",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -64,8 +182,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "您是否曾經不小心遺失過 50,000 個惡意軟體？我下載了 50,000 個惡意軟體，但我不知道它去了哪裡。不，我是認真的，我實際上不知道惡意軟體去了哪裡。我很困惑，也很害怕。你看到我的惡意軟體了嗎？"
+   "text_zh": "您是否曾經不小心遺失過 50,000 個惡意軟體？我下載了 50,000 個惡意軟體，但我不知道它去了哪裡。不，我是認真的，我實際上不知道惡意軟體去了哪裡。我很困惑，也很害怕。你看到我的惡意軟體了嗎？",
+   "score": 2
   },
   {
    "id": "2078923966299906499",
@@ -77,8 +195,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 致@vxunderground：哦，我忘了。另一件事。有幾個人說我應該多關注新聞。人們表示，使用「破壞」等關鍵字可以提高參與度，並有可能吸引更多人造訪該社群媒體帳號。我很欣賞你的洞察力、回饋和深思熟慮。然而，我非常......我不知道這個詞......我想我真的不在乎兄弟。是的，人和金錢之類的東西很酷，但我不想成為一個垃圾帳戶。我將繼續做我正在做的事情。惡意軟體原始碼、範例和論文永久免費。乾杯"
+   "text_zh": "R 致@vxunderground：哦，我忘了。另一件事。有幾個人說我應該多關注新聞。人們表示，使用「破壞」等關鍵字可以提高參與度，並有可能吸引更多人造訪該社群媒體帳號。我很欣賞你的洞察力、回饋和深思熟慮。然而，我非常......我不知道這個詞......我想我真的不在乎兄弟。是的，人和金錢之類的東西很酷，但我不想成為一個垃圾帳戶。我將繼續做我正在做的事情。惡意軟體原始碼、範例和論文永久免費。乾杯",
+   "score": 2
   },
   {
    "id": "2078922969204592701",
@@ -90,8 +208,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "行政更新： 1. 我將開始感謝人們提交惡意軟體和/或論文和/或建議。它們將被放置在網站上的某個位置。您可以在 LinkedIn 上誇大自己並說您是合作者。 2. 我有大量惡意軟體論文和惡意軟體正在排隊。共有 175,000 個惡意軟體、20 篇左右的論文。按照傳統，惡意軟體分析也將與論文一起提供。隨著新資料的出現，這個範圍每個月都會擴大。 3. 我暫時沒有計畫恢復病毒交換，除非有人（最好是大公司）願意為整件事情提供資金支持。我可以提供惡意軟體，但電腦很昂貴。 4. 根據 OG vx-underground 書呆子的要求，在討論技術主題的更嚴肅的帖子中，我將放棄愚蠢的貓，而是恢復經典的前衛 vx-underground 黑暗。我將介紹嚴肅性和前衛熱門話題哥德之間的平衡，並生成小貓的東西。感謝大家的愛護與支持。我看到你的訊息和電子郵件。我正在與我的兒子和家人一起享受夏天，​​所以我現在只是不那麼在裡面了。我（希望）很快就會製作更多惡意軟體。"
+   "text_zh": "行政更新： 1. 我將開始感謝人們提交惡意軟體和/或論文和/或建議。它們將被放置在網站上的某個位置。您可以在 LinkedIn 上誇大自己並說您是合作者。 2. 我有大量惡意軟體論文和惡意軟體正在排隊。共有 175,000 個惡意軟體、20 篇左右的論文。按照傳統，惡意軟體分析也將與論文一起提供。隨著新資料的出現，這個範圍每個月都會擴大。 3. 我暫時沒有計畫恢復病毒交換，除非有人（最好是大公司）願意為整件事情提供資金支持。我可以提供惡意軟體，但電腦很昂貴。 4. 根據 OG vx-underground 書呆子的要求，在討論技術主題的更嚴肅的帖子中，我將放棄愚蠢的貓，而是恢復經典的前衛 vx-underground 黑暗。我將介紹嚴肅性和前衛熱門話題哥德之間的平衡，並生成小貓的東西。感謝大家的愛護與支持。我看到你的訊息和電子郵件。我正在與我的兒子和家人一起享受夏天，​​所以我現在只是不那麼在裡面了。我（希望）很快就會製作更多惡意軟體。",
+   "score": 2
   },
   {
    "id": "2078911966504964584",
@@ -103,8 +221,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "⚠️ 當兩個「中等」的漏洞相遇時，結果並不總是中等。最近揭露的 wp2shell 鍊是一個很好的例子，說明了為什麼漏洞應該被評估為攻擊路徑而不是孤立的 CVE。 REST API 授權繞過 (CVE-2026-63030) 消除了身分驗證障礙。突然可以存取單獨的 SQL 注入 (CVE-2026-60137)。這兩個問題本身都無法說明全部問題，但它們結合起來可能會導致管理妥協，並最終導致遠端程式碼執行。這個案例之所以引人注目，是因為這些漏洞影響的是 WordPress 核心，而不是第三方外掛或主題。在我們最新的部落格中，我們解釋了： • 漏洞利用鍊如何運作 • 哪些 WordPress 版本受到影響 • 為什麼綜合風險遠高於單一 CVSS 分數建議的風險 • 應用修補程式後防禦者應驗證哪些內容 如果您負責 WordPress 環境，則值得查看。 ➡️ http://threatmon.io/inside-wp2shell-how-two-wordpress-core-bugs-became-a-ritic-rce-chain #WordPress #Cyber​​Security #ThreatIntelligence #ApplicationSecurity #RCE #CVE"
+   "text_zh": "⚠️ 當兩個「中等」的漏洞相遇時，結果並不總是中等。最近揭露的 wp2shell 鍊是一個很好的例子，說明了為什麼漏洞應該被評估為攻擊路徑而不是孤立的 CVE。 REST API 授權繞過 (CVE-2026-63030) 消除了身分驗證障礙。突然可以存取單獨的 SQL 注入 (CVE-2026-60137)。這兩個問題本身都無法說明全部問題，但它們結合起來可能會導致管理妥協，並最終導致遠端程式碼執行。這個案例之所以引人注目，是因為這些漏洞影響的是 WordPress 核心，而不是第三方外掛或主題。在我們最新的部落格中，我們解釋了： • 漏洞利用鍊如何運作 • 哪些 WordPress 版本受到影響 • 為什麼綜合風險遠高於單一 CVSS 分數建議的風險 • 應用修補程式後防禦者應驗證哪些內容 如果您負責 WordPress 環境，則值得查看。 ➡️ http://threatmon.io/inside-wp2shell-how-two-wordpress-core-bugs-became-a-ritic-rce-chain #WordPress #Cyber​​Security #ThreatIntelligence #ApplicationSecurity #RCE #CVE",
+   "score": 6
   },
   {
    "id": "2078911278886605133",
@@ -116,8 +234,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "已固定：🚨 關鍵的 WordPress 預授權漏洞利用鏈：WP2Shell 新揭露的漏洞利用鏈 WP2Shell 允許攻擊者在無需身份驗證的情況下完全破壞易受攻擊的 WordPress 網站。 ThreatMon IntelHub 發布了免費檢測工具來幫助識別暴露的實例。 🔎 檢查您的網站：ThreatMon IntelHub - 免費安全工具 漏洞鏈 🔸 CVE-2026-63030 – REST /batch/v1 端點中的路由混亂 🔸 CVE-2026-60137 – 透過 WP_Query::author _in 虛擬性注入 ✅ 建立新的管理員帳戶✅ 上傳惡意外掛程式 ✅ 在伺服器上執行任意指令 ✅ 實作全站入侵 受影響版本：WordPress 6.8.0 – 7.0.1 關於偵測工具 ✔️ 僅有（非侵入式） ✔ 🔹 查看最近建立的管理員帳戶。 🔹 審核已安裝和活動的插件是否有任何不熟悉的情況。 🔹 限制對邊緣的 /wp-json/batch/v1 和 ?rest_route=/batch/v1 的訪問，直到系統得到修補。 ⏱️不到10秒即可檢查您的網站是否有曝光。 #WordPress #Cyber​​Security #ThreatIntelligence #CVE #WP2Shell #SQLInjection #PreAuth #RCE"
+   "text_zh": "已固定：🚨 關鍵的 WordPress 預授權漏洞利用鏈：WP2Shell 新揭露的漏洞利用鏈 WP2Shell 允許攻擊者在無需身份驗證的情況下完全破壞易受攻擊的 WordPress 網站。 ThreatMon IntelHub 發布了免費檢測工具來幫助識別暴露的實例。 🔎 檢查您的網站：ThreatMon IntelHub - 免費安全工具 漏洞鏈 🔸 CVE-2026-63030 – REST /batch/v1 端點中的路由混亂 🔸 CVE-2026-60137 – 透過 WP_Query::author _in 虛擬性注入 ✅ 建立新的管理員帳戶✅ 上傳惡意外掛程式 ✅ 在伺服器上執行任意指令 ✅ 實作全站入侵 受影響版本：WordPress 6.8.0 – 7.0.1 關於偵測工具 ✔️ 僅有（非侵入式） ✔ 🔹 查看最近建立的管理員帳戶。 🔹 審核已安裝和活動的插件是否有任何不熟悉的情況。 🔹 限制對邊緣的 /wp-json/batch/v1 和 ?rest_route=/batch/v1 的訪問，直到系統得到修補。 ⏱️不到10秒即可檢查您的網站是否有曝光。 #WordPress #Cyber​​Security #ThreatIntelligence #CVE #WP2Shell #SQLInjection #PreAuth #RCE",
+   "score": 6
   },
   {
    "id": "2078896901634613474",
@@ -129,8 +247,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致@vxunderground：如果這是由我這個年齡段的人製作的模因，它會類似於“當我患有痔瘡時我如何走路”"
+   "text_zh": "R 致@vxunderground：如果這是由我這個年齡段的人製作的模因，它會類似於“當我患有痔瘡時我如何走路”",
+   "score": 0
   },
   {
    "id": "2078896105119429099",
@@ -142,8 +260,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "🇪🇸 1–1 🇦🇷（西班牙點球大戰 4-3 勝）"
+   "text_zh": "🇪🇸 1–1 🇦🇷（西班牙點球大戰 4-3 勝）",
+   "score": 0
   },
   {
    "id": "2078896044939583587",
@@ -155,8 +273,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "孩子們正在製作反政府監視迷因，我喜歡它。"
+   "text_zh": "孩子們正在製作反政府監視迷因，我喜歡它。",
+   "score": 0
   },
   {
    "id": "2078885336223265113",
@@ -169,8 +287,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨 涉嫌在網路犯罪論壇上宣傳 Just Eat 資料庫 一名威脅行為者正在網路犯罪論壇上宣傳他們聲稱包含約 9000 萬條 Just Eat 用戶記錄的資料庫。根據清單，涉嫌的資料集包括： * 使用者 ID * 電子郵件地址 * 密碼雜湊 * 全名 * 國家資訊 * 貨幣代碼 * 帳戶類型 * 會員日期 * 電子郵件驗證狀態 * 活動活動 * 其他帳戶元資料 此貼文包含據稱資料庫的樣本，但沒有提供足夠的證據來獨立驗證資料的真實性、來源或新近性。 Daily Dark Web 尚未證實這些資料源自 Just Eat 或 Just Eat http://Takeaway.com 的外洩。分析師註釋：大型消費者資料庫索賠在網路犯罪論壇上很常見。許多是回收的、從以前的違規行為中匯總的，或者是人為誇大的。組織和使用者應等待技術驗證，然後再假設發生新的攻擊。 #DDW #Intelligence #DarkWeb #JustEat"
+   "text_zh": "🚨 涉嫌在網路犯罪論壇上宣傳 Just Eat 資料庫 一名威脅行為者正在網路犯罪論壇上宣傳他們聲稱包含約 9000 萬條 Just Eat 用戶記錄的資料庫。根據清單，涉嫌的資料集包括： * 使用者 ID * 電子郵件地址 * 密碼雜湊 * 全名 * 國家資訊 * 貨幣代碼 * 帳戶類型 * 會員日期 * 電子郵件驗證狀態 * 活動活動 * 其他帳戶元資料 此貼文包含據稱資料庫的樣本，但沒有提供足夠的證據來獨立驗證資料的真實性、來源或新近性。 Daily Dark Web 尚未證實這些資料源自 Just Eat 或 Just Eat http://Takeaway.com 的外洩。分析師註釋：大型消費者資料庫索賠在網路犯罪論壇上很常見。許多是回收的、從以前的違規行為中匯總的，或者是人為誇大的。組織和使用者應等待技術驗證，然後再假設發生新的攻擊。 #DDW #Intelligence #DarkWeb #JustEat",
+   "score": 2
   },
   {
    "id": "2078884001092137204",
@@ -183,8 +301,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇫🇷 據稱 http://Stickers-Moto.fr 資料庫發佈在網路犯罪論壇上 一名威脅行為者發布了他們所描述的屬於 http://Stickers-Moto.fr 的小型 SQL 資料庫，這是一家專門從事摩托車貼紙和配件的法國線上零售商。根據論壇帖子，洩漏的文件據稱包括： * 使用者記錄 (Users.csv) * 訂單歷史記錄 (Commandes.csv) * 會話相關資料 * 客戶帳戶資訊 此帖子表明資料集相對較小，包含來自多個 CSV 檔案的範例記錄。截至撰寫本文時，Daily Dark Web 尚未獨立驗證洩漏資料的真實性，也未確認其源自 http://Stickers-Moto.fr 的洩漏。分析師註釋：即使是小型電子商務資料庫洩漏也可能會暴露有價值的客戶訊息，從而導致網路釣魚、撞庫和帳戶接管攻擊，特別是當用戶在多個服務中重複使用密碼時。 #DDW #Intelligence #DarkWeb #France"
+   "text_zh": "🇫🇷 據稱 http://Stickers-Moto.fr 資料庫發佈在網路犯罪論壇上 一名威脅行為者發布了他們所描述的屬於 http://Stickers-Moto.fr 的小型 SQL 資料庫，這是一家專門從事摩托車貼紙和配件的法國線上零售商。根據論壇帖子，洩漏的文件據稱包括： * 使用者記錄 (Users.csv) * 訂單歷史記錄 (Commandes.csv) * 會話相關資料 * 客戶帳戶資訊 此帖子表明資料集相對較小，包含來自多個 CSV 檔案的範例記錄。截至撰寫本文時，Daily Dark Web 尚未獨立驗證洩漏資料的真實性，也未確認其源自 http://Stickers-Moto.fr 的洩漏。分析師註釋：即使是小型電子商務資料庫洩漏也可能會暴露有價值的客戶訊息，從而導致網路釣魚、撞庫和帳戶接管攻擊，特別是當用戶在多個服務中重複使用密碼時。 #DDW #Intelligence #DarkWeb #France",
+   "score": 3
   },
   {
    "id": "2078882761176207761",
@@ -197,8 +315,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇲🇽 據稱 CECyTE Tabasco 資料庫洩露 威脅行為者發布了他們聲稱的墨西哥公立教育機構 CECyTE Tabasco (Colegio de Estudios Científicos y Tecnológicos del Estado de Tabasco) 的完整資料庫。根據該帖子，該資料集據稱包括： * RFC（墨西哥稅號） * CURP（國民身分證） * Gmail/電子郵件地址 * 使用者名稱 * 密碼雜湊 * 全名和相關帳戶資訊 此清單引用了該機構的網站 (http://cecytab.edu.mx) 並將資料庫宣傳為完整的轉儲。截至本文撰寫時，Daily Dark Web 尚未獨立驗證資料的真實性或確認其是否源自 CECyTE Tabasco 的妥協。分析師註釋：教育機構仍然是有吸引力的目標，因為它們保存大量的學生、教師和行政記錄。即使密碼儲存為雜湊值，暴露的身份資料（例如 CURP 和 RFC）也會顯著增加身分盜竊和網路釣魚的風險。 #DDW #Intelligence #DarkWeb #Mexico"
+   "text_zh": "🇲🇽 據稱 CECyTE Tabasco 資料庫洩露 威脅行為者發布了他們聲稱的墨西哥公立教育機構 CECyTE Tabasco (Colegio de Estudios Científicos y Tecnológicos del Estado de Tabasco) 的完整資料庫。根據該帖子，該資料集據稱包括： * RFC（墨西哥稅號） * CURP（國民身分證） * Gmail/電子郵件地址 * 使用者名稱 * 密碼雜湊 * 全名和相關帳戶資訊 此清單引用了該機構的網站 (http://cecytab.edu.mx) 並將資料庫宣傳為完整的轉儲。截至本文撰寫時，Daily Dark Web 尚未獨立驗證資料的真實性或確認其是否源自 CECyTE Tabasco 的妥協。分析師註釋：教育機構仍然是有吸引力的目標，因為它們保存大量的學生、教師和行政記錄。即使密碼儲存為雜湊值，暴露的身份資料（例如 CURP 和 RFC）也會顯著增加身分盜竊和網路釣魚的風險。 #DDW #Intelligence #DarkWeb #Mexico",
+   "score": 3
   },
   {
    "id": "2078877770764190200",
@@ -211,8 +329,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇺🇸 亞利桑那州看護者培訓用戶資料集涉嫌洩露 一名論壇演員聲稱洩露了最近獲得的與在線亞利桑那州看護者培訓門戶網站相關的數據集。據稱暴露的資訊包括使用者名稱、密碼雜湊、身分證號碼、全名、電子郵件地址、電話號碼、機構、部門、街道地址、城市、國家、語言、帳戶角色、確認狀態、暫停狀態和其他管理欄位。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇺🇸 亞利桑那州看護者培訓用戶資料集涉嫌洩露 一名論壇演員聲稱洩露了最近獲得的與在線亞利桑那州看護者培訓門戶網站相關的數據集。據稱暴露的資訊包括使用者名稱、密碼雜湊、身分證號碼、全名、電子郵件地址、電話號碼、機構、部門、街道地址、城市、國家、語言、帳戶角色、確認狀態、暫停狀態和其他管理欄位。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2078877652132241909",
@@ -224,8 +342,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 致 @vxunderground：幾乎每隔 3 到 4 個月，Satya Nadella 就會為我們提供一大堆可濫用的功能。他是一個惡意軟體工廠"
+   "text_zh": "R 致 @vxunderground：幾乎每隔 3 到 4 個月，Satya Nadella 就會為我們提供一大堆可濫用的功能。他是一個惡意軟體工廠",
+   "score": 2
   },
   {
    "id": "2078877329917419767",
@@ -237,8 +355,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "今天早上躺在床上想著薩蒂亞·納德拉（微軟執行長）。他讓我內心感到溫暖和模糊。我很高興聽到下個季度 Windows 的新增功能。我們將有更多可用於惡意軟體的功能。我太激動了。他太棒了"
+   "text_zh": "今天早上躺在床上想著薩蒂亞·納德拉（微軟執行長）。他讓我內心感到溫暖和模糊。我很高興聽到下個季度 Windows 的新增功能。我們將有更多可用於惡意軟體的功能。我太激動了。他太棒了",
+   "score": 2
   },
   {
    "id": "2078876322797908420",
@@ -251,8 +369,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇮🇩 據稱出售印尼政府網路部門的存取權限 威脅行為者正在網路犯罪論壇上宣傳他們聲稱可以存取印尼政府網路部門/警察環境的內容。根據清單： * 聲稱的目標：印尼政府網路部門/警察 * 存取類型：未指定的網路或系統存取 * 要價：300 美元 * 接受託管服務 * 買家被指示私下聯絡賣家 該清單幾乎沒有提供技術細節、存取證明、螢幕截圖或支持該聲明的證據。因此，所指控的訪問的真實性、範圍和影響無法獨立驗證。分析師註釋：政府訪問廣告經常出現在網路犯罪論壇上，但許多廣告都是欺詐性的、過時的或嚴重誇大的。組織應將此類清單視為潛在的預警指標，同時等待技術驗證或官方確認。 #DDW #Intelligence #DarkWeb #Indonesia"
+   "text_zh": "🇮🇩 據稱出售印尼政府網路部門的存取權限 威脅行為者正在網路犯罪論壇上宣傳他們聲稱可以存取印尼政府網路部門/警察環境的內容。根據清單： * 聲稱的目標：印尼政府網路部門/警察 * 存取類型：未指定的網路或系統存取 * 要價：300 美元 * 接受託管服務 * 買家被指示私下聯絡賣家 該清單幾乎沒有提供技術細節、存取證明、螢幕截圖或支持該聲明的證據。因此，所指控的訪問的真實性、範圍和影響無法獨立驗證。分析師註釋：政府訪問廣告經常出現在網路犯罪論壇上，但許多廣告都是欺詐性的、過時的或嚴重誇大的。組織應將此類清單視為潛在的預警指標，同時等待技術驗證或官方確認。 #DDW #Intelligence #DarkWeb #Indonesia",
+   "score": 2
   },
   {
    "id": "2078874815235072154",
@@ -265,8 +383,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇲🇽 CECyTE Tabasco 資料集涉嫌洩露 一名論壇參與者聲稱洩露了 CECyTE Tabasco 的完整資料集，CECyTE Tabasco 是墨西哥塔巴斯科州提供科技高中教育的公共機構。據稱洩露的資訊包括全名、RFC 和 CURP 識別碼、Gmail 位址、使用者名稱、密碼雜湊、帳戶權限和其他管理資料。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇲🇽 CECyTE Tabasco 資料集涉嫌洩露 一名論壇參與者聲稱洩露了 CECyTE Tabasco 的完整資料集，CECyTE Tabasco 是墨西哥塔巴斯科州提供科技高中教育的公共機構。據稱洩露的資訊包括全名、RFC 和 CURP 識別碼、Gmail 位址、使用者名稱、密碼雜湊、帳戶權限和其他管理資料。目前這一說法尚未得到證實。 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2078872330713903188",
@@ -292,8 +410,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "AI可以寫程式碼。人工智慧可以產生報告。人工智慧可以解決複雜的問題。但是 2013 年創建的 Excel 工作簿呢？它受到古老魔法的保護。 #DDW #AI #Excel #TechHumor"
+   "text_zh": "AI可以寫程式碼。人工智慧可以產生報告。人工智慧可以解決複雜的問題。但是 2013 年創建的 Excel 工作簿呢？它受到古老魔法的保護。 #DDW #AI #Excel #TechHumor",
+   "score": 0
   },
   {
    "id": "2078835603488088360",
@@ -306,8 +424,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇻🇳 據稱來自越南網站的資料庫在網路犯罪論壇上發布廣告 威脅行為者正在宣傳他們聲稱來自越南網站 **http://wasaki.vn** 的新資料庫。根據清單中共享的樣本，該資料集據稱包括： * 使用者 ID * 使用者名稱 * 密碼雜湊值 * 電子郵件地址 * 顯示名稱 * 註冊時間戳 * 帳戶啟動金鑰 * 使用者角色 * WordPress 帳戶元資料 暴露的架構與 WordPress 使用者表一致，表示該清單可能包含使用者帳戶資訊和管理帳戶。然而，資料集的真實性、來源和新近性尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師註釋：基於 WordPress 的網站仍然是攻擊者利用易受攻擊的外掛程式、主題、弱憑證或過時安裝的常見目標。即使密碼經過雜湊處理，如果涉及密碼重複使用，暴露的帳戶資料庫也可能促進憑證填充、網路釣魚和進一步的攻擊。 #DDW #Intelligence #DarkWeb #Vietnam"
+   "text_zh": "🇻🇳 據稱來自越南網站的資料庫在網路犯罪論壇上發布廣告 威脅行為者正在宣傳他們聲稱來自越南網站 **http://wasaki.vn** 的新資料庫。根據清單中共享的樣本，該資料集據稱包括： * 使用者 ID * 使用者名稱 * 密碼雜湊值 * 電子郵件地址 * 顯示名稱 * 註冊時間戳 * 帳戶啟動金鑰 * 使用者角色 * WordPress 帳戶元資料 暴露的架構與 WordPress 使用者表一致，表示該清單可能包含使用者帳戶資訊和管理帳戶。然而，資料集的真實性、來源和新近性尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師註釋：基於 WordPress 的網站仍然是攻擊者利用易受攻擊的外掛程式、主題、弱憑證或過時安裝的常見目標。即使密碼經過雜湊處理，如果涉及密碼重複使用，暴露的帳戶資料庫也可能促進憑證填充、網路釣魚和進一步的攻擊。 #DDW #Intelligence #DarkWeb #Vietnam",
+   "score": 3
   },
   {
    "id": "2078834243606872432",
@@ -319,8 +437,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇺🇸 據稱來自亞利桑那州護理人員培訓平台的資料庫在網路犯罪論壇上刊登廣告 威脅行為者正在宣傳他們聲稱來自線上護理人員培訓平台 **http://online.arizonacaregivertraining.net** 的新資料庫。根據清單中共享的樣本，該資料集據稱包含： * 使用者 ID * 使用者名稱 * 密碼雜湊值 * 電子郵件地址 * 名字和姓氏 * 身分證號碼 * 電話號碼 * 機構和部門資訊 * 實體地址 * 城市和國家 * 語言和時區設定 * 帳戶狀態和政策資訊 該貼文包括涉嫌記錄和下載連結的樣本。然而，資料集的真實性、來源和新近性尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師附註：線上教育和認證平台通常會儲存大量個人識別資訊（PII）。如果得到證實，這種性質的妥協可能會讓使用者面臨撞庫、網路釣魚和身分盜竊的風險，特別是在多個服務中重複使用密碼的情況下。 #DDW #Intelligence #DarkWeb #USA"
+   "text_zh": "🇺🇸 據稱來自亞利桑那州護理人員培訓平台的資料庫在網路犯罪論壇上刊登廣告 威脅行為者正在宣傳他們聲稱來自線上護理人員培訓平台 **http://online.arizonacaregivertraining.net** 的新資料庫。根據清單中共享的樣本，該資料集據稱包含： * 使用者 ID * 使用者名稱 * 密碼雜湊值 * 電子郵件地址 * 名字和姓氏 * 身分證號碼 * 電話號碼 * 機構和部門資訊 * 實體地址 * 城市和國家 * 語言和時區設定 * 帳戶狀態和政策資訊 該貼文包括涉嫌記錄和下載連結的樣本。然而，資料集的真實性、來源和新近性尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師附註：線上教育和認證平台通常會儲存大量個人識別資訊（PII）。如果得到證實，這種性質的妥協可能會讓使用者面臨撞庫、網路釣魚和身分盜竊的風險，特別是在多個服務中重複使用密碼的情況下。 #DDW #Intelligence #DarkWeb #USA",
+   "score": 3
   },
   {
    "id": "2078832369046274233",
@@ -332,8 +450,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇲🇽 400,327 條墨西哥政府供應商記錄據稱遭到洩露 威脅行為者聲稱，屬於墨西哥塔毛利帕斯州政府下屬家庭服務機構 **DIF Tamaulipas** (Sistema para el Desarrollo Integral de la Familia) 的資料庫包含超過 **400,000 個供應商註冊**的資訊。根據該帖子，據稱暴露的記錄包括： * 供應商名稱（個人和公司） * 墨西哥稅號 (RFC) * 完整的實際地址 * 市和州 * 法定代表人姓名 * 業務類別 * 聯繫電話號碼 * 電子郵件地址 * 內部註冊號碼 攻擊者聲稱無需驗證即可訪問資料庫，並提供了暴露欄位的描述。然而，資料的真實性、曝光方式以及資料庫是否仍可公開存取尚未獨立驗證。截至撰寫本文時，DIF Tamaulipas 尚未公開證實所謂的曝光事件。分析師註釋：政府供應商資料庫通常包含敏感的商業和個人識別資訊。如果得到證實，這種性質的暴露可能會增加採購詐欺、商業電子郵件洩露 (BEC)、身份盜竊和針對註冊供應商的有針對性的網路釣魚活動的風險。 #DDW #Intelligence #DarkWeb #Mexico"
+   "text_zh": "🇲🇽 400,327 條墨西哥政府供應商記錄據稱遭到洩露 威脅行為者聲稱，屬於墨西哥塔毛利帕斯州政府下屬家庭服務機構 **DIF Tamaulipas** (Sistema para el Desarrollo Integral de la Familia) 的資料庫包含超過 **400,000 個供應商註冊**的資訊。根據該帖子，據稱暴露的記錄包括： * 供應商名稱（個人和公司） * 墨西哥稅號 (RFC) * 完整的實際地址 * 市和州 * 法定代表人姓名 * 業務類別 * 聯繫電話號碼 * 電子郵件地址 * 內部註冊號碼 攻擊者聲稱無需驗證即可訪問資料庫，並提供了暴露欄位的描述。然而，資料的真實性、曝光方式以及資料庫是否仍可公開存取尚未獨立驗證。截至撰寫本文時，DIF Tamaulipas 尚未公開證實所謂的曝光事件。分析師註釋：政府供應商資料庫通常包含敏感的商業和個人識別資訊。如果得到證實，這種性質的暴露可能會增加採購詐欺、商業電子郵件洩露 (BEC)、身份盜竊和針對註冊供應商的有針對性的網路釣魚活動的風險。 #DDW #Intelligence #DarkWeb #Mexico",
+   "score": 3
   },
   {
    "id": "2078831212446322829",
@@ -346,8 +464,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇮🇩 據稱印尼國家疫苗資料庫在網路犯罪論壇上刊登廣告 一名威脅行為者正在宣傳他們聲稱是印尼國家疫苗系統的第二個資料庫。根據清單，該資料集據稱包含： * 國民身分證號碼 (NIK) * 全名 * 出生地點和日期 * 居住地址 * 性別 * 電話號碼 * 區和分區資訊 * 行政記錄 * 建立和更新時間戳 該論壇帖子將這些資料描述為“第二個資料庫”，並包含了所謂記錄的樣本。然而，資料集的真實性、來源和範圍尚未得到獨立驗證。截至本文撰寫時，印尼當局尚未公開確認與這些說法相符的違規行為。分析師註釋：政府健康資料庫仍然是有吸引力的目標，因為它們包含大量的個人識別資訊。然而，威脅行為者經常重新打包或重新列出先前洩漏的資料集，因此在得出結論之前必須進行獨立驗證。 #DDW #Intelligence #DarkWeb #Indonesia"
+   "text_zh": "🇮🇩 據稱印尼國家疫苗資料庫在網路犯罪論壇上刊登廣告 一名威脅行為者正在宣傳他們聲稱是印尼國家疫苗系統的第二個資料庫。根據清單，該資料集據稱包含： * 國民身分證號碼 (NIK) * 全名 * 出生地點和日期 * 居住地址 * 性別 * 電話號碼 * 區和分區資訊 * 行政記錄 * 建立和更新時間戳 該論壇帖子將這些資料描述為“第二個資料庫”，並包含了所謂記錄的樣本。然而，資料集的真實性、來源和範圍尚未得到獨立驗證。截至本文撰寫時，印尼當局尚未公開確認與這些說法相符的違規行為。分析師註釋：政府健康資料庫仍然是有吸引力的目標，因為它們包含大量的個人識別資訊。然而，威脅行為者經常重新打包或重新列出先前洩漏的資料集，因此在得出結論之前必須進行獨立驗證。 #DDW #Intelligence #DarkWeb #Indonesia",
+   "score": 2
   },
   {
    "id": "2078829990125146548",
@@ -360,8 +478,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇬🇹 涉嫌危地馬拉公民資料庫發布與選舉相關的聲明 威脅行為者正在宣傳他們聲稱包含危地馬拉公民個人資訊的資料庫，同時在沒有提供證據的情況下聲稱這些資料被用來操縱危地馬拉 2023 年選舉。根據清單，該資料集據稱包含： * 國民身分證號碼 * 全名 * 出生日期 * 稅務識別號碼 * 電子郵件地址 * 個人資料照片（針對某些個人） 該貼文包含所指控資料的樣本和下載連結。然而，數據集的真實性以及隨附的有關選舉操縱的說法尚未得到獨立驗證。截至本文撰寫時，沒有公開證據證實該資料集參與了危地馬拉 2023 年的選舉過程或源自與選舉相關的系統。分析師註釋：威脅行為者經常將聳人聽聞的政治敘事附加到洩漏的資料集中，以提高可見性和感知價值。資料集的存在並不能證實更廣泛的選舉詐欺或乾擾指控，這需要獨立的法證和調查證據。 #DDW #Intelligence #DarkWeb #Guatemala"
+   "text_zh": "🇬🇹 涉嫌危地馬拉公民資料庫發布與選舉相關的聲明 威脅行為者正在宣傳他們聲稱包含危地馬拉公民個人資訊的資料庫，同時在沒有提供證據的情況下聲稱這些資料被用來操縱危地馬拉 2023 年選舉。根據清單，該資料集據稱包含： * 國民身分證號碼 * 全名 * 出生日期 * 稅務識別號碼 * 電子郵件地址 * 個人資料照片（針對某些個人） 該貼文包含所指控資料的樣本和下載連結。然而，數據集的真實性以及隨附的有關選舉操縱的說法尚未得到獨立驗證。截至本文撰寫時，沒有公開證據證實該資料集參與了危地馬拉 2023 年的選舉過程或源自與選舉相關的系統。分析師註釋：威脅行為者經常將聳人聽聞的政治敘事附加到洩漏的資料集中，以提高可見性和感知價值。資料集的存在並不能證實更廣泛的選舉詐欺或乾擾指控，這需要獨立的法證和調查證據。 #DDW #Intelligence #DarkWeb #Guatemala",
+   "score": 2
   },
   {
    "id": "md-116946711344190003",
@@ -373,8 +491,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 2,
-   "text_zh": "兩天後仍然沒有 wp2shell 主動利用我真的很驚訝"
+   "text_zh": "兩天後仍然沒有 wp2shell 主動利用我真的很驚訝",
+   "score": 2
   },
   {
    "id": "2078822320542535954",
@@ -388,8 +506,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇧🇷 涉嫌在網路犯罪論壇上宣傳巴西電子商務網站的 20,000 條記錄資料庫 威脅行為者正在宣傳他們聲稱來自巴西電子商務平台 **http://lojanegociosdigital.com.br** 的新資料庫，其中包含大約 **20,000 條客戶記錄**。根據清單和樣本，該資料集據稱包括： * 客戶 ID * 帳單電子郵件地址 * 訂單和交易 ID * 付款方式詳細資訊 * 訂單狀態和時間戳 * 帳單和 IP 位址 * 貨幣和稅務資訊 * WooCommerce 訂單元資料 論壇貼文將資料集標記為最近洩露，並需要論壇積分才能存取下載。然而，數據的真實性、來源和新鮮度尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師註釋：經營 WooCommerce 的小型電子商務平台仍然是攻擊者利用易受攻擊的插件、薄弱的管理憑證或過時的軟體的常見目標。在經過獨立驗證之前，所聲稱的妥協應被視為未經驗證。 #DDW #Intelligence #DarkWeb #巴西"
+   "text_zh": "🇧🇷 涉嫌在網路犯罪論壇上宣傳巴西電子商務網站的 20,000 條記錄資料庫 威脅行為者正在宣傳他們聲稱來自巴西電子商務平台 **http://lojanegociosdigital.com.br** 的新資料庫，其中包含大約 **20,000 條客戶記錄**。根據清單和樣本，該資料集據稱包括： * 客戶 ID * 帳單電子郵件地址 * 訂單和交易 ID * 付款方式詳細資訊 * 訂單狀態和時間戳 * 帳單和 IP 位址 * 貨幣和稅務資訊 * WooCommerce 訂單元資料 論壇貼文將資料集標記為最近洩露，並需要論壇積分才能存取下載。然而，數據的真實性、來源和新鮮度尚未得到獨立驗證。截至撰寫本文時，該組織尚未公開確認與這些說法相符的安全事件。分析師註釋：經營 WooCommerce 的小型電子商務平台仍然是攻擊者利用易受攻擊的插件、薄弱的管理憑證或過時的軟體的常見目標。在經過獨立驗證之前，所聲稱的妥協應被視為未經驗證。 #DDW #Intelligence #DarkWeb #巴西",
+   "score": 3
   },
   {
    "id": "2078721270825529779",
@@ -1366,33 +1484,6 @@
    "text_zh": "️ kube-system 的一個命名空間字串：Kyverno 中的跨命名空間權限升級 (CVE-2026-54523) https://darkwebinformer.com/one-namespace-string-to-kube-system-cross-namespace-privilege-escalation-in-kyverno-cve-20326-5033/"
   },
   {
-   "id": "2078172826738024562",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: Infostealer data courtesy of @whiteintel_io.",
-   "url": "https://x.com/DarkWebInformer/status/2078172826738024562",
-   "created_at": "2026-07-17T17:39:47Z",
-   "tags": [
-    "malware",
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：Infostealer 資料由 @whiteintel_io 提供。"
-  },
-  {
-   "id": "2078169520846332318",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️🇪🇸 Acosol has been claimed a victim to Qilin Ransomware 🇪🇸 Acosol is the public water utility company responsible for managing the complete urban water cycle across the Western Costa del Sol in Spain",
-   "url": "https://x.com/DarkWebInformer/status/2078169520846332318",
-   "created_at": "2026-07-17T17:26:38Z",
-   "tags": [
-    "ransomware"
-   ],
-   "score": 3,
-   "text_zh": "️🇪🇸 Acosol 被聲稱是 Qilin 勒索軟體的受害者🇪🇸 Acosol 是一家公共供水公司，負責管理西班牙西海岸的整個城市水循環"
-  },
-  {
    "id": "md-116936321307920807",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -1404,20 +1495,6 @@
    ],
    "text_zh": "美國 River Bank 正在發生勒索軟體/敲詐勒索事件，並正在收到 SEC 8-K 通知。最新消息是，目前有 4 起針對該事件的集體訴訟。 https://www. sec.gov/ix?doc=/Archives/edgar /data/1641601/000119312526307288/ck0001641601-20260619.htm",
    "score": 3
-  },
-  {
-   "id": "2078156920288866668",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: Complaint: https://www.documentcloud.org/documents/28492703-us-v-wilkins-steam-malware/",
-   "url": "https://x.com/DarkWebInformer/status/2078156920288866668",
-   "created_at": "2026-07-17T16:36:34Z",
-   "tags": [
-    "malware",
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "R 致@DarkWebInformer：申訴：https://www.documentcloud.org/documents/28492703-us-v-wilkins-steam-malware/"
   },
   {
    "id": "2078150287160688641",
@@ -2311,58 +2388,6 @@
    "score": 3
   },
   {
-   "id": "2076342505595933007",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "God I love Microsoft so much This is yet another thing we can abuse for malware. Imagine someone mounts their phone with this and we have a payload that steals data from their phone Thank you so much Microsoft, this is awesome",
-   "url": "https://x.com/vxunderground/status/2076342505595933007",
-   "created_at": "2026-07-12T16:26:44Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "天哪，我太愛微軟了，這是我們可以濫用惡意軟體的另一件事。想像一下，有人用這個安裝了他們的手機，我們有一個有效負載可以從他們的手機中竊取數據，非常感謝微軟，這太棒了",
-   "score": 2
-  },
-  {
-   "id": "2076205175413379187",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "Welcome to my DMs",
-   "url": "https://x.com/vxunderground/status/2076205175413379187",
-   "created_at": "2026-07-12T07:21:02Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "歡迎來到我的 DM",
-   "score": 0
-  },
-  {
-   "id": "2076192536545137011",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: Original SHA256: 8698fd9c5a64bb4bcc550b73441d119b6e77c266b6ef8a6987a70c6285838fc0 Secondary payload (in-memory CSharp loader): 0ec474c62146820aa5f2a9f4ba1bd2148b91a52c1fb9ff74da6480e3c5aec3ae Tertiary payload (encoded, likely PURE-RAT) 77512e1591c014bb6ca3bc2a92fc03b4e3e2a200fba3c07ea632874c903cc12a Tertiary payload (decoded, likely PURE-RAT) b23087939109c73a09f21cafb5097c0389d61795c426b5098a52f40182ed0f0f Shout-out to Threat Actor \"LoneNone\" for writing this triple-staged malware. It was cool. I had fun.",
-   "url": "https://x.com/vxunderground/status/2076192536545137011",
-   "created_at": "2026-07-12T06:30:49Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "R 至 @vxunderground：原始 SHA256：8698fd9c5a64bb4bcc550b73441d119b6e77c266b6ef8a6987a70c6285838fc0 輔助負載（記憶體中的 CSharp 載入程式）： 0ec474c62146820aa5f2a9f4ba1bd2148b91a52c1fb9ff74da6480e3c5aec3ae 第三級有效負載（編碼，可能是 PURE-RAT） 77512e1591c014bb6ca3bc2a92fc03b4e3e2a200fba3c07ea632874c903cc12a 第三級有效負載（已解碼，可能是 PURE-RAT） b23087939109c73a09f21cafb5097c0389d61795c426b5098a52f40182ed0f0f 向威脅行為者「LoneNone」致敬，感謝他們編寫了這個三階段惡意軟體。很酷。我玩得很開心。",
-   "score": 2
-  },
-  {
-   "id": "2076190965941874945",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "\"Hey smelly, I work for (company), we had a threat actor phish an employee and use ScreenConnect to get access to their computer. The Threat Actor then dropped a .exe on the computer. Our AV/EDR stopped it, but we don't know what it is. Do you want to see?\" > yes, absolutely, give me goopies > give malware > download > look inside > position independent c code > points to section of memory > xor'd several times > un-xor's thingie in memory > creates process of random thingie > pauses process of random thinie > hollows out process > puts goopies it extracted from itself into it > resumes process > lol process hollowing from embedded payload > payload not in .exe section > payload in .rdata mixed with other stuff > omg w/e fine, make me work > run the goopie > bonk with stick > find thingie it hollowed out > grab the magic goop from it > yay > look inside > another .exe > ok, .exe has .exe hidden inside, runs random .exe and puts secret .exe inside it > look at secret .exe thingie > c#.net .exe > ok lol > look inside > has hidden .exe inside it > omfg why bro are you doing this to me > pull .exe out of hidden .exe (im on secret .exe two now) > dies > base64 encoded the .exe internally > omfg why bro > base64 decode second secret .exe internally > get the goopies > second .exe is actually .dll > heavily obfuscated c#.net > really annoying me now > check virustotal > second mystery .exe (actually .dll) never seen before > look inside more > sniff sniff > sniff sniff > PURE-RAT > attributed to suspected Vietnamese Threat Actor group > matches known tactics, techniques, and procedures of group > matches details from Trellix and Huntress > group still evolving > went from noobs to doing p good malware My Brother in Christ, your organization is (probably) being targeted by a known Vietnamese Threat Group",
-   "url": "https://x.com/vxunderground/status/2076190965941874945",
-   "created_at": "2026-07-12T06:24:34Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "「嘿，臭臭的，我為（公司）工作，我們有一個威脅行為者對一名員工進行網絡釣魚，並使用 ScreenConnect 訪問他們的計算機。然後威脅行為者在計算機上投放了一個 .exe。我們的 AV/EDR 阻止了它，但我們不知道它是什麼。你想看惡意嗎？」 > 是的，絕對，給我 goopies > 查看文件 > 位置多次異或 > 內存中的 un-xor 的 thingie > 創建隨機 thingie 的進程 > 暫停隨機 Thinie 的進程 > 挖空進程 > 將從自身提取的 goopies 放入其中 > 恢復進程 > 從嵌入的有效負載中挖空進程 > 有效負載 .exe 部分中 > .rdata 中的有效負載中挖空進程 > 有效負載 .找到它挖空的東西 > 從中取出神奇的粘液 > 耶 > 看看裡面 > 另一個 .exe > 好吧，.exe 裡面隱藏著 .exe，運行隨機 .exe 並將秘密 .exe 放入其中 > 看看秘密 .exe 東西 > c#.net .exe > 好吧哈哈 >裡面 > 耶 exe > 從我身上在內部對.exe進行了base64編碼 > omfg為什麼兄弟 > 在內部進行base64解碼第二個秘密.exe > 得到那些傻瓜 > 第二個.exe實際上是.dll > 嚴重混淆的c#.net > 現在真的很煩我 > 檢查virustotal > 第二個神秘.exe（實際上是.dll）以前從未見過 > 看看更多嗅探-嗅探的可疑組織匹配該組織已知的戰術、技術和程序 > 匹配 Trellix 和 Huntress 的詳細信息 > 組織仍在發展 > 從菜鳥變成了惡意軟體 我的兄弟，您的組織（可能）正成為一個已知的越南威脅組織的目標",
-   "score": 2
-  },
-  {
    "id": "md-116898207541668195",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -3090,21 +3115,6 @@
    ],
    "score": 6,
    "text_zh": "⚠️ 威脅行為者聲稱 Grupo ATC 和主要汽車合作夥伴的大量資料外洩 據稱，一名威脅行為者從墨西哥物流和運輸集團 Grupo ATC 洩露了超過 340 GB 的數據，以及與數十家全球主要公司相關的敏感資訊。根據地下論壇上的一篇帖子，該攻擊者聲稱在贖金談判失敗後獲得了 23 個資料庫，其中包含超過 20 億個唯一行。該演員聲稱，由於該公司沒有付款，所以他們現在向公眾發布數據。據報道，此次洩漏的內容包括與 Grupo ATC 內部營運及其廣泛合作夥伴網路相關的高度敏感憑證和個人識別資訊 (PII)。該攻擊者聲稱暴露了以下類別的資料： * OAuth2 持有者/刷新令牌和 JWT 令牌 * 明文應用程式密碼和 SFTP 憑證 * API 憑證和第三方 API 金鑰 * 密碼雜湊（bcrypt $2a$11$、PBKDF2、自訂加鹽） * 電子郵件「重位置資料和營運貨運路線* 帶有路由資訊的車輛識別號碼 * 內部原始程式碼路徑和雲端儲存帳戶名稱 該行為者聲稱，此次洩露超出了 Grupo ATC 範圍，暴露了與福特、豐田、特斯拉、本田、日產、馬自達、現代、寶馬、通用汽車、Stellantis、Penske、約翰迪爾、雀巢、Mabe 和歐藍巨頭等相關的汽車和歐雅雀巢等相關的汽車和歐雅雀巢。該貼文表明，這些數據可用於魚叉式網路釣魚、詐欺或獲得初步存取權限，以針對這些知名實體進行進一步的勒索軟體活動。 Grupo ATC 是北美物流領域的重要參與者，專注於汽車物流和供應鏈解決方案。如果真實，內部 API 端點、貨運帳單金額和員工財務詳細資料的暴露可能會促進對物流提供者及其企業客戶的有針對性的攻擊。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。"
-  },
-  {
-   "id": "2072650843904528691",
-   "handle": "MonThreat",
-   "name": "MonThreat",
-   "text": "🚨 Threat Actor Claims Sale of 4M ISSSTE Records on Darkweb A listing on an underground forum alleges the sale of a historical database containing over 4 million records from Mexico’s Institute of Social Security and Social Services for State Workers (ISSSTE). The post, dated July 1, 2026, claims to offer access to sensitive personal and employment data belonging to state employees. According to the thread, the dataset includes a wide range of personally identifiable information (PII) and financial details. The actor lists the following data fields as being present in the dump: * CURP (Unique Population Registry Code) * RFC (Federal Taxpayer Identification Code) * NSS (Social Security Number) * ISSSTE Number * Full names (first name, father's last name, mother's last name) * Salary details (ISSSTE salary, SAR salary, total compensation) * Employment history (start date, appointment type, enrollment date) * Administrative identifiers (branch number, payroll office number, payment code) ISSSTE is a critical government entity in Mexico, providing social security benefits to millions of federal public servants. The exposure of such comprehensive employment and tax data could facilitate identity theft, social engineering attacks, and targeted fraud against state workers. The post indicates that the price for the database is negotiable and directs interested buyers to contact the seller via Signal. At the time of reporting, the alleged breach has not been independently verified by security researchers or official statements from ISSSTE.",
-   "url": "https://x.com/MonThreat/status/2072650843904528691",
-   "created_at": "2026-07-02T11:57:23Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "score": 3,
-   "text_zh": "🚨 威脅行為者聲稱在暗網上出售了 400 萬筆 ISSSTE 記錄 地下論壇上的一個清單聲稱出售了一個歷史資料庫，其中包含墨西哥國家工人社會保障和社會服務研究所 (ISSSTE) 的超過 400 萬筆記錄。該貼文日期為 2026 年 7 月 1 日，聲稱可以存取屬於國家僱員的敏感個人和就業資料。根據該帖子，該資料集包含廣泛的個人識別資訊 (PII) 和財務詳細資訊。攻擊者列出了轉儲中存在的以下資料欄位： * CURP（唯一人口登記代碼） * RFC（聯邦納稅人識別碼） * NSS（社會安全號碼） * ISSSTE 號碼 * 全名（姓名、父親姓氏、母親姓氏） * 薪資詳細資料（ISSSTE 薪資、SAR 薪資、總薪資）是墨西哥的重要政府實體，為數百萬聯邦公務員提供社會安全福利。此類全面的就業和稅務資料的暴露可能會助長身分盜竊、社會工程攻擊和針對國家工作人員的有針對性的詐欺。該貼文表明資料庫的價格是可以協商的，並指示有興趣的買家透過 Signal 與賣家聯繫。截至本報告發佈時，所指控的違規行為尚未得到安全研究人員的獨立核實，也沒有 ISSSTE 的官方聲明。"
   },
   {
    "id": "2072565373531234509",
