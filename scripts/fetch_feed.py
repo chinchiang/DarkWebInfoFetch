@@ -34,7 +34,6 @@ ACCOUNTS = [
     {"handle": "DailyDarkWeb", "category": "core"},
     {"handle": "DarkWebInformer", "category": "core"},
     {"handle": "ransomwatcher", "category": "core"},
-    {"handle": "tmransommonitor", "category": "core"},
     {"handle": "jms_dot_py", "category": "strong"},
     {"handle": "campuscodi", "category": "strong"},
     {"handle": "GossiTheDog", "category": "strong"},
