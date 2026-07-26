@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-25T21:14:22Z",
+ "generated_at": "2026-07-26T07:09:50Z",
  "source": "nitter",
- "new_count": 25,
+ "new_count": 11,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -52,6 +52,154 @@
  },
  "posts": [
   {
+   "id": "2081273927221776732",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "> get dm > \"hey smelly look at this\" > sends link > look inside > torrent website > The Odyssey 2160pHD (2026) ENGSubs EZTV > look closer > \"The Odyssey 2160pHD (2026) ENGSubs EZTV.exe\" > 147 seeds bro knows ball, this is a 2002 limewire classic",
+   "url": "https://x.com/vxunderground/status/2081273927221776732",
+   "created_at": "2026-07-26T07:02:27Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "> 取得 dm > “嘿臭看看這個” > 發送連結 > 看看裡面 > 洪流網站 > The Odyssey 2160pHD (2026) ENGSubs EZTV > 仔細看 >“The Odyssey 2160pHD (2026) ENGSubs EZTV.exe” > 147 個種子知道第一個"
+  },
+  {
+   "id": "2081273215897178114",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇽🇰 Kosovo — Historic Albanian Citizenship Database Resurfaces on Underground Forum A threat actor has published what is claimed to be a historical Albanian citizenship database originating from Kosovo, making the dataset freely available for download. * The post claims the dataset dates back to 2008. * The actor alleges the database contains approximately 7.18 million records. * Claimed data fields include full names, dates of birth, sex, civil status, location, family member information, nationality, and other personal details. * The advertised archive is approximately 275 MB compressed and 1.3 GB uncompressed. Analyst Note: This appears to be the resurfacing of a historical dataset rather than evidence of a new intrusion. The authenticity, completeness, and origin of the data have not been independently verified. #DDW #Intelligence #DarkWeb #Kosovo",
+   "url": "https://x.com/DailyDarkWeb/status/2081273215897178114",
+   "created_at": "2026-07-26T06:59:37Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🇽🇰 科索沃 — 阿爾巴尼亞歷史公民身份資料庫在地下論壇上重新出現 威脅行為者發布了據稱源自科索沃的阿爾巴尼亞歷史公民身份資料庫，該資料集可供免費下載。 * 該貼文聲稱該資料集可以追溯到 2008 年。 * 該行為者聲稱該資料庫包含約 718 萬筆記錄。 * 聲稱的資料欄位包括全名、出生日期、性別、公民身份、位置、家庭成員資訊、國籍和其他個人詳細資料。 * 公佈的存檔壓縮後大小約為 275 MB，未壓縮時大小約 1.3 GB。分析師註：這似乎是歷史資料集的重新出現，而不是新入侵的證據。資料的真實性、完整性和來源尚未獨立驗證。 #DDW #Intelligence #DarkWeb #Kosovo"
+  },
+  {
+   "id": "2081272082084626936",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "ShinyHunters breach data repurposed for a $2,000 sextortion campaign Cybercriminals are using email addresses from datasets previously published by ShinyHunters to send targeted-looking sextortion messages demanding $2,000 in Bitcoin. Confirmed source datasets include information attributed to breaches involving Amtrak, Hallmark, Substack, Betterment, CarGurus, ADT, Panera Bread, and McGraw Hill. BleepingComputer verified that some recipients’ addresses appeared in the referenced leaked datasets. The scammers falsely claim they compromised recipients’ devices, cameras, and browsing activity. There is no evidence supporting those device-compromise claims, and ShinyHunters denied operating the campaign. #DDW #Intelligence #DarkWeb #ShinyHunters",
+   "url": "https://x.com/DailyDarkWeb/status/2081272082084626936",
+   "created_at": "2026-07-26T06:55:07Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "ShinyHunters 洩漏的資料已重新用於 2,000 美元的性勒索活動網路犯罪分子正在使用 ShinyHunters 之前發布的資料集中的電子郵件地址發送看起來有針對性的性勒索訊息，要求提供 2,000 美元的比特幣。已確認的來源資料集包括涉及 Amtrak、Hallmark、Substack、Betterment、CarGurus、ADT、Panera Bread 和 McGraw Hill 的違規行為而產生的資訊。 BleepingComputer 證實，一些收件人的地址出現在引用的洩漏資料集中。詐騙者謊稱他們破壞了收件人的設備、攝影機和瀏覽活動。沒有證據支持這些設備受損的說法，ShinyHunters 否認參與了這項活動。 #DDW #Intelligence #DarkWeb #ShinyHunters"
+  },
+  {
+   "id": "2081271043314930173",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 France — FFTA Database Allegedly Offered for Sale A threat actor is advertising an alleged database belonging to FFTA (Fédération Française de Tir à l'Arc) on an underground forum. * The listing claims to contain approximately 658,000 address records with postal addresses, email addresses, phone numbers, regions, municipalities, postal codes, and related metadata. * The actor also claims to possess account tables containing usernames, password hashes, authentication data, login information, and IP addresses. * Additional datasets allegedly include around 378,000 unique email addresses, 354,000 unique phone numbers, and more than 92,000 legal representative records. * The data collection date listed by the seller is July 25, 2026. Analyst Note: The authenticity of the dataset and the scope of any potential compromise have not been independently verified. At the time of writing, there has been no public confirmation from FFTA regarding the alleged incident. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2081271043314930173",
+   "created_at": "2026-07-26T06:50:59Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🇫🇷 法國 — 據稱出售 FFTA 資料庫 一名威脅行為者正在地下論壇上宣傳屬於 FFTA（Fédération Française de Tir à l'Arc）的資料庫。 * 此清單聲稱包含約 658,000 筆地址記錄，其中包括郵遞地址、電子郵件地址、電話號碼、地區、市、郵遞區號和相關元資料。 * 攻擊者還聲稱擁有包含使用者名稱、密碼雜湊、身份驗證資料、登入資訊和 IP 位址的帳戶表。 * 據稱，其他資料集包括約 378,000 個唯一電子郵件地址、354,000 個唯一電話號碼以及超過 92,000 個法定代表人記錄。 * 賣方列出的資料收集日期為 2026 年 7 月 25 日。分析師註釋：資料集的真實性和任何潛在洩漏的範圍尚未經過獨立驗證。截至撰寫本文時，FFTA 尚未對所指控的事件進行公開確認。 #DDW #Intelligence #DarkWeb #France"
+  },
+  {
+   "id": "2081270643228581977",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: In all seriousness seriousness, you should do this anyway whenever you accidentally malware your computer. This isn't exclusive to this malware. Unless you don't care some stinky nerd somewhere has all your credentials, if you don't care then whatever, do your thing",
+   "url": "https://x.com/vxunderground/status/2081270643228581977",
+   "created_at": "2026-07-26T06:49:24Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "R 致 @vxunderground：嚴肅地說，每當您不小心對電腦進行惡意軟體攻擊時，您都應該這樣做。這並不是該惡意軟體所獨有的。除非你不在乎某個地方某個臭書呆子擁有你所有的資歷，如果你不在乎那就無論如何，做你的事"
+  },
+  {
+   "id": "2081269911297413424",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇪🇨 Ecuador — Libélula Soft & Nuvem Services Financial Platform Allegedly Compromised Libélula Soft and Nuvem Services, Ecuadorian software providers serving financial cooperatives, insurance organizations, and healthcare institutions, have allegedly been compromised. A threat actor claims to be selling database access, source infrastructure, and exploitation details on an underground forum. * The actor claims to be selling approximately 87 GB of data across 140 databases. * The listing alleges more than 40 million financial transaction records dating from 2023–2026. * The claimed dataset reportedly includes around 240,000 user records containing names, national ID numbers, phone numbers, email addresses, balances, loan information, and other financial data. * The actor also claims to provide SQL injection details, web shells, middleware bypass techniques, SSH private keys, and access to client databases associated with the Nuvem platform. Analyst Note: If authentic, this would represent a significant supply-chain compromise affecting multiple financial institutions rather than a single organization. The claims have not been independently verified, and no official confirmation has been issued at the time of writing. #DDW #Intelligence #DarkWeb #Ecuador",
+   "url": "https://x.com/DailyDarkWeb/status/2081269911297413424",
+   "created_at": "2026-07-26T06:46:29Z",
+   "tags": [
+    "market",
+    "vuln",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🇪🇨 厄瓜多爾 — Libélula Soft 和 Nuvem Services 金融平台據稱受到損害 為金融合作社、保險組織和醫療機構提供服務的厄瓜多爾軟體提供商 Libélula Soft 和 Nuvem Services 據稱已受到損害。威脅行為者聲稱在地下論壇上出售資料庫存取權限、來源基礎設施和利用詳細資訊。 * 該行為者聲稱正在出售 140 個資料庫中約 87 GB 的資料。 * 這份清單聲稱有超過 4,000 萬筆 2023 年至 2026 年的金融交易記錄。 * 據報道，聲稱的資料集包括約 240,000 條使用者記錄，其中包含姓名、身分證號碼、電話號碼、電子郵件地址、餘額、貸款資訊和其他財務資料。 * 該攻擊者還聲稱提供 SQL 注入詳細資訊、Web shell、中間件繞過技術、SSH 私鑰以及與 Nuvem 平台相關的客戶端資料庫的存取權。分析師註：如果屬實，這將代表重大的供應鏈妥協，影響多個金融機構而不是單一組織。這些說法尚未獨立核實，截至撰寫本文時尚未發布官方確認。 #DDW #Intelligence #DarkWeb #Ecuador"
+  },
+  {
+   "id": "2081267877085069358",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Bro, I got a DM from some dude who thinks he infected his computer with malware. He shows me the URL, and imagine my face when it's that fucking super ultra mega rare fuck off ultra malware I was talking about a few days ago (RevStealer). Hahahahahaha, he says, \"should I be worried?\" Fuck yes you should be worried, dawg. Your credentials, your cookies and sessions, your banking information, all of that shit is gone-gone, like, they are 100%, without a doubt in my soul, going to use your credentials for stuff. You need to orbital nuke all of your credentials like, yesterday, and kill all of your sessions on all applications. Anyway, I'm just being silly and trying to be funny, ... but in all seriousness this is a SERIOUS problem and you need to take action immediately. I'm sorry this happened to you.",
+   "url": "https://x.com/vxunderground/status/2081267877085069358",
+   "created_at": "2026-07-26T06:38:24Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "兄弟，我收到了某個傢伙寄來的私訊，他認為他的電腦感染了惡意軟體。他向我展示了 URL，想像一下當我幾天前談論的超級超級罕見的超級惡意軟體 (RevStealer) 時我的表情。哈哈哈哈哈哈，他說，「我該擔心嗎？」他媽的，是的，你應該擔心，老兄。你的憑證、你的 cookie 和會話、你的銀行信息，所有這些狗屎都消失了，就像，毫無疑問，我的靈魂，它們 100% 會使用你的憑據來做東西。您需要像昨天一樣對您的所有憑證進行軌道核攻擊，並終止所有應用程式上的所有會話。不管怎樣，我只是很傻，想搞笑……但嚴肅地說，這是一個嚴重的問題，你需要立即採取行動。我很抱歉這件事發生在你身上。"
+  },
+  {
+   "id": "md-116983531701928606",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Telegram spear-phishing campaign targeting Russia, Belarus and Kazakhstan for 2 years Some victims have been identified as dissidents https:// resident.ngo/lab/writeups/chec k-and-protect-analysis-of-telegram-phishing-operation-targeting-exiled-activist/ https:// resident.ngo/lab/writeups/a-te legram-of-trouble-tracking-a-regional-otp-phishing-infrastructure-targeting-users-in-russia-belarus-and-kazakhstan-for-2-years/",
+   "url": "https://mastodon.social/@campuscodi/116983531701928606",
+   "created_at": "2026-07-26T00:50:34Z",
+   "tags": [
+    "other"
+   ],
+   "score": 4,
+   "text_zh": "針對俄羅斯、白俄羅斯和哈薩克斯坦的 Telegram 魚叉式網路釣魚活動已持續兩年 部分受害者已被確定為持不同政見者 https://resident.ngo/lab/writeups/check-and-protect-analysis-of-telegram-phishing-operation-targeting-exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist/exiled-activist)/ https://resident.ngo/lab/writeups/a-te針對俄羅斯、白俄羅斯和哈薩克用戶兩年的區域性 OTP 網路釣魚基礎設施問題追蹤法律/"
+  },
+  {
+   "id": "md-116982923826701217",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "US lawmakers have proposed a bill that would force AI companies to build killswitches to shut down or throttle powerful AI models The bill was proposed a week after OpenAI admitted to losing control of two models that ended up hacking AI platform Hugging Face https:// lieu.house.gov/media-center/pr ess-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can",
+   "url": "https://mastodon.social/@campuscodi/116982923826701217",
+   "created_at": "2026-07-25T22:15:58Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "美國立法者提出了一項法案，要求人工智慧公司建立killswitches來關閉或限制強大的人工智慧模型。該法案是在OpenAI承認失去對兩個模型的控制權一周後提出的，這兩個模型最終入侵了人工智能平台Hugging Face https://lieu.house.gov/media-center/pr ess-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can"
+  },
+  {
+   "id": "2081127575267487876",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Me when I own an AI company and want more money from the government",
+   "url": "https://x.com/vxunderground/status/2081127575267487876",
+   "created_at": "2026-07-25T21:20:54Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "當我擁有一家人工智慧公司並希望從政府獲得更多資金時"
+  },
+  {
+   "id": "md-116982699915122067",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Moonshot's Kimi K3 AI model performs significantly below the cyber capabilities of AI models released by US frontier labs Kimi guardrails also failed to stop users from developing exploits https://www. aisi.gov.uk/blog/preliminary-a ssessment-of-kimi-k3s-cyber-capabilities",
+   "url": "https://mastodon.social/@campuscodi/116982699915122067",
+   "created_at": "2026-07-25T21:19:01Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 2,
+   "text_zh": "Moonshot 的 Kimi K3 AI 模型的性能明顯低於美國前沿實驗室發布的 AI 模型的網路能力 Kimi Guardrails 也未能阻止用戶開發漏洞利用 https://www.moonshot.com。 aisi.gov.uk/blog/preliminary-a ssessment-of-kimi-k3s-cyber-capability"
+  },
+  {
    "id": "2081104307831894199",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -61,8 +209,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "> 每個人都對此大喊大叫 > 看看裡面 > 愚蠢啊批處理文件 > http 從 ip 地址下載 > http？不是https？現在是哪一年？ > 蒸汽???誰是這個愚弄兄弟 > image 1 > make goopy python script > 將 p1 - p66 加在一起 > 使用記錄的 aes256 金鑰解密 > lmfao > make .exe > 看 .exe > .NET c# goop > 另一個黏著程式碼 > 從資源輕微的嘗試與混淆 > lol 加密竊取者（圖 3） > 其他類似 RAT SHA256 的黏膠： dc9a2f090f8d7ba31e1195573bbb5b1f0891f3b3722d8ad4c159f2519b1"
+   "text_zh": "> 每個人都對此大喊大叫 > 看看裡面 > 愚蠢啊批處理文件 > http 從 ip 地址下載 > http？不是https？現在是哪一年？ > 蒸汽???誰是這個愚弄兄弟 > image 1 > make goopy python script > 將 p1 - p66 加在一起 > 使用記錄的 aes256 金鑰解密 > lmfao > make .exe > 看 .exe > .NET c# goop > 另一個黏著程式碼 > 從資源輕微的嘗試與混淆 > lol 加密竊取者（圖 3） > 其他類似 RAT SHA256 的黏膠： dc9a2f090f8d7ba31e1195573bbb5b1f0891f3b3722d8ad4c159f2519b1",
+   "score": 3
   },
   {
    "id": "2081089356614300012",
@@ -74,8 +222,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "歷史重演。西元前1200年：「相信我，它只是一匹馬。」2026 年：「相信我，這只是一個 PDF。」人類拒絕學習一些教訓。 #DDW #網路安全 #惡意軟體 #特洛伊木馬"
+   "text_zh": "歷史重演。西元前1200年：「相信我，它只是一匹馬。」2026 年：「相信我，這只是一個 PDF。」人類拒絕學習一些教訓。 #DDW #網路安全 #惡意軟體 #特洛伊木馬",
+   "score": 3
   },
   {
    "id": "2081062591946731951",
@@ -88,8 +236,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇰🇵 北韓駭客據稱搶劫了自己的國家銀行 據報道，一群前朝鮮軍事網路操作員和精英 IT 畢業生為個人利益入侵了該國的朝鮮中央銀行和外貿銀行。 * 據稱，該組織從國家貿易基金中挪用了少量資金以避免被發現。 * 據報道，被盜資金被轉換成加密貨幣並透過海外錢包轉移。 * 據稱中國經紀人將加密貨幣兌換回美元和人民幣。 * 據報道，北韓國家情報局在 7 月 12 日平壤的一次突襲中逮捕了該組織。分析師註：該報道來自Daily NK匿名來源網絡，尚未得到北韓當局證實。如果準確的話，該案例表明，當運營商將這些能力用於對抗政權本身時，國家開發的網路專業知識如何造成嚴重的內部風險。資料來源：Daily NK #DDW #Intelligence #DarkWeb #NorthKorea"
+   "text_zh": "🇰🇵 北韓駭客據稱搶劫了自己的國家銀行 據報道，一群前朝鮮軍事網路操作員和精英 IT 畢業生為個人利益入侵了該國的朝鮮中央銀行和外貿銀行。 * 據稱，該組織從國家貿易基金中挪用了少量資金以避免被發現。 * 據報道，被盜資金被轉換成加密貨幣並透過海外錢包轉移。 * 據稱中國經紀人將加密貨幣兌換回美元和人民幣。 * 據報道，北韓國家情報局在 7 月 12 日平壤的一次突襲中逮捕了該組織。分析師註：該報道來自Daily NK匿名來源網絡，尚未得到北韓當局證實。如果準確的話，該案例表明，當運營商將這些能力用於對抗政權本身時，國家開發的網路專業知識如何造成嚴重的內部風險。資料來源：Daily NK #DDW #Intelligence #DarkWeb #NorthKorea",
+   "score": 3
   },
   {
    "id": "2081061593786245602",
@@ -103,8 +251,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇬🇧 英國 — 警察國家法律資料庫 (PNLD) 據稱遭到破壞 警察國家法律資料庫 (PNLD) 是英格蘭和威爾斯執法和刑事司法組織使用的英國警察資訊資源，據稱已被洩露，並在地下論壇上發布廣告。 * 威脅行為者聲稱擁有約 135,000 筆執法聯繫記錄。 * 據報導，所謂的資料集包括姓名、電子郵件地址、警察部隊隸屬關係和其他聯絡資訊。 * 樣本資料已發布，但其真實性尚未經過獨立驗證。 * 截至撰寫本文時，PNLD 或英國當局尚未就涉嫌違規行為進行公開確認。分析師註釋：PNLD 由西約克郡警察局管理，為英格蘭和威爾斯各地的警察部隊和刑事司法組織提供服務。在獨立驗證或正式承認之前，這些主張應被視為未經驗證。 #DDW #Intelligence #DarkWeb #UnitedKingdom"
+   "text_zh": "🇬🇧 英國 — 警察國家法律資料庫 (PNLD) 據稱遭到破壞 警察國家法律資料庫 (PNLD) 是英格蘭和威爾斯執法和刑事司法組織使用的英國警察資訊資源，據稱已被洩露，並在地下論壇上發布廣告。 * 威脅行為者聲稱擁有約 135,000 筆執法聯繫記錄。 * 據報導，所謂的資料集包括姓名、電子郵件地址、警察部隊隸屬關係和其他聯絡資訊。 * 樣本資料已發布，但其真實性尚未經過獨立驗證。 * 截至撰寫本文時，PNLD 或英國當局尚未就涉嫌違規行為進行公開確認。分析師註釋：PNLD 由西約克郡警察局管理，為英格蘭和威爾斯各地的警察部隊和刑事司法組織提供服務。在獨立驗證或正式承認之前，這些主張應被視為未經驗證。 #DDW #Intelligence #DarkWeb #UnitedKingdom",
+   "score": 2
   },
   {
    "id": "2081059939741474962",
@@ -118,8 +266,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇫🇷法國 — ChatControl 實施數據據稱被洩露 一名威脅行為者在論壇上發表了一篇帖子，聲稱洩露了與“ChatControl”相關的數據，“ChatControl”指的是據稱用於檢測和過濾不當通信的內容監控系統。 * 該帖子包含樣本記錄，其中包含看似個人信息，包括姓名、出生日期、國籍、地址和其他身份詳細信息。 * 攻擊者聲稱資料來自參與實施或作業系統的個人。 * 下載連結和範例資料已在地下論壇上共享，但資料集的真實性尚未得到獨立驗證。 * 截至撰寫本文時，尚未對所謂的資料外洩進行官方確認。分析師註釋：儘管標題引用“ChatControl”，但現有證據並未明確識別受影響的組織或確認資料來源。在經過獨立驗證之前，這些聲明應被視為未經驗證。 #DDW #Intelligence #DarkWeb #France"
+   "text_zh": "🇫🇷法國 — ChatControl 實施數據據稱被洩露 一名威脅行為者在論壇上發表了一篇帖子，聲稱洩露了與“ChatControl”相關的數據，“ChatControl”指的是據稱用於檢測和過濾不當通信的內容監控系統。 * 該帖子包含樣本記錄，其中包含看似個人信息，包括姓名、出生日期、國籍、地址和其他身份詳細信息。 * 攻擊者聲稱資料來自參與實施或作業系統的個人。 * 下載連結和範例資料已在地下論壇上共享，但資料集的真實性尚未得到獨立驗證。 * 截至撰寫本文時，尚未對所謂的資料外洩進行官方確認。分析師註釋：儘管標題引用“ChatControl”，但現有證據並未明確識別受影響的組織或確認資料來源。在經過獨立驗證之前，這些聲明應被視為未經驗證。 #DDW #Intelligence #DarkWeb #France",
+   "score": 2
   },
   {
    "id": "2081059681787650560",
@@ -131,8 +279,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2081059678818075079",
@@ -146,8 +294,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🚨 Coinbase Cartel 勒索軟體組織啟動了針對資料和存取經紀人的合作夥伴計畫 這個自稱 Coinbase Cartel 的網路犯罪組織正在招募擁有獨家被盜資料或存取受感染組織的個人和團隊，透過付款來管理勒索流程。該集團宣稱，獨家資料集的可協商收入分成高達 90/10，企業存取的收入分成高達 50/50。它還正在尋求建立長期合作夥伴關係的成熟接取供應商，並表示可以考慮具有專業技能（包括社會工程）的個人。該廣告將潛在合作夥伴引導至該組織的暗網網站和加密聯絡管道。該組織不隸屬於 Coinbase 加密貨幣交易所。"
+   "text_zh": "🚨 Coinbase Cartel 勒索軟體組織啟動了針對資料和存取經紀人的合作夥伴計畫 這個自稱 Coinbase Cartel 的網路犯罪組織正在招募擁有獨家被盜資料或存取受感染組織的個人和團隊，透過付款來管理勒索流程。該集團宣稱，獨家資料集的可協商收入分成高達 90/10，企業存取的收入分成高達 50/50。它還正在尋求建立長期合作夥伴關係的成熟接取供應商，並表示可以考慮具有專業技能（包括社會工程）的個人。該廣告將潛在合作夥伴引導至該組織的暗網網站和加密聯絡管道。該組織不隸屬於 Coinbase 加密貨幣交易所。",
+   "score": 5
   },
   {
    "id": "2081058049263870058",
@@ -160,8 +308,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🇬🇧 英國 — Revolut 據稱被列入地下資料外洩索賠名單 一名威脅行為者發布了一篇論壇帖子，聲稱擁有與總部位於英國的金融科技和數位銀行平台 Revolut 相關的資料。 * 名單聲稱 Revolut 客戶資料已外洩。 * 公開貼文中未揭露任何記錄數、技術細節或攻擊向量。 * 論壇清單不包含足夠的證據來獨立驗證該聲明的真實性。 * 截至撰寫本文時，Revolut 尚未對所指控的事件進行公開確認。分析師附註：Revolut 總部位於英國倫敦。根據目前掌握的信息，在獨立驗證或官方聲明發布之前，這應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #UnitedKingdom"
+   "text_zh": "🇬🇧 英國 — Revolut 據稱被列入地下資料外洩索賠名單 一名威脅行為者發布了一篇論壇帖子，聲稱擁有與總部位於英國的金融科技和數位銀行平台 Revolut 相關的資料。 * 名單聲稱 Revolut 客戶資料已外洩。 * 公開貼文中未揭露任何記錄數、技術細節或攻擊向量。 * 論壇清單不包含足夠的證據來獨立驗證該聲明的真實性。 * 截至撰寫本文時，Revolut 尚未對所指控的事件進行公開確認。分析師附註：Revolut 總部位於英國倫敦。根據目前掌握的信息，在獨立驗證或官方聲明發布之前，這應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #UnitedKingdom",
+   "score": 5
   },
   {
    "id": "2081057400665133114",
@@ -174,8 +322,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇮🇹 義大利 — Serapian Milano 客戶資料庫據稱已出售 義大利奢華皮革製品品牌 Serapian Milano 據稱已在地下論壇上列出，一名威脅行為者聲稱正在出售客戶資料庫。 * 該清單聲稱包含約 37,284 筆客戶記錄。 * 受影響的組織被確定為 Serapian Milano (http://serapian.com)，這是一家總部位於義大利米蘭的豪華時尚公司。 * 論壇貼文並沒有透露所謂的攻擊向量或資料的年齡。 * 截至撰寫本文時，尚無公開證據能夠獨立驗證所聲稱資料集的真實性，且該公司尚未公開承認該事件。分析師註釋：在資料集經過 Serapian Milano 獨立驗證或確認之前，銷售貼文應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #Italy"
+   "text_zh": "🇮🇹 義大利 — Serapian Milano 客戶資料庫據稱已出售 義大利奢華皮革製品品牌 Serapian Milano 據稱已在地下論壇上列出，一名威脅行為者聲稱正在出售客戶資料庫。 * 該清單聲稱包含約 37,284 筆客戶記錄。 * 受影響的組織被確定為 Serapian Milano (http://serapian.com)，這是一家總部位於義大利米蘭的豪華時尚公司。 * 論壇貼文並沒有透露所謂的攻擊向量或資料的年齡。 * 截至撰寫本文時，尚無公開證據能夠獨立驗證所聲稱資料集的真實性，且該公司尚未公開承認該事件。分析師註釋：在資料集經過 Serapian Milano 獨立驗證或確認之前，銷售貼文應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #Italy",
+   "score": 2
   },
   {
    "id": "2081056683057434959",
@@ -189,8 +337,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇬🇧 英國 — Adventure Northumberland 資料庫據稱外洩 http://AdventureNorthumberland.co.uk 是一家總部位於英國的戶外探險和活動提供商，據稱已在地下論壇上列出，威脅者聲稱該資料庫是資料庫轉儲。 * 該貼文聲稱包含網站的資料庫，包括 WordPress 使用者記錄。 * 共享範例似乎引用了用戶帳戶字段，例如用戶名、電子郵件地址、密碼哈希和網站配置資料。 * 沒有提供所謂的攻擊媒介或受影響記錄總數的資訊。 * 截至本文撰寫時，這些說法尚未經過獨立核實，也沒有得到該組織的公開確認。分析師註釋：根據現有證據，在受影響的組織進行獨立驗證或確認之前，這應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #UnitedKingdom"
+   "text_zh": "🇬🇧 英國 — Adventure Northumberland 資料庫據稱外洩 http://AdventureNorthumberland.co.uk 是一家總部位於英國的戶外探險和活動提供商，據稱已在地下論壇上列出，威脅者聲稱該資料庫是資料庫轉儲。 * 該貼文聲稱包含網站的資料庫，包括 WordPress 使用者記錄。 * 共享範例似乎引用了用戶帳戶字段，例如用戶名、電子郵件地址、密碼哈希和網站配置資料。 * 沒有提供所謂的攻擊媒介或受影響記錄總數的資訊。 * 截至本文撰寫時，這些說法尚未經過獨立核實，也沒有得到該組織的公開確認。分析師註釋：根據現有證據，在受影響的組織進行獨立驗證或確認之前，這應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #UnitedKingdom",
+   "score": 2
   },
   {
    "id": "2081055654651789684",
@@ -243,8 +391,8 @@
    "tags": [
     "breach"
    ],
-   "score": 0,
-   "text_zh": "他們試圖恢復聊天，但他們的 IP 正在洩露，因為他們都是白痴。 88[.]80[.]24[.]250"
+   "text_zh": "他們試圖恢復聊天，但他們的 IP 正在洩露，因為他們都是白痴。 88[.]80[.]24[.]250",
+   "score": 0
   },
   {
    "id": "2081045924416036968",
@@ -257,8 +405,8 @@
     "market",
     "vuln"
    ],
-   "score": 3,
-   "text_zh": "🚨🇪🇸 西班牙外交部資料集，據稱包含 195 萬筆記錄待售 一名論壇參與者聲稱利用了與西班牙外交部、歐盟與合作部相關的系統中的 IDOR 漏洞，允許枚舉和提取 1,953,721 個註冊用戶個人資料。該清單宣傳 2.45GB JSON 存檔的售價為 1,500 美元。據稱暴露的資訊包括全名、主要和次要電子郵件地址、出生日期、國籍、電話號碼、身分證件類型和號碼、家庭住址、國家/地區、地區、郵遞區號、內部 IP 位址、身分驗證令牌、CSRF 值、公司識別碼、使用者 ID 和內部平台元資料。目前這一說法尚未得到證實。"
+   "text_zh": "🚨🇪🇸 西班牙外交部資料集，據稱包含 195 萬筆記錄待售 一名論壇參與者聲稱利用了與西班牙外交部、歐盟與合作部相關的系統中的 IDOR 漏洞，允許枚舉和提取 1,953,721 個註冊用戶個人資料。該清單宣傳 2.45GB JSON 存檔的售價為 1,500 美元。據稱暴露的資訊包括全名、主要和次要電子郵件地址、出生日期、國籍、電話號碼、身分證件類型和號碼、家庭住址、國家/地區、地區、郵遞區號、內部 IP 位址、身分驗證令牌、CSRF 值、公司識別碼、使用者 ID 和內部平台元資料。目前這一說法尚未得到證實。",
+   "score": 3
   },
   {
    "id": "2081045927515558099",
@@ -270,8 +418,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2081041516441612402",
@@ -283,8 +431,8 @@
    "tags": [
     "breach"
    ],
-   "score": 2,
-   "text_zh": "🚨🇬🇧 英國警察國家法律數據庫聯繫記錄涉嫌洩露 一名論壇參與者聲稱違反了警察國家法律數據庫，這是一個英國警察信息資源，包含刑事司法立法、案件摘要、法規、犯罪代碼以及英格蘭和威爾士使用的其他法律材料。該貼文公佈了大約 135,000 條執法聯繫記錄。已發布的樣本包含姓名、電子郵件地址、電話號碼、警察區域、內部聯絡人識別碼、帳戶驗證欄位和其他個人資料元資料。目前這一說法尚未得到證實。"
+   "text_zh": "🚨🇬🇧 英國警察國家法律數據庫聯繫記錄涉嫌洩露 一名論壇參與者聲稱違反了警察國家法律數據庫，這是一個英國警察信息資源，包含刑事司法立法、案件摘要、法規、犯罪代碼以及英格蘭和威爾士使用的其他法律材料。該貼文公佈了大約 135,000 條執法聯繫記錄。已發布的樣本包含姓名、電子郵件地址、電話號碼、警察區域、內部聯絡人識別碼、帳戶驗證欄位和其他個人資料元資料。目前這一說法尚未得到證實。",
+   "score": 2
   },
   {
    "id": "2081041519041995048",
@@ -296,8 +444,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2081039223386173459",
@@ -309,8 +457,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2081039220353724470",
@@ -322,8 +470,8 @@
    "tags": [
     "breach"
    ],
-   "score": 2,
-   "text_zh": "🚨🇬🇧 英國教育部聯繫記錄涉嫌洩露 一名論壇參與者聲稱已經破壞了與英國教育部相關的系統，並從其幫助門戶和圖靈門戶獲取了數據。該清單公佈了來自幫助入口網站的大約 600,000 條家長和員工聯繫記錄，以及來自圖靈入口網站的大約 7,000 條附加記錄。論壇上發布了包含姓名、電子郵件地址、電話號碼、職位和內部聯絡人識別碼的樣本。目前這一說法尚未得到證實。"
+   "text_zh": "🚨🇬🇧 英國教育部聯繫記錄涉嫌洩露 一名論壇參與者聲稱已經破壞了與英國教育部相關的系統，並從其幫助門戶和圖靈門戶獲取了數據。該清單公佈了來自幫助入口網站的大約 600,000 條家長和員工聯繫記錄，以及來自圖靈入口網站的大約 7,000 條附加記錄。論壇上發布了包含姓名、電子郵件地址、電話號碼、職位和內部聯絡人識別碼的樣本。目前這一說法尚未得到證實。",
+   "score": 2
   },
   {
    "id": "2081035080189821399",
@@ -335,8 +483,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2081035076691738805",
@@ -348,8 +496,8 @@
    "tags": [
     "market"
    ],
-   "score": 0,
-   "text_zh": "🚨🇯🇵🇨🇦🇮🇱 涉嫌出售的三個政府平台的根 CMS 訪問權限 一名論壇參與者聲稱正在出售與日本奈良縣的 Nara Super App、加拿大新不倫瑞克省的 MyNB 平台以及以色列國家數字機構相關的特權 CMS 訪問權限。名單中的 Nara Super App 售價為 2,000 美元，MyHealthNB 售價為 10,000 美元，以色列政府系統售價為 5,000 美元。賣家聲稱該存取權限提供了完整的讀寫功能，包括對使用者帳戶的控制、文件上傳和電子郵件建立。在公開列出受影響的平台後，演員給了潛在買家 48 小時的時間來購買訪問權限。這些說法目前尚未得到證實。"
+   "text_zh": "🚨🇯🇵🇨🇦🇮🇱 涉嫌出售的三個政府平台的根 CMS 訪問權限 一名論壇參與者聲稱正在出售與日本奈良縣的 Nara Super App、加拿大新不倫瑞克省的 MyNB 平台以及以色列國家數字機構相關的特權 CMS 訪問權限。名單中的 Nara Super App 售價為 2,000 美元，MyHealthNB 售價為 10,000 美元，以色列政府系統售價為 5,000 美元。賣家聲稱該存取權限提供了完整的讀寫功能，包括對使用者帳戶的控制、文件上傳和電子郵件建立。在公開列出受影響的平台後，演員給了潛在買家 48 小時的時間來購買訪問權限。這些說法目前尚未得到證實。",
+   "score": 0
   },
   {
    "id": "2081030877996322931",
@@ -362,8 +510,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "RT @DarkWebInformer：🚨🇳🇱 荷蘭聯絡人資料集，據稱包含 1400 萬筆記錄，據稱正在出售 一名論壇演員聲稱自己被出售…"
+   "text_zh": "RT @DarkWebInformer：🚨🇳🇱 荷蘭聯絡人資料集，據稱包含 1400 萬筆記錄，據稱正在出售 一名論壇演員聲稱自己被出售…",
+   "score": 2
   },
   {
    "id": "2080942798522491100",
@@ -1769,20 +1917,6 @@
    "score": 3
   },
   {
-   "id": "2079937073922912372",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇺🇸 Quality Woven Labels Database Allegedly Leaked A threat actor has published a database sample allegedly linked to qualitywovenlabels[.]com. * Exposed fields reportedly include names, email addresses and dates of birth * Password hashes and authentication tokens appear among the listed fields * Billing and shipping addresses, telephone numbers and tax-related data may also be affected * The post includes sample records as purported proof Analyst Note: The claim has not yet been independently verified. The presence of password hashes, session tokens and detailed customer records could create account-takeover, phishing and identity-fraud risks. #DDW #Intelligence #DarkWeb #DataBreach",
-   "url": "https://x.com/DailyDarkWeb/status/2079937073922912372",
-   "created_at": "2026-07-22T14:30:16Z",
-   "tags": [
-    "breach",
-    "darkweb"
-   ],
-   "text_zh": "🇺🇸 品質編織標籤資料庫據稱洩漏 威脅行為者發布了一個據稱連結到qualitywritinglabels[.]com 的資料庫樣本。 *據報導，暴露的欄位包括姓名、電子郵件地址和出生日期 *密碼雜湊值和身分驗證令牌出現在列出的欄位中 *帳單和送貨地址、電話號碼和稅務相關資料也可能受到影響 *該貼文包含樣本記錄作為所謂的證據 分析師附註：該聲明尚未經過獨立驗證。密碼雜湊、會話令牌和詳細的客戶記錄的存在可能會造成帳戶接管、網路釣魚和身分詐欺風險。 #DDW #Intelligence #DarkWeb #DataBreach",
-   "score": 3
-  },
-  {
    "id": "md-116963681462053021",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -1950,50 +2084,6 @@
    ],
    "text_zh": "更多北韓遠端 IT 工作者報告涵蓋： - 資金軌跡 ( https://www. dtex.ai/blog/dprk-it-worker-mo ney-trail/ ) - 新基礎設施 ( https://kudelskisecurity.com/research/ dprk-fake-it-workers-inside-their-evolving-network-infrastruct struction",
    "score": 1
-  },
-  {
-   "id": "2079655573885157423",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇵🇱 Polish Investment Company Allegedly Breached by Jama'at Al The threat group \"Jama'at Al\" has claimed responsibility for breaching a Polish investment company and states that it has obtained internal data while also defacing the organization's website. According to the claim: * Alleged victim: Polish investment company \"Fxcuffs\" * Claimed compromised data includes private user information, password hashes, metadata, and additional internal data. * The threat actor also claims the company's website was defaced as part of the intrusion. * The post attributes the operation to Jama'at Al and references the attack as being conducted on behalf of the \"WTC.\" At the time of writing, Daily Dark Web has not independently verified the authenticity of the claims or confirmed that the alleged data originated from Fxcuffs. Analyst Note: Financial services organizations remain high-value targets due to the sensitive customer and operational data they manage. If confirmed, the incident could expose customers to credential attacks, phishing, and identity fraud. Organizations should investigate the claims, review authentication logs, rotate potentially exposed credentials, and monitor for unauthorized access. #DDW #Intelligence #DarkWeb #Poland",
-   "url": "https://x.com/DailyDarkWeb/status/2079655573885157423",
-   "created_at": "2026-07-21T19:51:41Z",
-   "tags": [
-    "breach",
-    "darkweb"
-   ],
-   "text_zh": "🇵🇱 波蘭投資公司據稱被 Jama'at Al 入侵 威脅組織「Jama'at Al」聲稱對入侵一家波蘭投資公司負責，並聲稱其在獲取內部數據的同時還破壞了該組織的網站。根據聲明： * 據稱受害者：波蘭投資公司「Fxcuffs」 * 聲稱受損的資料包括私人用戶資訊、密碼雜湊、元資料和其他內部資料。 * 威脅行為者也聲稱，該公司的網站在入侵過程中遭到破壞。 * 該貼文將這次行動歸咎於 Jama'at Al，並提到這次攻擊是代表「世貿中心」進行的。截至本文撰寫時，Daily Dark Web 尚未獨立驗證該說法的真實性，也未確認所指控的數據源自 Fxcuffs。分析師註釋：由於金融服務組織管理敏感的客戶和營運數據，因此它們仍然是高價值目標。如果得到證實，該事件可能會使客戶面臨憑證攻擊、網路釣魚和身分詐欺的風險。組織應調查這些聲明、審查身分驗證日誌、輪換可能暴露的憑證並監控未經授權的存取。 #DDW #Intelligence #DarkWeb #Poland",
-   "score": 6
-  },
-  {
-   "id": "2079654205778964780",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇮🇱 Israeli Organization IMCO Allegedly Listed for Sale on Cybercrime Forum A threat actor has claimed to be selling a database and website data allegedly belonging to IMCO Israel on a cybercrime forum. According to the listing: * Alleged victim: IMCO Israel * The actor claims to possess both the organization's database and website-related data. * The post advertises a proof-of-concept (PoC) download intended to demonstrate access. * Contact information is provided for prospective buyers through encrypted communication channels. * No record count, technical details, or description of the allegedly compromised data is disclosed in the listing. At the time of writing, Daily Dark Web has not independently verified the authenticity of the claims or confirmed that the advertised data originated from IMCO Israel. Analyst Note: Threat actors frequently advertise alleged corporate databases for sale with minimal technical evidence. Organizations should treat such claims seriously, review web server and database logs, validate the legitimacy of any published samples, and investigate for signs of unauthorized access before determining the scope of any potential compromise. #DDW #Intelligence #DarkWeb #Israel",
-   "url": "https://x.com/DailyDarkWeb/status/2079654205778964780",
-   "created_at": "2026-07-21T19:46:15Z",
-   "tags": [
-    "breach",
-    "market",
-    "vuln",
-    "darkweb"
-   ],
-   "text_zh": "🇮🇱 以色列組織 IMCO 據稱在網路犯罪論壇上出售 一名威脅行為者聲稱在網路犯罪論壇上出售據稱屬於 IMCO Israel 的資料庫和網站資料。根據清單： * 據稱受害者：IMCO Israel * 該行為者聲稱擁有該組織的資料庫和網站相關資料。 * 該貼文宣傳了旨在演示存取權限的概念驗證 (PoC) 下載。 * 透過加密通訊管道為潛在買家提供聯絡資訊。 * 清單中未揭露任何記錄數、技術細節或涉嫌洩漏資料的描述。截至本文撰寫時，Daily Dark Web 尚未獨立驗證該說法的真實性，也未確認廣告資料源自 IMCO Israel。分析師附註：威脅行為者經常在幾乎沒有技術證據的情況下宣傳出售所謂的公司資料庫。組織應認真對待此類聲明，審查網頁伺服器和資料庫日誌，驗證任何已發布樣本的合法性，並在確定任何潛在危害的範圍之前調查未經授權的存取跡象。 #DDW #Intelligence #DarkWeb #Israel",
-   "score": 5
-  },
-  {
-   "id": "2079649203685380534",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇪🇺 http://hithorizon.com Database Allegedly Leaked A threat actor has claimed to have leaked a database belonging to http://hithorizon.com and published the dataset on a cybercrime forum. According to the forum post: * Alleged victim: http://hithorizon.com * The actor claims to be releasing the complete database. * The post advertises a \"full leak\" and includes a download link for the alleged dataset. * No record count or detailed description of the compromised data is provided in the listing. * At this stage, the scope and nature of the exposed information remain unclear. At the time of writing, Daily Dark Web has not independently verified the authenticity of the dataset or confirmed that it originated from http://hithorizon.com. Analyst Note: Threat actors frequently publish databases with limited technical details to attract attention or drive downloads. Organizations should investigate the claim, review authentication logs for unusual activity, and determine whether any customer or internal data has been exposed before drawing conclusions. #DDW #Intelligence #DarkWeb #DataBreach",
-   "url": "https://x.com/DailyDarkWeb/status/2079649203685380534",
-   "created_at": "2026-07-21T19:26:22Z",
-   "tags": [
-    "breach",
-    "darkweb"
-   ],
-   "text_zh": "🇪🇺 http://hithorizo​​n.com 資料庫據稱洩露 一名威脅行為者聲稱洩露了屬於 http://hithorizo​​n.com 的資料庫，並在網路犯罪論壇上發布了該資料集。根據論壇帖子： * 據稱受害者：http://hithorizo​​​​n.com * 攻擊者聲稱將發布完整的資料庫。 * 該貼文宣稱“完全洩露”，並包含所謂資料集的下載連結。 * 清單中未提供受損資料的記錄數或詳細描述。 * 現階段，所揭露資訊的範圍和性質仍不清楚。截至撰寫本文時，Daily Dark Web 尚未獨立驗證該資料集的真實性或確認其源自 http://hithorizo​​n.com。分析師註釋：威脅行為者經常發布技術細節有限的資料庫，以吸引註意力或推動下載。組織應調查該聲明，檢查身分驗證日誌是否有異常活動，並在得出結論之前確定是否有任何客戶或內部資料外洩。 #DDW #Intelligence #DarkWeb #DataBreach",
-   "score": 5
   },
   {
    "id": "2079592693571764569",
@@ -2451,32 +2541,6 @@
    "score": 2
   },
   {
-   "id": "2078923966299906499",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: Oh, I forgot. One other thing. I had a few people say I should focus more on news. People said using keywords like \"breaking\" can improve engagement and potentially bring more people to this social media account. I appreciate the insight, feedback, and thoughtfulness. However, I am very much ... I don't know the word ... I guess I don't really give a fuck bro. Yes, people and monies and stuff is cool, but I don't want to be a slop account. I'm just going to continue doing what I'm doing. Malware source code, samples, and papers for free, forever. Cheers",
-   "url": "https://x.com/vxunderground/status/2078923966299906499",
-   "created_at": "2026-07-19T19:24:32Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "R 致@vxunderground：哦，我忘了。另一件事。有幾個人說我應該多關注新聞。人們表示，使用「破壞」等關鍵字可以提高參與度，並有可能吸引更多人造訪該社群媒體帳號。我很欣賞你的洞察力、回饋和深思熟慮。然而，我非常......我不知道這個詞......我想我真的不在乎兄弟。是的，人和金錢之類的東西很酷，但我不想成為一個垃圾帳戶。我將繼續做我正在做的事情。惡意軟體原始碼、範例和論文永久免費。乾杯",
-   "score": 2
-  },
-  {
-   "id": "2078922969204592701",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "Administrative update: 1. I am going to begin the process of thanking people for malware submissions and/or papers and/or recommendations. They will be placed somewhere on the website. You can exaggerate yourself on LinkedIn and say you're a collaborator. 2. I have a large volume of malware papers and malwares in queue. It is 175,000 malwares, 20 or so papers. As is tradition, malware analysis will be coupled with the papers too. That is expanded every month as new material comes in. 3. I have no plans to resurrect the virus exchange for the time being, unless someone (preferably a large company) is willing to bank roll the entire thing. I can provide the malware goopies, but computers are expensive. 4. Per request from OG vx-underground nerds, in more serious posts discussing technical topics, I will drop the silly cats and instead revive the classic edgy vx-underground dark. I will introduce a balance between seriousness, and edgy Hot Topic Goth, and generate kitty cat stuff. Thank you everyone for the love and support. I see your messages and e-mails. I am enjoying the summer with my son and family, so I am simply less inside at the moment. I will (hopefully) do more malwares soon.",
-   "url": "https://x.com/vxunderground/status/2078922969204592701",
-   "created_at": "2026-07-19T19:20:35Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "行政更新： 1. 我將開始感謝人們提交惡意軟體和/或論文和/或建議。它們將被放置在網站上的某個位置。您可以在 LinkedIn 上誇大自己並說您是合作者。 2. 我有大量惡意軟體論文和惡意軟體正在排隊。共有 175,000 個惡意軟體、20 篇左右的論文。按照傳統，惡意軟體分析也將與論文一起提供。隨著新資料的出現，這個範圍每個月都會擴大。 3. 我暫時沒有計畫恢復病毒交換，除非有人（最好是大公司）願意為整件事情提供資金支持。我可以提供惡意軟體，但電腦很昂貴。 4. 根據 OG vx-underground 書呆子的要求，在討論技術主題的更嚴肅的帖子中，我將放棄愚蠢的貓，而是恢復經典的前衛 vx-underground 黑暗。我將介紹嚴肅性和前衛熱門話題哥德之間的平衡，並生成小貓的東西。感謝大家的愛護與支持。我看到你的訊息和電子郵件。我正在與我的兒子和家人一起享受夏天，​​所以我現在只是不那麼在裡面了。我（希望）很快就會製作更多惡意軟體。",
-   "score": 2
-  },
-  {
    "id": "2078911966504964584",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -2501,32 +2565,6 @@
    ],
    "text_zh": "已固定：🚨 關鍵的 WordPress 預授權漏洞利用鏈：WP2Shell 新揭露的漏洞利用鏈 WP2Shell 允許攻擊者在無需身份驗證的情況下完全破壞易受攻擊的 WordPress 網站。 ThreatMon IntelHub 發布了免費檢測工具來幫助識別暴露的實例。 🔎 檢查您的網站：ThreatMon IntelHub - 免費安全工具 漏洞鏈 🔸 CVE-2026-63030 – REST /batch/v1 端點中的路由混亂 🔸 CVE-2026-60137 – 透過 WP_Query::author _in 虛擬性注入 ✅ 建立新的管理員帳戶✅ 上傳惡意外掛程式 ✅ 在伺服器上執行任意指令 ✅ 實作全站入侵 受影響版本：WordPress 6.8.0 – 7.0.1 關於偵測工具 ✔️ 僅有（非侵入式） ✔ 🔹 查看最近建立的管理員帳戶。 🔹 審核已安裝和活動的插件是否有任何不熟悉的情況。 🔹 限制對邊緣的 /wp-json/batch/v1 和 ?rest_route=/batch/v1 的訪問，直到系統得到修補。 ⏱️不到10秒即可檢查您的網站是否有曝光。 #WordPress #Cyber​​Security #ThreatIntelligence #CVE #WP2Shell #SQLInjection #PreAuth #RCE",
    "score": 6
-  },
-  {
-   "id": "2078896901634613474",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: If this were a meme made by someone in my age group it would be something like, \"how I walk when I have hemorrhoids\"",
-   "url": "https://x.com/vxunderground/status/2078896901634613474",
-   "created_at": "2026-07-19T17:37:00Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "R 致@vxunderground：如果這是由我這個年齡段的人製作的模因，它會類似於“當我患有痔瘡時我如何走路”",
-   "score": 0
-  },
-  {
-   "id": "2078896044939583587",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "The kids are making anti government surveillance memes and I love it.",
-   "url": "https://x.com/vxunderground/status/2078896044939583587",
-   "created_at": "2026-07-19T17:33:35Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "孩子們正在製作反政府監視迷因，我喜歡它。",
-   "score": 0
   },
   {
    "id": "md-116946711344190003",
@@ -4596,45 +4634,6 @@
     "other"
    ],
    "text_zh": "【軟體系統資安議題】勒贖攻擊導致獨立遊戲 17,000 位玩家資料全遭刪除 　　 更多內容：https://www.twcert.org.tw/tw/cp-104-7557-82c33-1.html",
-   "score": 0
-  },
-  {
-   "id": "md-111438184138523000",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "WithSecure has a chart of all the ransomware group renames and rebrands. This will go directly into my bookmarks cause I lost track of all of them 4-5 years ago. https://www. withsecure.com/en/expertise/bl og-posts/2023-ransomware-rookies-are-a-remix-of-conti-and-other-classics",
-   "url": "https://mastodon.social/@campuscodi/111438184138523000",
-   "created_at": "2023-11-19T16:35:45Z",
-   "tags": [
-    "ransomware"
-   ],
-   "text_zh": "WithSecure 提供了所有勒索軟體組重命名和品牌重塑的圖表。這將直接進入我的書籤，因為我在 4-5 年前就失去了所有這些書籤的痕跡。 https://www. withsecure.com/en/expertise/blog-posts/2023-ransomware-rookies-are-a-remix-of-conti-and-other-classics",
-   "score": 3
-  },
-  {
-   "id": "md-111369077464958480",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Recorded Future has a report on how Chinese APTs have evolved over time. The report also includes this map of the suspected locations of Chinese APT groups. https://www. recordedfuture.com/charting-ch inas-climb-leading-global-cyber-power",
-   "url": "https://mastodon.social/@campuscodi/111369077464958480",
-   "created_at": "2023-11-07T11:41:01Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "Recorded Future 發布了一份關於中國 APT 如何隨時間演變的報告。該報告還包括這張中國 APT 組織疑似地點的地圖。 https://www. Recordfuture.com/charting-ch inas-climb-leading-global-cyber-power",
-   "score": 1
-  },
-  {
-   "id": "md-111127850126520325",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Some CERT-UA naming conventions from the report: UAC-0010 (Gamaredon/FSB) UAC-0056 (Ember Bear/GRU) UAC-0028 (APT28/GRU) UAC-0082 (Sandworm/GRU) UAC-0144/UAC-0024/UAC-0003 (Turla) UAC-0029 (APT29/SVR) UAC-0109 (Zarya) UAC-0106 (XakNet) UAC-0107 (CyberArmyofRussia)",
-   "url": "https://mastodon.social/@campuscodi/111127850126520325",
-   "created_at": "2023-09-25T21:13:44Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "報告中的一些 CERT-UA 命名約定： UAC-0010 (Gamaredon/FSB) UAC-0056 (Ember Bear/GRU) UAC-0028 (APT28/GRU) UAC-0082 (Sandworm/GRU) UAC-0144/UAC-0243/102039 (APT29/SVR) UAC-0109 (Zarya) UAC-0106 (XakNet) UAC-0107 (CyberArmyofRussia)",
    "score": 0
   },
   {
