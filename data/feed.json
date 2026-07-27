@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-26T21:16:33Z",
+ "generated_at": "2026-07-27T08:00:40Z",
  "source": "nitter",
- "new_count": 22,
+ "new_count": 14,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -52,6 +52,190 @@
  },
  "posts": [
   {
+   "id": "2081555867984359427",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "RT @DarkWebInformer: Both domains suspended.",
+   "url": "https://x.com/DarkWebInformer/status/2081555867984359427",
+   "created_at": "2026-07-27T01:42:47Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "RT @DarkWebInformer：兩個網域都已暫停。"
+  },
+  {
+   "id": "2081551862055023064",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "US prosecutors charge Atlanta man after GrapheneOS phone wipes itself during airport search https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+   "url": "https://x.com/DarkWebInformer/status/2081551862055023064",
+   "created_at": "2026-07-27T01:26:51Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "GrapheneOS 手機在機場搜尋過程中自行擦拭後，美國檢察官對亞特蘭大男子提出指控 https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+  },
+  {
+   "id": "2081551768123511204",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: I know I probably shouldn't tell someone who committed a felony to relax, but let's be real here, bro. FBI agents are paid like shit and they're dealing with serious problems, Schlunko McSchmeeSchmee isn't even on their radar. They probably don't even feel like doing the paperwork, some agent probably saw it, said \"heh\", and went back to some case where someone is laundering $10,000,000 of Bitcoin How much money was stolen? What? Like $700? The FBI doesn't even look at you until you've done somewhere between $100,000 - $1,000,000. It costs them $200/hr for the attorneys alone, not to mention the man hours to talk to Steam, do the court paperwork, subpoena people, determine which field office is going to handle. I don't know bro, whatever",
+   "url": "https://x.com/vxunderground/status/2081551768123511204",
+   "created_at": "2026-07-27T01:26:29Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 0,
+   "text_zh": "R 致@vxunderground：我知道我可能不應該告訴犯有重罪的人放鬆，但讓我們面對現實吧，兄弟。聯邦調查局特工的薪水就像狗屎一樣，他們正在處理嚴重的問題，Schlunko McSchmeeSchmee 甚至不在他們的監視範圍內。他們可能甚至不想做文書工作，一些特工可能看到了，說“呵呵”，然後回到某個案例，有人正在洗錢 10,000,000 美元的比特幣，被盜了多少錢？什麼？比如 700 美元？直到你的金額達到 10 萬美元到 1,000,000 美元之間，FBI 才會看你一眼。光是律師就花了他們每小時 200 美元，更不用說與 Steam 交談、做法庭文書工作、傳喚人員、確定由哪個現場辦事處處理的工時了。我不知道兄弟，無論如何"
+  },
+  {
+   "id": "2081549814488002720",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Dawg, I don't want to sound like a hater, but you need to CHILL OUT. Your goopies just got attention because it was video game goop. This isn't like, CL0P ransomware group extorting the United States government for $50,000,000 because of a 0day exploit they had. You're NOT FBI most wanted, bro. They're worried about big malware campaigns. The internet has crypto-drainers bringing in $100,000/month, CSAM all over TOR, large-scale botnets wreaking havoc on home users, businesses, and critical infrastructure, and they're also dealing with state-sponsored Threat Groups which are enemies of the United States. You popping 50 people from Schlunko McSchmeeSchmee on Steam isn't going to make Kash Patel call the President of the United States and say you're El Chapo 2.0. This only got attention because it was on Steam Gosh dang, bro. Relax. Half these fucking people on social media talking about it unironically spend a majority of their day scrolling TikTok and arguing in the comment section on YouTube videos. It's not that deep, bro.",
+   "url": "https://x.com/vxunderground/status/2081549814488002720",
+   "created_at": "2026-07-27T01:18:43Z",
+   "tags": [
+    "ransomware",
+    "malware",
+    "vuln"
+   ],
+   "score": 6,
+   "text_zh": "老兄，我不想聽起來像個仇恨者，但你需要冷靜下來。你的黏糊糊剛剛引起注意，因為它是視頻遊戲黏糊糊。這與 CL0P 勒索軟體組織因 0day 漏洞而勒索美國政府 50,000,000 美元的情況不同。你不是聯邦調查局的頭號通緝犯，兄弟。他們擔心大型惡意軟體活動。網路上的加密貨幣流失者每月帶來 10 萬美元的收入，CSAM 遍布 TOR，大規模殭屍網路對家庭用戶、企業和關鍵基礎設施造成嚴重破壞，而且他們還與國家支持的威脅組織打交道，這些威脅組織是美國的敵人。你在 Steam 上從 Schlunko McSchmeeSchmee 中剔除 50 名玩家並不會讓卡什·帕特爾打電話給美國總統並說你是矮子 2.0。這之所以引起關注，是因為它出現在 Steam 上，天哪，兄弟。放鬆。這些在社群媒體上談論此事的人，有一半的人一天中大部分時間都在瀏覽 TikTok，並在 YouTube 影片的評論部分爭論。沒那麼深吧兄弟"
+  },
+  {
+   "id": "2081546342841618589",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Apparently Meccha Chameleon people follow me on Telegram. Hello MecchaChameleon malware people living inside my computer, I think overall your strategy of using a malicious custom map thingie was cool and probably yielded moderate success. I don't think your intention was being like, 100,000 infected machines, but I suspect you got enough infected machines to be happy. People wrote you were using PureRAT, whether or not that is true, I don't know, YARA rules for flagging can be iffy. But, when I was reverse engineering your C# payload (which I think you attempted to obfuscate?) I saw the weird dependency you used for remote access to machines. I can't remember what it was now, I deleted your goopies off my machine, but I saw it as an embedded resource next to PAYLOAD_ULTRA_MEGA_FUCK_OFF.zip which you decrypted and loaded as a raw assembly. Maybe that raw assembly you loaded was PureRAT? Or was it the stager? I don't know. Obviously we've been this a million times before with other video games (malicious mods), but seeing it in something obscure was a nice surprise. Your advertisement, or demo, or whatever, you showed was not an RCE. An RCE would require ... remote code execution. This is really fancy payload smuggling. Anyway, it's obvious your staging was vibe coded. It was pretty easy to reverse engineer. I think you had the right idea on how to go about things, but between the segments being in order (1 - 66), the obvious embedded payload in the 2nd stager, and the really loud BATCH files, it wasn't going to go very far. Thanks for the goopies though, it was chill. Cheers, (pic unrelated)",
+   "url": "https://x.com/vxunderground/status/2081546342841618589",
+   "created_at": "2026-07-27T01:04:56Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "顯然 Meccha Chameleon 人們在 Telegram 上關注我。你好，MecchaChameleon 惡意軟體住在我的電腦裡，我認為總的來說，你使用惡意自訂地圖的策略很酷，並且可能取得了一定的成功。我不認為你的意圖是 100,000 台受感染的機器，但我懷疑你有足夠的受感染機器讓你感到高興。人們寫道您正在使用 PureRAT，無論這是否屬實，我不知道，YARA 的標記規則可能是不確定的。但是，當我對你的 C# 有效負載進行逆向工程時（我認為你試圖混淆它？），我看到了你用於遠端存取機器的奇怪依賴項。我現在不記得它是什麼了，我從我的機器上刪除了你的粘糊糊，但我將它視為 PAYLOAD_ULTRA_MEGA_FUCK_OFF.zip 旁邊的嵌入式資源，你將其解密並作為原始程序集加載。也許您載入的原始組件是 PureRAT？還是舞台表演者？我不知道。顯然，我們之前在其他視頻遊戲（惡意模組）中已經遇到過這種情況一百萬次，但在一些不起眼的東西中看到它是一個很好的驚喜。您顯示的廣告、簡報或其他任何內容都不是 RCE。 RCE 需要…遠端程式碼執行。這確實是一種奇特的有效負載走私。不管怎樣，很明顯你的舞台是氣氛編碼的。逆向工程非常容易。我認為你對於如何處理事情有正確的想法，但是在有序的段（1 - 66）、第二階段中明顯的嵌入有效負載以及非常響亮的批處理文件之間，它不會走得太遠。不過還是謝謝你的黏稠，天氣很冷。乾杯，（圖片無關）"
+  },
+  {
+   "id": "2081537047244738846",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "Pinned: VPN vs. Proxy: They are not the same and choosing the wrong one can leave you with a false sense of security. Here's the difference: 🟣 VPN * Encrypts your internet traffic * Protects your privacy across your entire device * Masks your IP address * Ideal for remote work, public Wi-Fi, and sensitive activities 🟠 Proxy * Routes traffic through an intermediary server * Usually protects only a specific application * Typically does not encrypt your traffic * Best suited for IP rotation, web scraping, geo-testing, and basic anonymity A proxy changes where your traffic appears to come from. A VPN protects both where your traffic comes from and the data traveling through it. If security and privacy are your priority, a reputable VPN is generally the better choice. Which do you use most—VPN, Proxy, or both? #DDW #CyberSecurity #Privacy #VPN",
+   "url": "https://x.com/DailyDarkWeb/status/2081537047244738846",
+   "created_at": "2026-07-27T00:27:59Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "固定：VPN 與代理：它們並不相同，選擇錯誤的VPN 可能會給您帶來錯誤的安全感。差異如下： 🟣 VPN * 加密您的網路流量 * 保護您整個裝置的隱私 * 封鎖您的 IP 位址 * 非常適合遠端工作、公共 Wi-Fi 和敏感活動 🟠 代理 * 透過中間伺服器路由流量 * 通常僅保護特定應用程式 * 通常不加密您的流量 * 最適合 IP 輪調、透過中間伺服器路由流量 * 通常僅保護特定應用程式會更改您的流量VPN 既可以保護您的流量來源，也可以保護透過該流量傳輸的資料。如果安全性和隱私是您的首要任務，那麼信譽良好的 VPN 通常是更好的選擇。您最常使用哪一個 — VPN、代理程式還是兩者都使用？ #DDW #網路安全 #隱私權 #VPN"
+  },
+  {
+   "id": "2081509239877472303",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇪🇬 Egyptian Football Association database and player documents allegedly leaked A forum actor claims to have leaked databases belonging to the Egyptian Football Association, the governing body responsible for football in Egypt. The listing advertises a 9.6GB archive containing approximately 350,000 player records, along with photographs, identity documents, military forms, contracts, graduation certificates, birth certificates, and other files. The allegedly exposed information includes players’ names, dates and places of birth, genders, nationalities, national ID and passport numbers, team and transfer histories, disciplinary records, contract details, international card information, organizational identifiers, inquiry records, and internal administrative metadata. This claim is currently unverified.",
+   "url": "https://x.com/DarkWebInformer/status/2081509239877472303",
+   "created_at": "2026-07-26T22:37:30Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇪🇬 埃及足協數據庫和球員文件涉嫌洩露 一名論壇演員聲稱洩露了埃及足協的數據庫，埃及足協是埃及足球的管理機構。該清單宣傳了一個 9.6GB 的檔案，其中包含大約 350,000 條玩家記錄，以及照片、身分證件、軍事表格、合約、畢業證書、出生證明和其他文件。據稱暴露的資訊包括球員的姓名、出生日期和地點、性別、國籍、身分證和護照號碼、球隊和轉會歷史、紀律記錄、合約詳細資料、國際卡資訊、組織識別碼、查詢記錄和內部管理元資料。目前這一說法尚未得到證實。"
+  },
+  {
+   "id": "2081509243044163744",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2081509243044163744",
+   "created_at": "2026-07-26T22:37:30Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2081501131256086699",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2081501131256086699",
+   "created_at": "2026-07-26T22:05:16Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2081501127250702368",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 Cartogip contact dataset containing approximately 1,200 records allegedly leaked A forum actor claims to have leaked contact data tied to Cartogip, a French web-based geographic information system developed by GIP ATGeRi for mapping, geospatial data, and field operations. The allegedly exposed information includes names, titles, mobile and landline phone numbers, company or municipal organization names, job functions, customer numbers, liaison identifiers, and internal organization IDs. This claim is currently unverified.",
+   "url": "https://x.com/DarkWebInformer/status/2081501127250702368",
+   "created_at": "2026-07-26T22:05:15Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇫🇷 據稱洩露的包含約 1,200 條記錄的 Cartogip 聯繫數據集 一名論壇參與者聲稱洩露了與 Cartogip 相關的聯繫數據，Cartogip 是由 GIP ATGeRi 開發的法國網絡地理信息系統，用於測繪、地理空間數據和現場操作。據稱洩漏的資訊包括姓名、職位、手機和固定電話號碼、公司或市政組織名稱、工作職能、客戶號碼、聯絡識別碼和內部組織 ID。目前這一說法尚未得到證實。"
+  },
+  {
+   "id": "2081491012363456782",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2081491012363456782",
+   "created_at": "2026-07-26T21:25:04Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2081491008613986719",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇫🇷 French Archery Federation dataset allegedly listed for sale A forum actor claims to be selling an updated database tied to the Fédération Française de Tir à l’Arc, France’s national governing body for archery. The seller says the data was obtained through SQL injection and that an earlier version was sold approximately 18 months ago. The listing advertises around 658,000 address records, 378,000 unique email addresses, 354,000 unique phone numbers, 92,600 legal representative records, 15,000 primary accounts, and 27,800 secondary accounts. The allegedly exposed information includes names, contact details, postal addresses, geographic coordinates, usernames, password hashes, authentication statuses, account timestamps, IP addresses, and administrative metadata. This claim is currently unverified.",
+   "url": "https://x.com/DarkWebInformer/status/2081491008613986719",
+   "created_at": "2026-07-26T21:25:03Z",
+   "tags": [
+    "market"
+   ],
+   "score": 0,
+   "text_zh": "🚨🇫🇷 法國射箭聯合會資料集涉嫌出售 一名論壇參與者聲稱正在出售與法國國家射箭管理機構 Fédération Française de Tir à l’Arc 相關的更新資料庫。賣家表示，這些數據是透過 SQL 注入取得的，早期版本大約在 18 個月前出售。該名單廣告了大約 658,000 個地址記錄、378,000 個唯一電子郵件地址、354,000 個唯一電話號碼、92,600 個法定代表人記錄、15,000 個主要帳戶和 27,800 個輔助帳戶。據稱洩露的資訊包括姓名、聯絡資訊、郵政地址、地理座標、用戶名、密碼雜湊、身份驗證狀態、帳戶時間戳記、IP 地址和管理元資料。目前這一說法尚未得到證實。"
+  },
+  {
+   "id": "2081486335894815176",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇰🇷 Access to unnamed South Korean software company allegedly listed for sale A forum actor claims to be selling access to a South Korean company operating in the software and hospitality sectors, with reported annual revenue of approximately $10 million. The listing advertises MariaDB, SSH, and SFTP access across approximately 33 servers. No company name, asking price, sample data, or technical proof of access was publicly provided. This claim is currently unverified.",
+   "url": "https://x.com/DarkWebInformer/status/2081486335894815176",
+   "created_at": "2026-07-26T21:06:29Z",
+   "tags": [
+    "market"
+   ],
+   "score": 0,
+   "text_zh": "🚨🇰🇷 涉嫌掛牌出售的未具名韓國軟體公司的訪問權限 一名論壇參與者聲稱正在出售一家從事軟體和酒店行業運營的韓國公司的訪問權限，據報道，該公司的年收入約為 1000 萬美元。該清單公佈了大約 33 台伺服器的 MariaDB、SSH 和 SFTP 存取權限。沒有公開提供公司名稱、要價、樣本資料或存取技術證明。目前這一說法尚未得到證實。"
+  },
+  {
+   "id": "2081486338872758382",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2081486338872758382",
+   "created_at": "2026-07-26T21:06:29Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
    "id": "2081483702094176504",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -61,8 +245,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "今天我多次嘗試將 XSS 合併到 feed 中，但總是出現 502 錯誤。所以當他們最終齊心協力時，我就能處理好這件事。 🤷‍♀️"
+   "text_zh": "今天我多次嘗試將 XSS 合併到 feed 中，但總是出現 502 錯誤。所以當他們最終齊心協力時，我就能處理好這件事。 🤷‍♀️",
+   "score": 0
   },
   {
    "id": "2081470078378274848",
@@ -74,8 +258,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "兩個域名均已暫停。"
+   "text_zh": "兩個域名均已暫停。",
+   "score": 0
   },
   {
    "id": "2081464572041465979",
@@ -88,8 +272,8 @@
     "ransomware",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "️ 新勒索軟體組織：SECTION9 暗網洋蔥：http://v76bdil3v7hczufr7kwk75eq6oks27d3qwj6v5ajj6v6rubbvwhcq2qd[.]onion"
+   "text_zh": "️ 新勒索軟體組織：SECTION9 暗網洋蔥：http://v76bdil3v7hczufr7kwk75eq6oks27d3qwj6v5ajj6v6rubbvwhcq2qd[.]onion",
+   "score": 5
   },
   {
    "id": "2081454995610710494",
@@ -102,8 +286,8 @@
     "ransomware",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "️新勒索軟體組織：全球秘密組織暗網洋蔥：http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad[.]onion"
+   "text_zh": "️新勒索軟體組織：全球秘密組織暗網洋蔥：http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad[.]onion",
+   "score": 5
   },
   {
    "id": "2081448226863948186",
@@ -115,8 +299,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "影片"
+   "text_zh": "影片",
+   "score": 0
   },
   {
    "id": "2081438240461000717",
@@ -128,8 +312,8 @@
    "tags": [
     "malware"
    ],
-   "score": 2,
-   "text_zh": "R 致 @vxunderground：你們中的許多人最近看到我討論惡意軟體逆向工程的原因是因為我暫時將注意力轉移到惡意軟體防禦上，而不是攻擊上。我一生的大部分時間以及與惡意軟體相關的大部分時間都是在惡意軟體開發中。我喜歡編寫惡意軟體。然而，在過去的幾個月裡，我對惡意軟體的開發感到有點厭倦。我只是有點精疲力盡了。根據我電腦內人員的建議，我決定轉向​​惡意軟體防禦。如果有人還記得的話，我花了一段時間研究 YARA 的內部結構並建立了我自己的 YARA 掃描器。不管怎樣，用棍子攻擊惡意軟體是一件很有趣的事。它讓我更了解什麼能起到進攻作用，什麼不能起到進攻作用。感謝大家向我提供在野外發現的惡意軟體。攻擊隨機惡意軟體比攻擊已經攻擊的惡意軟體更好，因為沒有其他人的研究或筆記的「備忘錄」。我會完全盲目地進去，這很有趣。"
+   "text_zh": "R 致 @vxunderground：你們中的許多人最近看到我討論惡意軟體逆向工程的原因是因為我暫時將注意力轉移到惡意軟體防禦上，而不是攻擊上。我一生的大部分時間以及與惡意軟體相關的大部分時間都是在惡意軟體開發中。我喜歡編寫惡意軟體。然而，在過去的幾個月裡，我對惡意軟體的開發感到有點厭倦。我只是有點精疲力盡了。根據我電腦內人員的建議，我決定轉向​​惡意軟體防禦。如果有人還記得的話，我花了一段時間研究 YARA 的內部結構並建立了我自己的 YARA 掃描器。不管怎樣，用棍子攻擊惡意軟體是一件很有趣的事。它讓我更了解什麼能起到進攻作用，什麼不能起到進攻作用。感謝大家向我提供在野外發現的惡意軟體。攻擊隨機惡意軟體比攻擊已經攻擊的惡意軟體更好，因為沒有其他人的研究或筆記的「備忘錄」。我會完全盲目地進去，這很有趣。",
+   "score": 2
   },
   {
    "id": "2081436506237841643",
@@ -141,8 +325,8 @@
    "tags": [
     "malware"
    ],
-   "score": 3,
-   "text_zh": "> 今天的空閒時間 > 兄弟在做什麼種子電影 .exe > 下載 > 1gb .exe > lmfao 二元膨脹 > bonk bonk > 刪除垃圾 > 壓縮二進位 > 500kb > bonk bonk > 沒有導入 > crt 剝離 > 位置獨立 > 檢查語言 >解密.exe 從內部運行 > 在內存中運行神秘 .exe > .exe 從機器上竊取 goop > bonk bonk > yara 標記為 lumma 竊取者 總的來說，這不是我見過的最偉大的 goop，但我是 free_movie.exe 的忠實粉絲。它是經過 Limewire 2002 年認證的經典之作。膨脹的二進位檔案：e25ae92b95809ee42f61810a0253ead29b3a6aa8adf91f785c80c9bec5f38bd8 剝離的二進位檔案： 732d7a945163a3f31eae25028562bd5d9a352c31eb90c777042bceeeb1c6b3ec記憶體中有效負載（部分重建）： 3e561eecde0071766626d80d6ce3cf1626fb2dbed0ef437948f622c283a0e91e c2: overcjo(.)cyou betavmt(.)cyou hiatuft(.)cyouauditva(."
+   "text_zh": "> 今天的空閒時間 > 兄弟在做什麼種子電影 .exe > 下載 > 1gb .exe > lmfao 二元膨脹 > bonk bonk > 刪除垃圾 > 壓縮二進位 > 500kb > bonk bonk > 沒有導入 > crt 剝離 > 位置獨立 > 檢查語言 >解密.exe 從內部運行 > 在內存中運行神秘 .exe > .exe 從機器上竊取 goop > bonk bonk > yara 標記為 lumma 竊取者 總的來說，這不是我見過的最偉大的 goop，但我是 free_movie.exe 的忠實粉絲。它是經過 Limewire 2002 年認證的經典之作。膨脹的二進位檔案：e25ae92b95809ee42f61810a0253ead29b3a6aa8adf91f785c80c9bec5f38bd8 剝離的二進位檔案： 732d7a945163a3f31eae25028562bd5d9a352c31eb90c777042bceeeb1c6b3ec記憶體中有效負載（部分重建）： 3e561eecde0071766626d80d6ce3cf1626fb2dbed0ef437948f622c283a0e91e c2: overcjo(.)cyou betavmt(.)cyou hiatuft(.)cyouauditva(.",
+   "score": 3
   },
   {
    "id": "md-116986619839314700",
@@ -154,8 +338,8 @@
    "tags": [
     "other"
    ],
-   "score": 3,
-   "text_zh": "儘管政府承諾嚴厲打擊，但美國廣播公司還是繪製了這些很酷的地圖，展示了緬甸今年建造的詐騙場所。 「根據衛星圖像、受害者證詞和當地調查人員的說法，緬甸的詐騙產業正在演變並進入叢林。」https://www. abc.net.au/news/2026-07-21/mya nmar-scam-compounds-exponential-growth/106603324"
+   "text_zh": "儘管政府承諾嚴厲打擊，但美國廣播公司還是繪製了這些很酷的地圖，展示了緬甸今年建造的詐騙場所。 「根據衛星圖像、受害者證詞和當地調查人員的說法，緬甸的詐騙產業正在演變並進入叢林。」https://www. abc.net.au/news/2026-07-21/mya nmar-scam-compounds-exponential-growth/106603324",
+   "score": 3
   },
   {
    "id": "md-116986533493228804",
@@ -167,8 +351,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "移民伊隆馬斯克最近接受了《經濟學人》編輯的採訪。他說了一堆蠢話——例如，到 2036 年，金錢將不存在，每個人都不必再工作，因為人工智慧會為他們做他們的工作。不管怎樣，他現在實際上是在呼籲暗殺這名記者，因為她提出了有關移民的問題。"
+   "text_zh": "移民伊隆馬斯克最近接受了《經濟學人》編輯的採訪。他說了一堆蠢話——例如，到 2036 年，金錢將不存在，每個人都不必再工作，因為人工智慧會為他們做他們的工作。不管怎樣，他現在實際上是在呼籲暗殺這名記者，因為她提出了有關移民的問題。",
+   "score": 0
   },
   {
    "id": "2081353332464001359",
@@ -181,8 +365,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇲🇽 墨西哥政府員工資料涉嫌洩露 一名威脅行為者聲稱洩露了與墨西哥州教育機構 SEP Tlaxcala 相關的員工資料。 * 該清單聲稱 2012 年至 2026 年的員工記錄被揭露。 * 聲稱的資料包括醫療資訊、密碼、電子郵件地址、RFC 稅號、全名和其他人事記錄。 * 賣家聲明資料為 JSON 格式，源自於內部員工文件管理入口網站。 * 樣本記錄已發布，但資料的真實性和所謂的洩漏尚未得到獨立驗證。分析師註釋：如果已證實，包含醫療資訊和身分驗證資料的政府員工記錄的曝光可能會帶來重大的隱私、身分盜竊和憑證外洩風險。各組織在等待官方確認的同時應認真看待這項說法。 #DDW #Intelligence #DarkWeb #Mexico"
+   "text_zh": "🇲🇽 墨西哥政府員工資料涉嫌洩露 一名威脅行為者聲稱洩露了與墨西哥州教育機構 SEP Tlaxcala 相關的員工資料。 * 該清單聲稱 2012 年至 2026 年的員工記錄被揭露。 * 聲稱的資料包括醫療資訊、密碼、電子郵件地址、RFC 稅號、全名和其他人事記錄。 * 賣家聲明資料為 JSON 格式，源自於內部員工文件管理入口網站。 * 樣本記錄已發布，但資料的真實性和所謂的洩漏尚未得到獨立驗證。分析師註釋：如果已證實，包含醫療資訊和身分驗證資料的政府員工記錄的曝光可能會帶來重大的隱私、身分盜竊和憑證外洩風險。各組織在等待官方確認的同時應認真看待這項說法。 #DDW #Intelligence #DarkWeb #Mexico",
+   "score": 2
   },
   {
    "id": "md-116986037351312056",
@@ -194,8 +378,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "英國政府在 TikTok 上投入了全部精力"
+   "text_zh": "英國政府在 TikTok 上投入了全部精力",
+   "score": 0
   },
   {
    "id": "2081336052006953413",
@@ -208,8 +392,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇦🇷 阿根廷國家種子研究所 (INASE) 據稱遭到破壞 一名名為「Ownzs3c」的威脅行為者聲稱已經破壞了阿根廷國家種子研究所 (INASE) 的線上入口網站，該研究所是負責監管該國農業種子產業的政府機構。 * 該行為者聲稱 3,043 人的資料是從該組織的線上入口網站取得的。 * 發布了一個範例螢幕截圖，據稱顯示了姓名、位置、電話號碼和電子郵件地址。 * 威脅行為者包含一條針對阿根廷政府的訊息，並分享了據稱洩露的資料的連結。 * 截至撰寫本文時，尚無獨立機構確認所指控的違規行為或暴露的資料集的真實性。分析師註釋：如果得到證實，該事件可能會使員工、研究人員、農業組織和其他利害關係人面臨有針對性的網路釣魚和社會工程攻擊。所聲稱的違規行為的範圍和真實性尚未得到證實。 #DDW #Intelligence #DarkWeb #Argentina"
+   "text_zh": "🇦🇷 阿根廷國家種子研究所 (INASE) 據稱遭到破壞 一名名為「Ownzs3c」的威脅行為者聲稱已經破壞了阿根廷國家種子研究所 (INASE) 的線上入口網站，該研究所是負責監管該國農業種子產業的政府機構。 * 該行為者聲稱 3,043 人的資料是從該組織的線上入口網站取得的。 * 發布了一個範例螢幕截圖，據稱顯示了姓名、位置、電話號碼和電子郵件地址。 * 威脅行為者包含一條針對阿根廷政府的訊息，並分享了據稱洩露的資料的連結。 * 截至撰寫本文時，尚無獨立機構確認所指控的違規行為或暴露的資料集的真實性。分析師註釋：如果得到證實，該事件可能會使員工、研究人員、農業組織和其他利害關係人面臨有針對性的網路釣魚和社會工程攻擊。所聲稱的違規行為的範圍和真實性尚未得到證實。 #DDW #Intelligence #DarkWeb #Argentina",
+   "score": 3
   },
   {
    "id": "2081334373920407962",
@@ -223,8 +407,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇹🇷 土耳其教育平台資料庫據稱出售 威脅行為者正在宣傳他們聲稱是土耳其線上教育平台 http://cizimokulu.com 的資料庫。 * 此清單宣傳了一個包含約 323,120 行的 SQL 資料庫。 * 該資料庫據稱大小約為 117 MB。 * 賣家將下載隱藏在付費論壇清單後面，並且沒有公開披露樣本資料。 * 在撰寫本文時，沒有獨立驗證資料庫的真實性或 http://cizimokulu.com 已洩露。分析師註：如果該聲明合法，則暴露的使用者資料庫可能包含客戶資訊、帳戶憑證或其他可能促進撞庫、網路釣魚或基於身分的攻擊的敏感記錄。所稱洩密事件的真實性和範圍尚未得到證實。 #DDW #Intelligence #DarkWeb #Türkiye"
+   "text_zh": "🇹🇷 土耳其教育平台資料庫據稱出售 威脅行為者正在宣傳他們聲稱是土耳其線上教育平台 http://cizimokulu.com 的資料庫。 * 此清單宣傳了一個包含約 323,120 行的 SQL 資料庫。 * 該資料庫據稱大小約為 117 MB。 * 賣家將下載隱藏在付費論壇清單後面，並且沒有公開披露樣本資料。 * 在撰寫本文時，沒有獨立驗證資料庫的真實性或 http://cizimokulu.com 已洩露。分析師註：如果該聲明合法，則暴露的使用者資料庫可能包含客戶資訊、帳戶憑證或其他可能促進撞庫、網路釣魚或基於身分的攻擊的敏感記錄。所稱洩密事件的真實性和範圍尚未得到證實。 #DDW #Intelligence #DarkWeb #Türkiye",
+   "score": 3
   },
   {
    "id": "2081333399424299008",
@@ -237,8 +421,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇬🇷 據稱出售希臘商業聯絡人資料庫 一名威脅行為者正在宣傳出售據稱與希臘非營利組織 PASDE (http://pasde.gr) 有關的資料庫。 * 該清單聲稱包含約 60,000 筆業務聯絡記錄。 * 據稱其中包括希臘各地會計師、稅務顧問、經濟學家、高階主管和企業主的聯絡方式。 * 賣家共享的樣本記錄似乎包含姓名、電子郵件地址、電話號碼、實際地址和相關聯絡元資料。 * 在撰寫本文時，沒有獨立驗證該資料庫是真實的或透過 PASDE 妥協獲得的。分析師註釋：如果真實，該資料集可用於針對希臘各地組織的高度針對性的網路釣魚、商業電子郵件洩露 (BEC)、高階主管冒充和財務詐騙活動。 #DDW #Intelligence #DarkWeb #Greece"
+   "text_zh": "🇬🇷 據稱出售希臘商業聯絡人資料庫 一名威脅行為者正在宣傳出售據稱與希臘非營利組織 PASDE (http://pasde.gr) 有關的資料庫。 * 該清單聲稱包含約 60,000 筆業務聯絡記錄。 * 據稱其中包括希臘各地會計師、稅務顧問、經濟學家、高階主管和企業主的聯絡方式。 * 賣家共享的樣本記錄似乎包含姓名、電子郵件地址、電話號碼、實際地址和相關聯絡元資料。 * 在撰寫本文時，沒有獨立驗證該資料庫是真實的或透過 PASDE 妥協獲得的。分析師註釋：如果真實，該資料集可用於針對希臘各地組織的高度針對性的網路釣魚、商業電子郵件洩露 (BEC)、高階主管冒充和財務詐騙活動。 #DDW #Intelligence #DarkWeb #Greece",
+   "score": 3
   },
   {
    "id": "2081331692225155128",
@@ -250,8 +434,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨 Handala 聲稱威斯康辛州 ISP 受到攻擊，聲稱大範圍的互聯網中斷親巴勒斯坦的黑客組織 Handala 聲稱它已經破壞了位於威斯康星州麥迪遜市的互聯網服務提供商 SupraNet Communications 的核心基礎設施。 * 該組織聲稱此攻擊導致大規模的網路中斷，影響企業、政府網路和重要的城市服務。 * Handala 發布了似乎顯示對 ISP 網路管理介面的存取的螢幕截圖，作為所聲稱的入侵的證據。 * 聲明將該事件描述為報復行為，並警告進行更多網路行動。截至撰寫本文時，沒有獨立證據證實 Handala 成功入侵 SupraNet 或報告的中斷是由網路攻擊引起的。在 ISP 或獨立技術分析證實之前，這些聲明應被視為未經驗證。 #DDW #Intelligence #DarkWeb #Wisconsin"
+   "text_zh": "🚨 Handala 聲稱威斯康辛州 ISP 受到攻擊，聲稱大範圍的互聯網中斷親巴勒斯坦的黑客組織 Handala 聲稱它已經破壞了位於威斯康星州麥迪遜市的互聯網服務提供商 SupraNet Communications 的核心基礎設施。 * 該組織聲稱此攻擊導致大規模的網路中斷，影響企業、政府網路和重要的城市服務。 * Handala 發布了似乎顯示對 ISP 網路管理介面的存取的螢幕截圖，作為所聲稱的入侵的證據。 * 聲明將該事件描述為報復行為，並警告進行更多網路行動。截至撰寫本文時，沒有獨立證據證實 Handala 成功入侵 SupraNet 或報告的中斷是由網路攻擊引起的。在 ISP 或獨立技術分析證實之前，這些聲明應被視為未經驗證。 #DDW #Intelligence #DarkWeb #Wisconsin",
+   "score": 2
   },
   {
    "id": "2081331125239067029",
@@ -264,8 +448,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨 Fanjoy 客戶訂單資料庫據稱被洩露 威脅行為者發布了他們聲稱的 Fanjoy（一個有影響力的商品和電子商務平台）的完整客戶訂單資料庫。 * 該清單聲稱包含 487,456 筆 CSV 格式的訂單記錄。 * 據稱暴露的資料包括客戶電子郵件地址、送貨和帳單地址、訂單詳細資料、支付元資料、IP 位址、時間戳記和平台識別碼。 * 根據論壇帖子，資料集的日期為 2025 年 3 月。 * 共享樣本記錄以支持這一說法，但數據的真實性尚未得到獨立驗證。分析師註釋：如果真實，暴露的資訊可能會導致網路釣魚活動、帳戶接管嘗試以及針對客戶的有針對性的詐欺。處理電子商務資料的組織應驗證該聲明，評估潛在的風險，並在確認後通知受影響的使用者。 #DDW #Intelligence #DarkWeb #Fanjoy"
+   "text_zh": "🚨 Fanjoy 客戶訂單資料庫據稱被洩露 威脅行為者發布了他們聲稱的 Fanjoy（一個有影響力的商品和電子商務平台）的完整客戶訂單資料庫。 * 該清單聲稱包含 487,456 筆 CSV 格式的訂單記錄。 * 據稱暴露的資料包括客戶電子郵件地址、送貨和帳單地址、訂單詳細資料、支付元資料、IP 位址、時間戳記和平台識別碼。 * 根據論壇帖子，資料集的日期為 2025 年 3 月。 * 共享樣本記錄以支持這一說法，但數據的真實性尚未得到獨立驗證。分析師註釋：如果真實，暴露的資訊可能會導致網路釣魚活動、帳戶接管嘗試以及針對客戶的有針對性的詐欺。處理電子商務資料的組織應驗證該聲明，評估潛在的風險，並在確認後通知受影響的使用者。 #DDW #Intelligence #DarkWeb #Fanjoy",
+   "score": 3
   },
   {
    "id": "md-116985884020420822",
@@ -277,8 +461,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "XCharge EV 充電站可以透過充電埠遭到駭客攻擊，因為該連接器明顯運行 SSH，並以 root/root 作為預設憑證 https://www。 saiflow.com/blog/the-hidden-cc s2-attack-surface-on-ev-chargers"
+   "text_zh": "XCharge EV 充電站可以透過充電埠遭到駭客攻擊，因為該連接器明顯運行 SSH，並以 root/root 作為預設憑證 https://www。 saiflow.com/blog/the-hidden-cc s2-attack-surface-on-ev-chargers",
+   "score": 1
   },
   {
    "id": "2081329879597912263",
@@ -292,8 +476,8 @@
     "market",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🇷🇸 塞爾維亞 — 據稱出售國家電力公司的 FTP 伺服器存取權限 一名威脅行為者正在地下論壇上出售塞爾維亞國有電力公司 JP Elektroprivreda Srbije (EPS) 的 FTP 伺服器存取權限。 * 賣方聲稱可以透過 FTP 伺服器存取與 JP Elektroprivreda Srbije (EPS) 相關的基礎設施。 * 該訪問權的廣告售價為 4,000 美元。 * 清單中未提供技術細節、螢幕截圖或存取證明。 * 所聲稱的存取權限的真實性尚未經過獨立驗證。分析師註釋：針對關鍵基礎設施組織的初始訪問銷售可以為勒索軟體團體或其他威脅行為者提供資料竊取、橫向移動或營運中斷的立足點。然而，在獨立確認之前，此清單應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #Serbia"
+   "text_zh": "🇷🇸 塞爾維亞 — 據稱出售國家電力公司的 FTP 伺服器存取權限 一名威脅行為者正在地下論壇上出售塞爾維亞國有電力公司 JP Elektroprivreda Srbije (EPS) 的 FTP 伺服器存取權限。 * 賣方聲稱可以透過 FTP 伺服器存取與 JP Elektroprivreda Srbije (EPS) 相關的基礎設施。 * 該訪問權的廣告售價為 4,000 美元。 * 清單中未提供技術細節、螢幕截圖或存取證明。 * 所聲稱的存取權限的真實性尚未經過獨立驗證。分析師註釋：針對關鍵基礎設施組織的初始訪問銷售可以為勒索軟體團體或其他威脅行為者提供資料竊取、橫向移動或營運中斷的立足點。然而，在獨立確認之前，此清單應被視為未經驗證的聲明。 #DDW #Intelligence #DarkWeb #Serbia",
+   "score": 5
   },
   {
    "id": "2081328475869270351",
@@ -306,8 +490,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇦🇪 阿拉伯聯合大公國 — 阿聯酋身分機構入口網站據稱遭到破壞 一名威脅行為者聲稱已經破壞了負責身分、公民身分、簽證和居住服務的阿聯酋政府機構的網站。 * 該貼文針對聯邦身分、公民、海關和港口安全管理局 (ICP)。 * 攻擊者聲稱擁有電子郵件帳號、密碼和管理帳號憑證。 * 該貼文包含一個附件，據稱包含與所聲稱的妥協相關的數據。 * 未提供技術證據或獨立可驗證的證據來確認聲明的真實性。分析師註：這些說法尚未得到證實。鑑於目標機構的關鍵作用，任何涉及管理帳戶的已確認的妥協都可能給政府服務和身分管理系統帶來重大風險。 #DDW #Intelligence #DarkWeb #UAE"
+   "text_zh": "🇦🇪 阿拉伯聯合大公國 — 阿聯酋身分機構入口網站據稱遭到破壞 一名威脅行為者聲稱已經破壞了負責身分、公民身分、簽證和居住服務的阿聯酋政府機構的網站。 * 該貼文針對聯邦身分、公民、海關和港口安全管理局 (ICP)。 * 攻擊者聲稱擁有電子郵件帳號、密碼和管理帳號憑證。 * 該貼文包含一個附件，據稱包含與所聲稱的妥協相關的數據。 * 未提供技術證據或獨立可驗證的證據來確認聲明的真實性。分析師註：這些說法尚未得到證實。鑑於目標機構的關鍵作用，任何涉及管理帳戶的已確認的妥協都可能給政府服務和身分管理系統帶來重大風險。 #DDW #Intelligence #DarkWeb #UAE",
+   "score": 3
   },
   {
    "id": "2081286513787130184",
@@ -321,8 +505,8 @@
     "market",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🇿🇦 南非 — 據稱 MTN 資料外洩 一名威脅行為者聲稱已入侵非洲最大的電信供應商之一 MTN，並指控客戶和員工憑證被盜。 * 論壇貼文聲稱已取得客戶電子郵件地址和密碼。 * 該演員還聲稱大約 2,000 名員工憑證洩露。 * 該貼文並未具體說明哪個 MTN 營運公司或國家受到影響。 * 地下論壇上公佈了下載鏈接，但未提供可驗證的技術證據或資料集詳細資訊。分析師註：這些說法尚未得到證實。鑑於 MTN 遍佈多個非洲市場，在評估全面影響之前，應先確認受影響的業務部門和所指控數據的真實性。 #DDW #Intelligence #DarkWeb #Africa"
+   "text_zh": "🇿🇦 南非 — 據稱 MTN 資料外洩 一名威脅行為者聲稱已入侵非洲最大的電信供應商之一 MTN，並指控客戶和員工憑證被盜。 * 論壇貼文聲稱已取得客戶電子郵件地址和密碼。 * 該演員還聲稱大約 2,000 名員工憑證洩露。 * 該貼文並未具體說明哪個 MTN 營運公司或國家受到影響。 * 地下論壇上公佈了下載鏈接，但未提供可驗證的技術證據或資料集詳細資訊。分析師註：這些說法尚未得到證實。鑑於 MTN 遍佈多個非洲市場，在評估全面影響之前，應先確認受影響的業務部門和所指控數據的真實性。 #DDW #Intelligence #DarkWeb #Africa",
+   "score": 5
   },
   {
    "id": "2081285207743746514",
@@ -335,8 +519,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇪🇸 西班牙 — Nfinite9000 資料據稱外洩 威脅行為者聲稱洩漏了屬於西班牙 IT 服務和雲端解決方案供應商 Nfinite9000 的資料。 * 該論壇貼文針對 Nfinite9000，這是一家提供託管 IT 服務、雲端基礎設施、備份解決方案、電子郵件安全和技術支援的公司。 * 該行為者聲稱洩露了公司的數據並分享了所謂的妥協證據。 * 貼文中沒有提供暴露資料的記錄計數或詳細描述。 * 所指控的違規行為的真實性和範圍尚未經過獨立核實。分析師註釋：如果得到證實，託管 IT 服務提供者的妥協可能會產生更廣泛的下游影響，可能會暴露客戶資訊、基礎設施詳細資訊或可能在後續攻擊中利用的憑證。 #DDW #Intelligence #DarkWeb #Spain"
+   "text_zh": "🇪🇸 西班牙 — Nfinite9000 資料據稱外洩 威脅行為者聲稱洩漏了屬於西班牙 IT 服務和雲端解決方案供應商 Nfinite9000 的資料。 * 該論壇貼文針對 Nfinite9000，這是一家提供託管 IT 服務、雲端基礎設施、備份解決方案、電子郵件安全和技術支援的公司。 * 該行為者聲稱洩露了公司的數據並分享了所謂的妥協證據。 * 貼文中沒有提供暴露資料的記錄計數或詳細描述。 * 所指控的違規行為的真實性和範圍尚未經過獨立核實。分析師註釋：如果得到證實，託管 IT 服務提供者的妥協可能會產生更廣泛的下游影響，可能會暴露客戶資訊、基礎設施詳細資訊或可能在後續攻擊中利用的憑證。 #DDW #Intelligence #DarkWeb #Spain",
+   "score": 3
   },
   {
    "id": "2081283549903094061",
@@ -1080,20 +1264,6 @@
    "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing"
   },
   {
-   "id": "2080769603442000245",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🌐 Coinbase session cookie checker and account takeover service advertised on a cybercrime forum A forum actor is advertising a bot that allegedly checks stolen Coinbase session cookies for account balances, provides access without valid email credentials, and supports rapid withdrawals using methods designed to evade antifraud systems. The listing also advertises 2FA removal for Coinbase, MEXC, Kraken, Bybit, and other cryptocurrency exchanges. The seller says personally sourced material is required and prioritizes stealer logs, macOS logs, RDP access, hVNC, and botnet data. Accounts from the US and UK must reportedly hold at least $1,000, while accounts from Europe and other regions require balances of at least $8,000. Revenue-sharing terms of 60/40 and 50/50 are advertised depending on the account balance. This claim is currently unverified.",
-   "url": "https://x.com/DarkWebInformer/status/2080769603442000245",
-   "created_at": "2026-07-24T21:38:26Z",
-   "tags": [
-    "breach",
-    "malware"
-   ],
-   "score": 2,
-   "text_zh": "🚨🌐 網路犯罪論壇上宣傳的 Coinbase 會話 cookie 檢查器和帳戶接管服務 一名論壇演員正在宣傳一款機器人，據稱該機器人可以檢查被盜的 Coinbase 會話 cookie 的帳戶餘額，無需有效的電子郵件憑證即可提供訪問權限，並支持使用旨在逃避反欺詐系統的方法進行快速提款。該清單還宣傳了 Coinbase、MEXC、Kraken、Bybit 和其他加密貨幣交易所的 2FA 刪除。賣家表示需要個人來源的資料，並優先考慮竊取者日誌、macOS 日誌、RDP 存取、hVNC 和殭屍網路資料。據報道，美國和英國的帳戶必須持有至少 1,000 美元，而歐洲和其他地區的帳戶則要求餘額至少為 8,000 美元。根據帳戶餘額公佈 60/40 和 50/50 的收益分享條款。目前這一說法尚未得到證實。"
-  },
-  {
    "id": "md-116977111885093956",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -1105,124 +1275,6 @@
    ],
    "text_zh": "有人已將 Morrowind 移植到 Web 應用程式 https://morrowind.virtastic.app/ 來源 https://github.com/Virtastic/openmw-web",
    "score": 0
-  },
-  {
-   "id": "2080763480034951492",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2080763480034951492",
-   "created_at": "2026-07-24T21:14:07Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2080763477094969347",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🇻🇪 RDP access to unnamed Venezuelan equipment supplier allegedly listed for sale on a Russian speaking forum A forum actor claims to be selling remote access to the network of a Venezuelan company that supplies industrial, agricultural, and household equipment. The listing says the company has operated for more than 27 years, works with over 600 distributors, and maintains 20 authorized service centers. Its revenue is estimated at between 10 million and 25 million, although no currency was specified. The advertised access allegedly includes an Active Directory user account on a Windows Server 2012 R2 system, Radmin VPN and AnyDesk connectivity, access to networked computers, and approximately 2TB of data. Bitdefender is reportedly installed on the environment. This claim is currently unverified.",
-   "url": "https://x.com/DarkWebInformer/status/2080763477094969347",
-   "created_at": "2026-07-24T21:14:06Z",
-   "tags": [
-    "market"
-   ],
-   "text_zh": "🚨🇻🇪 據稱在俄語論壇上出售的未具名委內瑞拉設備供應商的 RDP 訪問權限 一名論壇演員聲稱正在出售對一家供應工業、農業和家用設備的委內瑞拉公司網絡的遠程訪問權限。清單顯示，該公司已營運超過 27 年，與 600 多家經銷商合作，並擁有 20 個授權服務中心。其收入估計在 1000 萬至 2500 萬之間，但沒有具體說明貨幣。據稱，所公佈的存取權限包括 Windows Server 2012 R2 系統上的 Active Directory 使用者帳戶、Radmin VPN 和 AnyDesk 連線、對連網電腦的存取權限以及大約 2TB 的資料。據報道，環境中安裝了 Bitdefender。目前這一說法尚未得到證實。",
-   "score": 0
-  },
-  {
-   "id": "2080761962242134365",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🇸🇦 GulfJobs[.]com recruitment dataset containing approximately 872,000 records allegedly listed for sale A forum actor claims to be selling data tied to GulfJobs[.]com, a Saudi recruitment platform connecting employers with job candidates. The listing advertises approximately 872,000 entity and metadata records covering candidate contacts, profiles, job applications, authentication logs, and third-party platform mappings. The allegedly exposed information includes names, email addresses, phone numbers, dates of birth, genders, nationalities, home addresses, marital statuses, emergency contacts, passport details, employment histories, skills, salaries, police clearance certificates, résumés, physical attributes, disability information, application statuses, interview results, background checks, visa statuses, and onboarding records. This claim is currently unverified.",
-   "url": "https://x.com/DarkWebInformer/status/2080761962242134365",
-   "created_at": "2026-07-24T21:08:05Z",
-   "tags": [
-    "market"
-   ],
-   "text_zh": "🚨🇸🇦 GulfJobs[.]com 招聘資料集包含約 872,000 條據稱待售的記錄 一名論壇參與者聲稱正在出售與 GulfJobs[.]com 相關的數據，GulfJobs[.]com 是一個連結雇主與求職者的沙烏地阿拉伯招聘平台。該清單公佈了大約 872,000 條實體和元資料記錄，涵蓋候選人聯絡人、個人資料、工作申請、身分驗證日誌和第三方平台映射。據稱暴露的資訊包括姓名、電子郵件地址、電話號碼、出生日期、性別、國籍、家庭住址、婚姻狀況、緊急聯絡人、護照詳細資料、工作經驗、技能、薪資、無犯罪記錄證明、履歷、身體特徵、殘疾資訊、申請狀態、面試結果、背景調查、簽證狀態和入職記錄。目前這一說法尚未得到證實。",
-   "score": 0
-  },
-  {
-   "id": "2080761964452536598",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2080761964452536598",
-   "created_at": "2026-07-24T21:08:05Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2080758795823645047",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🇲🇽 Acomee customer dataset containing more than 17,000 records allegedly leaked A forum actor claims to have leaked data tied to Acomee, a Mexican distributor of telecommunications, networking, surveillance, and electrical equipment. The post advertises slightly more than 17,000 records. The allegedly exposed information includes names, RFC identifiers, email addresses, usernames, password fields, registration dates, street addresses, phone numbers, cities, states, postal codes, account permissions, vendor details, purchasing preferences, marketplace settings, tax regimes, subscription validity dates, account statuses, and internal file references. This claim is currently unverified.",
-   "url": "https://x.com/DarkWebInformer/status/2080758795823645047",
-   "created_at": "2026-07-24T20:55:30Z",
-   "tags": [
-    "breach",
-    "market"
-   ],
-   "text_zh": "🚨🇲🇽 Acomee 客戶資料集據稱洩露了超過 17,000 條記錄 一名論壇參與者聲稱洩露了與墨西哥電信、網路、監控和電氣設備分銷商 Acomee 相關的資料。該帖子公佈了略多於 17,000 條的記錄。據稱暴露的資訊包括姓名、RFC 識別碼、電子郵件地址、使用者名稱、密碼欄位、註冊日期、街道地址、電話號碼、城市、州、郵遞區號、帳戶權限、供應商詳細資料、購買偏好、市場設定、稅務制度、訂閱有效期限、帳戶狀態和內部文件引用。目前這一說法尚未得到證實。",
-   "score": 2
-  },
-  {
-   "id": "2080758798357053458",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2080758798357053458",
-   "created_at": "2026-07-24T20:55:30Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2080756364834488744",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨 CVE-2026-62835: Microsoft Azure Portal Information Disclosure Vulnerability CVE-2026-62835 involves a flaw in the authorization process of Online Services, enabling attackers to access restricted information. The vulnerability documented by this CVE requires no customer action to resolve. CVSS: 9.3 More information: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62835",
-   "url": "https://x.com/DarkWebInformer/status/2080756364834488744",
-   "created_at": "2026-07-24T20:45:50Z",
-   "tags": [
-    "vuln"
-   ],
-   "score": 4,
-   "text_zh": "🚨 CVE-2026-62835：Microsoft Azure 入口網站資訊外洩漏洞 CVE-2026-62835 涉及線上服務授權過程中的缺陷，使攻擊者能夠存取受限資訊。此 CVE 記錄的漏洞不需要客戶執行任何操作即可解決。 CVSS：9.3 更多資訊：https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62835"
-  },
-  {
-   "id": "2080754891169862062",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: Credit: @aniqfakhrul",
-   "url": "https://x.com/DarkWebInformer/status/2080754891169862062",
-   "created_at": "2026-07-24T20:39:59Z",
-   "tags": [
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "R 致@DarkWebInformer：信用：@aniqfakhrul"
-  },
-  {
-   "id": "2080747608356839902",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "There was a response by OpenMonero on Dread in regards to them being hacked. I'm simply providing that here so anyone can follow the thread. I would obviously not recommend using their platform. Dread Thread: https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad[.]onion/post/351ff3a74f3414b560f1",
-   "url": "https://x.com/DarkWebInformer/status/2080747608356839902",
-   "created_at": "2026-07-24T20:11:02Z",
-   "tags": [
-    "other"
-   ],
-   "score": 1,
-   "text_zh": "OpenMonero 在 Dread 上就其被駭客攻擊做出了回應。我只是在這裡提供這一點，以便任何人都可以關注該主題。我顯然不推薦使用他們的平台。可怕的線程：https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad[.]onion/post/351ff3a74f3414b560f1"
   },
   {
    "id": "md-116976590671749553",
@@ -1975,20 +2027,6 @@
    "score": 2
   },
   {
-   "id": "2080017418647167040",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🚨 LAPSUS$-Branded Site Announces “Permanent” Shutdown A website presenting itself as official LAPSUS$ infrastructure has published a PGP-signed message claiming the extortion group is permanently ending all operations. * The statement says the group achieved its financial objectives. * It claims there will be no further leaks, communications, or access sales. * The message also mocks investigators and other cybercrime actors. * The identity of the site’s current operators has not been independently verified. Analyst Note: Cybercrime groups frequently announce retirements before rebranding, fragmenting, or returning under new infrastructure. Until the PGP signature and operators behind lapsus[.]bz are independently authenticated, this should be treated as a claimed shutdown—not definitive proof that LAPSUS$ activity has ended. #DDW #Intelligence #DarkWeb #LAPSUS",
-   "url": "https://x.com/DailyDarkWeb/status/2080017418647167040",
-   "created_at": "2026-07-22T19:49:32Z",
-   "tags": [
-    "breach",
-    "darkweb"
-   ],
-   "text_zh": "🚨 LAPSUS$ 品牌網站宣布「永久」關閉 一個自稱是 LAPSUS$ 官方基礎設施的網站發布了一條 PGP 簽名的消息，聲稱勒索組織將永久結束所有運營。 * 聲明稱該集團實現了其財務目標。 * 它聲稱不會有進一步的洩密、通訊或訪問銷售。 * 該訊息還嘲笑調查人員和其他網路犯罪行為者。 * 該網站目前營運商的身份尚未經過獨立驗證。分析師註：網路犯罪組織經常在品牌重塑、分裂或回歸新基礎設施之前宣布退出。在 PGP 簽名和 lapsus[.]bz 背後的操作員經過獨立驗證之前，這應被視為聲稱的關閉，而不是 LAPSUS$ 活動已結束的明確證據。 #DDW #Intelligence #DarkWeb #LAPSUS",
-   "score": 2
-  },
-  {
    "id": "2079943711056691240",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -2410,19 +2448,6 @@
    "score": 2
   },
   {
-   "id": "2079221093873635786",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "> be me > sleepin good > hear wife scream > ??? > throws open bedroom door > \"I NEED HELP\" > ??? > get up > run into living room > baby boy took off diaper > pooped on floor > stepped on poop > poopy foot prints all over house",
-   "url": "https://x.com/vxunderground/status/2079221093873635786",
-   "created_at": "2026-07-20T15:05:13Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "> 做我自己 > 睡得很好 > 聽到妻子尖叫 > ??? > 打開臥室門 > “我需要幫助” > ??? > 起身 > 跑進客廳 > 男嬰脫掉尿布 > 便便在地板上 > 踩到便便 > 房子裡到處都是便便的腳印",
-   "score": 0
-  },
-  {
    "id": "2079156570974265709",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -2546,32 +2571,6 @@
    ],
    "text_zh": "#HOLLOWGRAPH 是一種新發現的 Windows 惡意軟體，與 Cavern 框架高度相關。 #malware 濫用 Microsoft Graph API 和受損的 #Microsoft365 郵箱，將受害者的日曆轉變為用於命令和控制和資料外洩的雙向死點，同時將惡意流量混合到合法的 Microsoft 雲端通訊中。 #網路安全",
    "score": 6
-  },
-  {
-   "id": "2079079124673368104",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: Wait, no. The C2 domain changed and the C2 blocked my IP. Give me your goopies.",
-   "url": "https://x.com/vxunderground/status/2079079124673368104",
-   "created_at": "2026-07-20T05:41:05Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "R 對@vxunderground：等等，不。 C2 網域發生變化，C2 封鎖了我的 IP。把你的果醬給我。",
-   "score": 1
-  },
-  {
-   "id": "2079077631144726665",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "Found a compromised website with ClickFix that successfully bypasses uBlock. The ClickFix payload uses LOLBINs and uses a WebDAV server. It was promising. The C2 is dead. YOU LIED TO ME",
-   "url": "https://x.com/vxunderground/status/2079077631144726665",
-   "created_at": "2026-07-20T05:35:09Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "使用 ClickFix 發現了一個受感染的網站，該網站成功繞過了 uBlock。 ClickFix 有效負載使用 LOLBIN 並使用 WebDAV 伺服器。這是有希望的。 C2已經死了。你對我撒謊了",
-   "score": 1
   },
   {
    "id": "2079008396192239781",
