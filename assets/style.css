@@ -75,6 +75,7 @@ button{font:inherit;cursor:pointer}
 
 /* ---------- hero ---------- */
 .hero{
+  position:relative;
   max-width:1180px;margin:0 auto;padding:3rem 1.4rem 1.4rem;
   display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1.5rem;align-items:center;
 }
@@ -362,8 +363,83 @@ footer .foot-line .dot-blue{color:var(--blue)}
   .watch-wrap{margin-left:0;width:100%}
 }
 @media (max-width:720px){
-  .hero{grid-template-columns:1fr}
-  .hero-art{display:none}
+  .hero{grid-template-columns:1fr;gap:0}
+  .hero-art{
+    position:absolute;top:.6rem;right:1.1rem;width:92px;
+    animation:none;filter:drop-shadow(0 6px 14px rgba(139,48,240,.28));
+  }
+  .eyebrow,.hero h1{padding-right:104px}
+}
+
+/* ---------- dedicated phone layout ---------- */
+@media (max-width:640px){
+  body{font-size:14px}
+
+  /* compact top bar: no clock, tighter switcher */
+  .topbar{padding:.5rem .9rem}
+  .clock{display:none}
+  .brand{font-size:.92rem;letter-spacing:.16em}
+  .lang-switch button{padding:.34rem .7rem;font-size:.78rem}
+
+  /* compact hero */
+  .hero{padding:1.6rem .95rem 1rem}
+  .hero h1{font-size:1.55rem}
+  .eyebrow{font-size:.6rem;letter-spacing:.2em;margin-bottom:.45rem}
+  .tagline{font-size:.82rem;margin-bottom:.9rem}
+
+  /* single-line horizontally scrollable pill/chip rows */
+  .meta-row,.chip-row{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:.2rem;
+  }
+  .meta-row::-webkit-scrollbar,.chip-row::-webkit-scrollbar{display:none}
+  .meta-pill,.chip{flex:none;white-space:nowrap}
+  .chip{padding:.42rem .85rem}
+  .chip-label{position:sticky;left:0;background:linear-gradient(90deg,var(--bg) 70%,transparent);padding-right:.3rem}
+
+  /* alert bar */
+  .alert-bar{padding:.65rem .8rem;gap:.55rem}
+  .alert-text{font-size:.82rem}
+  .alert-view{flex:none}
+  .kw-input{min-width:0;max-width:none;flex:1 1 100%}
+
+  /* full-width segmented tabs */
+  .page-tabs{padding:.9rem .95rem 0;display:grid;grid-template-columns:1fr 1fr;gap:.45rem}
+  .tab{text-align:center;padding:.55rem .4rem}
+
+  .controls{padding:.8rem .95rem 1rem}
+  .search{max-width:none;padding:.62rem 1rem}
+
+  /* accounts become a horizontally scrolling strip ABOVE the feed */
+  .layout{padding:0 .95rem 2.2rem;gap:1rem}
+  .layout>*,.sidebar,.hero-text{min-width:0;max-width:100%}
+  .sidebar{order:0}
+  #account-list{
+    display:flex;gap:.5rem;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:.35rem;
+  }
+  #account-list::-webkit-scrollbar{display:none}
+  .account{
+    flex:none;width:auto;min-width:0;margin-bottom:0;
+    padding:.5rem .7rem;border-radius:999px;
+  }
+  .account:hover{transform:none}
+  .account .desc,.account .count{display:none}
+  .acc-head{gap:.45rem}
+  .ava{width:26px;height:26px;font-size:.8rem}
+  .account .handle{font-size:.76rem}
+  .account .cat{display:none}
+
+  /* tighter cards */
+  .card{padding:.72rem .8rem .68rem 1rem;border-radius:12px}
+  .card-text{font-size:.85rem}
+  .card-head .handle{font-size:.8rem}
+  .card-head time{margin-left:0;width:100%;font-size:.68rem}
+  .open-link{font-size:.68rem}
+
+  .empty{padding:1.6rem .8rem 1.8rem}
+  .empty svg{width:104px}
+  footer{padding:1.1rem .95rem 1.8rem;font-size:.74rem}
 }
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
