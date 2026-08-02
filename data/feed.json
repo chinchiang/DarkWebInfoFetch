@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-02T07:08:25Z",
+ "generated_at": "2026-08-02T21:15:37Z",
  "source": "nitter",
- "new_count": 10,
+ "new_count": 31,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -52,6 +52,431 @@
  },
  "posts": [
   {
+   "id": "2084022941365231984",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇰🇷 South Korea: Automotive Manufacturer Database Allegedly Offered for Sale A threat actor is advertising what they claim is a full infrastructure database dump belonging to South Korean automotive parts manufacturer Namyang Industrial Co., Ltd., now operating as Namyang Nexmo. * The seller claims the dataset originates from internal infrastructure rather than the public website. * Allegedly affected data includes manufacturing information, customer records, supplier and partner data, employer information, and internal business records. * The post claims 559 database tables totaling approximately 17.6 million rows and around 2.5 GB of CSV data. * The dataset is being advertised for sale for $40,000, with the actor claiming discounts for interested buyers. * There is currently no public confirmation from Namyang Nexmo that validates the authenticity of the claimed data. Analyst Note: If the claims are legitimate, exposure of manufacturing, supplier, and customer data could present significant supply chain, intellectual property, and operational security risks. Organizations with business relationships to the company should monitor for official notifications and verify any potential downstream impact before taking action. #DDW #Intelligence #DarkWeb #SouthKorea",
+   "url": "https://x.com/DailyDarkWeb/status/2084022941365231984",
+   "created_at": "2026-08-02T21:06:03Z",
+   "tags": [
+    "breach",
+    "market",
+    "darkweb"
+   ],
+   "score": 3
+  },
+  {
+   "id": "2084020373671018797",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "coldcardpass[.]com -> coldcard[.]com IP: 75[.]126[.]104[.]235",
+   "url": "https://x.com/DarkWebInformer/status/2084020373671018797",
+   "created_at": "2026-08-02T20:55:50Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "Coldcardpass[.]com -> Coldcard[.]com IP：75[.]126[.]104[.]235"
+  },
+  {
+   "id": "2084019291209224613",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇲🇽 Mexico: Alleged Nayarit State Health System Database Offered on Cybercrime Forum A threat actor has claimed to possess and publish data allegedly belonging to the Nayarit State Health System (Sistema de Salud del Estado de Nayarit) in Mexico. * The post claims approximately 60,184 records are included. * Sample fields shown include patient identifiers (IdPaciente), names, and other healthcare-related database fields. * The actor branded the leak under the \"#Order403\" banner and provided a sample dataset. * At the time of writing, there is no public confirmation from the Nayarit State Health System or Mexican authorities verifying the authenticity of the alleged breach. Analyst Note: Healthcare organizations remain a prime target due to the high value of medical and personally identifiable information (PII). If authentic, exposed patient records could facilitate identity theft, healthcare fraud, targeted phishing, and long-term privacy risks. The authenticity and scope of the claimed dataset should be independently verified before drawing conclusions. #DDW #Intelligence #DarkWeb #Mexico",
+   "url": "https://x.com/DailyDarkWeb/status/2084019291209224613",
+   "created_at": "2026-08-02T20:51:32Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇲🇽 墨西哥：網路犯罪論壇上提供涉嫌納亞里特州衛生系統資料庫 一名威脅行為者聲稱擁有並發布據稱屬於墨西哥納亞里特州衛生系統 (Sistema de Salud del Estado de Nayarit) 的資料。 * 該貼文聲稱其中包含約 60,184 筆記錄。 * 顯示的範例欄位包括病患識別碼 (IdPaciente)、姓名和其他與醫療保健相關的資料庫欄位。 * 攻擊者將此次洩漏標記為“#Order403”，並提供了樣本資料集。 * 截至本文撰寫時，納亞里特州衛生系統或墨西哥當局尚未公開確認所指控的違規行為的真實性。分析師註釋：由於醫療和個人識別資訊 (PII) 的高價值，醫療保健組織仍然是主要目標。如果真實，暴露的患者記錄可能會助長身分盜竊、醫療詐欺、有針對性的網路釣魚和長期隱私風險。在得出結論之前，應獨立驗證所主張的資料集的真實性和範圍。 #DDW #Intelligence #DarkWeb #Mexico"
+  },
+  {
+   "id": "2084018456136167839",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇫🇷 France: Threat Actor Claims Access to ENI Pro Portal, Alleges Customer PDF Leak A threat actor has posted screenshots and claims of unauthorized access to ENI France's professional customer portal, alleging that customer documents were previously sold and are now being leaked. * The actor claims they obtained administrative access in October 2025 using credentials acquired through a phishing campaign. * According to the post, customer PDF documents were allegedly sold in December 2025 and a portion of the data is now being released publicly. * Screenshots appear to show an administrative interface listing customer accounts and management functions. * The threat actor also claims additional databases and information obtained during the intrusion may be released in the future. * No independent evidence currently confirms the authenticity of the claims or the extent of any alleged compromise. Analyst Note: Threat actor statements should be treated as unverified until confirmed by ENI France or supported by independent forensic evidence. If the claims are legitimate, compromised customer documents and administrative portal access could expose sensitive business information and facilitate fraud or follow-on phishing attacks. #DDW #Intelligence #DarkWeb #France",
+   "url": "https://x.com/DailyDarkWeb/status/2084018456136167839",
+   "created_at": "2026-08-02T20:48:13Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇫🇷法國：威脅行為者聲稱可以訪問 ENI Pro 門戶，聲稱客戶 PDF 洩露 威脅行為者發布了屏幕截圖並聲稱未經授權訪問 ENI 法國專業客戶門戶，聲稱客戶文件之前已被出售，現在正在洩露。 * 該攻擊者聲稱他們於 2025 年 10 月使用透過網路釣魚活動獲得的憑證獲得了管理存取權限。 * 根據該帖子，據稱客戶 PDF 文件於 2025 年 12 月出售，部分資料現已公開。 * 螢幕截圖顯示了列出客戶帳戶和管理功能的管理介面。 * 威脅行為者還聲稱，未來可能會發佈在入侵期間獲得的其他資料庫和資訊。 * 目前沒有獨立證據證實這些說法的真實性或任何所謂妥協的程度。分析師註釋：在獲得 ENI France 確認或獲得獨立法醫證據支持之前，威脅行為者的聲明應被視為未經驗證。如果索賠是合法的，受損的客戶文件和管理入口網站存取可能會暴露敏感的業務資訊並促進詐欺或後續的網路釣魚攻擊。 #DDW #Intelligence #DarkWeb #France"
+  },
+  {
+   "id": "2084016783476867580",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇲🇽 Mexico: Alleged CDMX SUAC 0311 Citizen Database Advertised on Cybercrime Forum A threat actor is advertising what they claim is a database associated with Mexico City's SUAC 0311 citizen service platform. * The listing claims to contain 363,954 citizen records. * The sample displayed includes fields such as first name, paternal surname, maternal surname, RFC, address, municipality, state, street, gender, postal code, and telephone-related information. * The post identifies the target as SUAC 0311 (Locatel), a Mexico City government citizen-service system. * A contact channel is provided for interested parties, indicating the dataset is being offered for distribution. * The authenticity, origin, and scope of the alleged dataset have not been independently verified. Analyst Note: If authentic, exposure of citizen-service records could facilitate identity theft, phishing, and social engineering by combining contact details with government-related identifiers. Until confirmed by Mexican authorities or supported by independent technical evidence, this should be treated as an unverified breach claim. #DDW #Intelligence #DarkWeb #Mexico",
+   "url": "https://x.com/DailyDarkWeb/status/2084016783476867580",
+   "created_at": "2026-08-02T20:41:34Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇲🇽 墨西哥：涉嫌 CDMX SUAC 0311 公民資料庫在網路犯罪論壇上刊登廣告 威脅行為者正在宣傳他們聲稱與墨西哥城 SUAC 0311 公民服務平台相關的資料庫。 * 該清單聲稱包含 363,954 筆公民記錄。 * 顯示的範例包括名字、父姓、母姓、RFC、地址、市、州、街道、性別、郵遞區號和電話相關資訊等欄位。 * 該貼文將目標確定為 SUAC 0311 (Locatel)，墨西哥城政府公民服務系統。 * 為感興趣的各方提供了聯繫管道，表明資料集正在提供分發。 * 所稱資料集的真實性、來源和範圍尚未經過獨立驗證。分析師註釋：如果真實，公民服務記錄的暴露可能會透過將聯絡資訊與政府相關識別碼結合，促進身分盜竊、網路釣魚和社會工程。在得到墨西哥當局確認或得到獨立技術證據支持之前，這應被視為未經證實的違規索賠。 #DDW #Intelligence #DarkWeb #Mexico"
+  },
+  {
+   "id": "2084014655517925677",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇦🇪 UAE: Threat Actor Shares Alleged Passport Database A cybercrime forum user has posted what they claim is a UAE passport database and provided a download link. * The listing is titled \"UAE Passport Database.\" * The actor states they are \"not sure if this has been released\" previously, suggesting the dataset may be a repost rather than a newly obtained breach. * No information is provided regarding the source, record count, affected organization, or alleged acquisition method. * The post does not include a sample or technical evidence supporting the claim. * At the time of publication, there is no independent confirmation that the dataset is authentic or linked to any official UAE government system. Analyst Note: Claims involving national identity or passport data require a high standard of verification. Without supporting evidence or independent validation, this should be treated as an unverified data-sharing claim rather than confirmation of a breach involving UAE passport records. #DDW #Intelligence #DarkWeb #UAE",
+   "url": "https://x.com/DailyDarkWeb/status/2084014655517925677",
+   "created_at": "2026-08-02T20:33:07Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🇦🇪 阿聯酋：威脅行為者共享所謂的護照資料庫 一名網路犯罪論壇用戶發布了他們聲稱的阿聯酋護照資料庫，並提供了下載連結。 * 此清單的標題為「阿聯酋護照資料庫」。 * 該行為者表示，他們之前“不確定該數據是否已發布”，這表明該數據集可能是重新發布的，而不是新獲得的洩露數據。 * 未提供有關來源、記錄數、受影響的組織或所謂的獲取方法的資訊。 * 該貼文不包含支持該主張的樣本或技術證據。 * 在發佈時，沒有獨立確認該資料集是真實的或與任何官方阿聯酋政府系統相關聯。分析師註釋：涉及國民身分或護照資料的聲明需要高標準的驗證。如果沒有支持證據或獨立驗證，這應被視為未經驗證的資料共享聲明，而不是確認涉及阿聯酋護照記錄的違規行為。 #DDW #Intelligence #DarkWeb #UAE"
+  },
+  {
+   "id": "2084013216821080536",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇨🇴 Colombia: Alleged Ecomix Database Shared on Cybercrime Forum A cybercrime forum user has posted what they claim is a database associated with http://Ecomix.com.co. * The post provides a direct download link to an alleged Ecomix database. * The actor states they are \"not sure if this was released\" previously, suggesting it may be a repost rather than an original breach. * No details are provided regarding the number of records, affected individuals, data types, or the alleged intrusion method. * No sample data or technical evidence accompanies the listing. * At the time of publication, there is no independent confirmation that the dataset is authentic or that Ecomix experienced a security breach. Analyst Note: Listings that lack samples, record counts, or technical details should be treated with caution. Without independent validation, this should be classified as an unverified database-sharing claim rather than a confirmed breach. #DDW #Intelligence #DarkWeb #Colombia",
+   "url": "https://x.com/DailyDarkWeb/status/2084013216821080536",
+   "created_at": "2026-08-02T20:27:24Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇨🇴哥倫比亞：涉嫌在網路犯罪論壇上分享 Ecomix 資料庫 一名網路犯罪論壇使用者發布了他們聲稱與 http://Ecomix.com.co 相關的資料庫。 * 该帖子提供了指向所谓的 Ecomix 数据库的直接下载链接。 * 该演员表示，他们“不确定这是否已发布”，这表明这可能是转发而不是原始违规行为。 * 没有提供有关记录数量、受影响的个人、数据类型或涉嫌入侵方法的详细信息。 * 列表中没有附带样本数据或技术证据。 * 在发布时，没有独立确认该数据集是真实的或 Ecomix 遇到了安全漏洞。分析师注释：应谨慎对待缺乏样本、记录计数或技术细节的列表。如果没有独立验证，这应该被归类为未经验证的数据库共享声明，而不是已确认的违规行为。 #DDW #Intelligence #DarkWeb #Colombia"
+  },
+  {
+   "id": "2084011592803401870",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇨🇳 China: Threat Actor Claims Sale of Alleged Meituan Database Containing 1 Billion Records A threat actor is advertising what they claim is a database associated with Meituan, one of China’s largest local-services and e-commerce platforms. * The listing claims the dataset contains approximately 1 billion user records. * The seller is offering the alleged database for $2,500 and provides a sample intended to demonstrate authenticity. * The post does not clearly identify the exposed data fields, acquisition method, or date of the alleged compromise. * The claimed volume is exceptionally large and may represent aggregated, duplicated, historical, or misrepresented data rather than 1 billion unique users. * At the time of publication, there is no public confirmation from Meituan that the dataset is authentic or that a new security incident has occurred. Analyst Note: Extraordinary record-count claims require heightened scrutiny. Until the sample is independently validated and the dataset’s provenance, uniqueness, and recency are established, this should be treated as an unverified dark web sale claim. #DDW #Intelligence #DarkWeb #China",
+   "url": "https://x.com/DailyDarkWeb/status/2084011592803401870",
+   "created_at": "2026-08-02T20:20:57Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇨🇳 中國：威脅行為者聲稱出售涉嫌包含 10 億筆記錄的美團資料庫 威脅行為者正在宣傳他們聲稱與中國最大的本地服務和電子商務平台之一美團相關的資料庫。 * 清單聲稱該資料集包含約 10 億筆使用者記錄。 * 賣家以 2,500 美元的價格提供所謂的資料庫，並提供旨在證明真實性的樣本。 * 該貼文沒有明確指出暴露的資料欄位、取得方法或涉嫌外洩的日期。 * 所聲稱的數據量非常大，可能代表聚合、重複、歷史或歪曲的數據，而不是 10 億唯一用戶。 * 截至發佈時，美團尚未公開確認該資料集的真實性或發生了新的安全事件。分析師註釋：數量超乎尋常的創紀錄索賠要求需要加強審查。在樣本經過獨立驗證並確定資料集的出處、唯一性和新近度之前，這應被視為未經驗證的暗網銷售聲明。 #DDW #Intelligence #DarkWeb #China"
+  },
+  {
+   "id": "2084010131826569671",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇵🇹 Portugal: Alleged Plano Nacional de Cinema Database Leaked A threat actor has published what they claim is a database associated with Portugal’s Plano Nacional de Cinema (PNC), a government-backed film education initiative. * The post claims the database was uploaded for free download. * The listing identifies http://pnc.gov.pt as the affected platform. * Plano Nacional de Cinema supports film education in schools through cooperation between Portuguese government ministries. * The forum post provides only limited detail regarding the number of records, exposed fields, or the alleged intrusion method. * The authenticity, origin, and scope of the claimed dataset have not been independently verified. Analyst Note: Government education platforms may contain staff, school, partner, or account information that could support phishing and impersonation if exposed. Until validated by Portuguese authorities or independent technical evidence, this should be treated as an unverified leak claim. #DDW #Intelligence #DarkWeb #Portugal",
+   "url": "https://x.com/DailyDarkWeb/status/2084010131826569671",
+   "created_at": "2026-08-02T20:15:09Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇵🇹葡萄牙：據稱 Plano Nacional de Cinema 資料庫洩露 一名威脅行為者發布了他們聲稱與葡萄牙 Plano Nacional de Cinema (PNC) 相關的資料庫，該資料庫是政府支持的電影教育計劃。 * 該貼文聲稱該資料庫已上傳供免費下載。 * 此清單將 http://pnc.gov.pt 標識為受影響的平台。 * Plano Nacional de Cinema 透過葡萄牙政府部門之間的合作支持學校的電影教育。 * 論壇貼文僅提供有關記錄數量、暴露欄位或涉嫌入侵方法的有限詳細資訊。 * 所聲稱資料集的真實性、來源和範圍尚未經過獨立驗證。分析師註釋：政府教育平台可能包含員工、學校、合作夥伴或帳戶訊息，一旦暴露，這些資訊可能支持網路釣魚和冒充。在得到葡萄牙當局或獨立技術證據驗證之前，這應被視為未經驗證的洩漏聲明。 #DDW #Intelligence #DarkWeb #Portugal"
+  },
+  {
+   "id": "2084009011964239983",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🇺🇸 United States: Alleged IPRO Customer Database Published on Cybercrime Forum A threat actor has published what they claim is a complete customer database associated with IPRO, an eDiscovery and legal data-management platform. * The listing claims the dataset contains approximately 60,000 records. * The sample appears to include customer account IDs, organization names, account status, addresses, country, customer type, payment terms, timestamps, and internal client-account identifiers. * The actor provided a download link and described the archive as IPRO’s full customer database. * Because IPRO serves law firms, corporations, and government organizations, authentic customer records could also reveal sensitive business relationships and client metadata. * The origin, completeness, and authenticity of the dataset have not been independently verified. Analyst Note: The sample appears focused on customer-account metadata rather than legal case files. Even so, exposure could support targeted phishing, vendor impersonation, and attacks against organizations identified as IPRO customers. The claim should remain classified as unverified pending confirmation from IPRO or independent technical validation. #DDW #Intelligence #DarkWeb #IPRO",
+   "url": "https://x.com/DailyDarkWeb/status/2084009011964239983",
+   "created_at": "2026-08-02T20:10:42Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "🇺🇸 美國：在網路犯罪論壇上發布了所謂的 IPRO 客戶資料庫 威脅行為者發布了他們聲稱的與 IPRO（電子取證和法律資料管理平台）相關的完整客戶資料庫。 * 列表声称数据集包含大约 60,000 条记录。 * 範例似乎包括客戶帳戶 ID、組織名稱、帳戶狀態、地址、國家/地區、客戶類型、付款條件、時間戳記和內部客戶帳戶識別碼。 * 该行为者提供了下载链接，并将该存档描述为 IPRO 的完整客户数据库。 * 由於 IPRO 為律師事務所、企業和政府組織提供服務，因此真實的客戶記錄也可能洩露敏感的業務關係和客戶元資料。 * 数据集的来源、完整性和真实性尚未经过独立验证。分析师注释：该示例似乎侧重于客户帐户元数据而不是法律案件文件。即便如此，暴露可能会支持有针对性的网络钓鱼、供应商假冒以及针对被识别为 IPRO 客户的组织的攻击。该声明应保持分类为未经验证，等待 IPRO 或独立技术验证的确认。 #DDW #Intelligence #DarkWeb #IPRO"
+  },
+  {
+   "id": "2084007429873033354",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "🌍 Mercor: Threat Actor Claims Breach Exposing Biometric and Personal Data A threat actor has claimed responsibility for compromising Mercor and is advertising access to data allegedly taken from the platform. * The post claims the exposed information includes personally identifiable information, high-definition facial videos, voice recordings, and other biometric data associated with registered users. * The actor states that samples are available to prospective buyers as proof of authenticity. * The listing also references “Lapsus$,” although the claimed affiliation has not been independently verified. * No record count, intrusion method, or timeline is provided in the post. * At the time of publication, there is no public confirmation from Mercor that the claim is authentic or that a breach has occurred. Analyst Note: Biometric data cannot be reset like a password. If the claim is genuine, exposed facial and voice recordings could support identity fraud, deepfake-enabled impersonation, and highly targeted social engineering. The listing should be treated as an unverified breach claim pending independent validation. #DDW #Intelligence #DarkWeb #Mercor",
+   "url": "https://x.com/DailyDarkWeb/status/2084007429873033354",
+   "created_at": "2026-08-02T20:04:24Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🌍 Mercor：威脅行為者聲稱違規行為暴露了生物識別和個人資料威脅行為者聲稱對損害 Mercor 負有責任，並正在宣傳對據稱從該平台獲取的資料的存取權。 * 該貼文聲稱暴露的資訊包括個人識別資訊、高畫質臉部影片、錄音以及與註冊用戶相關的其他生物辨識資料。 * 該演員表示，潛在買家可以獲得樣品作為真實性的證明。 * 該清單還引用了“Lapsus$”，儘管所聲稱的隸屬關係尚未經過獨立驗證。 * 貼文中沒有提供記錄數、入侵方法或時間軸。 * 截至發佈時，美科尚未公開確認該聲明的真實性或是否發生了違規行為。分析師註：生物特徵資料不能像密碼一樣重設。如果該說法屬實，那麼暴露的臉部和語音記錄可能支持身份詐欺、深度造假和高度針對性的社會工程。該清單應被視為未經驗證的違規索賠，有待獨立驗證。 #DDW #Intelligence #DarkWeb #Mercor"
+  },
+  {
+   "id": "2083996888349413859",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇨🇱 ESCIPOL student records and photographs allegedly leaked ⠀ A forum actor claims to have leaked data belonging to Chile’s Escuela de Investigaciones Policiales, the training academy associated with the Policía de Investigaciones de Chile. ⠀ The 252MB collection allegedly includes student, applicant, instructor and academic records, including: ⠀ • RUT national identification numbers • Student and applicant names • Dates and places of birth • Gender and marital status • Phone numbers and email addresses • Course and graduation-year information • Student photographs • Instructor names and identification numbers • Subjects, grades and curriculum details • Evaluation answers and completion statuses • Current enrollment and probation statuses ⠀ The post references 160 detailed student records, 170 academic-grade records and 960 additional student records. Samples containing personal information and student photographs. ⠀ This claim is currently unverified. ⠀ 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083996888349413859",
+   "created_at": "2026-08-02T19:22:31Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇨🇱 ESCIPOL 學生記錄和照片涉嫌洩露 ⠀ 一名論壇演員聲稱洩露了屬於智利警察調查學院（Escuela de Investigaciones Policiales）的數據，該學院是與智利警察局相關的培訓學院。 ⠀ 據稱，252MB 的集合包括學生、申請人、教師和學術記錄，包括： ⠀ • RUT 國民身分證號碼 • 學生和申請人姓名 • 出生日期和地點 • 性別和婚姻狀況 • 電話號碼和電子郵件地址 • 課程和畢業年份資訊 • 學生照片 • 教師姓名和身分證文章 1060 篇文章60 • 文章完成了文章和資格 1601 完成了當前狀態16010 • 入學文章10 • 10601 20167060 • 201670167006067606067606760676767606767676767676767年資料狀況：份詳細的學生記錄，170學術成績記錄和 960 筆額外的學生記錄。包含個人資訊和學生照片的樣本。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083993409673412836",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "‼️ An actor is seeking to recruit insider employees with high-privilege access to customer data at companies earning over €10 million in yearly revenue, offering 50% profit share for assistance in gaining unauthorized access. 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083993409673412836",
+   "created_at": "2026-08-02T19:08:42Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "️ 一名行動者正在尋求招募年收入超過 1000 萬歐元的公司中擁有高權限存取客戶資料的內部員工，並提供 50% 的利潤分成，以幫助獲得未經授權的存取。 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "md-117027433324235491",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Two design companies, S&A and Playtype, have created a font that fools AI scrappers and protects copyrighted text https:// s-a.website/projects/shieldfont",
+   "url": "https://mastodon.social/@campuscodi/117027433324235491",
+   "created_at": "2026-08-02T18:55:19Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "S&A 和 Playtype 兩家設計公司創建了一種字體，可以欺騙 AI 抓取者並保護受版權保護的文字 https://s-a.website/projects/shieldfont"
+  },
+  {
+   "id": "2083989988153110761",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 Skywalk Group WordPress source code and database allegedly leaked ⠀ A forum actor claims to have breached Skywalk Group, a manufacturer of high-performance equipment for action and wind sports, and published data taken from the company’s WordPress website. ⠀ The leaked material allegedly includes: ⠀ • WordPress website source code • The associated website database • A directory tree showing the affected files ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083989988153110761",
+   "created_at": "2026-08-02T18:55:06Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨 Skywalk Group WordPress 原始碼和資料庫涉嫌洩露 ⠀ 一名論壇演員聲稱入侵了高性能運動和風運動設備製造商 Skywalk Group，並發布了從該公司 WordPress 網站獲取的數據。 ⠀ 據稱，洩漏的資料包括： ⠀ • WordPress 網站原始碼 • 相關網站資料庫 • 顯示受影響文件的目錄樹 ⠀ 此說法目前尚未得到證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "md-117027429353547917",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "So far, other known states are Michigan and South Dakota",
+   "url": "https://mastodon.social/@campuscodi/117027429353547917",
+   "created_at": "2026-08-02T18:54:19Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "到目前為止，其他已知的州包括密西根州和南達科他州"
+  },
+  {
+   "id": "2083986831930953756",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇸🇦 Blackbox LTD subscriber and billing data allegedly leaked ⠀ A forum actor claims to have leaked data belonging to Blackbox LTD, a value-added services provider operating across Beirut, Dubai and Riyadh that handles mobile subscription billing for Mobily and STC. ⠀ The post advertises 59,903 unique Saudi phone numbers and 88,501 transaction events, including: ⠀ • Mobile phone numbers and transaction timestamps • Device models, iOS versions and mobile carriers • IP addresses and location information • Subscription, fraud and billing response codes • Internal API endpoints • Basic authentication credentials for billing APIs • Affiliate tags, pixel identifiers and advertising IDs • Server and customer IP addresses • Fraud flags, PIN codes, billing types and service identifiers ⠀ The actor claims the records contain complete transaction histories. ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083986831930953756",
+   "created_at": "2026-08-02T18:42:33Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇸🇦 Blackbox LTD 訂戶和計費數據涉嫌洩露 ⠀ 一名論壇參與者聲稱洩露了 Blackbox LTD 的數據，Blackbox LTD 是一家在貝魯特、迪拜和利雅得運營的增值服務提供商，負責處理 Mobily 和 STC 的移動訂閱費用。 ⠀ 此貼文宣傳了 59,903 個獨特的沙烏地阿拉伯電話號碼和 88,501 個交易事件，包括： ⠀ • 手機號碼和交易時間戳記 • 裝置型號、iOS 版本和行動電信商 • IP 位址和位置資訊 • 訂閱、詐欺和帳單代碼回應代碼 • 內部 API 端點 • 憑證 ID 端點資訊和標籤憑證 • 附屬標籤、標籤和服務說明伺服器詐欺標記、PIN 碼、計費類型和服務識別碼⠀ 行為者聲稱這些記錄包含完整的交易歷史。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083980474683142386",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 Dante AI user and activity data allegedly leaked ⠀ A forum actor claims to have leaked data belonging to Dante AI, a platform used by businesses and individuals to build custom AI chatbots for customer support, lead generation and website integration. ⠀ The post advertises 2,924,201 PII records and an equal number of event logs linked to 73,547 active users, more than 130,000 unique IP addresses and users across 200+ countries, including: ⠀ • Email addresses, IP addresses and device identifiers • Cities, countries, regions and GPS coordinates • Session IDs, UUIDs and authentication methods • Visited URLs, page paths and referral information • Chatbot identifiers and selected LLM models, including Claude, GPT-4, Opus and Sonnet • UTM parameters and Google, Facebook, LinkedIn, TikTok and Microsoft advertising identifiers • Browser, operating system, device, manufacturer and mobile carrier details • Languages, platforms and event timestamps • Subscription plans, Stripe checkout referral data and Zapier integration metadata ⠀ The files are listed as 363MB compressed and approximately 5.5GB uncompressed. ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083980474683142386",
+   "created_at": "2026-08-02T18:17:18Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨 Dante AI 用戶和活動數據涉嫌洩露 ⠀ 一名論壇演員聲稱洩露了屬於 Dante AI 的數據，Dante AI 是企業和個人用來構建定制 AI 聊天機器人以提供客戶支持、潛在客戶開發和網站集成的平台。 ⠀ 該貼文宣傳了 2,924,201 條 PII 記錄和同等數量的事件日誌，這些記錄連結到 73,547 個活躍用戶、超過 130,000 個唯一 IP 位址和 200 多個國家/地區的用戶，包括： ⠀ • 電子郵件位址、IP 位址和 200 多個國家/地區的用戶，包括： ⠀ • 電子郵件位址、IP 位址和國家識別碼 •U.造訪過的 URL、頁面路徑和推薦資訊 • 聊天機器人識別碼和選定的資訊LLM 模型，包括 Claude、GPT-4、Opus 和 Sonnet • UTM 參數和 Google、Facebook、LinkedIn、TikTok 和 Microsoft 廣告標識符 • 瀏覽器、作業系統、裝置、製造商和行動裝置 13 月資料 • 語言、平台和活動時間符號 • 訂閱363MB 壓縮檔案和大約 5.5GB 未壓縮檔案。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083975527958757867",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨 ZoomShift user and activity data allegedly leaked ⠀ A forum actor claims to have leaked data belonging to ZoomShift, an employee scheduling and time-tracking platform used by restaurants, retailers and hospitality businesses. ⠀ The post advertises 10,507 active user accounts, 865,963 PII rows and 4,139,178 event-log records, including: ⠀ • Email addresses and user and company identifiers • Subscription plans, billing terms, revenue data and user roles • Team sizes, industries and numbers of business locations • IP addresses, cities, countries and regions • GPS coordinates collected through clock-in geofencing • Device identifiers, models, brands and operating system details • Mobile carriers, languages and platforms • Visited URLs, page names and referral timestamps • UTM tracking parameters and Google Ads identifiers • Time zones, onboarding steps and employee invitation data ⠀ The files are listed as 174MB compressed and approximately 1.84GB uncompressed. ⠀ This claim is currently unverified. ⠀ 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083975527958757867",
+   "created_at": "2026-08-02T17:57:38Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨 ZoomShift 用戶和活動數據涉嫌洩露 ⠀ 一名論壇參與者聲稱洩露了 ZoomShift 的數據，ZoomShift 是餐廳、零售商和酒店企業使用的員工安排和時間跟踪平台。 ⠀ 該貼文宣傳了 10,507 個活躍用戶帳戶、865,963 個 PII 行和 4,139,178 個事件日誌記錄，包括： ⠀ • 電子郵件地址以及用戶和公司標識符 • 訂閱計劃、計費條款、收入數據和用戶角色 • 團隊規模、圍欄和地點數量 • 透過行業裝置識別碼、型號、品牌和作業系統詳細資訊 • 行動電信商、語言和平台 • 存取的網址、頁面名稱和引薦時間戳 • UTM 追蹤參數和 Google Ads 識別碼 • 時區、入職步驟和員工邀請資料 ⠀ 列出的檔案壓縮後大小為 174MB，未壓縮時大小約為 1.84GB。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083970732027941071",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇲🇽 Hospital México Americano patient database and CT scans allegedly leaked ⠀ A forum actor claims to have published a 9.1GB collection belonging to Hospital México Americano containing patient records and medical imaging files, including CT scans. ⠀ The exposed data allegedly includes: ⠀ • Patient names and internal identifiers • Gender, dates of birth and ages • Study and accession numbers • Examination descriptions • Study dates and timestamps • Associated CT scan images ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083970732027941071",
+   "created_at": "2026-08-02T17:38:35Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇲🇽 墨西哥美國醫院病患資料庫和 CT 掃描涉嫌洩露 ⠀ 一名論壇演員聲稱發布了屬於墨西哥美國醫院的 9.1GB 資料集，其中包含病患記錄和醫學影像文件，包括 CT 掃描。 ⠀ 據稱，暴露的資料包括： ⠀ • 病患姓名和內部識別碼 • 性別、出生日期和年齡 • 研究和登記號碼 • 檢查描述 • 研究日期和時間戳記 • 相關 CT 掃描影像 ⠀ 此說法目前未經證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083964410477867442",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇧🇷 Brazilian Ministry of Defense documents allegedly leaked ⠀ A forum actor claims to have published two confidential military reports associated with Brazil’s Ministry of Defense, covering advanced radar, tactical defense and space-based surveillance capabilities. ⠀ The documents reportedly include: ⠀ • AI-assisted reconnaissance and threat prediction • Over-the-horizon radar capabilities • Early-warning and surveillance systems • Tactical defense infrastructure improvements • Military intelligence collection using surveillance satellites • Autonomous monitoring and AI-based analysis • Secure military communications • Detection of threats linked to state and non-state actors ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083964410477867442",
+   "created_at": "2026-08-02T17:13:28Z",
+   "tags": [
+    "breach",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇧🇷 巴西國防部文件涉嫌洩漏 ⠀ 一位論壇參與者聲稱發布了兩份與巴西國防部有關的機密軍事報告，涵蓋先進雷達、戰術防禦和天基監視能力。據報道，這些文件包括： 人工智慧輔助偵察和威脅預測 超視距雷達能力 預警和監視系統 戰術防禦基礎設施改進 使用監視衛星進行軍事情報收集 自主監控和基於人工智慧的分析 安全軍事通訊 偵測與國家和非國家行為者相關的威脅 此項說法目前尚未得到證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083958231823487313",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇷🇺 WineStyle customer and buyer database allegedly offered for sale ⠀ A forum actor claims to be selling a database belonging to WineStyle, a Russian omnichannel retailer specializing in wine, spirits and other imported alcoholic beverages. ⠀ The listing advertises approximately 1.1 million B2C and B2B buyer records, including: ⠀ • Customer and corporate buyer names • Email addresses and phone numbers • Order identifiers • Complete purchase histories • Transactional and account-related information • Location-linked details associated with verified buyers ⠀ The actor claims the database contains active retail and corporate customers and is only available as a complete dataset. ⠀ This claim is currently unverified. ⠀ 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083958231823487313",
+   "created_at": "2026-08-02T16:48:55Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇷🇺 據稱出售 WineStyle 客戶和買家資料庫 ⠀ 一名論壇演員聲稱正在出售 WineStyle 的資料庫，WineStyle 是一家專門從事葡萄酒、烈酒和其他進口酒精飲料的俄羅斯全通路零售商。 ⠀ 此清單廣告了約 110 萬條 B2C 和 B2B 買家記錄，包括： ⠀ • 客戶和企業買家姓名 • 電子郵件地址和電話號碼 • 訂單標識符 • 完整的購買歷史記錄 • 交易和帳戶相關資訊 • 與經過驗證的買家相關的位置鏈接詳細信息 ⠀ 攻擊者聲稱該資料集包含的完整和零售資料集作為完整資料集。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083951852060639461",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇨🇳 Beijing Housing Fund Management Center citizen data allegedly offered for sale ⠀ A forum actor claims to be selling a database associated with the Beijing Housing Fund Management Center, a government-linked housing and financial registry serving formally employed residents of Beijing. ⠀ The listing advertises personal and employment-related information for approximately 17 million residents, including: ⠀ • Names and national identification numbers • Phone numbers and other contact details • Employer information • Housing fund and financial status data • Additional identity-linked registry information ⠀ A sample was published alongside the listing. The full dataset is priced at $1,700. ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083951852060639461",
+   "created_at": "2026-08-02T16:23:34Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇨🇳 據稱出售北京住房公積金管理中心公民資料 ⠀ 一位論壇參與者聲稱出售與北京住房公積金管理中心相關的資料庫，該中心是一個與政府相關的住房和金融登記處，為北京正式就業居民提供服務。 ⠀ 這份清單宣傳了約 1700 萬居民的個人和就業相關信息，包括： ⠀ • 姓名和身份證號碼 • 電話號碼和其他聯繫方式 • 雇主信息 • 住房基金和財務狀況數據 • 與身份相關的其他登記信息 ⠀ 樣本隨清單一起發布。完整數據集售價為 1,700 美元。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083948038364512753",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇷🇺 Moscow Department of Health database allegedly offered for sale ⠀ A forum actor claims to be selling a 2025 database associated with the Moscow Department of Health. The listing advertises approximately 87.85 million rows for $1,000. ⠀ The exposed data allegedly includes: ⠀ • Names, dates of birth, gender and phone numbers • SNILS identifiers and compulsory medical insurance details • Passport and other identity document information • Residential and registration addresses • Employment and education details • Medical institution and physician information • Patient record numbers and preliminary diagnoses • Illness dates and treatment-related information • Laboratory orders, specimen collection details and test results • COVID-19 and other diagnostic testing records ⠀ A sample containing personal, insurance, clinical and laboratory information was published alongside the listing. ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083948038364512753",
+   "created_at": "2026-08-02T16:08:24Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇷🇺 據稱出售莫斯科衛生部資料庫 ⠀ 一名論壇參與者聲稱正在出售與莫斯科衛生部相關的 2025 年資料庫。該清單以 1,000 美元的價格宣傳了大約 8785 萬行。 ⠀ 據稱，暴露的資料包括： ⠀ • 姓名、出生日期、性別和電話號碼 • SNILS 識別碼和強制醫療保險詳細信息 • 護照和其他身份證件信息 • 居住和登記地址 • 就業和教育詳細信息 • 醫療機構和醫生信息 • 患者記錄編號和初步診斷 • 疾病標本記錄和治療相關信息包含個人、保險、臨床和實驗室資訊的樣本與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083944875372761197",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇨🇴 Davivienda analytics models and system access allegedly offered for sale ⠀ A forum actor claims to be selling data and system access obtained from a strategic partner of Davivienda, a Colombian financial services company. The listing references Emergia and analytics used to support Davivienda products and customer operations. ⠀ The advertised material allegedly includes: ⠀ • AI and machine-learning analytics models • Potential-customer database analysis • Predictive models for Davivienda TMK products • Digital mobile credit models • Digital revolving credit models • Secured digital credit card analytics • Access to hosts and a monitoring server • User accounts, roles, creation dates and account statuses • Real-time access to a system reportedly updated daily ⠀ The seller identifies one model as modelo_davivienda_crm_rot_tdc and claims additional ownership and model information is included. Access is priced at $999 in Monero. ⠀ This claim is currently unverified. ⠀ 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083944875372761197",
+   "created_at": "2026-08-02T15:55:50Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇨🇴 據稱出售 Davivienda 分析模型和系統存取權限 ⠀ 一名論壇參與者聲稱正在出售從哥倫比亞金融服務公司 Davivienda 的策略合作夥伴獲得的資料和系統存取權限。該清單引用了 Emergia 和用於支援 Davivienda 產品和客戶營運的分析。 ⠀ 廣告材料據稱包括： ⠀ • 人工智慧和機器學習分析模型 • 潛在客戶資料庫分析 • Davivienda TMK 產品的預測模型 • 數位行動信貸模型 • 數位循環信貸模型 • 安全數位信用卡分析 • 存取主機和監控伺服器 • 使用者帳戶、角色、建立日期和帳戶狀態 • 存取據稱每天更新的系統 ⠀ % 1%_crvienda 7_Fval convenda 7_crviend 模型。並聲稱擁有額外所有權並包含型號資訊。門羅幣訪問價格為 999 美元。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083940715311042636",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇬🇧 InterContinental Hotels Group employee data allegedly offered for sale ⠀ A forum actor claims to be selling an internal employee database belonging to InterContinental Hotels Group, allegedly downloaded from the company’s Azure/Entra environment using compromised credentials. ⠀ The listing advertises more than 185,000 records, including: ⠀ • Employee names and corporate email addresses • Job titles, phone numbers and physical addresses • Managers and direct-report relationships • User group memberships and tenant account details • Employee, service and other organizational accounts ⠀ A sample containing 5,000 records was published alongside the listing. ⠀ This claim is currently unverified. ⠀ 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083940715311042636",
+   "created_at": "2026-08-02T15:39:18Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇬🇧 據稱出售洲際酒店集團員工資料 ⠀ 一名論壇參與者聲稱正在出售屬於洲際酒店集團的內部員工資料庫，據稱該資料庫是使用洩漏的憑證從該公司的 Azure/Entra 環境下載的。 ⠀ 此清單公佈了超過 185,000 筆記錄，包括： ⠀ • 員工姓名和公司電子郵件地址 • 職務、電話號碼和實際地址 • 經理和直接下屬關係 • 使用者群組成員身分和租戶帳戶詳細資料 • 員工、服務和其他組織帳戶 ⠀ 包含 5,000 筆記錄的範例與清單一起發布記錄。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "2083935412792295796",
+   "handle": "DarkWebInformer",
+   "name": "DarkWebInformer",
+   "text": "🚨🇺🇸 Wyndham Hotels & Resorts employee data allegedly offered for sale ⠀ A forum actor claims to be selling an internal employee database belonging to Wyndham Hotels & Resorts, allegedly downloaded from the company’s Azure/Entra environment using compromised credentials. ⠀ The listing advertises more than 9,000 records, including: ⠀ • Employee names and corporate email addresses • Job titles, phone numbers and physical addresses • Managers and direct-report relationships • User group memberships and tenant account details • Employee, service and other organizational accounts ⠀ A sample containing 600 records was published alongside the listing. ⠀ This claim is currently unverified. ⠀ 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
+   "url": "https://x.com/DarkWebInformer/status/2083935412792295796",
+   "created_at": "2026-08-02T15:18:14Z",
+   "tags": [
+    "market",
+    "darkweb"
+   ],
+   "score": 2,
+   "text_zh": "🚨🇺🇸 據稱出售溫德姆酒店及度假村員工資料 ⠀ 一名論壇參與者聲稱正在出售屬於溫德姆酒店及度假村的內部員工資料庫，據稱該資料庫是使用洩漏的憑證從該公司的 Azure/Entra 環境下載的。 ⠀ 此清單公佈了 9,000 多筆記錄，包括： ⠀ • 員工姓名和公司電子郵件地址 • 職務、電話號碼和實際地址 • 經理和直接下屬關係 • 使用者群組成員身分和租戶帳戶詳細資料 • 員工、服務和其他組織帳戶 ⠀ 包含 600 筆記錄的範例與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+  },
+  {
+   "id": "md-117026449019074500",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "U.S. investigating if Iran was behind cyberattack on water systems in 7 states, not just Minnesota https://www. cbsnews.com/news/us-investigat ing-iran-cyberattack-minnesota-water-systems/",
+   "url": "https://mastodon.social/@campuscodi/117026449019074500",
+   "created_at": "2026-08-02T14:45:00Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "美國正在調查伊朗是否是對 7 個州供水系統進行網路攻擊的幕後黑手，而不僅僅是明尼蘇達州 https://www. cbsnews.com/news/us-investigat ing-iran-cyberattack-minnesota-water-systems/"
+  },
+  {
+   "id": "md-117026345432118820",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Researchers have found a new version of SiliVaccine, North Korea's internal homegrown antivirus engine. Well, not that \"homegrown\" actually because the engine works on top of ClamAV and Malheur https:// nkinternet.com/2026/08/01/a-ne w-silivaccine-north-koreas-antivirus/",
+   "url": "https://mastodon.social/@campuscodi/117026345432118820",
+   "created_at": "2026-08-02T14:18:39Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "研究人員發現了北韓內部自製防毒引擎 SiliVaccine 的新版本。好吧，實際上並不是“本土”，因為該引擎在 ClamAV 和 Malheur 之上工作 https://nkinternet.com/2026/08/01/a-ne w-silivaccine-north-koreas-antivirus/"
+  },
+  {
+   "id": "md-117026124547364628",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "A mysterious hacker has stolen more than $70 million worth of Bitcoin from Coldcard hardware wallets: https:// bitcoinmagazine.com/news/coldc ard-wallet-exposed-after-bitcoin-hack The attackers exploited a vulnerability in the wallet's firmware that produced weak and easy to guess private keys: https:// blog.coinkite.com/entropy-tech nical-backgrounder/",
+   "url": "https://mastodon.social/@campuscodi/117026124547364628",
+   "created_at": "2026-08-02T13:22:29Z",
+   "tags": [
+    "breach",
+    "vuln"
+   ],
+   "score": 3,
+   "text_zh": "一名神秘駭客從 Coldcard 硬體錢包中盜取了價值超過 7000 萬美元的比特幣：https://bitcoinmagazine.com/news/coldc ard-wallet-expose-after-bitcoin-hack 攻擊者利用了錢包固件中的一個漏洞，產生了弱且易於猜測的私鑰：https://pycoinkite.com"
+  },
+  {
+   "id": "2083846556269019629",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "It makes me very happy receiving DMs of malware and people asking \"is this goop?\". There is a real-world chance that we can fundamentally corrupt people to begin referring to malware as \"goop\", and making our entire industry look like a fucking joke That's so badass omg",
+   "url": "https://x.com/vxunderground/status/2083846556269019629",
+   "created_at": "2026-08-02T09:25:09Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "這讓我很高興收到惡意軟體的私信，有人問「這是垃圾嗎？」。在現實世界中，我們有可能從根本上腐蝕人們，開始將惡意軟體稱為“goop”，並使我們整個行業看起來像一個他媽的笑話，這太糟糕了天哪"
+  },
+  {
    "id": "2083725013862015340",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -61,8 +486,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "🚨針對 Coldcard 產生位址的第三波攻擊正在進行中。目前估計損失超過 8800 萬美元。"
+   "text_zh": "🚨針對 Coldcard 產生位址的第三波攻擊正在進行中。目前估計損失超過 8800 萬美元。",
+   "score": 0
   },
   {
    "id": "2083722416589509098",
@@ -74,8 +499,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "《蜘蛛人：全新的一天》正在 X 上傳遞。 https://x.com/i/status/2083437254756770249/video/1"
+   "text_zh": "《蜘蛛人：全新的一天》正在 X 上傳遞。 https://x.com/i/status/2083437254756770249/video/1",
+   "score": 0
   },
   {
    "id": "2083714011611247075",
@@ -88,8 +513,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇲🇽 SAIMEX 公民資料庫涉嫌洩漏 ⠀ 一名論壇參與者聲稱洩露了與墨西哥州公民管理和公共服務平台 SAIMEX 相關的資料庫。 ⠀ 該貼文公佈了超過 134,000 條與政府僱員、記者、學者、商人和其他公民相關的記錄，包括： ⠀ • 姓名和父母姓氏 • 性別、年齡範圍和職業 • 居住國家和州 • 街道地址、門牌號碼和郵政編碼 • 市鎮和社區證實 電話號碼和電子郵件地址 • 申請人類型和內部記錄符號。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇲🇽 SAIMEX 公民資料庫涉嫌洩漏 ⠀ 一名論壇參與者聲稱洩露了與墨西哥州公民管理和公共服務平台 SAIMEX 相關的資料庫。 ⠀ 該貼文公佈了超過 134,000 條與政府僱員、記者、學者、商人和其他公民相關的記錄，包括： ⠀ • 姓名和父母姓氏 • 性別、年齡範圍和職業 • 居住國家和州 • 街道地址、門牌號碼和郵政編碼 • 市鎮和社區證實 電話號碼和電子郵件地址 • 申請人類型和內部記錄符號。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2083712615356698796",
@@ -128,8 +553,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "您可能會看到大量關於美國供水設施遭受網路攻擊的聽起來很可怕的頭條新聞，但要知道它們的原因是——用日常術語來說——沒有人關上房子的前門，更不用說鎖上它了。這些攻擊並不需要伊朗來實施。如果你很無聊並且你有谷歌，你也可以。"
+   "text_zh": "您可能會看到大量關於美國供水設施遭受網路攻擊的聽起來很可怕的頭條新聞，但要知道它們的原因是——用日常術語來說——沒有人關上房子的前門，更不用說鎖上它了。這些攻擊並不需要伊朗來實施。如果你很無聊並且你有谷歌，你也可以。",
+   "score": 0
   },
   {
    "id": "2083682153448280494",
@@ -169,8 +594,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "R 致@vxunderground：哈哈哈哈哈哈。什麼？你買不起去Slermie Doop的票？ ？ ？聽起來你很窮。對不起，孩子。我們是駭客。我們他媽的討厭窮人。接下来你要做的就是说你买不起 2,000 美元的 Schmeemee 证书，证明你是一个真正的黑客。"
+   "text_zh": "R 致@vxunderground：哈哈哈哈哈哈。什麼？你買不起去Slermie Doop的票？ ？ ？聽起來你很窮。對不起，孩子。我們是駭客。我們他媽的討厭窮人。接下来你要做的就是说你买不起 2,000 美元的 Schmeemee 证书，证明你是一个真正的黑客。",
+   "score": 1
   },
   {
    "id": "2083666779755176318",
@@ -182,8 +607,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "哦，是嗎？你是「黑客」嗎？證明一下。請向我展示您價值 600 美元的 Slermie Doop 16 門票以及您免費收到或購買的大量網路安全供應商商品。除非你成為科技公司的活廣告牌，否則你不是真正的駭客"
+   "text_zh": "哦，是嗎？你是「黑客」嗎？證明一下。請向我展示您價值 600 美元的 Slermie Doop 16 門票以及您免費收到或購買的大量網路安全供應商商品。除非你成為科技公司的活廣告牌，否則你不是真正的駭客",
+   "score": 1
   },
   {
    "id": "2083632841368261097",
@@ -698,58 +1123,6 @@
    "score": 1
   },
   {
-   "id": "2083286080368037991",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️ Amgen Inc. has filed form 8-K due to a Cybersecurity incident https://www.sec.gov/Archives/edgar/data/318154/000031815426000119/amgn-20260729.htm In July 2026, Amgen Inc. (the \"Company\") identified unauthorized activity involving data stored in cloud environments hosted by third-party cloud service providers. Upon detecting the activity, the Company activated its cybersecurity response plan, implemented containment measures, and engaged independent cybersecurity forensic experts. The Company has since learned that some of its data, including proprietary data, patient protected health information, and other information, has been exfiltrated from these cloud environments. To date, the Company has not identified any impact to its products, manufacturing operations, or financial reporting systems, or to the Company's ability to meet patient needs. The investigation remains ongoing. The Company continues to assess whether, and/or the extent to which, patient, confidential business information, intellectual property, research and development, or other information may have been accessed, acquired, or exfiltrated and to evaluate the potential impact of the incident on the Company. On July 29, 2026, in connection with our evaluation of the volume of the files that appear to have been impacted and the potential that the types of information in such files could be sensitive, the Company determined that this incident is material. The Company believes, as of the date of this Current Report on Form 8-K, that the incident is not reasonably likely to have a material impact on the Company's financial condition or results of operations. The Company takes its obligation to safeguard privacy and security of its patients’ data very seriously. The Company continues to evaluate applicable regulatory and legal notification requirements and will make all required notifications based on its findings, including to impacted patients. To the extent any information required by Item 1.05(a) of Form 8-K was not determined or was unavailable at the time of this filing, the Company will amend this Current Report on Form 8-K as such information is determined or becomes available.",
-   "url": "https://x.com/DarkWebInformer/status/2083286080368037991",
-   "created_at": "2026-07-31T20:18:01Z",
-   "tags": [
-    "breach"
-   ],
-   "text_zh": "‼ ️ 安进公司因网络安全事件已提交 8-K 表格 https://www.sec.gov/Archives/edgar/data/318154/000031815426000119/amgn-20260729.htm 2026 年 7 月，安进公司（“公司”）发现涉及第三方云服务提供商托管的云环境中存储的数据的未经授权的活动。发现该活动后，该公司启动了网络安全响应计划，实施了遏制措施，并聘请了独立的网络安全取证专家。该公司此后了解到，其一些数据，包括专有数据、患者受保护的健康信息和其他信息，已从这些云环境中泄露。迄今为止，公司尚未发现对其产品、制造运营或财务报告系统或公司满足患者需求的能力有任何影响。調查仍在進行中。公司将继续评估患者、机密商业信息、知识产权、研发或其他信息是否被访问、获取或泄露和/或程度，并评估该事件对公司的潜在影响。 2026 年 7 月 29 日，根据我们对似乎受到影响的文件量以及此类文件中的信息类型可能属于敏感信息的可能性的评估，公司确定此事件属重大事件。公司认为，截至 8-K 表当前报告之日，该事件不太可能对公司的财务状况或经营业绩产生重大影响。公司非常重视保护患者数据隐私和安全的义务。公司将继续评估适用的监管和法律通知要求，并将根据其调查结果发出所有必要的通知，包括向受影响的患者发出通知。如果在提交本文件时表格 8-K 第 1.05(a) 项所需的任何信息尚未确定或不可用，公司将在确定或获得此类信息后修改表格 8-K 上的本当前报告。",
-   "score": 1
-  },
-  {
-   "id": "2083280419122827528",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️🇩🇰 Silvi AI User Data Allegedly Exposed via API Flaw, 16,483 Researcher Records Published https://darkwebinformer.com/silvi-ai-user-data-allegedly-exposed-via-api-flaw-16-483-researcher-records-published/",
-   "url": "https://x.com/DarkWebInformer/status/2083280419122827528",
-   "created_at": "2026-07-31T19:55:32Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "️🇩🇰 Silvi AI 使用者資料涉嫌透過 API 缺陷暴露，16,483 條研究人員記錄已發布 https://darkwebinformer.com/silvi-ai-user-data-allegedly-expose-via-api-flaw-16-483-researcher-records-published/records-published/records-published/records-published/records-published/records-published/records-published/records-published/records-published",
-   "score": 2
-  },
-  {
-   "id": "2083271890416582799",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083271890416582799",
-   "created_at": "2026-07-31T19:21:38Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2083271885790531932",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨‼️ The Gentlemen Ransomware claims 35 victims 🇮🇩 Pertamina - Indonesia’s state-owned energy company operating across oil, gas, refining, petrochemicals, and renewable energy. The listing claims more than 1.2 TB of NDA files, HR and employee data, technical drawings, source code, banking information, contracts, and internal communications. 🇦🇹 Ökovolt Solartechnik - An Austrian solar-energy company specializing in photovoltaic system planning, installation, maintenance, and energy-storage solutions. 🇨🇴 Ecopetrol - Colombia’s state-controlled energy company engaged in oil and gas exploration, production, refining, transportation, and renewable-energy projects. 🇺🇸 Total Auto Business Solutions - A California-based automotive software company providing shop-management, inventory, accounting, and customer-relationship tools. 🇺🇸 Optiforms - A California precision manufacturer specializing in electroforming, CNC machining, optical components, and advanced surface finishes. 🇺🇸 Chemco Systems - An Illinois-based manufacturer of bulk chemical-storage, handling, feeding, and water-treatment systems. 🇺🇸 World Wide Fittings - An Illinois manufacturer of precision-engineered steel and stainless-steel hydraulic tube and pipe fittings. 🇵🇪 Municipalidad de San Luis - The municipal government serving the San Luis district of Lima, Peru. 🇺🇸 Peachtree Group - An Atlanta-based investment management firm focused on commercial real estate, private credit, and hospitality financing. 🇺🇸 Known - A New York-based marketing, media, analytics, and creative agency serving major global brands. 🇵🇱 Paula Fish - A Polish seafood company specializing in the catching, processing, freezing, and distribution of fish products. 🇮🇱 Amicell - An Israeli manufacturer of custom battery packs, chargers, and battery-management systems for industrial and specialized applications. 🇮🇱 Efrata College of Education - An Israeli academic institution providing undergraduate and graduate teacher-training and education programs. 🇧🇷 Municipal Chamber of Serra - The legislative body responsible for municipal lawmaking and oversight in Serra, Espírito Santo, Brazil. 🇺🇸 Conecsus - A Texas-based recycler and refiner recovering valuable metals from electronic waste and solder-processing materials. 🇩🇿 Orsima - An Algerian IT-services company providing digital transformation, cybersecurity, cloud, networking, and managed technology solutions. 🇺🇸 Clear Vision Signs - A Florida signage company providing architectural signs, graphics, wayfinding systems, ADA-compliant signage, and installation services. 🇺🇸 Precision Concrete Pumping - A New York and New Jersey concrete-pumping contractor serving commercial, industrial, municipal, and residential projects. 🇵🇱 Bater - A Polish manufacturer of industrial traction and stationary battery systems used in forklifts, renewable energy, rail, and telecommunications. 🇸🇬 Premier Fiduciary - A fiduciary and corporate-services provider offering fund administration, trustee, compliance, and private-wealth support. 🇺🇸 Preferred Tool & Die - A Connecticut precision manufacturer producing custom metal and plastic components for medical, automotive, electrical, and consumer industries. 🇺🇸 Partition Specialties - A California and Nevada interior contractor specializing in movable partitions, demountable walls, glass systems, and acoustic dividers. 🇺🇸 CRB Group - A U.S. engineering, architecture, construction, and consulting firm serving the life-sciences and food-and-beverage industries. 🇺🇸 Hutch Paving - A Michigan asphalt and concrete paving contractor providing resurfacing, maintenance, sealcoating, and new construction services. 🇮🇪 OHK Energy - An Irish renewable-energy company installing solar panels, heat pumps, battery storage, and electric-vehicle chargers. 🇺🇸 CFS - A Massachusetts marketing-support company providing printing, promotional products, fulfillment, and project-management services. 🇺🇸 Acosta & Sons - A New York appliance sales and repair business serving residential customers, landlords, and property managers. 🇨🇦 Saturn Industries - A Manitoba manufacturer of custom trailers, overhead-lifting equipment, and industrial products for construction, mining, marine, and aerospace customers. 🇮🇳 Kosh Innovations - An Indian precision-engineering company specializing in injection molding, sheet-metal components, electronics manufacturing, and automotive parts. 🇸🇪 Krafman - A Swedish credit-reporting and debt-collection platform providing business and individual credit checks. 🇹🇿 Salama Medicals Distributors - A Tanzanian importer and distributor of pharmaceuticals, medical devices, and surgical equipment. 🇸🇦 Salem Saleh Babgi Group - A Saudi conglomerate operating across automotive distribution and other commercial sectors. 🇺🇸 Additive Manufacturing - A Nevada manufacturing company specializing in 3D printing, rapid prototyping, CNC machining, production tooling, and assembly. 🇺🇸 Kenaitze Indian Tribe - A federally recognized Alaska Native tribe providing healthcare, education, elder care, cultural, and community services. 🇨🇱 Las Cenizas - A Chilean mining company producing copper concentrates and cathodes from operations in Cabildo, Taltal, and other locations.",
-   "url": "https://x.com/DarkWebInformer/status/2083271885790531932",
-   "created_at": "2026-07-31T19:21:37Z",
-   "tags": [
-    "ransomware"
-   ],
-   "text_zh": "🚨‼ ️ Gentlemen 勒索軟體已造成 35 名受害者 🇮🇩 Pertamina - 印尼國有能源公司，業務涉及石油、天然氣、煉油、石化和再生能源。該清單聲稱包含超過 1.2 TB 的 NDA 文件、人力資源和員工資料、技術圖、原始碼、銀行資訊、合約和內部通訊。 🇦🇹 Ökovolt Solartechnik - 一家奧地利太陽能公司，專門從事光伏系統規劃、安裝、維護和儲能解決方案。 🇨🇴 Ecopetrol - 哥倫比亞國家控股能源公司，從事石油和天然氣勘探、生產、煉油、運輸和再生能源項目。 🇺🇸 Total Auto Business Solutions - 一家位於加州的汽車軟體公司，提供商店管理、庫存、會計和客戶關係工具。 🇺🇸 Optiforms - 一家加州精密製造商，專門從事電鑄、數控加工、光學元件和高級表面處理。 🇺🇸 Chemco Systems - 位於伊利諾州的散裝化學品儲存、處理、供應和水處理系統製造商。 🇺🇸 World Wide Fittings - 伊利諾州一家精密工程鋼和不銹鋼液壓管件和管道配件製造商。 🇵🇪 聖路易斯市政 - 為秘魯利馬聖路易斯區提供服務的市政府。 🇺🇸 Peachtree Group - 一家總部位於亞特蘭大的投資管理公司，專注於商業房地產、私人信貸和酒店融資。 🇺🇸 Known - 總部位於紐約的行銷、媒體、分析和創意機構，為全球主要品牌提供服務。 🇵🇱 Paula Fish - 波蘭海鮮公司，專門從事魚類產品的捕撈、加工、冷凍和分銷。 🇮🇱 Amicell - 以色列製造商，為工業和專業應用提供客製化電池組、充電器和電池管理系統。 🇮🇱 Efrata 教育學院 - 以色列學術機構，提供本科和研究生教師培訓和教育課程。 🇧🇷 塞拉市政商會 - 負責巴西聖埃斯皮里圖州塞拉市政立法和監督的立法機構。 🇺🇸 Conecsus - 位於德克薩斯州的回收商和精煉商，從電子廢物和焊接加工材料中回收有價值的金屬。 🇩🇿 Orsima - 一家阿爾及利亞 IT 服務公司，提供數位轉型、網路安全、雲端、網路和託管技術解決方案。 🇺🇸 Clear Vision Signs - 一家佛羅裡達標誌公司，提供建築標誌、圖形、尋路系統、符合 ADA 的標誌和安裝服務。 🇺🇸 Precision Concrete Pumping - 一家紐約和新澤西混凝土泵送承包商，為商業、工業、市政和住宅項目提供服務。 🇵🇱 Bater - 波蘭製造商，生產用於堆高機、再生能源、鐵路和電信的工業牽引和固定電池系統。 🇸🇬 Premier Fiduciary - 一家信託和企業服務提供商，提供基金管理、受託人、合規和私人財富支持。 🇺🇸 Preferred Tool & Die - 一家康乃狄克州精密製造商，為醫療、汽車、電氣和消費產業生產客製化金屬和塑膠零件。 🇺🇸 隔間專業 - 一家加州和內華達州的室內承包商，專門從事可移動隔間、可拆卸牆壁、玻璃系統和隔音隔間。 🇺🇸 CRB 集團 - 一家美國工程、建築、建造和諮詢公司，為生命科學和食品飲料行業提供服務。 🇺🇸 Hutch Paving - 密西根州的一家瀝青和混凝土鋪路承包商，提供重鋪路面、維護、密封塗層和新建服務。 🇮🇪 OHK Energy - 一家愛爾蘭再生能源公司，安裝太陽能板、熱泵、電池儲存和電動車充電器。 🇺🇸 CFS - 一家馬薩諸塞州行銷支援公司，提供印刷、促銷產品、履行和專案管理服務。 🇺🇸 Acosta & Sons - 一家紐約電器銷售和維修公司，為住宅客戶、房東和物業經理提供服務。 🇨🇦 Saturn Industries - 馬尼托巴省製造商，為建築、採礦、船舶和航空航太客戶提供客製化拖車、高架起重設備和工業產品。 🇮🇳 Kosh Innovations - 一家印度精密工程公司，專門從事注塑、鈑金零件、電子製造和汽車零件。 🇸🇪 Krafman - 瑞典信用報告和收債平台，提供企業和個人信用檢查。 🇹🇿 Salama Medicals Distributors - 坦尚尼亞藥品、醫療器材和手術設備的進口商和經銷商。 🇸🇦 Salem Saleh Babgi Group - 一家橫跨汽車分銷和其他商業領域的沙烏地阿拉伯企業集團。 🇺🇸增材製造 - 內華達州製造公司，專門從事 3D 列印、快速原型製作、數控加工、生產模具和組裝。 🇺🇸 凱奈澤印第安部落 - 聯邦認可的阿拉斯加原住民部落，提供醫療保健、教育、老年人護理、文化和社區服務。 🇨🇱 Las Cenizas - 一家智利礦業公司，在卡比爾多、塔爾塔爾和其他地點生產銅精礦和陰極。",
-   "score": 4
-  },
-  {
    "id": "2083263304315674989",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -763,32 +1136,6 @@
    "score": 0
   },
   {
-   "id": "2083256683976122474",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨 Remus information-stealing malware offered as a service A forum seller is advertising Remus, a malware-as-a-service stealer promoted with 24/7 support, an easy-to-use control panel, configurable builds, automated log processing, Telegram integration, and a claimed callback rate of up to 90%. The seller claims Remus can collect: • Data from 21 browsers, 16 cold wallets, and 38 applications • Credentials, cookies, autofill data, browser history, saved notes, and payment card numbers with CVVs • Cryptocurrency seed phrases, private keys, wallet files, and MetaMask data • Data from 181 Chromium wallet extensions, 43 password managers, 11 note extensions, and 13 two-factor authentication extensions • Data from 42 Mozilla wallet extensions, 22 password managers, and four authentication extensions • Files from selected folders using configurable paths, masks, depth limits, exclusions, and maximum file sizes The management panel reportedly includes: • Full and incomplete log scoring with detailed statistics • Search filters for cookies, passwords, browser history, and other collected data • AND/OR search conditions and preconfigured filters for different targeting categories • Instant browser-based log viewing without downloading the archive • Unlimited log exports and simultaneous download tasks • Per-build statistics pages and configurable collection rules • Telegram alerts, bots, loaders, and callback notifications • Support for operator-controlled collection servers deployed through Docker The malware is reportedly written in C++ and uses: • System calls and a custom communication protocol • Encrypted configurations and encrypted data transmission • Compressed logs, caching, backup servers, and microservice infrastructure • Build obfuscation and a small executable footprint • Claimed EDR bypass capabilities • Claimed detection of virtual machines, honeypots, and dedicated analysis servers • A claimed automated MetaMask wallet brute-force feature Pricing is advertised at: • Base: $250 per month • Pro: $500 per month • Enterprise: $1,000 per month Higher-priced plans reportedly add more builds, filters, Telegram bots, loaders, concurrent exports, team accounts, worker dashboards, API access, granular permissions, and DLL, PowerShell, or in-memory execution options. This claim is currently unverified.",
-   "url": "https://x.com/DarkWebInformer/status/2083256683976122474",
-   "created_at": "2026-07-31T18:21:13Z",
-   "tags": [
-    "malware"
-   ],
-   "score": 2,
-   "text_zh": "🚨 以服務形式提供的 Remus 資訊竊取惡意軟體 某論壇賣家正在宣傳 Remus，這是一款惡意軟體即服務竊取程序，提供 24/7 支援、易於使用的控制面板、可配置的構建、自動日誌處理、Telegram 集成，並聲稱回調率高達 90%。賣家聲稱 Remus 可以收集： • 來自 21 個瀏覽器、16 個冷錢包和 38 個應用程式的資料 • 憑證、cookie、自動填入資料、瀏覽器歷史記錄、儲存的筆記和帶有 CVV 的支付卡號 • 加密貨幣助記詞、私鑰、錢包檔案和 MetaMask 資料 • 來自 181 個資料庫管理個雙重認證擴充功能的資料 • 來自 42 個應用程式的資料Mozilla 錢包擴充功能、22 個密碼管理器和四個驗證擴充功能 • 來自選定資料夾的文件，使用可設定路徑、遮罩、深度限制、排除與最大檔案大小 據報道，管理面板包括： • 包含詳細統計資料的完整和不完整評分 • CookieAND、針對不同類別資料基於瀏覽器的即時日誌查看，無需下載存檔 • 無限制的日誌導出和同步下載任務 • 每個構建的統計頁面和可配置的收集規則 • Telegram 警報、機器人、加載程序和回調通知 • 支援透過 Docker 部署的操作員控制的收集伺服器 據報道，該惡意軟體是用 C++ 備份配置、快取配置和使用： • 系統傳輸和自定義服務器構建混淆和較小的可執行足跡 • 聲稱的 EDR 繞過功能 • 聲稱檢測虛擬機、蜜罐和專用分析伺服器 • 聲稱自動 MetaMask 錢包暴力破解功能定價為： • 基礎版：每月 250 美元 • 專業版：每月 500 美元 • 企業版：每月 1,000 美元 據信構建了，價格過濾器的計劃機器人、載入器、並發匯出、團隊帳戶、工作儀表板、API 存取、精細權限以及 DLL、PowerShell 或記憶體中執行選項。目前這一說法尚未得到證實。"
-  },
-  {
-   "id": "2083256687352271070",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083256687352271070",
-   "created_at": "2026-07-31T18:21:13Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
    "id": "2083255361432179011",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -800,124 +1147,6 @@
    ],
    "text_zh": "DEFCON 上的一些女士會戴上 vx-underground UWU 指甲。這意味著什麼？我不知道，但我覺得這很酷而且很酷。我想分享它。",
    "score": 0
-  },
-  {
-   "id": "2083253492014018741",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083253492014018741",
-   "created_at": "2026-07-31T18:08:32Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2083253489602322622",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🇺🇸 Cl0p Ransomware claims a capital management company. They also announced new email addresses. 🇺🇸 Blue Vista Capital Management - A Chicago-based real estate investment firm providing equity and credit investment strategies across U.S. and Canadian property markets.",
-   "url": "https://x.com/DarkWebInformer/status/2083253489602322622",
-   "created_at": "2026-07-31T18:08:31Z",
-   "tags": [
-    "ransomware"
-   ],
-   "text_zh": "🚨🇺🇸 Cl0p 勒索軟體聲稱一家資本管理公司。他們還宣布了新的電子郵件地址。 🇺🇸 Blue Vista Capital Management - 一家總部位於芝加哥的房地產投資公司，在美國和加拿大房地產市場提供股權和信貸投資策略。",
-   "score": 3
-  },
-  {
-   "id": "2083251407759532294",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: https://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083251407759532294",
-   "created_at": "2026-07-31T18:00:15Z",
-   "tags": [
-    "darkweb"
-   ],
-   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：https://darkwebinformer.com/pricing",
-   "score": 2
-  },
-  {
-   "id": "2083251256106062060",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨🇺🇸 Genesis Ransomware claims an undisclosed healthcare company A U.S.-based healthcare provider storing data from more than 20 medical facilities. The claimed leak includes over 1 TB of healthcare and personal data, patient lists, clinic records, accounting and operational data, network user folders, and fileserver data.",
-   "url": "https://x.com/DarkWebInformer/status/2083251256106062060",
-   "created_at": "2026-07-31T17:59:39Z",
-   "tags": [
-    "ransomware",
-    "breach"
-   ],
-   "text_zh": "🚨🇺🇸 Genesis 勒索軟體聲稱一家未公開的醫療保健公司是一家美國醫療保健提供商，儲存了 20 多家醫療機構的資料。據稱洩露的資料包括超過 1 TB 的醫療保健和個人資料、病患名單、臨床記錄、會計和營運資料、網路使用者資料夾和檔案伺服器資料。",
-   "score": 5
-  },
-  {
-   "id": "2083249701558648902",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 Get early visibility into underground claims, including unblurred screenshots, before they turn into headlines: https://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083249701558648902",
-   "created_at": "2026-07-31T17:53:28Z",
-   "tags": [
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "R 致@DarkWebInformer：💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的屏幕截圖：https://darkwebinformer.com/pricing"
-  },
-  {
-   "id": "2083249607815974999",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️🇬🇧🇺🇸 DragonForce ransomware claims 2 victims 🇬🇧 Lamont Pridmore - A UK-based chartered accountancy firm providing accounting, tax, audit, and business advisory services. 🇺🇸 Moore Bradley Myers (MBM Law) - A South Carolina law firm representing individuals, families, and businesses across a range of legal matters.",
-   "url": "https://x.com/DarkWebInformer/status/2083249607815974999",
-   "created_at": "2026-07-31T17:53:06Z",
-   "tags": [
-    "ransomware"
-   ],
-   "score": 3,
-   "text_zh": "️🇬🇧🇺🇸 DragonForce 勒索軟體造成 2 名受害者🇬🇧 Lamont Pridmore - 總部位於英國的特許會計師事務所，提供會計、稅務、審計和商業諮詢服務。 🇺🇸 Moore Bradley Myers（MBM 法） - 一家南卡羅來納州律師事務所，代表個人、家庭和企業處理一系列法律事務。"
-  },
-  {
-   "id": "2083244620868186339",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "🚨 A Cobalt Strike BOF targeting CVE-2026-49176 adds another exploitation method for the CVSS 7.8 Windows WalletService local privilege escalation vulnerability. GitHub: https://github.com/777erp/CVE-2026-49176_BOF The flaw can allow a standard user to execute commands with SYSTEM privileges on unpatched Windows systems.",
-   "url": "https://x.com/DarkWebInformer/status/2083244620868186339",
-   "created_at": "2026-07-31T17:33:17Z",
-   "tags": [
-    "vuln"
-   ],
-   "score": 6,
-   "text_zh": "🚨 針對 CVE-2026-49176 的 Cobalt Strike BOF 為 CVSS 7.8 Windows WalletService 本地權限提升漏洞添加了另一種利用方法。 GitHub：https://github.com/777erp/CVE-2026-49176_BOF 此缺陷可能允許標準使用者在未修補的 Windows 系統上以 SYSTEM 權限執行命令。"
-  },
-  {
-   "id": "2083239329707536681",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "‼️ Buyer Solicits Corporate Network Access to $350M+ Western Firms, Excluding CIS, Schools and Hospitals https://darkwebinformer.com/buyer-solicits-corporate-network-access-to-350m-western-firms-excluding-cis-schools-and-hospitals/",
-   "url": "https://x.com/DarkWebInformer/status/2083239329707536681",
-   "created_at": "2026-07-31T17:12:15Z",
-   "tags": [
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "️ 買家徵求價值超過 3.5 億美元的西方公司的企業網路存取權限，不包括 CIS、學校和醫院 https://darkwebinformer.com/buyer-solicits-corporate-network-access-to-350m-western-firms-exclusion-cis-schools-and-hospitals/"
-  },
-  {
-   "id": "2083234719890546759",
-   "handle": "DarkWebInformer",
-   "name": "DarkWebInformer",
-   "text": "R to @DarkWebInformer: 💥 No delays. No guessing. No redactions. Get the intel threat actors see, the moment they post it. http://darkwebinformer.com/pricing",
-   "url": "https://x.com/DarkWebInformer/status/2083234719890546759",
-   "created_at": "2026-07-31T16:53:56Z",
-   "tags": [
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "R 至 @DarkWebInformer：💥 沒有延遲。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
   },
   {
    "id": "md-117015080032827924",
@@ -2020,20 +2249,6 @@
    "score": 6
   },
   {
-   "id": "2082471197720084732",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇧🇬 Euroins Insurance Database Allegedly Offered for Sale A threat actor is advertising what they claim are database tables belonging to Euroins Insurance Group, a Bulgaria-headquartered insurer operating across multiple European markets. * The listing claims the broader dataset relates to approximately 4.5 million clients. * The seller is offering selected database tables rather than the full archive. * Visible filenames reference staff users, employees, brokers, roles, permissions, sessions, login attempts, password history, and other internal administrative records. * The actor is requesting interested buyers to negotiate privately. Analyst Note: This remains an unverified underground marketplace claim. The forum post does not independently confirm that Euroins was compromised or establish the authenticity, completeness, or current validity of the advertised data. #DDW #Intelligence #DarkWeb #Bulgaria",
-   "url": "https://x.com/DailyDarkWeb/status/2082471197720084732",
-   "created_at": "2026-07-29T14:19:58Z",
-   "tags": [
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "🇧🇬 據稱出售 Euroins 保險資料庫 威脅行為者正在宣傳他們聲稱屬於 Euroins Insurance Group 的資料庫表，Euroins Insurance Group 是一家總部位於保加利亞、在多個歐洲市場開展業務的保險公司。 * 該清單聲稱更廣泛的資料集涉及約 450 萬客戶。 * 賣方提供選定的資料庫表格而非完整的檔案。 * 可見檔案名稱引用員工使用者、員工、經紀人、角色、權限、會話、登入嘗試、密碼歷史記錄和其他內部管理記錄。 * 演員請有興趣的買家私下洽談。分析師註：這仍然是未經證實的地下市場說法。該論壇貼文並未獨立確認 Euroins 已洩露，也未確定廣告資料的真實性、完整性或當前有效性。 #DDW #Intelligence #DarkWeb #Bulgaria",
-   "score": 2
-  },
-  {
    "id": "2082470628167123044",
    "handle": "MonThreat",
    "name": "MonThreat",
@@ -2079,65 +2294,6 @@
    "score": 6
   },
   {
-   "id": "2082468466020257961",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇦🇷 Yamaha Argentina Customer and Vehicle Data Allegedly Leaked Threat actors using the names SoulhemTeam and SQX claim to have obtained data associated with Yamaha Argentina and published an initial leak on an underground forum. * The actors claim the dataset contains customer-linked vehicle information. * Allegedly exposed fields include vehicle model, brand, engine details, registration or record dates, and other vehicle-related data. * The post suggests additional Yamaha data may be released later. * No record count, acquisition method, or independently verifiable sample is visible in the listing. Analyst Note: This remains an unverified cybercrime-forum claim. The post does not independently establish that Yamaha Argentina’s systems were compromised or confirm the authenticity, scope, or freshness of the alleged data. #DDW #Intelligence #DarkWeb #Argentina",
-   "url": "https://x.com/DailyDarkWeb/status/2082468466020257961",
-   "created_at": "2026-07-29T14:09:07Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "🇦🇷 雅馬哈阿根廷客戶和車輛數據涉嫌洩露 名為 SoulhemTeam 和 SQX 的威脅參與者聲稱已獲得與雅馬哈阿根廷相關的數據，並在地下論壇上發布了最初的洩露信息。 * 參與者聲稱資料集包含與客戶相關的車輛資訊。 * 據稱暴露的欄位包括車輛型號、品牌、引擎詳細資料、註冊或記錄日期以及其他車輛相關資料。 * 該帖子表明其他雅馬哈數據可能稍後發布。 * 清單中沒有可見記錄數、採集方法或可獨立驗證的樣本。分析師註釋：這仍然是未經證實的網路犯罪論壇說法。該貼文並未獨立證實雅馬哈阿根廷公司的系統受到損害，也沒有確認所指控數據的真實性、範圍或新鮮度。 #DDW #Intelligence #DarkWeb #Argentina",
-   "score": 2
-  },
-  {
-   "id": "2082466211510534367",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇲🇽 Mexico’s National Institute of Anthropology and History Allegedly Compromised A threat actor identifying as Order403 claims to have compromised systems associated with Mexico’s National Institute of Anthropology and History (INAH). * The post alleges broad access to INAH systems but does not provide technical details about the intrusion. * A sample document was published containing administrative and applicant information. * Visible fields include case numbers, INAH office details, names, CURP and RFC identifiers, addresses, municipality, state, and postal information. * The number of affected records and the full scope of the alleged exposure remain undisclosed. Analyst Note: This remains an unverified underground forum claim. The published sample may indicate exposure of administrative records, but it does not independently confirm a compromise of INAH’s entire infrastructure. #DDW #Intelligence #DarkWeb #Mexico",
-   "url": "https://x.com/DailyDarkWeb/status/2082466211510534367",
-   "created_at": "2026-07-29T14:00:09Z",
-   "tags": [
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "🇲🇽 墨西哥國家人類學和歷史研究所據稱遭到破壞 一個名為 Order403 的威脅行為者聲稱已經破壞了與墨西哥國家人類學和歷史研究所 (INAH) 相關的系統。 * 該貼文聲稱對 INAH 系統進行了廣泛訪問，但沒有提供有關入侵的技術細節。 * 已發布包含行政和申請人資訊的範本文件。 * 可見欄位包括案件編號、INAH 辦公室詳細資料、姓名、CURP 和 RFC 識別碼、地址、市政府、州和郵政資訊。 * 受影響的記錄數量和涉嫌暴露的全部範圍仍未披露。分析師註：這仍然是未經證實的地下論壇說法。發布的樣本可能表明行政記錄已被曝光，但它並不能獨立確認 INAH 的整個基礎設施受到損害。 #DDW #Intelligence #DarkWeb #Mexico",
-   "score": 2
-  },
-  {
-   "id": "2082464562280894581",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🌏 Shopee Customer Database Allegedly Offered for Sale A threat actor is advertising what they claim is a database containing customer information associated with Shopee, one of Southeast Asia's largest e-commerce platforms. * Alleged victim: Shopee * Industry: E-commerce * Claimed dataset: 300+ million customer records * Claimed data includes: * Full names * Email addresses * Phone numbers * Physical addresses * City and country * Last order date * Order history * Total amount spent * Currency * Device identifiers * The seller claims the records span multiple markets, including Indonesia, Taiwan, Thailand, Singapore, and parts of Latin America. * Asking price: $1,200 Analyst Note: This listing is an unverified claim from a cybercrime forum. There is currently no independent evidence confirming that Shopee experienced a breach or that the advertised dataset is authentic, complete, or recently obtained. Large-scale marketplace datasets are frequently misrepresented, recycled, or aggregated from multiple historical sources. #DDW #Intelligence #DarkWeb #Shopee",
-   "url": "https://x.com/DailyDarkWeb/status/2082464562280894581",
-   "created_at": "2026-07-29T13:53:36Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "score": 5,
-   "text_zh": "🌏 據稱出售 Shopee 客戶資料庫 威脅行為者正在宣傳他們聲稱包含與東南亞最大電子商務平台之一 Shopee 相關的客戶資訊的資料庫。 * 據稱受害者：Shopee * 產業：電子商務 * 聲稱的資料集：300 多萬個客戶記錄 * 聲稱的資料包括： * 全名 * 電子郵件地址 * 電話號碼 * 實際地址 * 城市和國家 * 最後訂單日期 * 訂單歷史記錄 * 支出總額 * 貨幣 * 設備識別碼 * 賣家聲稱這些記錄跨越多個市場，包括這些記錄跨越多個市場、泰國貨幣 * 設備識別碼 * 賣家聲稱這些記錄跨越多個市場，包括這些記錄 * 泰國地區。 * 要價：1,200 美元 分析師註釋：此列表是來自網路犯罪論壇的未經驗證的聲明。目前沒有獨立證據證實 Shopee 遭受洩露，或者廣告中的資料集是真實的、完整的或最近獲得的。大規模市場資料集經常被歪曲、回收或從多個歷史來源聚合。 #DDW #Intelligence #DarkWeb #Shopee"
-  },
-  {
-   "id": "2082462665901789335",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇹🇷 TamerTanca Allegedly Leaked on Underground Forum A threat actor has claimed responsibility for breaching Turkish footwear and e-commerce retailer http://TamerTanca.com.tr, publishing what they describe as customer and internal communication data. * Alleged victim: http://TamerTanca.com.tr * Industry: Textile / E-commerce * Country: Türkiye * Claimed data includes: * 250,000 customer order records * 1,000,000 SMS logs involving customers and internal staff * According to the post, the exposed data allegedly contains names, phone numbers, addresses, order details, payment references, and SMS communications. * The threat actor also published a public download link alongside the claim. Analyst Note: These claims originate from a cybercrime forum and remain unverified. There is currently no independent confirmation that TamerTanca experienced a breach or that the advertised dataset is authentic, complete, or recently obtained. #DDW #Intelligence #DarkWeb #Türkiye",
-   "url": "https://x.com/DailyDarkWeb/status/2082462665901789335",
-   "created_at": "2026-07-29T13:46:04Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "score": 5,
-   "text_zh": "🇹🇷 TamerTanca 據稱在地下論壇上洩露 一名威脅行為者聲稱對入侵土耳其鞋類和電子商務零售商 http://TamerTanca.com.tr 負責，並發布了他們所說的客戶和內部通信數據。 * 據稱受害者：http://TamerTanca.com.tr * 行業：紡織/電子商務 * 國家：土耳其 * 聲稱的數據包括： * 250,000 條客戶訂單記錄 * 1,000,000 條涉及客戶和內部員工的短信日誌 * 根據該帖子，據稱暴露的數據包含短信、電話號碼、號碼、地址和詳細信息、信息、訂單。 * 威脅行為者也在聲明的同時發布了公開下載連結。分析師註：這些說法源自網路犯罪論壇，尚未得到證實。目前沒有獨立的證據表明 TamerTanca 遭遇了洩露，或者所宣傳的資料集是真實的、完整的或最近獲得的。 #DDW #Intelligence #DarkWeb #Türkiye"
-  },
-  {
    "id": "md-117002387753144453",
    "handle": "campuscodi",
    "name": "campuscodi",
@@ -2177,36 +2333,6 @@
    ],
    "text_zh": "-網路攻擊擾亂了明尼蘇達州 30 多個社區的供水設施 -新的中國網路承包商被識別 -丹麥準備二級銀行系統以防網路攻擊 -北韓搗毀銀行駭客 -網路攻擊導緻美國診所關閉 -Claude 聊天記錄線上外洩 -印度 Baroda 銀行遭到駭客攻擊 -Frontier Airlines 發生 3 次外洩 - 微軟發布網路模型 -印度 Baroda 銀行遭到駭客攻擊 -Frontier Airlines 發生 3 次外洩 - 微軟發布網路模型 -Fhotons 開源人工智慧聯盟 -https news.risky.biz/risky-bulletin-new-chinese-cyber-contractor-identified/ P: https://risky.biz/RBNEWS593/",
    "score": 3
-  },
-  {
-   "id": "2082383195190812799",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇷🇺 Gosuslugi Database Allegedly Leaked A threat actor has published what they claim is a database belonging to http://gosuslugi.ru on an underground forum. * The dataset is advertised in CSV format. * According to the listing, the database contains fields including date, last name, first name, middle name, gender, date of birth, address, passport details, and email addresses. * The post includes sample records and a download link for the alleged dataset. * No total record count or evidence regarding how the data was allegedly obtained was provided. Analyst Note: This is an unverified claim made on a cybercrime forum. While the sample appears to contain sensitive personal information, there is currently no independent confirmation that Gosuslugi was breached or that the advertised dataset is authentic, complete, or recently acquired. #DDW #Intelligence #DarkWeb #Russia",
-   "url": "https://x.com/DailyDarkWeb/status/2082383195190812799",
-   "created_at": "2026-07-29T08:30:17Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "score": 2,
-   "text_zh": "🇷🇺 Gosuslugi 資料庫據稱被洩露 威脅行為者在地下論壇上發布了他們聲稱屬於 http://gosuslugi.ru 的資料庫。 * 資料集以 CSV 格式發布。 * 根據列表，資料庫包含的欄位包括日期、姓氏、名字、中間名、性別、出生日期、地址、護照詳細資料和電子郵件地址。 * 該貼文包含樣本記錄和所謂資料集的下載連結。 * 未提供總記錄數或有關如何據稱取得資料的證據。分析師註：這是網路犯罪論壇上未經證實的說法。雖然樣本似乎包含敏感的個人訊息，但目前沒有獨立的證據表明 Gosuslugi 遭到破壞，或者廣告中的資料集是真實的、完整的或最近獲得的。 #DDW #Intelligence #DarkWeb #Russia"
-  },
-  {
-   "id": "2082360425329348726",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇰🇷 Baemin User Database Allegedly Offered for Sale A threat actor is advertising what they claim is a database belonging to Baemin, one of South Korea's largest food delivery platforms. * The seller claims the dataset contains approximately 42 million user records. * According to the listing, the data includes full names, email addresses, phone numbers, delivery addresses, cities, districts, postal codes, signup dates, order history, spending totals, favorite cuisine, account status, and device information. * The asking price is listed as $800. * A sample dataset containing 200 records is referenced in the advertisement. Analyst Note: This is currently an unverified underground marketplace claim. There is no independent evidence confirming that Baemin experienced a security breach or that the advertised dataset is authentic, complete, or recently obtained. #DDW #Intelligence #DarkWeb #SouthKorea",
-   "url": "https://x.com/DailyDarkWeb/status/2082360425329348726",
-   "created_at": "2026-07-29T06:59:48Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "score": 3,
-   "text_zh": "🇰🇷 據稱出售 Baemin 用戶資料庫 威脅行為者正在宣傳他們聲稱屬於韓國最大的食品配送平台之一 Baemin 的資料庫。 * 賣家聲稱該資料集包含約 4,200 萬筆使用者記錄。 * 根據列表，數據包括全名、電子郵件地址、電話號碼、送貨地址、城市、地區、郵遞區號、註冊日期、訂單歷史記錄、支出總額、最喜歡的美食、帳戶狀態和設備資訊。 * 標價為 800 美元。 * 廣告中引用了包含 200 筆記錄的範例資料集。分析師註：這是目前未經證實的地下市場說法。沒有獨立證據證實 Baemin 遇到了安全漏洞，或者廣告中的資料集是真實的、完整的或最近獲得的。 #DDW #Intelligence #DarkWeb #SouthKorea"
   },
   {
    "id": "md-117001903968958724",
@@ -2275,19 +2401,6 @@
    "score": 0
   },
   {
-   "id": "2082208135603683721",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "Pinned: Before AI: “To be or not to be?” Now: “Is it real, AI-generated, edited, deepfaked, or just posted without context?” The internet has turned everyone into a part-time digital forensics analyst. #DDW #AI #Deepfake #TechHumor",
-   "url": "https://x.com/DailyDarkWeb/status/2082208135603683721",
-   "created_at": "2026-07-28T20:54:39Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "固定：人工智慧之前：「生存還是毀滅？」現在：「它是真實的、人工智慧生成的、編輯的、深度偽造的，還是只是在沒有上下文的情況下發布的？」網路已將每個人變成了兼職數位鑑識分析師。 #DDW #AI #Deepfake #TechHumor",
-   "score": 0
-  },
-  {
    "id": "2082197563004919913",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -2351,36 +2464,6 @@
    ],
    "text_zh": "丹麥中央銀行正在建立一個二級支付系統，該系統將在網路攻擊導致該國正常銀行業癱瘓時啟動 https://gfmag.com/news/denmark-readies -emergency-reserve-bank/",
    "score": 0
-  },
-  {
-   "id": "2082151092079522013",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇮🇱🇹🇷 EL AL & Turkish Airlines Flight Records Allegedly Offered for Sale A threat actor is advertising what they claim are large-scale flight record databases associated with EL AL and Turkish Airlines. * The seller claims to possess more than 150 million EL AL flight records and over 800 million Turkish Airlines flight records. * According to the listing, the data allegedly includes PNR numbers, IATA codes, passenger identity details (such as full name, date of birth, nationality, and gender), flight status information, and routing details. * The asking price is listed as $60,000 per dataset. * The actor also claims to have access to databases from additional airlines. Analyst Note: This is an unverified underground marketplace claim. There is currently no independent evidence confirming that either EL AL or Turkish Airlines suffered a breach or that the advertised datasets are authentic, current, or sourced from a direct compromise. #DDW #Intelligence #DarkWeb #Aviation",
-   "url": "https://x.com/DailyDarkWeb/status/2082151092079522013",
-   "created_at": "2026-07-28T17:07:59Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "🇮🇱🇹🇷 據稱出售以色列航空公司和土耳其航空公司的飛行記錄 威脅行為者正在宣傳他們聲稱與以色列航空公司和土耳其航空公司相關的大型飛行記錄數據庫。 * 賣家聲稱擁有超過 1.5 億筆以色列航空飛行記錄和超過 8 億筆土耳其航空飛行記錄。 * 根據清單，據稱這些數據包括 PNR 號碼、IATA 代碼、乘客身份詳細資訊（例如全名、出生日期、國籍和性別）、航班狀態資訊和路線詳細資訊。 * 要價為每個資料集 60,000 美元。 * 该演员还声称可以访问其他航空公司的数据库。分析師註：這是未經證實的地下市場說法。目前沒有獨立證據證實以色列航空公司或土耳其航空公司遭受了洩露，或者所宣傳的數據集是真實的、最新的或來自直接洩露。 #DDW #Intelligence #DarkWeb #Aviation",
-   "score": 2
-  },
-  {
-   "id": "2082149833251475768",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🇫🇷 Fédération Française de Bridge Database Allegedly Leaked A threat actor has published what they claim is a database belonging to the Fédération Française de Bridge (FFB), France's national bridge federation. * The post claims the database contains approximately 203,000 records. * The dataset is being offered as a free download on an underground forum. * The listing includes sample data intended to demonstrate possession of the database. * No evidence has been presented confirming when or how the data was allegedly obtained. Analyst Note: This is currently an unverified underground forum claim. The presence of the advertisement does not confirm that the Fédération Française de Bridge experienced a security breach or that the shared dataset is authentic, complete, or current. #DDW #Intelligence #DarkWeb #France",
-   "url": "https://x.com/DailyDarkWeb/status/2082149833251475768",
-   "created_at": "2026-07-28T17:02:59Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "🇫🇷 法國橋牌聯合會資料庫據稱遭洩露 一名威脅行為者發布了他們聲稱屬於法國國家橋牌聯合會 (FFB) 的資料庫。 * 該貼文聲稱該資料庫包含約 203,000 筆記錄。 * 此資料集可在地下論壇上免費下載。 * 此清單包含旨在證明資料庫所有權的範例資料。 * 沒有提供任何證據來證實這些數據是何時或如何獲得的。分析師註：這是目前未經證實的地下論壇說法。該廣告的存在並不能確認法國橋樑聯合會遇到了安全漏洞，也不能確認共享資料集是真實的、完整的或最新的。 #DDW #Intelligence #DarkWeb #France",
-   "score": 3
   },
   {
    "id": "md-116998601683411449",
@@ -2562,19 +2645,6 @@
     "other"
    ],
    "text_zh": "他們還能再含糊一點嗎？您知道網路上發布了多少張圖片嗎？這篇文章到底是什麼意思？",
-   "score": 0
-  },
-  {
-   "id": "2081852613469888796",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: fr tho bro, if youre going to commit crime, launder money, whatever, dont show ur face on discord calls or flex bro, cmon man",
-   "url": "https://x.com/vxunderground/status/2081852613469888796",
-   "created_at": "2026-07-27T21:21:56Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "R 致@vxunderground：兄弟，如果你要犯罪、洗錢等等，請不要在不和諧電話或 Flex 中露出你的臉，兄弟，來吧",
    "score": 0
   },
   {
@@ -3290,32 +3360,6 @@
    "score": 5
   },
   {
-   "id": "md-116966134039982420",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Check Point patches a zero-day in its SmartConsole panel https:// support.checkpoint.com/results /sk/sk185169/",
-   "url": "https://mastodon.social/@campuscodi/116966134039982420",
-   "created_at": "2026-07-22T23:06:06Z",
-   "tags": [
-    "vuln"
-   ],
-   "text_zh": "Check Point 在其 SmartConsole 面板中修補了零日漏洞 https://support.checkpoint.com/results/sk/sk185169/",
-   "score": 4
-  },
-  {
-   "id": "md-116965779634782276",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Oracle patched 1,449 vulnerabilities in the July quarterly security patches Dear lord... https://www. oracle.com/security-alerts/cpu jul2026.html",
-   "url": "https://mastodon.social/@campuscodi/116965779634782276",
-   "created_at": "2026-07-22T21:35:58Z",
-   "tags": [
-    "vuln"
-   ],
-   "text_zh": "Oracle 在 7 月季度安全性修補程式中修復了 1,449 個漏洞親愛的主... https://www. oracle.com/security-alerts/cpu jul2026.html",
-   "score": 1
-  },
-  {
    "id": "2079889387693768716",
    "handle": "Gi7w0rm",
    "name": "Gi7w0rm",
@@ -3340,45 +3384,6 @@
    ],
    "text_zh": "#網路釣魚即服務#Kratos 已被德國和美國聯邦警察撤下。 - 主要管理員被逮捕 - 所有服務被取消 - 該平台的用戶在第一條評論中收到了來自執法連結到新聞聲明的 DM。透過@g0njxa",
    "score": 1
-  },
-  {
-   "id": "md-116962640011606913",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-WP RCE enters active exploitation -New SharePoint exploitation -AI models like to cheat -Google releases Gemini 3.5 Flash Cyber -Cisco releases Antares cyber LLM -AI sandbox escape vulns -New AWS Kiro IDE RCE vulnerability -SteelCon '26 videos -AIEWF 2026 videos",
-   "url": "https://mastodon.social/@campuscodi/116962640011606913",
-   "created_at": "2026-07-22T08:17:32Z",
-   "tags": [
-    "vuln"
-   ],
-   "text_zh": "-WP RCE 進入活躍利用階段 -新的 SharePoint 利用 -AI 模型喜歡作弊 -Google 發布 Gemini 3.5 Flash Cyber​​ -Cisco 發布 Antares cyber LLM -AI 沙箱逃逸漏洞 -新的 AWS Kiro IDE RCE 漏洞 -SteelCon '26 視頻 -AIEWF 2026 視頻",
-   "score": 3
-  },
-  {
-   "id": "md-116962635591792826",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-Parental controls coming to Threads -LG monitors silently install adware -App Store down in Russia, likely banned -Canada signs new UN cybercrime convention -New White House EO covers software supply chains -NSO owner had diplomatic passport -New AgentBaiting campaign -PAN OS bug used to push Qilin ransomware -DevMan (Funky Mantis) profile -JadePuffer ransomware updated to target LLMs -New Cruciferra crypter -More DPRK remote worker stuff and money trail",
-   "url": "https://mastodon.social/@campuscodi/116962635591792826",
-   "created_at": "2026-07-22T08:16:24Z",
-   "tags": [
-    "ransomware"
-   ],
-   "text_zh": "- Threads 出現家長控制功能 - LG 顯示器悄悄安裝廣告軟體 - 俄羅斯應用商店下架，可能被禁止 - 加拿大簽署新的聯合國網路犯罪公約 - 新的白宮 EO 涵蓋軟體供應鏈 - NSO 所有者擁有外交護照 - 新的 AgentBaiting 活動 - 用於勒索 Qilin 勒索軟體的 OSPAN 錯誤軟體 - PAN 錯誤軟體的個人資料 -Mantis LOLP - J3 月 PAN 錯誤軟體的新資料 -Mantis 1PAN 錯誤軟體； Cruciferra 密碼器 - 更多北韓遠距工作者的東西和金錢軌跡",
-   "score": 3
-  },
-  {
-   "id": "md-116962622633817708",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-Linux kernel discloses 442 CVEs as AI bugpocalypse settles in -OpenAI was behind the Hugging Face breach -France passes kids social media ban -Germany takes down Kratos PhaaS -Hackers breached South Korea's MFA for months -Craneware healthcare billing software hack -Allbridge crypto-heist -DeepSeek shared chats leak online -Ttareungyi to compensate hack victims with free rides -Nextcloud dismisses hack rumors N: https:// news.risky.biz/risky-bulletin- linux-kernel-discloses-442-cves-as-ai-bugpocalypse-settles-in/ Pod: https:// risky.biz/RBNEWS590/",
-   "url": "https://mastodon.social/@campuscodi/116962622633817708",
-   "created_at": "2026-07-22T08:13:06Z",
-   "tags": [
-    "breach"
-   ],
-   "text_zh": "-隨著 AI 漏洞大災難的到來，Linux 內核披露了 442 個 CVE -OpenAI 是 Hugging Face 漏洞的幕後黑手 -法國通過了兒童社交媒體禁令 -德國取消了 Kratos PhaaS -黑客連續幾個月破壞了韓國的 MFA -Craneware 醫療保健計費軟體黑客攻擊 -Allbridge 加密共享 -Dextlewekwekwkkext 決定通過共享汽車聊天否認駭客謠言 N: https://news.risky.biz/risky-bulletin- linux-kernel-discloses-442-cves-as-ai-bugpocalypse-settles-in/ Pod：https://risky.biz/RBNEWS590/",
-   "score": 6
   },
   {
    "id": "2079524283194184006",
