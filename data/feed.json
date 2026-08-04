@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-04T07:08:09Z",
+ "generated_at": "2026-08-04T21:45:09Z",
  "source": "nitter",
- "new_count": 4,
+ "new_count": 17,
  "account_status": {
   "DailyDarkWeb": "ok",
-  "DarkWebInformer": "ok",
+  "DarkWebInformer": "error",
   "ransomwatcher": "ok",
   "jms_dot_py": "ok",
   "campuscodi": "ok_mastodon",
@@ -15,12 +15,12 @@
   "vxunderground": "ok",
   "Gi7w0rm": "ok",
   "MonThreat": "ok",
-  "twcertcc": "error",
+  "twcertcc": "ok",
   "TeamT5_Official": "ok"
  },
  "account_failures": {
   "DailyDarkWeb": 0,
-  "DarkWebInformer": 0,
+  "DarkWebInformer": 1,
   "ransomwatcher": 0,
   "jms_dot_py": 0,
   "campuscodi": 0,
@@ -31,7 +31,7 @@
   "vxunderground": 0,
   "Gi7w0rm": 0,
   "MonThreat": 0,
-  "twcertcc": 1,
+  "twcertcc": 0,
   "TeamT5_Official": 0
  },
  "categories": {
@@ -52,6 +52,226 @@
  },
  "posts": [
   {
+   "id": "md-117039205174418220",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Beacon CRM got hacked Many orgs are now disclosing downstream breachs https://www. bbc.com/news/articles/cr7km34z 112o https://www. artsprofessional.co.uk/news/br eaking-scores-of-cultural-organisations-affected-by-possible-data-breach-after-cyber-attack https://www. cse.org.uk/news/beacon-crm-inc ident/",
+   "url": "https://mastodon.social/@campuscodi/117039205174418220",
+   "created_at": "2026-08-04T20:49:03Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 3,
+   "text_zh": "Beacon CRM 遭到駭客攻擊 許多組織現在正在揭露下游違規行為 https://www.beacon.com bbc.com/news/articles/cr7km34z 112o https://www.bbc.com/news/articles/cr7km34z 112o artsprofessional.co.uk/news/brbr eaking-scores-of-culture-organizes-affected-by-possible-data-breach-after-cyber-attack https://www.artsprofessional.co.uk/news/br eaking-scores-of-culture-organizations-affected-by-newssible-data-breachem. ident/"
+  },
+  {
+   "id": "md-117039153305595778",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "RE: https:// techhub.social/@Techmeme/11703 8982315909154 New incidents have been confirmed in Clayton County, Georgia and the near city of Duchesne, Utah, at an oilfield water treatment facility were the pumps were running dry but looking normal in their dashboards",
+   "url": "https://mastodon.social/@campuscodi/117039153305595778",
+   "created_at": "2026-08-04T20:35:52Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "RE: https://techhub.social/@Techmeme/11703 8982315909154 喬治亞州克萊頓縣和猶他州杜切斯納附近的油田水處理設施已確認發生新事件，泵幹轉但儀表板看起來正常"
+  },
+  {
+   "id": "md-117039110829122658",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Shouldn’t have skeeted this. But less FOMO more JOMO.",
+   "url": "https://cyberplace.social/@GossiTheDog/117039110829122658",
+   "created_at": "2026-08-04T20:25:04Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "不應該這樣做。但少一些 FOMO，多一些 JOMO。"
+  },
+  {
+   "id": "md-117039100981660513",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "RE: https:// techhub.social/@Techmeme/11703 8982315909154 I’ll be honest - the water hack story in the US is so dumb. Many of the organisations don’t even know if they were hacked.. claims spreading like wildfire when nobody even knows what they’re dealing with. They have two IT people. They have PLCs on 4G dongles with no passwords. It’s under resourced and crap. Don’t be worried about Iran, be worried about lack of regulation and central support.",
+   "url": "https://cyberplace.social/@GossiTheDog/117039100981660513",
+   "created_at": "2026-08-04T20:22:33Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "回覆：https://techhub.social/@Techmeme/11703 8982315909154 說實話——美國的水黑客故事太愚蠢了。許多組織甚至不知道他們是否被駭客攻擊。當沒有人知道他們在處理什麼時，索賠就像野火一樣蔓延。他們有兩名 IT 人員。他們在 4G 轉接器上安裝了 PLC，沒有密碼。它資源不足，而且很糟糕。不要擔心伊朗，擔心缺乏監管和中央支持。"
+  },
+  {
+   "id": "md-117038972805423650",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Microsoft will reduce NuGet API keys lifespan from 365 to 30 days -change enters into effect August 17 -On November 1, Microsoft will invalidate all old NuGet API keys created before August 17. -shorter lifespan is meant to counter supply chain attacks https:// devblogs.microsoft.com/dotnet/ strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/",
+   "url": "https://mastodon.social/@campuscodi/117038972805423650",
+   "created_at": "2026-08-04T19:49:58Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 1,
+   "text_zh": "微軟將把 NuGet API 金鑰的生命週期從 365 天縮短到 30 天 - 更改於 8 月 17 日生效 - 11 月 1 日，微軟將使 8 月 17 日之前創建的所有舊 NuGet API 金鑰失效。 - 縮短生命週期旨在應對供應鏈攻擊 https://devblogs.microsoft.com/dotnet/strengthment-nuget-supply-chain-security-reducing-api-key-lifetime/"
+  },
+  {
+   "id": "md-117038956928508302",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Coinkite has destroyed all its inventory of Coldcare hardware crypto-wallets after hackers exploited a bug in existing devices to steal close to $100 million from user offline hardware wallets https:// blog.coinkite.com/update-sunda y/",
+   "url": "https://mastodon.social/@campuscodi/117038956928508302",
+   "created_at": "2026-08-04T19:45:55Z",
+   "tags": [
+    "vuln"
+   ],
+   "score": 3,
+   "text_zh": "在駭客利用現有設備中的漏洞從用戶離線硬體錢包中竊取近 1 億美元後，Coinkite 銷毀了其所有 Coldcare 硬體加密錢包庫存 https://blog.coinkite.com/update-sunda y/"
+  },
+  {
+   "id": "2084723006366978056",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Hi More malware has been uploaded to VXUG. It's like, 150,000 malwares, or something. I also uploaded more malware analysis papers. Show it to your parents, they'll be proud of you.",
+   "url": "https://x.com/vxunderground/status/2084723006366978056",
+   "created_at": "2026-08-04T19:27:51Z",
+   "tags": [
+    "malware"
+   ],
+   "score": 2,
+   "text_zh": "您好，更多惡意軟體已上傳到 VXUG。就像 150,000 個惡意軟體之類的。我還上傳了更多惡意軟體分析論文。把它展示給你的父母，他們會為你感到驕傲。"
+  },
+  {
+   "id": "md-117038275938908922",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "All of this is noise to companies that make canned tuna and such btw - you know, companies that actually do stuff and drive the global economy. They can't afford any of this shit. They can barely afford to upgrade their Windows 10 PCs, which are held together by string. Microsoft's SLT often thinks their customers are all the DoD and banks. They aren't. They're orgs struggling with real world problems, who can't afford Visio licenses.",
+   "url": "https://cyberplace.social/@GossiTheDog/117038275938908922",
+   "created_at": "2026-08-04T16:52:44Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "所有這些對於生產金槍魚罐頭之類的公司來說都是噪音——你知道，那些真正做事並推動全球經濟的公司。他們買不起這些東西。他們幾乎無力升級他們的 Windows 10 電腦，這些電腦是用繩子綁在一起的。微軟的 SLT 通常認為他們的客戶都是國防部和銀行。他們不是。他們是正在與現實世界的問題作鬥爭的組織，但無法負擔 Visio 許可證。"
+  },
+  {
+   "id": "md-117038260720033609",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "It's not in the article but they've also rolled back their Claude Code rollout too.",
+   "url": "https://cyberplace.social/@GossiTheDog/117038260720033609",
+   "created_at": "2026-08-04T16:48:52Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "文章中沒有提到，但他們也回滾了 Claude Code 的推出。"
+  },
+  {
+   "id": "md-117038255979315908",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Microsoft have introduced limits for its engineers AI tools usage https://www. 404media.co/microsoft-tells-en gineers-tokenmaxxing-is-not-what-we-are-optimizing-for/",
+   "url": "https://cyberplace.social/@GossiTheDog/117038255979315908",
+   "created_at": "2026-08-04T16:47:40Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "微軟對其工程師人工智慧工具的使用提出了限制 https://www. 404media.co/microsoft-tells-en gineers-tokenmaxxing-is-not-what-we-are-optimizing-for/"
+  },
+  {
+   "id": "2084681036932223362",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Image",
+   "url": "https://x.com/vxunderground/status/2084681036932223362",
+   "created_at": "2026-08-04T16:41:05Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "影像"
+  },
+  {
+   "id": "2084665555001201031",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "Someone is DDoSing vx-underground. This is terrible news. I was going to work on the website, but now all I can do is spend time with my family and enjoy a beautiful summer day Terrible, this is just plain terrible Welp, do your thing big dawg, hit me up when you're done",
+   "url": "https://x.com/vxunderground/status/2084665555001201031",
+   "created_at": "2026-08-04T15:39:34Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "有人在 vx-underground 進行 DDoSing。這是一個可怕的消息。我原本打算在網站上工作，但現在我能做的就是與家人共度時光，享受美麗的夏日。 太糟糕了，這簡直太糟糕了 Welp，做你的事吧，大佬，完成後給我打電話"
+  },
+  {
+   "id": "md-117037661088329808",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Started with 12 packages... then it was 100... now it's 435 https:// github.com/wiz-sec-public/wiz- research-iocs/blob/main/reports/keyv-packages.csv",
+   "url": "https://mastodon.social/@campuscodi/117037661088329808",
+   "created_at": "2026-08-04T14:16:22Z",
+   "tags": [
+    "other"
+   ],
+   "score": 3
+  },
+  {
+   "id": "md-117037266991084534",
+   "handle": "GossiTheDog",
+   "name": "GossiTheDog",
+   "text": "Interesting catch by @ zackwhittaker - although we don't know the number of people impacted by the Adform breach has they haven't commented, Adform say they serve 1.5 billion adverts a day, and the breach lasted at least 5 days. Pretty compelling reason to use an adblocker.",
+   "url": "https://cyberplace.social/@GossiTheDog/117037266991084534",
+   "created_at": "2026-08-04T12:36:09Z",
+   "tags": [
+    "breach"
+   ],
+   "score": 2,
+   "text_zh": "@zackwhittaker 的有趣發現 - 儘管我們不知道有多少人受到 Adform 違規行為的影響，但他們沒有發表評論，Adform 表示他們每天提供 15 億個廣告，而且違規行為持續了至少 5 天。使用廣告攔截器的理由非常充分。"
+  },
+  {
+   "id": "md-117037256404045208",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "New npm worm ChainDrop appears to be having a great time in the ecosystem right now https://www. stepsecurity.io/blog/chaindrop -npm-worm https:// socket.dev/blog/popular-npm-pa ckages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain?utm_medium=feed https:// safedep.io/keyv-npm-supply-cha in-compromise/",
+   "url": "https://mastodon.social/@campuscodi/117037256404045208",
+   "created_at": "2026-08-04T12:33:27Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "新的 npm 蠕蟲 ChainDrop 目前似乎在生態系統中度過了愉快的時光 https://www. stepsecurity.io/blog/chaindrop -npm-worm https://socket.dev/blog/popular-npm-pa ckages-in-the-keyv-and-cacheable-namespaces-compromishedinc​​an-activem-din​​dinwinwend​​in-compromish-medd https://safedep.io/keyv-npm-supply-cha in-compromise/"
+  },
+  {
+   "id": "2084600238963143130",
+   "handle": "Gi7w0rm",
+   "name": "Gi7w0rm",
+   "text": "Honestly, I am wondering the same. AI modules escaping labs hacking companies should have legal consequences. Otherwhise I can just tell my LLM to hack stuff and pretend I did not intentionally make it do that. I believe both OpenAI and Anthrophic are playing a dangerous marketing game here.",
+   "url": "https://x.com/Gi7w0rm/status/2084600238963143130",
+   "created_at": "2026-08-04T11:20:01Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "老實說，我也有同樣的疑問。逃離實驗室、駭客攻擊公司的人工智慧模組應該承擔法律後果。否則，我可以告訴我的法學碩士破解一些東西，並假裝我不是故意讓它這樣做的。我相信 OpenAI 和 Anthrophic 都在玩一場危險的行銷遊戲。"
+  },
+  {
+   "id": "2084558551620505988",
+   "handle": "MonThreat",
+   "name": "MonThreat",
+   "text": "Pinned: 🏆 ThreatMon is a 5x 2026 Community Choice Winner at the Cybersecurity Excellence Awards Threat Intel, Dark Web Monitoring, Cyber Asset Management, AI Governance & Most Innovative Company. 79,455 votes. Chosen by the community. 🚀 #Cybersecurity #ThreatIntelligence #DarkWeb #CyberSecurityAwards #BlackHat2026",
+   "url": "https://x.com/MonThreat/status/2084558551620505988",
+   "created_at": "2026-08-04T08:34:22Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "固定：🏆 ThreatMon 榮獲威脅英特爾、暗網監控、網路資產管理、人工智慧治理和最具創新性公司網路安全卓越獎 5 次 2026 年社群選擇獎。 79,455 票。由社區選擇。 🚀 #Cyber​​security #ThreatIntelligence #DarkWeb #Cyber​​SecurityAwards #BlackHat2026"
+  },
+  {
    "id": "2084526021764694079",
    "handle": "DailyDarkWeb",
    "name": "DailyDarkWeb",
@@ -61,8 +281,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "📱 更新：蘋果稱 Telegram 因違反 CSAM 政策而被暫時下架 蘋果已澄清 Telegram 短暫從 App Store 中消失的原因。 * 蘋果告訴彭博社，在審查發現內容違反其禁止兒童性虐待材料 (CSAM) 的政策後，該應用程式已被暫時刪除。 * 據蘋果公司稱，Telegram 在及時刪除違規內容並禁止相關用戶後恢復了存取權限。 * Telegram 此後已返回 App Store。 * Telegram 首席執行官 Pavel Durov 在 X 上回應稱：“我確信這一立場將同樣適用於商店中的所有其他應用程序，未來是吧？蘋果” 分析師注：此次刪除似乎是由 App Store 內容審核驅動的，而不是平台範圍的安全問題或監管。該事件還凸顯了應用程式商店對訊息平台施加的越來越大的壓力，以快速解決非法內容。來源*彭博#DDW #Intelligence #DarkWeb #Telegram"
+   "text_zh": "📱 更新：蘋果稱 Telegram 因違反 CSAM 政策而被暫時下架 蘋果已澄清 Telegram 短暫從 App Store 中消失的原因。 * 蘋果告訴彭博社，在審查發現內容違反其禁止兒童性虐待材料 (CSAM) 的政策後，該應用程式已被暫時刪除。 * 據蘋果公司稱，Telegram 在及時刪除違規內容並禁止相關用戶後恢復了存取權限。 * Telegram 此後已返回 App Store。 * Telegram 首席執行官 Pavel Durov 在 X 上回應稱：“我確信這一立場將同樣適用於商店中的所有其他應用程序，未來是吧？蘋果” 分析師注：此次刪除似乎是由 App Store 內容審核驅動的，而不是平台範圍的安全問題或監管。該事件還凸顯了應用程式商店對訊息平台施加的越來越大的壓力，以快速解決非法內容。來源*彭博#DDW #Intelligence #DarkWeb #Telegram",
+   "score": 3
   },
   {
    "id": "2084491648021442842",
@@ -74,8 +294,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "R 致 @vxunderground：當 Xitter 向我發送有關它的通知時，我想起它已經七歲了。這是它選擇慶祝七週年的圖片。好吧，我愛你，再見"
+   "text_zh": "R 致 @vxunderground：當 Xitter 向我發送有關它的通知時，我想起它已經七歲了。這是它選擇慶祝七週年的圖片。好吧，我愛你，再見",
+   "score": 0
   },
   {
    "id": "2084491239651467329",
@@ -87,8 +307,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "這份社群媒體資料正式已有七年歷史。感謝您的愛護與支持。"
+   "text_zh": "這份社群媒體資料正式已有七年歷史。感謝您的愛護與支持。",
+   "score": 0
   },
   {
    "id": "md-117033834781659402",
@@ -100,8 +320,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "本週舉行的 BSides 拉斯維加斯 2026 安全會議的直播可在 YouTube https://www. youtube.com/@BsideslvOrg/strea ms"
+   "text_zh": "本週舉行的 BSides 拉斯維加斯 2026 安全會議的直播可在 YouTube https://www. youtube.com/@BsideslvOrg/strea ms",
+   "score": 1
   },
   {
    "id": "2084326588217200830",
@@ -2615,19 +2835,6 @@
    "score": 0
   },
   {
-   "id": "2082171923627225379",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "> download weird .exe > accidentally run it > disappears in the void",
-   "url": "https://x.com/vxunderground/status/2082171923627225379",
-   "created_at": "2026-07-28T18:30:46Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "> 下載奇怪的.exe > 意外運行它 > 消失在虛空中",
-   "score": 0
-  },
-  {
    "id": "md-116998811828610953",
    "handle": "campuscodi",
    "name": "campuscodi",
@@ -2717,32 +2924,6 @@
    ],
    "text_zh": "已修正：🔎 深入研究 TeamPCP 的軟體供應鏈活動 我們剛剛發布了對 TeamPCP 大規模供應鏈營運的深入分析。有何不同之處：它不是建立在單一的進階漏洞之上，而是建立在跨受信任的開發人員工具的鍊式憑證竊取之上。在短短幾個月內，他們就攻陷了 Trivy、KICS、Telnyx 和數百萬人依賴的其他工具，暴露了 1000 多個 SaaS 環境和 50 萬個憑證。這裡真正的教訓是，現代供應鏈安全從根本上來說是一個身分問題。一旦他們能夠存取值得信賴的工具，其他所有環境都觸手可及。閱讀完整報告，了解這是如何發生的以及真正阻止這些攻擊的因素。 🔗 http://threatmon.io/teampcp-threat-actor-report #Cyber​​Security #SupplyChainSecurity #ThreatIntelligence #DevSecOps #InfoSec",
    "score": 3
-  },
-  {
-   "id": "2081964926118076696",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: Okay, maybe I'm a little annoyed, I'm sorry. Please excuse my language. I'm hungry and tired.",
-   "url": "https://x.com/vxunderground/status/2081964926118076696",
-   "created_at": "2026-07-28T04:48:14Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "R 致 @vxunderground：好吧，也許我有點生氣，對不起。請原諒我的語言。我又餓又累。",
-   "score": 0
-  },
-  {
-   "id": "2081963922731536872",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "Marek, you goofy son of a bitch, with your goofy ass man-bun and bullshit risk compliance job, it isn't AI generated footage you lying little bitch. If you're going to file a DMCA takedown request, you should write it's because RockStar games was compromised by an autistic teenager in the UK who social engineered HelpDesk support from an Amazon FireStick in a hotel room I obviously can't file a counter claim, I'm a stinky nerd and you're representing a multi-billion dollar company, but I want you to know that you're a pussy and nobody at your job respects you Have a nice day",
-   "url": "https://x.com/vxunderground/status/2081963922731536872",
-   "created_at": "2026-07-28T04:44:14Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "馬雷克，你這個愚蠢的狗娘養的，帶著你愚蠢的屁股男人髮髻和狗屎風險合規工作，這不是人工智能生成的鏡頭，你撒謊的小母狗。如果您要提交 DMCA 刪除請求，您應該寫下這是因為 RockStar 遊戲受到英國一名自閉症青少年的侵害，該青少年在酒店房間中通過社會工程通過 Amazon FireStick 提供幫助台支持 我顯然無法提出反訴，我是一個臭書呆子，而您代表的是一家價值數十億美元的公司，但我想讓您知道您是個膽小鬼",
-   "score": 0
   },
   {
    "id": "2081907497925779637",
@@ -3136,32 +3317,6 @@
    "score": 1
   },
   {
-   "id": "md-116982699915122067",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Moonshot's Kimi K3 AI model performs significantly below the cyber capabilities of AI models released by US frontier labs Kimi guardrails also failed to stop users from developing exploits https://www. aisi.gov.uk/blog/preliminary-a ssessment-of-kimi-k3s-cyber-capabilities",
-   "url": "https://mastodon.social/@campuscodi/116982699915122067",
-   "created_at": "2026-07-25T21:19:01Z",
-   "tags": [
-    "vuln"
-   ],
-   "text_zh": "Moonshot 的 Kimi K3 AI 模型的性能明顯低於美國前沿實驗室發布的 AI 模型的網路能力 Kimi Guardrails 也未能阻止用戶開發漏洞利用 https://www.moonshot.com。 aisi.gov.uk/blog/preliminary-a ssessment-of-kimi-k3s-cyber-capability",
-   "score": 2
-  },
-  {
-   "id": "md-116977806095549984",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Google has a new APT naming scheme https:// cloud.google.com/blog/topics/t hreat-intelligence/updated-cyber-threat-actor-naming-system/",
-   "url": "https://mastodon.social/@campuscodi/116977806095549984",
-   "created_at": "2026-07-25T00:34:28Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "Google 有一個新的 APT 命名方案 https://cloud.google.com/blog/topics/t hreat-intelligence/updated-cyber-threat-actor-naming-system/",
-   "score": 1
-  },
-  {
    "id": "md-116977111885093956",
    "handle": "GossiTheDog",
    "name": "GossiTheDog",
@@ -3173,138 +3328,6 @@
    ],
    "text_zh": "有人已將 Morrowind 移植到 Web 應用程式 https://morrowind.virtastic.app/ 來源 https://github.com/Virtastic/openmw-web",
    "score": 0
-  },
-  {
-   "id": "md-116976590671749553",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "That whole subreddit is full of posts like that btw, it's literally people trying to sell books they've \"authored\" with prompts. It's not just one person, it gets 150k visitors a week, everybody convinced they're now Stephen King.",
-   "url": "https://cyberplace.social/@GossiTheDog/116976590671749553",
-   "created_at": "2026-07-24T19:25:22Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "整個 Reddit 子版塊都充滿了這樣的帖子，順便說一句，這實際上是人們試圖在提示下出售他們「創作」的書籍。這不僅僅是一個人，每周有 15 萬訪客，每個人都相信他們現在是史蒂芬金。",
-   "score": 0
-  },
-  {
-   "id": "md-116976557239933445",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "if you want to read a reddit post that causes your brain to fall out",
-   "url": "https://cyberplace.social/@GossiTheDog/116976557239933445",
-   "created_at": "2026-07-24T19:16:52Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "如果你想讀一篇導致你大腦崩潰的 Reddit 帖子",
-   "score": 0
-  },
-  {
-   "id": "md-116975266145431975",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "AWS had a ~one hour outage to US West 2 datacenter, resolved now. Similar to MS outage yesterday and ExpressRoute (MPLS) connectivity, Direct Route connectivity also broke.",
-   "url": "https://cyberplace.social/@GossiTheDog/116975266145431975",
-   "created_at": "2026-07-24T13:48:31Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "AWS 的 US West 2 資料中心出現約一小時的中斷，現已解決。與昨天 MS 中斷和 ExpressRoute (MPLS) 連線類似，Direct Route 連線也中斷了。",
-   "score": 0
-  },
-  {
-   "id": "md-116973917325396171",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-OpSec leak exposes JadeProx operations -UAC-0099 distributes malicious Notepad++ plugins -DPRK job interviews adopt ClickFix -Lots of Kimsuky ops -Review of the Iran cyber war landscape -GitHub announces VIP bug bounty program -Github pays $100k for RCE bug -Oracle has its own bugpocalypse with 1,400 bugs -Check Point patches zero-day -Windmill bug enters active exploitation -New RefluXFS and HermeticReader vulnerability -Wansview cameras ship with 24yo vuln -New Meta CISO -PETS 2025 videos",
-   "url": "https://mastodon.social/@campuscodi/116973917325396171",
-   "created_at": "2026-07-24T08:05:30Z",
-   "tags": [
-    "breach",
-    "vuln"
-   ],
-   "text_zh": "-OpSec 洩漏暴露了 JadeProx 操作 -UAC-0099 分發惡意 Notepad++ 插件 -朝鮮工作面試採用 ClickFix -大量 Kimsuky 操作 -伊朗網絡戰爭形勢回顧 -GitHub 宣布 VIP 漏洞賞金計劃 -Github 為 RCE 漏洞支付 10 萬美元 -Oracle 擁有自己的零修圖-Windmill 漏洞進入活躍利用階段-新的 RefluXFS 和 HermeticReader 漏洞 -Wansview 相機附帶 24yo 漏洞 -新的 Meta CISO -PETS 2025 視頻",
-   "score": 6
-  },
-  {
-   "id": "md-116973908554273608",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-LG to suspend proxy apps from TVs -EU fines Google $1b -PyPI adds upload restriction -Firefox 153 is out -70% of US cyber report rules are overlapping -US to impose visa restrictions on scammers -CISA 2015 extension passes House -Snapchat hacker sentenced to jail -Major fraudster detained in India -China extradites Silver Fox member from Vietnam -New XEntry Team group -TAG-195 gets new malware -Clop targets PTC Windchill and FlexPLM servers -New AfterCall adware -New Dolphin X Stealer, msaRAT",
-   "url": "https://mastodon.social/@campuscodi/116973908554273608",
-   "created_at": "2026-07-24T08:03:16Z",
-   "tags": [
-    "malware"
-   ],
-   "text_zh": "-LG 暫停電視上的代理應用程式 -歐盟對 Google 罰款 10 億美元 -PyPI 增加上傳限制 -Firefox 153 被淘汰 -70% 的美國網路報告規則重疊 -美國對詐騙者實施簽證限制 -CISA 2015 延期通過眾議院 -Snapchat 駭客被判引渡 - 主要詐欺者在印度被拘留 - 近獲得新惡意軟體 -Clop 針對 PTC Windchill 和 FlexPLM 伺服器 -新的 AfterCall 廣告軟體 -新的 Dolphin X Stealer、msaRAT",
-   "score": 3
-  },
-  {
-   "id": "md-116973888896954070",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "-Western cyber agencies warn of Russian hacks of Zimbra servers -US accuses Moonshot AI of distillation attacks -Iran is targeting more PLC vendors -Google adds selfie video login -Thailand's Ministry of Finance hacked with an AI agent -Stadler Rail held for ransom for $12m -Breaches at Origin Energy, UpBound, Chick-fil-A -Wanchain hacked for $10m -AFX Trade hacked for $24m -Verus hacked for $7.5m, second time this year P: https:// risky.biz/RBNEWS591/ N: https:// news.risky.biz/risky-bulletin- western-cyber-agencies-warn-of-russian-hacks-of-zimbra-servers/",
-   "url": "https://mastodon.social/@campuscodi/116973888896954070",
-   "created_at": "2026-07-24T07:58:16Z",
-   "tags": [
-    "ransomware",
-    "breach"
-   ],
-   "text_zh": "- 西方網路機構警告俄羅斯駭客攻擊 Zimbra 伺服器 - 美國指責 Moonshot AI 進行蒸餾攻擊 - 伊朗瞄準更多 PLC 供應商 - 谷歌增加了自拍視頻登錄 - 泰國財政部被 AI 代理黑客攻擊 - Stadler Rail 被勒索 1,200 萬美元 - Origin Energy、UpBound、Chick-fil-A 黑客違規 - Wanin Energy、UpBound、Chick-fil-A. 2,400 萬美元 - Verus 被駭客攻擊750 萬美元，今年第二次 P：https://risky.biz/RBNEWS591/ N：https://news.risky.biz/risky-bulletin-western-cyber-agcies-warn-of-Russian-hacks-bulletin-western-cyber-agcies-warn-of-Russian-hacks-bulletin-west-servers/of-of-zimbra-servers/",
-   "score": 6
-  },
-  {
-   "id": "md-116971809352685211",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "The post incident review is out for the Microsoft Azure, Cloud and 365 outage today. Tl;dr - failed change. 5 hour restoration. Similar to the big WAN outage they had in 2022 where a similar BGP command was executed incorrectly. Took down ExpressRoute customers too.",
-   "url": "https://cyberplace.social/@GossiTheDog/116971809352685211",
-   "created_at": "2026-07-23T23:09:25Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "針對 Microsoft Azure、雲端和 365 中斷的事件後審查已於今日發布。 Tl;dr - 更改失敗。 5小時恢復。與 2022 年發生的大規模 WAN 中斷類似，當時類似的 BGP 指令執行不正確。也減少了 ExpressRoute 客戶。",
-   "score": 0
-  },
-  {
-   "id": "md-116971692042458528",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "America has fallen https://www. cdc.gov/vaccine-safety/about/a utism.html",
-   "url": "https://cyberplace.social/@GossiTheDog/116971692042458528",
-   "created_at": "2026-07-23T22:39:35Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "美國已經淪陷了 https://www. cdc.gov/vaccine-safety/about/a utism.html",
-   "score": 0
-  },
-  {
-   "id": "md-116970532818392929",
-   "handle": "GossiTheDog",
-   "name": "GossiTheDog",
-   "text": "Microsoft are telling customers there is no ETA to resolution and they may want to review their DR plans for their SaaS services. \"Customers may wish to review their business continuity and disaster recovery plans and take actions appropriate for their environment.\"",
-   "url": "https://cyberplace.social/@GossiTheDog/116970532818392929",
-   "created_at": "2026-07-23T17:44:46Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "Microsoft 告訴客戶，解決方案沒有預期時間，他們可能需要審查其 SaaS 服務的災難復原計畫。 “客戶可能希望審查他們的業務連續性和災難恢復計劃，並採取適合他們環境的行動。”",
-   "score": 0
-  },
-  {
-   "id": "md-116969817858651240",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "Loads of Western cyber agencies have published a joint alert on Russia's hacking operations targeting Zimbra NSA: https:// media.defense.gov/2026/Jul/22/ 2003965244/-1/-1/0/CSA_RUSSIA_PHISHING_TARGET_ZIMBRA.PDF FBI: https://www. ic3.gov/CSA/2026/260723.pdf AIVD: https:// english.aivd.nl/latest/news/20 26/03/09/russia-targets-signal-and-whatsapp-accounts-in-cyber-campaign MIVD: https://www. defensie.nl/actueel/nieuws/202 6/07/23/russische-hackersgroep-laundry-bear-hackt-mailservers-zimbra UK NCSC: https://www. ncsc.gov.uk/news/uk-and-partne rs-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-   "url": "https://mastodon.social/@campuscodi/116969817858651240",
-   "created_at": "2026-07-23T14:42:57Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "許多西方網路機構針對俄羅斯針對 Zimbra NSA 的駭客行動發布了聯合警報：https://media.defense.gov/2026/Jul/22/2003965244/-1/-1/0/CSA_RUSSIA_PHISHING_TARGET_ZIMBRA.PDF FBI：https://www.206/CSA/2026/CSA/2023262672602/20232/20232/2623259963999639. AIVD：https://english.aivd.nl/latest/news/20 26/03/09/ Russia-targets-signal-and-whatsapp-accounts-in-cyber-campaign MIVD：https://www.ic3.gov/CSA/2026/260723.pdf defensie.nl/actueel/2023.pdf defene.nl/1ue 6/07/23/russische-hackersgroep-laundry-bear-hackt-mailservers-zimbra 英國 NCSC：https://www.defensie.nl/actueel/nieuws/202 ncsc.gov.uk/news/uk-and-partne rs-expose-Russian-state-camp-w-w-w-f-f-c​​0-k-f-k-k- ☺確定-確定-0-d",
-   "score": 1
   },
   {
    "id": "2080273519133302840",
@@ -3346,21 +3369,6 @@
     "darkweb"
    ],
    "text_zh": "🚨 威脅行為者聲稱在暗網上出售 SEKISUI Aerospace ITAR 數據 一篇暗網論壇帖子聲稱，屬於 SEKISUI Aerospace Corporation 的 70 GB 敏感工程數據被盜竊和出售，SEKISUI Aerospace Corporation 是一家美國主要國防承包商的一級供應商。該演員聲稱擁有出口管制技術數據，包括與波音 737 和 787 項目相關的工程圖、STEP 文件和材料清單，以及 NASA、洛克希德馬丁公司和諾斯羅普格魯曼公司的組件。根據清單，被盜的包裹包含高度特定的技術工件，標記為「出口控制 - EAR 9E991 / ITAR 技術資料」。這篇部落格文章列舉了以下內容： • 包含工程圖的技術 PDF 文件 • 適用於 CATIA V5-6R2022 和 SolidWorks 2018–2024 的 AP242 格式的完整 STEP 文件 • 包含真實波音零件號的完整物料清單 • 波音 737 MAX 龍骨蒙皮具組件、 787 節的完整工具 787 節和波音 178741 787 節和波音 7875 3 17875 31787 節和波音 7875 • 317875 31787 節和波音 787 節和波音 78751721375 31787 節和波音 787 節和波音 78741177572 37176175757575257575232年 2017 節）。材料規格，包括碳纖維預浸料、熱塑性塑膠PEI 和 PPS、鋁 6061-T6 和鈦嵌件 • GD&T 公差低至 ±0.0005 英寸，符合 ASME Y14.5 • 裝配工具的三維模型，包括鑽夾具、印刷夾具、粘合夾具以及所有相關設備和定位器符合所有相關的硬件據報道，威脅行為者正在要求提供數據價格20萬美元，說明價格可以協商。據稱，這些數據包括機身、機翼、龍骨樑和內部結構中使用的精密組裝工具和熱塑性零件。由於這些資料受到美國《國際武器貿易條例》（ITAR）和《出口管理條例》（EAR）嚴格的出口管制，未經授權的揭露可能會對受影響的實體帶來重大的法律和國家安全影響。積水航空航太株式會社是日本主要化學品製造商積水化學株式會社的子公司。作為波音和其他關鍵國防產品的直接供應商，該公司在航空航天供應鏈中發揮著至關重要的作用。如果是真實的，內部儲存庫的暴露可能會導致智慧財產權盜竊和基礎設施攻擊。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。 #DataBreach #SEKISUIAerospace #ITAR #Boeing #DefenseIndustry #DarkWeb #Cyber​​Security",
-   "score": 3
-  },
-  {
-   "id": "2080271041780236410",
-   "handle": "MonThreat",
-   "name": "MonThreat",
-   "text": "⚠️ Threat Actor Claims Sale of 176M Starbucks User Records on Darkweb A darkweb forum post reveals that a threat actor is offering a database containing 176 million unique Starbucks user records for sale. The seller claims to have successfully extracted the data in June 2026 and is listing the database for $400. The post includes sample lines demonstrating the breadth of the alleged breach, which reportedly spans multiple countries including the United States, United Kingdom, Canada, France, Germany, and Spain. According to the listing, the exposed dataset contains highly sensitive personally identifiable information (PII) and financial details. The sample data provided in the thread indicates the following fields are included: * user_id * email * password_hash (bcrypt format) * name * country_code and country * city * created_at and last_activity_at * account_status * email_verified * birthday * stars_balance and stars_lifetime * total_spent * currency_code * starbucks_card_number * card_balance * auto_reload_enabled * favorite_store_number * favorite_drink * mobile_orders_count * free_rewards_redeemed * signup_platform Starbucks is one of the world's largest coffeehouse chains, with over 38,000 stores globally and a massive digital loyalty program. The exposure of such a large volume of user data, including hashed passwords and linked payment card numbers, could facilitate credential stuffing attacks, identity theft, and targeted phishing campaigns against customers. If authentic, the inclusion of specific spending habits and favorite drinks adds a layer of personalization that could enhance social engineering efforts. At the time of reporting, the alleged breach has not been independently verified by Starbucks or third-party security researchers. The company has not issued any public statements regarding this specific incident. #DataBreach #Starbucks #DarkWeb #PII #CredentialLeak #CyberSecurity #RetailSecurity",
-   "url": "https://x.com/MonThreat/status/2080271041780236410",
-   "created_at": "2026-07-23T12:37:20Z",
-   "tags": [
-    "breach",
-    "market",
-    "darkweb"
-   ],
-   "text_zh": "⚠️ 威脅行為者聲稱在暗網上出售 1.76 億條星巴克用戶記錄 一篇暗網論壇帖子顯示，威脅行為者正在提供一個包含 1.76 億條獨特星巴克用戶記錄的數據庫進行出售。賣家聲稱已於 2026 年 6 月成功提取數據，並以 400 美元的價格列出該資料庫。該貼文包含的樣本行顯示了所指控的違規行為的廣度，據報道，該違規行為橫跨多個國家，包括美國、英國、加拿大、法國、德國和西班牙。根據清單，暴露的資料集包含高度敏感的個人識別資訊（PII）和財務詳細資訊。執行緒中提供的範例資料顯示包含下列欄位： * user_id * email * password_hash（bcrypt 格式） * name *country_code 和country * city *created_at 和last_activity_at *account_status *email_verifieds *birthday*urrcks_activity_at *auto_reload_enabled *favorite_store_number *favorite_drink * mobile_orders_count * free_rewards_redeemed * signup_platform 星巴克是世界上最大的連鎖咖啡館之一，在全球擁有超過 38,000 家門市，並擁有龐大的忠誠度計劃。如此大量的用戶資料（包括散列密碼和連結的支付卡號）的暴露可能會促進撞庫攻擊、身份盜竊和針對客戶的有針對性的網路釣魚活動。如果真實的話，包含特定的消費習慣和最喜歡的飲料會增加一層個人化，可以增強社會工程的效果。截至本報告發布之時，星巴克或第三方安全研究人員尚未對所指控的違規行為進行獨立核實。該公司尚未就這一具體事件發表任何公開聲明。 #DataBreach #星巴克 #DarkWeb #PII #CredentialLeak #Cyber​​Security #RetailSecurity",
    "score": 3
   },
   {
