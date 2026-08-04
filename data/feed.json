@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-03T21:36:09Z",
+ "generated_at": "2026-08-04T07:08:09Z",
  "source": "nitter",
- "new_count": 15,
+ "new_count": 4,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -15,7 +15,7 @@
   "vxunderground": "ok",
   "Gi7w0rm": "ok",
   "MonThreat": "ok",
-  "twcertcc": "ok",
+  "twcertcc": "error",
   "TeamT5_Official": "ok"
  },
  "account_failures": {
@@ -31,7 +31,7 @@
   "vxunderground": 0,
   "Gi7w0rm": 0,
   "MonThreat": 0,
-  "twcertcc": 0,
+  "twcertcc": 1,
   "TeamT5_Official": 0
  },
  "categories": {
@@ -52,6 +52,58 @@
  },
  "posts": [
   {
+   "id": "2084526021764694079",
+   "handle": "DailyDarkWeb",
+   "name": "DailyDarkWeb",
+   "text": "📱 UPDATE: Apple Says Telegram Was Temporarily Removed Over CSAM Policy Violation Apple has clarified why Telegram briefly disappeared from the App Store. * Apple told Bloomberg the app was temporarily removed after a review identified content that violated its policies prohibiting Child Sexual Abuse Material (CSAM). * According to Apple, Telegram restored access after promptly removing the offending content and banning the user responsible. * Telegram has since returned to the App Store. * Telegram CEO Pavel Durov responded on X, saying: \"I'm sure this stance will be applied equally to all other apps in the store, in the future right? Apple\" Analyst Note: The removal appears to have been driven by App Store content moderation rather than a platform-wide security issue or regulatory enforcement. The incident also highlights the increasing pressure app stores are placing on messaging platforms to rapidly address illegal content. Sources * Bloomberg #DDW #Intelligence #DarkWeb #Telegram",
+   "url": "https://x.com/DailyDarkWeb/status/2084526021764694079",
+   "created_at": "2026-08-04T06:25:06Z",
+   "tags": [
+    "darkweb"
+   ],
+   "score": 3,
+   "text_zh": "📱 更新：蘋果稱 Telegram 因違反 CSAM 政策而被暫時下架 蘋果已澄清 Telegram 短暫從 App Store 中消失的原因。 * 蘋果告訴彭博社，在審查發現內容違反其禁止兒童性虐待材料 (CSAM) 的政策後，該應用程式已被暫時刪除。 * 據蘋果公司稱，Telegram 在及時刪除違規內容並禁止相關用戶後恢復了存取權限。 * Telegram 此後已返回 App Store。 * Telegram 首席執行官 Pavel Durov 在 X 上回應稱：“我確信這一立場將同樣適用於商店中的所有其他應用程序，未來是吧？蘋果” 分析師注：此次刪除似乎是由 App Store 內容審核驅動的，而不是平台範圍的安全問題或監管。該事件還凸顯了應用程式商店對訊息平台施加的越來越大的壓力，以快速解決非法內容。來源*彭博#DDW #Intelligence #DarkWeb #Telegram"
+  },
+  {
+   "id": "2084491648021442842",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: I was reminded it was seven years old when Xitter sent me a notification about it. This is the image it chose to celebrate seven years. Okay, I love you, bye bye",
+   "url": "https://x.com/vxunderground/status/2084491648021442842",
+   "created_at": "2026-08-04T04:08:31Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "R 致 @vxunderground：當 Xitter 向我發送有關它的通知時，我想起它已經七歲了。這是它選擇慶祝七週年的圖片。好吧，我愛你，再見"
+  },
+  {
+   "id": "2084491239651467329",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "This social media profile is officially seven years old. Thank you for the love and support.",
+   "url": "https://x.com/vxunderground/status/2084491239651467329",
+   "created_at": "2026-08-04T04:06:54Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "這份社群媒體資料正式已有七年歷史。感謝您的愛護與支持。"
+  },
+  {
+   "id": "md-117033834781659402",
+   "handle": "campuscodi",
+   "name": "campuscodi",
+   "text": "Live streams from the BSides Las Vegas 2026 security conference, which is taking place this week, are available on YouTube https://www. youtube.com/@BsideslvOrg/strea ms",
+   "url": "https://mastodon.social/@campuscodi/117033834781659402",
+   "created_at": "2026-08-03T22:03:18Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "本週舉行的 BSides 拉斯維加斯 2026 安全會議的直播可在 YouTube https://www. youtube.com/@BsideslvOrg/strea ms"
+  },
+  {
    "id": "2084326588217200830",
    "handle": "DailyDarkWeb",
    "name": "DailyDarkWeb",
@@ -62,8 +114,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇪🇸 西班牙：據稱免費共享 Cromakit 客戶和用戶資料庫 一名網路犯罪論壇用戶發布了他們聲稱與西班牙電子商務企業 http://Cromakit.es 相關的資料庫。 * 這份清單似乎包括客戶訂單和帳單記錄，其中包含姓名、公司詳細資料、地址、城市、郵遞區號、國家/地區、電話號碼和電子郵件地址。 * 第二個範例似乎包含網站使用者帳戶數據，包括使用者名稱、電子郵件地址、註冊詳細資料、啟動金鑰、帳戶狀態和密碼相關欄位。 * 攻擊者透過外部下載連結分發所謂的資料庫，而不是將其出售。 * 該貼文沒有透露記錄總數、涉嫌洩漏的日期或入侵方法。 * 資料集的真實性、最新性和完整性尚未經過獨立驗證。分析師註釋：商業記錄和帳戶表的存在可能會增加憑證攻擊、網路釣魚、詐欺和客戶冒充的風險。密碼欄位可能是散列的而不是純文字的，但暴露的雜湊仍然會在涉及弱演算法或重複使用的密碼時產生風險。 #DDW #Intelligence #DarkWeb #Spain"
+   "text_zh": "🇪🇸 西班牙：據稱免費共享 Cromakit 客戶和用戶資料庫 一名網路犯罪論壇用戶發布了他們聲稱與西班牙電子商務企業 http://Cromakit.es 相關的資料庫。 * 這份清單似乎包括客戶訂單和帳單記錄，其中包含姓名、公司詳細資料、地址、城市、郵遞區號、國家/地區、電話號碼和電子郵件地址。 * 第二個範例似乎包含網站使用者帳戶數據，包括使用者名稱、電子郵件地址、註冊詳細資料、啟動金鑰、帳戶狀態和密碼相關欄位。 * 攻擊者透過外部下載連結分發所謂的資料庫，而不是將其出售。 * 該貼文沒有透露記錄總數、涉嫌洩漏的日期或入侵方法。 * 資料集的真實性、最新性和完整性尚未經過獨立驗證。分析師註釋：商業記錄和帳戶表的存在可能會增加憑證攻擊、網路釣魚、詐欺和客戶冒充的風險。密碼欄位可能是散列的而不是純文字的，但暴露的雜湊仍然會在涉及弱演算法或重複使用的密碼時產生風險。 #DDW #Intelligence #DarkWeb #Spain",
+   "score": 3
   },
   {
    "id": "2084325291887849621",
@@ -75,8 +127,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "全新 X 信用卡由您掌控"
+   "text_zh": "全新 X 信用卡由您掌控",
+   "score": 0
   },
   {
    "id": "2084322434111385957",
@@ -89,8 +141,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇮🇳 印度：DreamChild 育兒用戶資料據稱遭洩露 威脅行為者發布了他們聲稱的資料庫，其中包含來自印度產前健康和育兒平台 DreamChild (http://dreamchild.in) 的用戶資料。 * 該貼文聲稱該資料集包含 64,122 個使用者個人資料。 * 據該行為者稱，這些數據包括姓名、電話號碼、IP 位址、設備 ID、城市、地區、國家、語言和設備元數據。 * 該清單還引用了超過 54,000 個唯一設備 ID、超過 35,000 個唯一名稱以及超過 13,000 個電話號碼。 * 據報道，該資料集以 JSON Lines 和 JSON 格式共享，並且正在公開分發。 * 截至本文撰寫時，DreamChild 或 Anantam Life Science 尚未公開確認所謂洩密事件的真實性。分析師註釋：處理懷孕、育兒和健康相關服務的應用程式通常會處理高度敏感的個人資訊。如果聲明準確，暴露的用戶資料可能會被用於有針對性的網路釣魚、身分盜竊、帳戶洩露和隱私侵犯。在得出結論之前，應獨立驗證資料集的真實性和範圍。 #DDW #Intelligence #DarkWeb #India"
+   "text_zh": "🇮🇳 印度：DreamChild 育兒用戶資料據稱遭洩露 威脅行為者發布了他們聲稱的資料庫，其中包含來自印度產前健康和育兒平台 DreamChild (http://dreamchild.in) 的用戶資料。 * 該貼文聲稱該資料集包含 64,122 個使用者個人資料。 * 據該行為者稱，這些數據包括姓名、電話號碼、IP 位址、設備 ID、城市、地區、國家、語言和設備元數據。 * 該清單還引用了超過 54,000 個唯一設備 ID、超過 35,000 個唯一名稱以及超過 13,000 個電話號碼。 * 據報道，該資料集以 JSON Lines 和 JSON 格式共享，並且正在公開分發。 * 截至本文撰寫時，DreamChild 或 Anantam Life Science 尚未公開確認所謂洩密事件的真實性。分析師註釋：處理懷孕、育兒和健康相關服務的應用程式通常會處理高度敏感的個人資訊。如果聲明準確，暴露的用戶資料可能會被用於有針對性的網路釣魚、身分盜竊、帳戶洩露和隱私侵犯。在得出結論之前，應獨立驗證資料集的真實性和範圍。 #DDW #Intelligence #DarkWeb #India",
+   "score": 3
   },
   {
    "id": "2084319331630854477",
@@ -104,8 +156,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 6,
-   "text_zh": "🇺🇸美國：STIIIZY 據稱被 Everest 勒索軟體集團列入 Everest 勒索軟體集團聲稱對總部位於加州的大麻零售商 STIIIZY 發動攻擊，聲稱客戶和公司內部資料被盜。 * 威脅行為者聲稱獲得了大約 42 萬筆記錄。 * 據稱暴露的數據包括客戶帳戶資訊、政府頒發的身份證件、醫用大麻卡和內部文件。 * 洩漏網站上發布的螢幕截圖引用了資料庫和公司文件。 * 截至撰寫本文時，這些說法尚未經過獨立核實，STIIIZY 也未發布任何官方聲明來確認所稱的妥協。分析師註：影響受監管大麻企業的事件可能會暴露特別敏感的個人訊息，包括身分證件和醫療相關記錄。如果得到證實，受影響的個人可能會面臨身分盜竊、針對性網路釣魚和隱私侵犯的更高風險。所指控的洩漏的真實性和範圍應得到獨立驗證。 #DDW #Intelligence #DarkWeb #USA"
+   "text_zh": "🇺🇸美國：STIIIZY 據稱被 Everest 勒索軟體集團列入 Everest 勒索軟體集團聲稱對總部位於加州的大麻零售商 STIIIZY 發動攻擊，聲稱客戶和公司內部資料被盜。 * 威脅行為者聲稱獲得了大約 42 萬筆記錄。 * 據稱暴露的數據包括客戶帳戶資訊、政府頒發的身份證件、醫用大麻卡和內部文件。 * 洩漏網站上發布的螢幕截圖引用了資料庫和公司文件。 * 截至撰寫本文時，這些說法尚未經過獨立核實，STIIIZY 也未發布任何官方聲明來確認所稱的妥協。分析師註：影響受監管大麻企業的事件可能會暴露特別敏感的個人訊息，包括身分證件和醫療相關記錄。如果得到證實，受影響的個人可能會面臨身分盜竊、針對性網路釣魚和隱私侵犯的更高風險。所指控的洩漏的真實性和範圍應得到獨立驗證。 #DDW #Intelligence #DarkWeb #USA",
+   "score": 6
   },
   {
    "id": "2084316910183764098",
@@ -117,8 +169,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇫🇷 法國：INSERM 用戶資料庫據稱在網路犯罪論壇上共享 威脅行為者在網路犯罪論壇上宣傳了他們聲稱與 INSERM（法國國家健康與醫學研究所）相關的用戶資料庫。 * 該貼文聲稱該資料集包含約 189,997 筆使用者記錄。 * 參與者聲明資料以 JSON 格式提供。 * 清單中附有顯示 INSERM 品牌的螢幕截圖，但沒有公開顯示記錄的詳細樣本。 * 截至本文撰寫時，INSERM 或法國當局尚未公開確認所稱資料集的真實性。分析師附註：研究機構因其使用者資料、研究活動和協作網路的敏感度而成為有吸引力的目標。如果真實，暴露的資訊可能會導致網路釣魚活動、帳戶洩露嘗試以及針對附屬研究人員和合作夥伴組織的進一步攻擊。在得出結論之前，應對這些主張進行獨立驗證。 #DDW #Intelligence #DarkWeb #France"
+   "text_zh": "🇫🇷 法國：INSERM 用戶資料庫據稱在網路犯罪論壇上共享 威脅行為者在網路犯罪論壇上宣傳了他們聲稱與 INSERM（法國國家健康與醫學研究所）相關的用戶資料庫。 * 該貼文聲稱該資料集包含約 189,997 筆使用者記錄。 * 參與者聲明資料以 JSON 格式提供。 * 清單中附有顯示 INSERM 品牌的螢幕截圖，但沒有公開顯示記錄的詳細樣本。 * 截至本文撰寫時，INSERM 或法國當局尚未公開確認所稱資料集的真實性。分析師附註：研究機構因其使用者資料、研究活動和協作網路的敏感度而成為有吸引力的目標。如果真實，暴露的資訊可能會導致網路釣魚活動、帳戶洩露嘗試以及針對附屬研究人員和合作夥伴組織的進一步攻擊。在得出結論之前，應對這些主張進行獨立驗證。 #DDW #Intelligence #DarkWeb #France",
+   "score": 3
   },
   {
    "id": "2084313673678369279",
@@ -130,8 +182,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "Pinned：X 是網路上最豐富的 OSINT 環境之一，為調查人員提供即時對話、社群、趨勢和公開情報的存取權。我們最新的 X OSINT 指南重點介紹了安全研究人員、威脅追蹤者、記者和調查人員的關鍵技術、資料來源、用例以及一些最廣泛使用的工具。涵蓋的主題包括： • 檔案和網路分析 • 標籤和趨勢監控 • 媒體和元資料分析 • 地理定位技術 • 威脅情報工作流程 • 歸因注意事項 • 道德開源情報最佳實踐 特色工具包括： • SOCRadar • TweetDeck (X Pro) • Twint • Maltego • SpiderFoot • SocialRadar • TweetDeck (X Pro) • Twint • Maltego • SpiderFoot • Social Socialing • 等等。分析師註：沒有任何一個 OSINT 工具可以提供完整的情況。最有效的調查會結合多個來源，獨立驗證調查結果，並在得出結論之前始終考慮錯誤歸因的風險。您最依賴哪個 X OSINT 工具？ #DDW #OSINT #ThreatIntelligence #Cyber​​Security"
+   "text_zh": "Pinned：X 是網路上最豐富的 OSINT 環境之一，為調查人員提供即時對話、社群、趨勢和公開情報的存取權。我們最新的 X OSINT 指南重點介紹了安全研究人員、威脅追蹤者、記者和調查人員的關鍵技術、資料來源、用例以及一些最廣泛使用的工具。涵蓋的主題包括： • 檔案和網路分析 • 標籤和趨勢監控 • 媒體和元資料分析 • 地理定位技術 • 威脅情報工作流程 • 歸因注意事項 • 道德開源情報最佳實踐 特色工具包括： • SOCRadar • TweetDeck (X Pro) • Twint • Maltego • SpiderFoot • SocialRadar • TweetDeck (X Pro) • Twint • Maltego • SpiderFoot • Social Socialing • 等等。分析師註：沒有任何一個 OSINT 工具可以提供完整的情況。最有效的調查會結合多個來源，獨立驗證調查結果，並在得出結論之前始終考慮錯誤歸因的風險。您最依賴哪個 X OSINT 工具？ #DDW #OSINT #ThreatIntelligence #Cyber​​Security",
+   "score": 1
   },
   {
    "id": "2084271309102485602",
@@ -143,8 +195,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "當人工智慧電話詐騙者打電話時，你不會掛斷電話，而是會破壞他們的提示矩陣，直到他們開始無限循環地喊著「新墨西哥州阿爾伯克基」。 💀🤖 @Kitboga 正在做上帝的工作，搞亂人工智慧詐騙機器人。 #Kitboga #AIScams #DDW #ScamBaiting"
+   "text_zh": "當人工智慧電話詐騙者打電話時，你不會掛斷電話，而是會破壞他們的提示矩陣，直到他們開始無限循環地喊著「新墨西哥州阿爾伯克基」。 💀🤖 @Kitboga 正在做上帝的工作，搞亂人工智慧詐騙機器人。 #Kitboga #AIScams #DDW #ScamBaiting",
+   "score": 0
   },
   {
    "id": "2084262569070465411",
@@ -158,8 +210,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨 威脅行為者聲稱在暗網上出售 2 TB Falabella Chile 資料 據稱，威脅行為者正在出售從拉丁美洲最大的零售集團之一 Falabella Chile 竊取的 2 TB 資料。根據地下論壇上的列表，該漏洞發生在幾個月前，當時 Falabella Chile 的租戶被訪問，導致資料庫和內部系統受到損害。該演員聲稱在開始銷售之前已經審查了兩個多月的數據。該貼文聲稱，暴露的材料包括從 SharePoint 和內部儲存庫提取的文件。賣家聲稱轉儲中包含以下類別的資料： * Active Directory 報告 * 註冊表匯出檔案 (REGEDIT) * 各種 PDF 文件 據報道，該行為者要求 0.65 BTC 以獲得完整資料集。線程中提供了示例文件的鏈接，以證明洩漏的真實性。 Falabella 是零售業的主要參與者，在智利、秘魯、哥倫比亞和墨西哥經營許多百貨公司和電子商務平台。如果聲明準確的話，這種規模的違規行為可能會暴露敏感的客戶資訊、員工記錄和專有業務策略。截至本報告發布之時，Falabella 或第三方安全公司尚未對涉嫌違規行為進行獨立核實。"
+   "text_zh": "🚨 威脅行為者聲稱在暗網上出售 2 TB Falabella Chile 資料 據稱，威脅行為者正在出售從拉丁美洲最大的零售集團之一 Falabella Chile 竊取的 2 TB 資料。根據地下論壇上的列表，該漏洞發生在幾個月前，當時 Falabella Chile 的租戶被訪問，導致資料庫和內部系統受到損害。該演員聲稱在開始銷售之前已經審查了兩個多月的數據。該貼文聲稱，暴露的材料包括從 SharePoint 和內部儲存庫提取的文件。賣家聲稱轉儲中包含以下類別的資料： * Active Directory 報告 * 註冊表匯出檔案 (REGEDIT) * 各種 PDF 文件 據報道，該行為者要求 0.65 BTC 以獲得完整資料集。線程中提供了示例文件的鏈接，以證明洩漏的真實性。 Falabella 是零售業的主要參與者，在智利、秘魯、哥倫比亞和墨西哥經營許多百貨公司和電子商務平台。如果聲明準確的話，這種規模的違規行為可能會暴露敏感的客戶資訊、員工記錄和專有業務策略。截至本報告發布之時，Falabella 或第三方安全公司尚未對涉嫌違規行為進行獨立核實。",
+   "score": 3
   },
   {
    "id": "2084261744973680938",
@@ -173,8 +225,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨 據稱 Questrade 違規在暗網上暴露了 152,000 條客戶記錄 一篇暗網論壇帖子聲稱，包含加拿大主要投資平台 Questrade 152,284 名用戶個人信息的數據庫正在出售。該清單的日期為 2026 年 8 月 2 日，聲稱這些資料是由第三方取得並提供給賣家進行分發的。根據該帖子，受損的資料集包含每筆記錄的敏感個人識別資訊 (PII)。賣家列出了以下暴露的資料欄位： * 全名（名字和姓氏） * 電子郵件地址 * 實際地址（街道、城市、省、郵遞區號） * 電話號碼 * 性別 * 內部識別碼（Questrade.LeadCheck、userType） Questrade Inc. 是加拿大最大的線上折扣經紀商之一，為數十萬紀散戶投資者提供服務。此類詳細聯絡資訊的暴露可能會促進針對受影響個人的有針對性的網路釣魚活動、社會工程攻擊或身分盜竊。賣方要求為資料庫支付 300 美元，並在提供存取權限之前要求提供資金證明。該貼文明確指出，這些資料不是發文者洩漏的，而是從合作夥伴那裡取得的。截至本報告發佈時，所指控的違規行為尚未得到獨立核實，加泰證券尚未就這一具體事件發表公開聲明。"
+   "text_zh": "🚨 據稱 Questrade 違規在暗網上暴露了 152,000 條客戶記錄 一篇暗網論壇帖子聲稱，包含加拿大主要投資平台 Questrade 152,284 名用戶個人信息的數據庫正在出售。該清單的日期為 2026 年 8 月 2 日，聲稱這些資料是由第三方取得並提供給賣家進行分發的。根據該帖子，受損的資料集包含每筆記錄的敏感個人識別資訊 (PII)。賣家列出了以下暴露的資料欄位： * 全名（名字和姓氏） * 電子郵件地址 * 實際地址（街道、城市、省、郵遞區號） * 電話號碼 * 性別 * 內部識別碼（Questrade.LeadCheck、userType） Questrade Inc. 是加拿大最大的線上折扣經紀商之一，為數十萬紀散戶投資者提供服務。此類詳細聯絡資訊的暴露可能會促進針對受影響個人的有針對性的網路釣魚活動、社會工程攻擊或身分盜竊。賣方要求為資料庫支付 300 美元，並在提供存取權限之前要求提供資金證明。該貼文明確指出，這些資料不是發文者洩漏的，而是從合作夥伴那裡取得的。截至本報告發佈時，所指控的違規行為尚未得到獨立核實，加泰證券尚未就這一具體事件發表公開聲明。",
+   "score": 3
   },
   {
    "id": "2084245204932915592",
@@ -188,8 +240,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨 據稱 Zain 伊拉克客戶資料庫洩露，暗網上暴露了 PII 地下論壇上的一篇貼文聲稱，包含 Zain 伊拉克客戶個人資訊的資料庫已被洩露。該行為者聲稱，被盜資料包括與電信提供者相關的使用者的姓名、電話號碼和實際地址。根據清單，資料可透過 http://anonfilesnew.com 上託管的兩個下載連結取得。該貼文沒有具體說明涉嫌洩露的記錄的確切數量，但其中包含的直接電話號碼和地址表明了一個全面的客戶資料集。 Zain伊拉克是伊拉克的主要電信營運商，為數百萬用戶提供行動和網路服務。作為該國最大的電信供應商之一，這種規模的違規行為可能會對客戶的隱私和安全產生重大影響。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。扎因伊拉克尚未就這起具體事件發表任何公開聲明。 #DataBreach #ZainIraq #TelecomSecurity #PII #DarkWeb #Cyber​​Security"
+   "text_zh": "🚨 據稱 Zain 伊拉克客戶資料庫洩露，暗網上暴露了 PII 地下論壇上的一篇貼文聲稱，包含 Zain 伊拉克客戶個人資訊的資料庫已被洩露。該行為者聲稱，被盜資料包括與電信提供者相關的使用者的姓名、電話號碼和實際地址。根據清單，資料可透過 http://anonfilesnew.com 上託管的兩個下載連結取得。該貼文沒有具體說明涉嫌洩露的記錄的確切數量，但其中包含的直接電話號碼和地址表明了一個全面的客戶資料集。 Zain伊拉克是伊拉克的主要電信營運商，為數百萬用戶提供行動和網路服務。作為該國最大的電信供應商之一，這種規模的違規行為可能會對客戶的隱私和安全產生重大影響。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。扎因伊拉克尚未就這起具體事件發表任何公開聲明。 #DataBreach #ZainIraq #TelecomSecurity #PII #DarkWeb #Cyber​​Security",
+   "score": 3
   },
   {
    "id": "2084244869216608702",
@@ -202,8 +254,8 @@
     "breach",
     "market"
    ],
-   "score": 3,
-   "text_zh": "🚨 據稱 Asiacell Telecom 伊拉克資料外洩導致用戶 PII 外洩 地下論壇上的一篇貼文聲稱洩露了包含 Asiacell Telecom 伊拉克用戶個人資訊的資料庫。該行為者聲稱，洩漏的資料包括行動用戶的敏感個人識別資訊 (PII)。根據清單，暴露的資料集包含以下欄位： * 訂閱者姓名 * 電話號碼 * 訂閱日期 * 州/省 * 出生日期 * ID 號碼 該貼文提供了透過文件寄存服務下載 Excel 格式的所謂資料轉儲的連結。 Asiacell 是伊拉克最大的電信供應商之一，為全國數百萬用戶提供服務。如此規模的違規可能會對該地區的用戶隱私和安全產生重大影響。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。"
+   "text_zh": "🚨 據稱 Asiacell Telecom 伊拉克資料外洩導致用戶 PII 外洩 地下論壇上的一篇貼文聲稱洩露了包含 Asiacell Telecom 伊拉克用戶個人資訊的資料庫。該行為者聲稱，洩漏的資料包括行動用戶的敏感個人識別資訊 (PII)。根據清單，暴露的資料集包含以下欄位： * 訂閱者姓名 * 電話號碼 * 訂閱日期 * 州/省 * 出生日期 * ID 號碼 該貼文提供了透過文件寄存服務下載 Excel 格式的所謂資料轉儲的連結。 Asiacell 是伊拉克最大的電信供應商之一，為全國數百萬用戶提供服務。如此規模的違規可能會對該地區的用戶隱私和安全產生重大影響。截至本報告發布之時，所指控的違規行為尚未得到獨立核實。",
+   "score": 3
   },
   {
    "id": "2084235199232004574",
@@ -215,8 +267,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "我在自己的 PC 上玩的第一批遊戲之一是《紀元 1503》。只需在工作期間將遊戲內配樂的播放清單放在 YouTube 上即可。該死，其中一些歌曲太棒了 XD #Anno1503 #Ubisoft"
+   "text_zh": "我在自己的 PC 上玩的第一批遊戲之一是《紀元 1503》。只需在工作期間將遊戲內配樂的播放清單放在 YouTube 上即可。該死，其中一些歌曲太棒了 XD #Anno1503 #Ubisoft",
+   "score": 0
   },
   {
    "id": "md-117030511970578998",
@@ -230,8 +282,8 @@
     "malware",
     "vuln"
    ],
-   "score": 6,
-   "text_zh": "-假IRS信件瞄準加密用戶 -INC採用SonicWall零日漏洞 -DarkSword傳播到8個群體 -極右圖像板構建AI人肉搜尋工具 -新的NullReceiver C2技術 -DarkSword傳播到8個群體 -極右圖像板構建AI人肉搜尋工具 -新的NullReceiver C2技術 -新的Fuyao廣告欺詐殭屍網絡 -新的OctLurk和SilkLurkinda軟體 -Storm-1516的亞洩尼亞漏洞報告"
+   "text_zh": "-假IRS信件瞄準加密用戶 -INC採用SonicWall零日漏洞 -DarkSword傳播到8個群體 -極右圖像板構建AI人肉搜尋工具 -新的NullReceiver C2技術 -DarkSword傳播到8個群體 -極右圖像板構建AI人肉搜尋工具 -新的NullReceiver C2技術 -新的Fuyao廣告欺詐殭屍網絡 -新的OctLurk和SilkLurkinda軟體 -Storm-1516的亞洩尼亞漏洞報告",
+   "score": 6
   },
   {
    "id": "md-117030505061653013",
@@ -244,8 +296,8 @@
     "breach",
     "malware"
    ],
-   "score": 6,
-   "text_zh": "-俄羅斯是最近酒店 WiFi 黑客攻擊的幕後黑手 -人性化模型也進行了 hacky-hacky -npm 增加了發佈時惡意軟體掃描 -Coldcard 被黑客攻擊價值 7000 萬美元 -CyberCom 開設矽谷辦事處 -伊朗供水黑客攻擊-SMS 爆破者在馬來西亞被捕 P: https:// risky.biz/RBNEWS595/ N：https://news.risky.biz/risky-bulletin-Russia-is-behind-the-recent-hotel-wifi-hacks/"
+   "text_zh": "-俄羅斯是最近酒店 WiFi 黑客攻擊的幕後黑手 -人性化模型也進行了 hacky-hacky -npm 增加了發佈時惡意軟體掃描 -Coldcard 被黑客攻擊價值 7000 萬美元 -CyberCom 開設矽谷辦事處 -伊朗供水黑客攻擊-SMS 爆破者在馬來西亞被捕 P: https:// risky.biz/RBNEWS595/ N：https://news.risky.biz/risky-bulletin-Russia-is-behind-the-recent-hotel-wifi-hacks/",
+   "score": 6
   },
   {
    "id": "2084151933141496222",
@@ -283,8 +335,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "網路威脅每天都在改變。隨時了解狀況。保持安全。 2026 年威脅分析師高峰會即將到來。 📅 2026 年 12 月 2-3 日📍台灣台北🔗加入我們並參與對話：https://teamt5.kktix.cc/events/tas2026 #TAS26 #ThreatIntel #Cyber​​Security"
+   "text_zh": "網路威脅每天都在改變。隨時了解狀況。保持安全。 2026 年威脅分析師高峰會即將到來。 📅 2026 年 12 月 2-3 日📍台灣台北🔗加入我們並參與對話：https://teamt5.kktix.cc/events/tas2026 #TAS26 #ThreatIntel #Cyber​​Security",
+   "score": 1
   },
   {
    "id": "2084057751085318344",
@@ -2229,20 +2281,6 @@
    "score": 2
   },
   {
-   "id": "2082585075816808830",
-   "handle": "DailyDarkWeb",
-   "name": "DailyDarkWeb",
-   "text": "🚨 RufRoot AI Vulnerability Exposes 233 AI Development Tools Researchers have disclosed \"RufRoot,\" a critical vulnerability affecting the Ruflo AI agent framework that could allow attackers to achieve remote code execution and poison persistent AI memory. * 233 AI tools are reportedly affected. * Attackers can execute commands without authentication on vulnerable deployments. * The flaw enables persistent memory poisoning, allowing malicious instructions to survive beyond patching if compromised memory is retained. * AI agents may continue following attacker-controlled instructions even after the software is updated unless memory and state are also sanitized. Analyst Note: AI security doesn't end with patching the vulnerable software. Organizations deploying AI agents should treat conversation history, memory stores, vector databases, and persistent state as potentially compromised artifacts requiring validation or rebuilding after an incident. Sources: https://deafnews.it/en/news/cybersecurity/rufroot-the-ai-vulnerability-that-survives-the-patch-233-tools-exposed-and-persistent-memory-poisoning #DDW #Intelligence #DarkWeb #AI",
-   "url": "https://x.com/DailyDarkWeb/status/2082585075816808830",
-   "created_at": "2026-07-29T21:52:29Z",
-   "tags": [
-    "vuln",
-    "darkweb"
-   ],
-   "text_zh": "🚨 RufRoot AI 漏洞暴露了 233 個 AI 開發工具 研究人員披露了“RufRoot”，這是一個影響 Ruflo AI 代理框架的嚴重漏洞，可能允許攻擊者實現遠程代碼執行並毒害持久 AI 內存。 * 據報道，233 個 AI 工具受到影響。 * 攻擊者無需身份驗證即可在易受攻擊的部署上執行命令。 * 此缺陷會導致持久內存中毒，如果保留受損內存，惡意指令將在修補後繼續存在。 * 即使軟體更新後，人工智慧代理也可能繼續遵循攻擊者控制的指令，除非記憶體和狀態也被清理。分析師註：人工智慧安全並不僅限於修補易受攻擊的軟體。部署人工智慧代理的組織應將對話歷史記錄、記憶體儲存、向量資料庫和持久狀態視為潛在受損的工件，需要在事件發生後進行驗證或重建。資料來源：https://deafnews.it/en/news/cybersecurity/rufroot-the-ai-vulnerability-that-survives-the-patch-233-tools-exposed-and-persistent-memory-poisoning #DDW #Intelligence #DarkWeb #AIgence #DarkWeb #AI",
-   "score": 3
-  },
-  {
    "id": "2082574189244911874",
    "handle": "vxunderground",
    "name": "vxunderground",
@@ -2704,32 +2742,6 @@
     "other"
    ],
    "text_zh": "馬雷克，你這個愚蠢的狗娘養的，帶著你愚蠢的屁股男人髮髻和狗屎風險合規工作，這不是人工智能生成的鏡頭，你撒謊的小母狗。如果您要提交 DMCA 刪除請求，您應該寫下這是因為 RockStar 遊戲受到英國一名自閉症青少年的侵害，該青少年在酒店房間中通過社會工程通過 Amazon FireStick 提供幫助台支持 我顯然無法提出反訴，我是一個臭書呆子，而您代表的是一家價值數十億美元的公司，但我想讓您知道您是個膽小鬼",
-   "score": 0
-  },
-  {
-   "id": "2081961328504172732",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "> check twitter > account locked > ??? > DMCA takedown request > ??? > click see post > rockstar games compromise post > shows GTA 6 testing footage > 8:51 AM · Sep 19, 2022 you fucking assholes hit me with a DMCA takedown request on a video from 2022? seriously?",
-   "url": "https://x.com/vxunderground/status/2081961328504172732",
-   "created_at": "2026-07-28T04:33:56Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "> 檢查 Twitter > 帳戶已鎖定 > ??? > DMCA 刪除請求 > ??? > 點擊查看帖子 > rockstar games 妥協帖子 > 顯示 GTA 6 測試片段 > 上午 8:51 · 2022 年 9 月 19 日，你們這些混蛋對我提出 DMCA 刪除 2022 年視頻的請求？嚴重地？",
-   "score": 0
-  },
-  {
-   "id": "2081931654822547574",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "My wife and I frequently yell \"HELP!\" when we need help with the baby. He is 17 months and he is crazy. The good news is that he has suddenly began screaming \"HELP\" in public with zero context. It's fun holding a baby and he screams \"HELP!\" around a bunch of strangers.",
-   "url": "https://x.com/vxunderground/status/2081931654822547574",
-   "created_at": "2026-07-28T02:36:01Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "我和我的妻子經常大喊「救命！」當我們需要幫忙照顧寶寶時。他已经 17 个月了，他疯了。好消息是，他突然開始在零背景的公共場合大喊「救命」。抱著嬰兒很有趣，他會尖叫「救命！」周圍都是一群陌生人。",
    "score": 0
   },
   {
@@ -3293,19 +3305,6 @@
    ],
    "text_zh": "許多西方網路機構針對俄羅斯針對 Zimbra NSA 的駭客行動發布了聯合警報：https://media.defense.gov/2026/Jul/22/2003965244/-1/-1/0/CSA_RUSSIA_PHISHING_TARGET_ZIMBRA.PDF FBI：https://www.206/CSA/2026/CSA/2023262672602/20232/20232/2623259963999639. AIVD：https://english.aivd.nl/latest/news/20 26/03/09/ Russia-targets-signal-and-whatsapp-accounts-in-cyber-campaign MIVD：https://www.ic3.gov/CSA/2026/260723.pdf defensie.nl/actueel/2023.pdf defene.nl/1ue 6/07/23/russische-hackersgroep-laundry-bear-hackt-mailservers-zimbra 英國 NCSC：https://www.defensie.nl/actueel/nieuws/202 ncsc.gov.uk/news/uk-and-partne rs-expose-Russian-state-camp-w-w-w-f-f-c​​0-k-f-k-k- ☺確定-確定-0-d",
    "score": 1
-  },
-  {
-   "id": "md-116969468945302608",
-   "handle": "campuscodi",
-   "name": "campuscodi",
-   "text": "CISA has updated its \"Iran attacks PLCs\" advisory to add info about attacks on Siemens and Schneider Electric devices Initial attacks only targeted Rockwell and Allen-Bradley PLCs New TTPs and IOCs added too https://www. cisa.gov/news-events/cybersecu rity-advisories/aa26-097a",
-   "url": "https://mastodon.social/@campuscodi/116969468945302608",
-   "created_at": "2026-07-23T13:14:13Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "CISA 更新了其「伊朗攻擊 PLC」通報，添加了有關西門子和施耐德電氣設備攻擊的資訊 最初的攻擊僅針對 Rockwell 和 Allen-Bradley PLC 新也添加了 TTP 和 IOC https://www. cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
-   "score": 3
   },
   {
    "id": "2080273519133302840",
