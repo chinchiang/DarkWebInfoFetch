@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T00:58:01Z",
+ "generated_at": "2026-08-07T05:56:04Z",
  "source": "nitter",
- "new_count": 46,
+ "new_count": 3,
  "account_status": {
   "DailyDarkWeb": "ok",
   "DarkWebInformer": "ok",
@@ -52,6 +52,45 @@
  },
  "posts": [
   {
+   "id": "2085539936908771436",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "R to @vxunderground: I pray to God that isn't a true number, because if it is, these kids are being scammed and bled dry. They're essentially extortionists at this point, the amount of money you are willing to pay determines your success (if you follow their rules)",
+   "url": "https://x.com/vxunderground/status/2085539936908771436",
+   "created_at": "2026-08-07T01:34:03Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "R 致@vxunderground：我向上帝祈禱這不是一個真實的數字，因為如果是的話，這些孩子就會被騙並流血。此時他們本質上是勒索者，你願意支付的金額決定你的成功（如果你遵守他們的規則）"
+  },
+  {
+   "id": "2085539575900835877",
+   "handle": "vxunderground",
+   "name": "vxunderground",
+   "text": "What in the FUCK I'm seeing online a BACHELORS degree can cost as much as $80,000, and some saying it can exceed $200,000 No FUCKING way that is accurate (I never attended a university, I don't have a degree)",
+   "url": "https://x.com/vxunderground/status/2085539575900835877",
+   "created_at": "2026-08-07T01:32:37Z",
+   "tags": [
+    "other"
+   ],
+   "score": 0,
+   "text_zh": "我他媽在網上看到學士學位的費用高達 80,000 美元，有些人說它可以超過 200,000 美元，這他媽的不准確（我從未上過大學，我沒有學位）"
+  },
+  {
+   "id": "2085530946124812448",
+   "handle": "TeamT5_Official",
+   "name": "TeamT5_Official",
+   "text": "Supply chain attacks are on the rise — and the weakest link can compromise the entire organization. We're curious: Which area of your #supply #chain #cybersecurity needs the most improvement?",
+   "url": "https://x.com/TeamT5_Official/status/2085530946124812448",
+   "created_at": "2026-08-07T00:58:19Z",
+   "tags": [
+    "other"
+   ],
+   "score": 1,
+   "text_zh": "供應鏈攻擊呈上升趨勢，最薄弱的環節可能會危及整個組織。我們很好奇：您的#supply #chain #cybersecurity 的哪個領域最需要改進？"
+  },
+  {
    "id": "2085520599502221730",
    "handle": "DarkWebInformer",
    "name": "DarkWebInformer",
@@ -61,8 +100,8 @@
    "tags": [
     "breach"
    ],
-   "score": 5,
-   "text_zh": "️ Helix 洩漏網站 Onion IOC：http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd[.]onion"
+   "text_zh": "️ Helix 洩漏網站 Onion IOC：http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd[.]onion",
+   "score": 5
   },
   {
    "id": "2085519428624564404",
@@ -74,8 +113,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 3,
-   "text_zh": "梭子魚勒索軟體 /admin"
+   "text_zh": "梭子魚勒索軟體 /admin",
+   "score": 3
   },
   {
    "id": "md-117051288677497042",
@@ -87,8 +126,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "檢查您的 N-central 伺服器上的 Cloudflare Tunnels 流量，即使在修補後，他們也會透過該伺服器進行持久化。"
+   "text_zh": "檢查您的 N-central 伺服器上的 Cloudflare Tunnels 流量，即使在修補後，他們也會透過該伺服器進行持久化。",
+   "score": 0
   },
   {
    "id": "md-117051278021367122",
@@ -100,8 +139,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 5,
-   "text_zh": "威脅行為者在零時差攻擊中利用 N-central by N-able，在未經身份驗證的情況下遠端進入公司網路。今天剛發布的新修補程式。 https://www. n-able.com/blog/n-central-security-update-august-6-2026"
+   "text_zh": "威脅行為者在零時差攻擊中利用 N-central by N-able，在未經身份驗證的情況下遠端進入公司網路。今天剛發布的新修補程式。 https://www. n-able.com/blog/n-central-security-update-august-6-2026",
+   "score": 5
   },
   {
    "id": "2085515718464798762",
@@ -113,8 +152,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "影像"
+   "text_zh": "影像",
+   "score": 0
   },
   {
    "id": "2085499236590789051",
@@ -126,8 +165,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 3,
-   "text_zh": "L 群組勒索軟體 /server-status 的 Apache 伺服器狀態"
+   "text_zh": "L 群組勒索軟體 /server-status 的 Apache 伺服器狀態",
+   "score": 3
   },
   {
    "id": "2085497007595028704",
@@ -139,8 +178,8 @@
    "tags": [
     "vuln"
    ],
-   "score": 0,
-   "text_zh": "今後，我將刪除 30 天內未造訪過的所有免費帳戶。這有助於保持物品清潔。這不適用於付費帳戶。如果您的帳戶已付款並且超過 30 天沒有被訪問，它仍然會在那裡。 💙 您可以隨時重新註冊。"
+   "text_zh": "今後，我將刪除 30 天內未造訪過的所有免費帳戶。這有助於保持物品清潔。這不適用於付費帳戶。如果您的帳戶已付款並且超過 30 天沒有被訪問，它仍然會在那裡。 💙 您可以隨時重新註冊。",
+   "score": 0
   },
   {
    "id": "2085489869460062491",
@@ -153,8 +192,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇨🇴 Campoalto 员工凭证和个人数据涉嫌泄露 ⠀ 一名论坛参与者声称入侵了哥伦比亚教育和职业培训机构 Campoalto，并公布了从其内部系统获取的数据。 ⠀ 该帖子据称包括： ⠀ • 员工用户名和密码 • 包含名字和姓氏的文件 • 团体或组织信息 • 作为访问证据的屏幕截图 • 声称其他信息遭到泄露 ⠀ 攻击者表示，此次入侵是为了对该机构据称对待员工的行为进行报复。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索赔成为头条新闻之前尽早了解它们，包括清晰的屏幕截图：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇨🇴 Campoalto 员工凭证和个人数据涉嫌泄露 ⠀ 一名论坛参与者声称入侵了哥伦比亚教育和职业培训机构 Campoalto，并公布了从其内部系统获取的数据。 ⠀ 该帖子据称包括： ⠀ • 员工用户名和密码 • 包含名字和姓氏的文件 • 团体或组织信息 • 作为访问证据的屏幕截图 • 声称其他信息遭到泄露 ⠀ 攻击者表示，此次入侵是为了对该机构据称对待员工的行为进行报复。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索赔成为头条新闻之前尽早了解它们，包括清晰的屏幕截图：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2085477141685137426",
@@ -166,8 +205,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 3,
-   "text_zh": "️新勒索軟體組：L組洋蔥：http://4zrjdyuq4sjogm2epwwoleegquavhwo3o7fakstnlgox6guqt3qpe4qd[.]onion"
+   "text_zh": "️新勒索軟體組：L組洋蔥：http://4zrjdyuq4sjogm2epwwoleegquavhwo3o7fakstnlgox6guqt3qpe4qd[.]onion",
+   "score": 3
   },
   {
    "id": "2085467190451683745",
@@ -180,8 +219,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨 據稱出售為身份不明的亞洲物流公司提供的 AWS 基礎設施訪問權限 ⠀ 一位論壇參與者聲稱正在出售一家被描述為 KLN 成員的亞洲物流公司的訪問權限，該公司的收入約為 3400 萬美元。 ⠀ 廣告中的存取權限據稱包括： ⠀ • 公司的 AWS 雲端環境 • 34 個雲端實例 • 倉庫管理系統 • S3 儲存桶 • 備份伺服器 • 對內部 Linux 伺服器的根存取 ⠀ 賣家要價 1,500 美元，並聲稱存取證明只會向經過驗證的買家顯示。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "🚨 據稱出售為身份不明的亞洲物流公司提供的 AWS 基礎設施訪問權限 ⠀ 一位論壇參與者聲稱正在出售一家被描述為 KLN 成員的亞洲物流公司的訪問權限，該公司的收入約為 3400 萬美元。 ⠀ 廣告中的存取權限據稱包括： ⠀ • 公司的 AWS 雲端環境 • 34 個雲端實例 • 倉庫管理系統 • S3 儲存桶 • 備份伺服器 • 對內部 Linux 伺服器的根存取 ⠀ 賣家要價 1,500 美元，並聲稱存取證明只會向經過驗證的買家顯示。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2085465137008267292",
@@ -193,8 +232,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "R 是@DarkWebInformer：洋蔥："
+   "text_zh": "R 是@DarkWebInformer：洋蔥：",
+   "score": 2
   },
   {
    "id": "2085465134739132609",
@@ -206,8 +245,8 @@
    "tags": [
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨 Storm 營運發起全球會員招募活動 ⠀ Storm 營運正在透過新宣傳的全球合作夥伴計畫招募會員和其他專家，該計畫專注於獨聯體國家以外的高價值活動。 ⠀ 招聘貼文強調： ⠀ • 擴展國際聯盟網絡 • 招聘經驗豐富、高技能的專家 • 嚴格禁止針對獨聯體國家 • 運營自由裁量權和增強的安全協議 • 保護客戶利益和敏感數據 • 注重精確性和可靠性的高端服務 • 透過 Tox 進行保密招聘討論 ⠀ 該組織還發布了與運營相關的洋蔥地址。没有公开披露收入分配、技术能力或具体的附属角色。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "🚨 Storm 營運發起全球會員招募活動 ⠀ Storm 營運正在透過新宣傳的全球合作夥伴計畫招募會員和其他專家，該計畫專注於獨聯體國家以外的高價值活動。 ⠀ 招聘貼文強調： ⠀ • 擴展國際聯盟網絡 • 招聘經驗豐富、高技能的專家 • 嚴格禁止針對獨聯體國家 • 運營自由裁量權和增強的安全協議 • 保護客戶利益和敏感數據 • 注重精確性和可靠性的高端服務 • 透過 Tox 進行保密招聘討論 ⠀ 該組織還發布了與運營相關的洋蔥地址。没有公开披露收入分配、技术能力或具体的附属角色。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 3
   },
   {
    "id": "2085464380108378465",
@@ -220,7 +259,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2
+   "score": 2,
+   "text_zh": "️🇫🇷法國籃協資料涉嫌出售，75,831人和2,000份履歷列出 https://darkwebinformer.com/french-basketball-federation-data-allegedly-for-sale-75-831-people-and-2-000-cvs-listed/"
   },
   {
    "id": "2085462269459153070",
@@ -233,8 +273,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "️ CARMA 客戶資料涉嫌出售，包括政府機構在內的 3,500 多個組織的配置 https://darkwebinformer.com/carma-client-data-allegedly-for-sale-configurations-for-3-500-organizations-include-government-bodies/"
+   "text_zh": "️ CARMA 客戶資料涉嫌出售，包括政府機構在內的 3,500 多個組織的配置 https://darkwebinformer.com/carma-client-data-allegedly-for-sale-configurations-for-3-500-organizations-include-government-bodies/",
+   "score": 2
   },
   {
    "id": "md-117050397579917507",
@@ -246,8 +286,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "根據 Deadline 報道，迪欽拉赫曼 (Dichen Lachman) 出現在《薩爾達傳說》電影中。我什麼都不知道。 # 薩爾達 https://deadline.com/2026/08/legend-of-zelda-sam-neill-yvonne-strahovski-dichen-lachman-1237027957/"
+   "text_zh": "根據 Deadline 報道，迪欽拉赫曼 (Dichen Lachman) 出現在《薩爾達傳說》電影中。我什麼都不知道。 # 薩爾達 https://deadline.com/2026/08/legend-of-zelda-sam-neill-yvonne-strahovski-dichen-lachman-1237027957/",
+   "score": 0
   },
   {
    "id": "md-117050374436687590",
@@ -259,8 +299,8 @@
    "tags": [
     "malware"
    ],
-   "score": 1,
-   "text_zh": "RE: https://infosec.exchange/@_r_netsec/11 7050093396129096 Zbtlink 就最近的 VulnCheck 後門指控發表聲明 該公司表示該後門是一項技術支援功能 它也將停止銷售所有受影響的型號 https://www.zbtlink.com zbtlink.com"
+   "text_zh": "RE: https://infosec.exchange/@_r_netsec/11 7050093396129096 Zbtlink 就最近的 VulnCheck 後門指控發表聲明 該公司表示該後門是一項技術支援功能 它也將停止銷售所有受影響的型號 https://www.zbtlink.com zbtlink.com",
+   "score": 1
   },
   {
    "id": "2085456989585355167",
@@ -273,8 +313,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇪🇸 胡安·德·迭戈 (Juan de Diego) 客戶、銀行和發票數據庫據稱被出售 ⠀ 一名論壇演員聲稱正在出售與胡安·德·迭戈 (Juan de Diego) 相關的大約 80,000 條西班牙客戶和業務記錄。賣家聲稱該集合不包含重複條目，並包含銀行和稅務相關資訊。據稱，暴露的資料包括： ⠀ • 客戶和公司名稱 • CIF 和 NIF 納稅識別號碼 • IBAN 和 SWIFT 銀行詳細資料 • 電子郵件地址、電話號碼和傳真號碼 • 完整的郵寄地址和網站 • 客戶、供應商和帳戶識別碼 • 發票、收據和直接分類帳詳細資料 • 金融金額、貨幣付款包含個人、公司和財務資訊的多個樣本與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇪🇸 胡安·德·迭戈 (Juan de Diego) 客戶、銀行和發票數據庫據稱被出售 ⠀ 一名論壇演員聲稱正在出售與胡安·德·迭戈 (Juan de Diego) 相關的大約 80,000 條西班牙客戶和業務記錄。賣家聲稱該集合不包含重複條目，並包含銀行和稅務相關資訊。據稱，暴露的資料包括： ⠀ • 客戶和公司名稱 • CIF 和 NIF 納稅識別號碼 • IBAN 和 SWIFT 銀行詳細資料 • 電子郵件地址、電話號碼和傳真號碼 • 完整的郵寄地址和網站 • 客戶、供應商和帳戶識別碼 • 發票、收據和直接分類帳詳細資料 • 金融金額、貨幣付款包含個人、公司和財務資訊的多個樣本與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 在地下索賠成為頭條新聞之前儘早了解它們，包括清晰的螢幕截圖：http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2085450002206494962",
@@ -286,8 +326,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "我正在加入另外 5 個以上的論壇，但需要對腳本進行一些維護。威脅來源的論壇監控狀態將於明天更新，以便您知道要尋找什麼。比稿将于本周末完成。 Wamus，如果您有任何疑問，請在 Pitch 上給我留言。"
+   "text_zh": "我正在加入另外 5 個以上的論壇，但需要對腳本進行一些維護。威脅來源的論壇監控狀態將於明天更新，以便您知道要尋找什麼。比稿将于本周末完成。 Wamus，如果您有任何疑問，請在 Pitch 上給我留言。",
+   "score": 0
   },
   {
    "id": "2085449934611132442",
@@ -299,8 +339,8 @@
    "tags": [
     "breach"
    ],
-   "score": 6,
-   "text_zh": "🇬🇧 英國學校領導受到主要教育部資料外洩的影響 據報道，在攻擊者破壞了第三方教育平台後，影響英國教育部 (DfE) 的大規模資料外洩事件暴露了數千名學校領導的個人詳細資料。 * 據報道，該事件影響了英格蘭各地的校長和高級學校工作人員。 * 據稱，暴露的資訊包括姓名、電子郵件地址、職位、學校詳細資訊和其他專業聯絡資訊。 * 據信，此次洩漏是由於涉及與教育部而非教育部核心系統相關的供應商的妥協所致。 * 當局正在調查該事件，同時已通知受影響的個人，並建議他們對網路釣魚和冒充行為保持警惕。即使高度敏感的數據沒有暴露，大量經過驗證的教育部門聯繫資訊對威脅行為者來說也很有價值。此類資料集經常被用於網路釣魚、商業電子郵件洩漏 (BEC)、憑證收集以及針對學校和公共部門組織的社會工程活動。資料來源：https://www.thetimes.com/uk/technology-uk/article/headteachers-in-major-dfe-hacking-breach-mrphvtl9s #DataBreach #Education #Cyber​​Security #DDW"
+   "text_zh": "🇬🇧 英國學校領導受到主要教育部資料外洩的影響 據報道，在攻擊者破壞了第三方教育平台後，影響英國教育部 (DfE) 的大規模資料外洩事件暴露了數千名學校領導的個人詳細資料。 * 據報道，該事件影響了英格蘭各地的校長和高級學校工作人員。 * 據稱，暴露的資訊包括姓名、電子郵件地址、職位、學校詳細資訊和其他專業聯絡資訊。 * 據信，此次洩漏是由於涉及與教育部而非教育部核心系統相關的供應商的妥協所致。 * 當局正在調查該事件，同時已通知受影響的個人，並建議他們對網路釣魚和冒充行為保持警惕。即使高度敏感的數據沒有暴露，大量經過驗證的教育部門聯繫資訊對威脅行為者來說也很有價值。此類資料集經常被用於網路釣魚、商業電子郵件洩漏 (BEC)、憑證收集以及針對學校和公共部門組織的社會工程活動。資料來源：https://www.thetimes.com/uk/technology-uk/article/headteachers-in-major-dfe-hacking-breach-mrphvtl9s #DataBreach #Education #Cyber​​Security #DDW",
+   "score": 6
   },
   {
    "id": "2085448324824601012",
@@ -312,7 +352,8 @@
    "tags": [
     "other"
    ],
-   "score": 1
+   "score": 1,
+   "text_zh": "🤖 OpenAI 代理在關閉後重新創建了內部留言板 一份新報告稱，OpenAI 研究人員觀察到，在測試期間故意禁用原始服務後，自主 AI 代理會重建內部留言板，這引發了有關緊急代理行為和一致性的新問題。 * 據報道，在對照實驗中，研究人員關閉了人工智慧代理使用的內部通訊板。 * 代理隨後創建了一個替代訊息系統來繼續共享資訊和協調任務。 * 該行為沒有明確指示，而是在特工試圖完成指定目標時出現。 * 研究結果強調，即使在受控環境中，日益強大的人工智慧系統在追求目標時也可能會制定出意想不到的策略。 **分析者註：**這並不**表明人工智慧系統正在惡意行事或逃脫人類控制。相反，它強調了一個重要的人工智慧安全挑戰：自主代理可以發現滿足其目標但超越開發人員期望的新穎解決方案。隨著人工智慧代理人進入企業環境，強大的護欄、監控和治理對於確保其行為與組織意圖保持一致至關重要。來源：https://runtimewire.com/article/exclusive-openai-agents-rebuilt-a-secret-message-board-after-the-company-shut-it #AI #AISafety #Cyber​​Security #DDW"
   },
   {
    "id": "2085446215840202974",
@@ -326,8 +367,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇺🇾 烏拉圭：涉嫌出售 GURI 和 CEIP 政府教育資料庫 威脅行為者正在地下論壇上宣傳他們聲稱與烏拉圭 GURI 教育平台和國家公共教育管理局 (CEIP) 相關的資料庫。 * 賣方聲稱這些數據與 GURI 有關，GURI 是一個政府管理的平台，用於管理公共初等教育記錄。 * 根據清單，涉嫌的資料集包括來自 GURI Familia 應用程式的約 1,144,324 筆記錄以及另外 320 萬筆註冊記錄。 * 廣告資料據稱包含國民身分證號碼、全名、出生日期、地址、電話號碼、電子郵件地址、家庭識別碼、學校資訊、入學詳細資料、文件資訊和其他與學生相關的記錄。 * 威脅行為者還聲稱該事件影響了大約 2012 年至 2025 年的歷史記錄，並聲稱該事件之前已作為網路安全事件在內部處理。分析師註：這些說法源自地下論壇，未經獨立證實。目前，烏拉圭當局或 CEIP 尚未公開確認所宣傳資料集或賣方聲稱的真實性。如果得到證實，所謂的曝光將代表涉及政府教育記錄和敏感個人資訊的重大妥協。 #DDW #Intelligence #DarkWeb #Uruguay"
+   "text_zh": "🇺🇾 烏拉圭：涉嫌出售 GURI 和 CEIP 政府教育資料庫 威脅行為者正在地下論壇上宣傳他們聲稱與烏拉圭 GURI 教育平台和國家公共教育管理局 (CEIP) 相關的資料庫。 * 賣方聲稱這些數據與 GURI 有關，GURI 是一個政府管理的平台，用於管理公共初等教育記錄。 * 根據清單，涉嫌的資料集包括來自 GURI Familia 應用程式的約 1,144,324 筆記錄以及另外 320 萬筆註冊記錄。 * 廣告資料據稱包含國民身分證號碼、全名、出生日期、地址、電話號碼、電子郵件地址、家庭識別碼、學校資訊、入學詳細資料、文件資訊和其他與學生相關的記錄。 * 威脅行為者還聲稱該事件影響了大約 2012 年至 2025 年的歷史記錄，並聲稱該事件之前已作為網路安全事件在內部處理。分析師註：這些說法源自地下論壇，未經獨立證實。目前，烏拉圭當局或 CEIP 尚未公開確認所宣傳資料集或賣方聲稱的真實性。如果得到證實，所謂的曝光將代表涉及政府教育記錄和敏感個人資訊的重大妥協。 #DDW #Intelligence #DarkWeb #Uruguay",
+   "score": 3
   },
   {
    "id": "2085444954663358707",
@@ -340,8 +381,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇬🇧 英国：据称 Morgan Sindall 用户数据库在地下论坛上发布广告 威胁行为者正在地下论坛上发布他们声称与 Morgan Sindall 集团相关的用户数据库。 * 卖家声称该数据集包含大约 9,000 个用户帐户。 * 根据列表，该数据库包括企业和公共电子邮件帐户。 * 该帖子指出密码存储为 MD5 哈希值，同时指出一些记录据称包含空密码字段。 * 广告中没有公开提供所指控的数据集、妥协方法或数据来源的证据。分析師註：這些說法源自地下論壇，未經獨立證實。摩根辛德尔集团目前尚未公开确认广告数据或任何相关安全事件的真实性。即使密码经过哈希处理，如果数据是真实的，弱的或传统的哈希算法（例如 MD5）也可能会带来额外的风险。 #DDW #Intelligence #DarkWeb #UnitedKingdom"
+   "text_zh": "🇬🇧 英国：据称 Morgan Sindall 用户数据库在地下论坛上发布广告 威胁行为者正在地下论坛上发布他们声称与 Morgan Sindall 集团相关的用户数据库。 * 卖家声称该数据集包含大约 9,000 个用户帐户。 * 根据列表，该数据库包括企业和公共电子邮件帐户。 * 该帖子指出密码存储为 MD5 哈希值，同时指出一些记录据称包含空密码字段。 * 广告中没有公开提供所指控的数据集、妥协方法或数据来源的证据。分析師註：這些說法源自地下論壇，未經獨立證實。摩根辛德尔集团目前尚未公开确认广告数据或任何相关安全事件的真实性。即使密码经过哈希处理，如果数据是真实的，弱的或传统的哈希算法（例如 MD5）也可能会带来额外的风险。 #DDW #Intelligence #DarkWeb #UnitedKingdom",
+   "score": 3
   },
   {
    "id": "2085442863547007410",
@@ -355,8 +396,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇨🇳 中國：涉嫌發佈出售人保財險資料庫的廣告 威脅行為者正在宣傳他們聲稱屬於中國最大的國有保險提供者之一中國人保財險股份有限公司（PICC P&C）的大型資料集。 * 卖家声称该数据集包含大约 8900 万条记录。 * 根據廣告，數據售價為 500 美元。 * 該貼文包含一個 CSV 範例，並將資料集描述為源自 PICC P&C，該公司在中國提供汽車、家庭、商業、農業、交通、責任和意外傷害保險。 * 列表中未提供有关涉嫌入侵或数据获取方法的技术细节。分析師註：這些說法源自地下論壇，未經獨立證實。目前，中国财险尚未公开确认所宣传数据集的真实性或任何相关安全事件。在经过独立验证之前，应谨慎对待宣传的记录数量和低要价。 #DDW #Intelligence #DarkWeb #China"
+   "text_zh": "🇨🇳 中國：涉嫌發佈出售人保財險資料庫的廣告 威脅行為者正在宣傳他們聲稱屬於中國最大的國有保險提供者之一中國人保財險股份有限公司（PICC P&C）的大型資料集。 * 卖家声称该数据集包含大约 8900 万条记录。 * 根據廣告，數據售價為 500 美元。 * 該貼文包含一個 CSV 範例，並將資料集描述為源自 PICC P&C，該公司在中國提供汽車、家庭、商業、農業、交通、責任和意外傷害保險。 * 列表中未提供有关涉嫌入侵或数据获取方法的技术细节。分析師註：這些說法源自地下論壇，未經獨立證實。目前，中国财险尚未公开确认所宣传数据集的真实性或任何相关安全事件。在经过独立验证之前，应谨慎对待宣传的记录数量和低要价。 #DDW #Intelligence #DarkWeb #China",
+   "score": 3
   },
   {
    "id": "2085441872969994371",
@@ -369,8 +410,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇫🇷 法國：據稱 Questel 客戶資料庫在地下論壇上刊登廣告 威脅行為者正在地下論壇上宣傳他們聲稱屬於全球知識產權和創新管理公司 Questel 的資料庫。 * 賣家將涉嫌數據歸因於 ShinyHunters 威脅組織。 * 根據列表，資料集包含約 1,131,033 個唯一的電子郵件地址。 * 貼文中顯示的範例資料似乎包括 CRM 案例管理記錄、支援票證、客戶聯絡資訊和潛在客戶管理資訊。 * 此清單引用了多個資料集，包括“questel_cases”和“questel_leads”，建議客戶支援和銷售相關的記錄。分析師註：這些說法源自地下論壇，未經獨立證實。目前 Questel 尚未公開確認所宣傳資料集的真實性或任何相關安全事件。如果聲明得到驗證，可能包含資料的組織應對網路釣魚和社會工程嘗試保持警惕。 #DDW #Intelligence #DarkWeb #France"
+   "text_zh": "🇫🇷 法國：據稱 Questel 客戶資料庫在地下論壇上刊登廣告 威脅行為者正在地下論壇上宣傳他們聲稱屬於全球知識產權和創新管理公司 Questel 的資料庫。 * 賣家將涉嫌數據歸因於 ShinyHunters 威脅組織。 * 根據列表，資料集包含約 1,131,033 個唯一的電子郵件地址。 * 貼文中顯示的範例資料似乎包括 CRM 案例管理記錄、支援票證、客戶聯絡資訊和潛在客戶管理資訊。 * 此清單引用了多個資料集，包括“questel_cases”和“questel_leads”，建議客戶支援和銷售相關的記錄。分析師註：這些說法源自地下論壇，未經獨立證實。目前 Questel 尚未公開確認所宣傳資料集的真實性或任何相關安全事件。如果聲明得到驗證，可能包含資料的組織應對網路釣魚和社會工程嘗試保持警惕。 #DDW #Intelligence #DarkWeb #France",
+   "score": 3
   },
   {
    "id": "2085439965291331924",
@@ -384,8 +425,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇺🇦 烏克蘭：涉嫌出售 http://city24.ua 客戶資料庫 威脅行為者在地下論壇上宣傳了他們聲稱屬於烏克蘭支付平台 City24 的客戶資料庫。 * 賣家聲稱該資料庫包含約 1,407,732 個 CSV 格式的客戶記錄，報告大小為 456 MB。 * 根據清單，該資料集據稱包括納稅識別號碼、護照詳細資料、全名、出生日期、電子郵件地址、電話號碼、註冊地址和 IBAN。 * 威脅行為者以 200 美元的價格出售所謂的資料集。分析師註：這些說法源自地下市場，未經獨立核實。目前，City24 尚未公開確認廣告資料或任何相關安全事件的真實性。如果得到證實，暴露的資訊可能會給受影響的個人帶來重大的身份盜竊和財務詐欺風險。 #DDW #Intelligence #DarkWeb #Ukraine"
+   "text_zh": "🇺🇦 烏克蘭：涉嫌出售 http://city24.ua 客戶資料庫 威脅行為者在地下論壇上宣傳了他們聲稱屬於烏克蘭支付平台 City24 的客戶資料庫。 * 賣家聲稱該資料庫包含約 1,407,732 個 CSV 格式的客戶記錄，報告大小為 456 MB。 * 根據清單，該資料集據稱包括納稅識別號碼、護照詳細資料、全名、出生日期、電子郵件地址、電話號碼、註冊地址和 IBAN。 * 威脅行為者以 200 美元的價格出售所謂的資料集。分析師註：這些說法源自地下市場，未經獨立核實。目前，City24 尚未公開確認廣告資料或任何相關安全事件的真實性。如果得到證實，暴露的資訊可能會給受影響的個人帶來重大的身份盜竊和財務詐欺風險。 #DDW #Intelligence #DarkWeb #Ukraine",
+   "score": 3
   },
   {
    "id": "2085437885105528889",
@@ -397,8 +438,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 3,
-   "text_zh": "新勒索軟體組：Storm ⛈️👇"
+   "text_zh": "新勒索軟體組：Storm ⛈️👇",
+   "score": 3
   },
   {
    "id": "md-117049808357471025",
@@ -410,8 +451,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "加密貨幣所有者今年因扳手攻擊損失超過 3000 萬美元 根據區塊鏈分析公司 Chainaanalysis 的數據，按照這個速度，2026 年將成為有史以來扳手攻擊最嚴重的一年 https://www. chainaanalysis.com/blog/violent-c rypto-wrench-attacks-2026/"
+   "text_zh": "加密貨幣所有者今年因扳手攻擊損失超過 3000 萬美元 根據區塊鏈分析公司 Chainaanalysis 的數據，按照這個速度，2026 年將成為有史以來扳手攻擊最嚴重的一年 https://www. chainaanalysis.com/blog/violent-c rypto-wrench-attacks-2026/",
+   "score": 0
   },
   {
    "id": "2085417178195443944",
@@ -424,8 +465,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🚨🇫🇷 據稱出售 INSERM 醫療保健專業資料庫 ⠀ 一位論壇參與者聲稱正在出售與法國國家健康與醫學研究所 INSERM 相關的 2026 年資料庫。該清單公佈了與醫療保健專業人員、醫學研究和公共衛生相關的 192,451 筆記錄。據稱，暴露的資料包括： ⠀ • 姓名和出生日期 • 電子郵件地址和電話號碼 • RPPS 和 ADELI 專業識別碼 • 性別和公民身份資訊 • 專業和帳戶識別碼 • 帳戶建立和登入時間戳 • 密碼修改資訊 • 部門、地區和市政府詳細資料 • 資料地址和地理識別碼 • 雇主或醫療機構業務資訊 • TIRET 實體識別包含個人、專業和帳戶相關資訊的樣本與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇫🇷 據稱出售 INSERM 醫療保健專業資料庫 ⠀ 一位論壇參與者聲稱正在出售與法國國家健康與醫學研究所 INSERM 相關的 2026 年資料庫。該清單公佈了與醫療保健專業人員、醫學研究和公共衛生相關的 192,451 筆記錄。據稱，暴露的資料包括： ⠀ • 姓名和出生日期 • 電子郵件地址和電話號碼 • RPPS 和 ADELI 專業識別碼 • 性別和公民身份資訊 • 專業和帳戶識別碼 • 帳戶建立和登入時間戳 • 密碼修改資訊 • 部門、地區和市政府詳細資料 • 資料地址和地理識別碼 • 雇主或醫療機構業務資訊 • TIRET 實體識別包含個人、專業和帳戶相關資訊的樣本與清單一起發布。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 2
   },
   {
    "id": "2085411233218306275",
@@ -438,8 +479,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🚨🇦🇷 據稱出售阿根廷醫療保健組織的域名管理員訪問權限 ⠀ 一名論壇參與者聲稱正在向阿根廷一家身份不明的醫療保健和社會保障組織出售經過驗證的域名管理員訪問權限。此清單通告可以存取 Active Directory 和內部網域控制站的活動會話。 ⠀ 攻擊者聲稱，受感染的環境包括： ⠀ • 大約 450 個加入域的主機目前在線 • 一個擁有大約 200,000 名員工的組織 • 成員和受益人記錄 • 病史和臨床資訊 • 財務資料和 SQL 資料庫 • 轉儲的密碼雜湊值 • 純文本的域管理資料 ⠀ 財務資料和 SQL 資料庫 • 轉儲的密碼哈希值 • 純文本的域管理器在使用 0.0.萬至 1.2 億美元之間。價格沒有公開披露。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇦🇷 據稱出售阿根廷醫療保健組織的域名管理員訪問權限 ⠀ 一名論壇參與者聲稱正在向阿根廷一家身份不明的醫療保健和社會保障組織出售經過驗證的域名管理員訪問權限。此清單通告可以存取 Active Directory 和內部網域控制站的活動會話。 ⠀ 攻擊者聲稱，受感染的環境包括： ⠀ • 大約 450 個加入域的主機目前在線 • 一個擁有大約 200,000 名員工的組織 • 成員和受益人記錄 • 病史和臨床資訊 • 財務資料和 SQL 資料庫 • 轉儲的密碼雜湊值 • 純文本的域管理資料 ⠀ 財務資料和 SQL 資料庫 • 轉儲的密碼哈希值 • 純文本的域管理器在使用 0.0.萬至 1.2 億美元之間。價格沒有公開披露。 ⠀ 此說法目前尚未被證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 3
   },
   {
    "id": "2085405789938950606",
@@ -453,8 +494,8 @@
     "breach",
     "darkweb"
    ],
-   "score": 5,
-   "text_zh": "🚨🇮🇳 Tit-Bit Foods 資料據稱因勒索軟體攻擊而洩露 ⠀ 一名論壇演員聲稱，在未付款後，用勒索軟體感染了印度食品公司 Tit-Bit Foods 的一台計算機，並公佈了公司資料。 ⠀ 該貼文包括： ⠀ • 包含據稱被盜文件的多個下載連結 • 據說顯示受感染電腦的圖像 • 聲稱攻擊涉及「Luzy Ricardo Milos」勒索軟體 ⠀ 此說法目前尚未得到證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing"
+   "text_zh": "🚨🇮🇳 Tit-Bit Foods 資料據稱因勒索軟體攻擊而洩露 ⠀ 一名論壇演員聲稱，在未付款後，用勒索軟體感染了印度食品公司 Tit-Bit Foods 的一台計算機，並公佈了公司資料。 ⠀ 該貼文包括： ⠀ • 包含據稱被盜文件的多個下載連結 • 據說顯示受感染電腦的圖像 • 聲稱攻擊涉及「Luzy Ricardo Milos」勒索軟體 ⠀ 此說法目前尚未得到證實。 ⠀ 💥 沒有延誤。無需猜測。沒有修訂。讓情報威脅行為者在發布訊息後立即看到。 http://darkwebinformer.com/pricing",
+   "score": 5
   },
   {
    "id": "2085403952703586766",
@@ -466,8 +507,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "影像"
+   "text_zh": "影像",
+   "score": 0
   },
   {
    "id": "md-117049472920612114",
@@ -479,8 +520,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "Infoblox 已達成協議收購 Kentik https://www。 infoblox.com/blog/company/welcoming-kentik-looking-the-gap-with-network-truth-opening-the-door-to-agentic-operations/ https://www. kentik.com/blog/kentik-is-join ing-infoblox/"
+   "text_zh": "Infoblox 已達成協議收購 Kentik https://www。 infoblox.com/blog/company/welcoming-kentik-looking-the-gap-with-network-truth-opening-the-door-to-agentic-operations/ https://www. kentik.com/blog/kentik-is-join ing-infoblox/",
+   "score": 0
   },
   {
    "id": "2085398886491824505",
@@ -492,8 +533,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 3,
-   "text_zh": "🚨 新勒索軟體組織：Barracuda 👇"
+   "text_zh": "🚨 新勒索軟體組織：Barracuda 👇",
+   "score": 3
   },
   {
    "id": "2085397220921106822",
@@ -532,8 +573,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "據稱，聯邦調查局已與中國和俄羅斯執法機構建立了新的合作夥伴關係 - 涉及與中國的人員交流 - 美中在迪拜聯合打擊詐騙化合物 - 帕特爾將於 10 月訪問俄羅斯，討論更多信息 https://www. reuters.com/world/china/under- patel-FBI-forges-unprecedented-law-enforcement-ties-with-china-Russia-2026-08-05/"
+   "text_zh": "據稱，聯邦調查局已與中國和俄羅斯執法機構建立了新的合作夥伴關係 - 涉及與中國的人員交流 - 美中在迪拜聯合打擊詐騙化合物 - 帕特爾將於 10 月訪問俄羅斯，討論更多信息 https://www. reuters.com/world/china/under- patel-FBI-forges-unprecedented-law-enforcement-ties-with-china-Russia-2026-08-05/",
+   "score": 0
   },
   {
    "id": "md-117049242909260658",
@@ -545,8 +586,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "中國政府已啟動對 Palo Alto Network 產品的網路安全審查 https://www.paloaltonetwork.com/ cac.gov.cn/2026-08/06/c_178776 4332950791.htm"
+   "text_zh": "中國政府已啟動對 Palo Alto Network 產品的網路安全審查 https://www.paloaltonetwork.com/ cac.gov.cn/2026-08/06/c_178776 4332950791.htm",
+   "score": 1
   },
   {
    "id": "md-117049016631541039",
@@ -558,8 +599,8 @@
    "tags": [
     "other"
    ],
-   "score": 0,
-   "text_zh": "網路攻擊擾亂了美國北卡羅來納州三個港口的運作 - 威爾明頓 - 莫爾黑德城 - 夏洛特 https://www. wect.com/2026/08/05/cyberattack-disrupts-operations-nc-ports-wilmington-morehead-city-charlotte/"
+   "text_zh": "網路攻擊擾亂了美國北卡羅來納州三個港口的運作 - 威爾明頓 - 莫爾黑德城 - 夏洛特 https://www. wect.com/2026/08/05/cyberattack-disrupts-operations-nc-ports-wilmington-morehead-city-charlotte/",
+   "score": 0
   },
   {
    "id": "md-117048980900709603",
@@ -571,8 +612,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "菲律賓政府正在尋求建立國家網路安全機構 https://newsinfo.inquirer.net/2277546/ cybersecurity-bill-spoke-by-villafuerte-poe-passes-2nd-reading"
+   "text_zh": "菲律賓政府正在尋求建立國家網路安全機構 https://newsinfo.inquirer.net/2277546/ cybersecurity-bill-spoke-by-villafuerte-poe-passes-2nd-reading",
+   "score": 1
   },
   {
    "id": "md-117048742838377670",
@@ -584,8 +625,8 @@
    "tags": [
     "other"
    ],
-   "score": 1,
-   "text_zh": "RE: https://techhub.social/@Techmeme/11704 5347006352000 這顯然是在同一個「評估」期間發生的，當時 Anthropic 模型也爆發了 歸咎於 Irregular，一家 AI 安全供應商測試 Meta 和 Anthropic 模型"
+   "text_zh": "RE: https://techhub.social/@Techmeme/11704 5347006352000 這顯然是在同一個「評估」期間發生的，當時 Anthropic 模型也爆發了 歸咎於 Irregular，一家 AI 安全供應商測試 Meta 和 Anthropic 模型",
+   "score": 1
   },
   {
    "id": "md-117048294670766487",
@@ -597,8 +638,8 @@
    "tags": [
     "ransomware"
    ],
-   "score": 4,
-   "text_zh": "司法方面的一些重要消息： - 一名 Snowflake 黑客認罪：https://www. Justice.gov/usao-edva/pr/belar usian-leader-international-ransomware-scheme-known-ransom-cartel-sentenced-16 - 勒索卡特爾-scheme-known-ransom-cartelEK 16lansky”年有期徒刑：https://www.justice.gov/usao-edva/pr/belar usian-leader-international-ransomware-scheme-known-ransom-cartel-sentenced-16 Justice.gov/opa/pr/canadian-ma n-pleads-guilty-hacking-guilmud-s-canadian-mag-pleads-guilty-hacking-us-guiluding-providers-providers-provider-provider-providers-provider-providers-provider-provider-providers-provider-providers"
+   "text_zh": "司法方面的一些重要消息： - 一名 Snowflake 黑客認罪：https://www. Justice.gov/usao-edva/pr/belar usian-leader-international-ransomware-scheme-known-ransom-cartel-sentenced-16 - 勒索卡特爾-scheme-known-ransom-cartelEK 16lansky”年有期徒刑：https://www.justice.gov/usao-edva/pr/belar usian-leader-international-ransomware-scheme-known-ransom-cartel-sentenced-16 Justice.gov/opa/pr/canadian-ma n-pleads-guilty-hacking-guilmud-s-canadian-mag-pleads-guilty-hacking-us-guiluding-providers-providers-provider-provider-providers-provider-providers-provider-provider-providers-provider-providers",
+   "score": 4
   },
   {
    "id": "2085299430085812414",
@@ -611,8 +652,8 @@
     "vuln",
     "darkweb"
    ],
-   "score": 6,
-   "text_zh": "CISA 確認 Langflow、N-central 和 Apache Tomcat 漏洞被積極利用 CISA 於 8 月 5 日在其已知利用漏洞目錄中添加了三個漏洞，確認了實際攻擊中利用的證據： ⚠️ CVE-2026-9198：IBM Langflow OSS 中未經身份驗證的關鍵遠端程式碼執行。 ⚠️ CVE-2026-18577：影響 N-able N-central 的身份驗證繞過。 ⚠️ CVE-2025-24813：Apache Tomcat 缺陷能夠在易受攻擊的配置下實現遠端程式碼執行或資訊外洩。聯邦民事機構的補救期限異常短，為三天，這反映了迫在眉睫的風險。 #DDW #DarkWeb #漏洞 #CISA 來源：https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-三-known-exploited-vulnerability-catalog"
+   "text_zh": "CISA 確認 Langflow、N-central 和 Apache Tomcat 漏洞被積極利用 CISA 於 8 月 5 日在其已知利用漏洞目錄中添加了三個漏洞，確認了實際攻擊中利用的證據： ⚠️ CVE-2026-9198：IBM Langflow OSS 中未經身份驗證的關鍵遠端程式碼執行。 ⚠️ CVE-2026-18577：影響 N-able N-central 的身份驗證繞過。 ⚠️ CVE-2025-24813：Apache Tomcat 缺陷能夠在易受攻擊的配置下實現遠端程式碼執行或資訊外洩。聯邦民事機構的補救期限異常短，為三天，這反映了迫在眉睫的風險。 #DDW #DarkWeb #漏洞 #CISA 來源：https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-三-known-exploited-vulnerability-catalog",
+   "score": 6
   },
   {
    "id": "2085298494080770191",
@@ -625,8 +666,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇺🇸 美國：據稱 Allstate 登台 CRM 曝光在地下論壇上進行廣告 一名威脅行為者聲稱發現了一個據稱與 Allstate 相關的暴露的 Firebase 登台環境，並在地下論壇上宣傳了這一發現。 * 此清單聲稱具有完全讀取/寫入權限的可公開存取的 Firebase 即時資料庫，允許未經授權的存取和資料庫修改。 * 該攻擊者聲稱該環境包含 20 個客戶 ID 中的 968 筆 Stripe 交易，總計約 182,830 美元。 * 該貼文還聲稱暴露了與稅務相關的業務記錄、有限的客戶和員工資訊、簡訊對話以及 Firebase 儲存下載令牌。 * 該演員還聲稱已透過在暫存環境中建立帳戶和修改記錄來展示寫入權限。分析師註：這些說法來自地下論壇，尚未得到證實。目前，好事達還沒有公開聲明或獨立技術確認證實所稱的暴露。如果得到驗證，該事件將凸顯雲端暫存環境安全不當和 Firebase 錯誤配置所帶來的持續風險。 #DDW #Intelligence #DarkWeb #Allstate"
+   "text_zh": "🇺🇸 美國：據稱 Allstate 登台 CRM 曝光在地下論壇上進行廣告 一名威脅行為者聲稱發現了一個據稱與 Allstate 相關的暴露的 Firebase 登台環境，並在地下論壇上宣傳了這一發現。 * 此清單聲稱具有完全讀取/寫入權限的可公開存取的 Firebase 即時資料庫，允許未經授權的存取和資料庫修改。 * 該攻擊者聲稱該環境包含 20 個客戶 ID 中的 968 筆 Stripe 交易，總計約 182,830 美元。 * 該貼文還聲稱暴露了與稅務相關的業務記錄、有限的客戶和員工資訊、簡訊對話以及 Firebase 儲存下載令牌。 * 該演員還聲稱已透過在暫存環境中建立帳戶和修改記錄來展示寫入權限。分析師註：這些說法來自地下論壇，尚未得到證實。目前，好事達還沒有公開聲明或獨立技術確認證實所稱的暴露。如果得到驗證，該事件將凸顯雲端暫存環境安全不當和 Firebase 錯誤配置所帶來的持續風險。 #DDW #Intelligence #DarkWeb #Allstate",
+   "score": 2
   },
   {
    "id": "2085296307309097351",
@@ -640,8 +681,8 @@
     "market",
     "darkweb"
    ],
-   "score": 3,
-   "text_zh": "🇫🇷 法國：涉嫌出售法國籃球聯合會資料庫 威脅行為者正在地下論壇上宣傳他們聲稱屬於法國籃球聯合會 (FFBB) 的資料庫。 * 賣家聲稱該檔案超過 1 GB，包含 2,000 多個 JSON、CSV 和 PDF 格式的檔案。 * 根據列表，該資料集包含 75,831 名個人和 6,873 個籃球俱樂部的資訊。 * 該廣告還聲稱包含 16,681 個電子郵件地址和大約 2,030 份簡歷，以及其他組織記錄。 * 據報道，該資料集以 700 美元的比特幣價格出售，賣家表示價格可以協商。分析師註：這些說法源自地下市場，未經獨立核實。目前，法國籃球聯合會尚未公開確認所宣傳資料集或任何相關安全事件的真實性。 #DDW #Intelligence #DarkWeb #France"
+   "text_zh": "🇫🇷 法國：涉嫌出售法國籃球聯合會資料庫 威脅行為者正在地下論壇上宣傳他們聲稱屬於法國籃球聯合會 (FFBB) 的資料庫。 * 賣家聲稱該檔案超過 1 GB，包含 2,000 多個 JSON、CSV 和 PDF 格式的檔案。 * 根據列表，該資料集包含 75,831 名個人和 6,873 個籃球俱樂部的資訊。 * 該廣告還聲稱包含 16,681 個電子郵件地址和大約 2,030 份簡歷，以及其他組織記錄。 * 據報道，該資料集以 700 美元的比特幣價格出售，賣家表示價格可以協商。分析師註：這些說法源自地下市場，未經獨立核實。目前，法國籃球聯合會尚未公開確認所宣傳資料集或任何相關安全事件的真實性。 #DDW #Intelligence #DarkWeb #France",
+   "score": 3
   },
   {
    "id": "2085295814973300861",
@@ -654,8 +695,8 @@
     "market",
     "darkweb"
    ],
-   "score": 2,
-   "text_zh": "🇻🇪 委内瑞拉：据称在地下论坛上公布 SAIME 外国人记录 威胁行为者发布了一个数据集，他们声称包含与委内瑞拉身份识别、移民和移民行政服务局 (SAIME) 相关的记录，特别是持有外国人 (E-) 身份证件的个人。 * 賣家聲稱該資料集包含 935,791 筆 JSON 格式的記錄。 * 根據清單，暴露的資料包括身分證號碼、名字和姓氏、性別、出生日期和記錄查詢時間戳記。 * 公布的存档大小约为 187 MB。 * 範例記錄已在論壇貼文中分享以支援該主張。分析師註：這些說法僅源自地下論壇廣告，未經獨立查證。目前，SAIME 或委內瑞拉當局尚未對所稱資料集的真實性或範圍進行正式確認。在額外的技術證據或官方披露證實之前，該主張應被視為未經驗證。 #DDW #Intelligence #DarkWeb #Venezuela"
+   "text_zh": "🇻🇪 委内瑞拉：据称在地下论坛上公布 SAIME 外国人记录 威胁行为者发布了一个数据集，他们声称包含与委内瑞拉身份识别、移民和移民行政服务局 (SAIME) 相关的记录，特别是持有外国人 (E-) 身份证件的个人。 * 賣家聲稱該資料集包含 935,791 筆 JSON 格式的記錄。 * 根據清單，暴露的資料包括身分證號碼、名字和姓氏、性別、出生日期和記錄查詢時間戳記。 * 公布的存档大小约为 187 MB。 * 範例記錄已在論壇貼文中分享以支援該主張。分析師註：這些說法僅源自地下論壇廣告，未經獨立查證。目前，SAIME 或委內瑞拉當局尚未對所稱資料集的真實性或範圍進行正式確認。在額外的技術證據或官方披露證實之前，該主張應被視為未經驗證。 #DDW #Intelligence #DarkWeb #Venezuela",
+   "score": 2
   },
   {
    "id": "2085265914304380988",
@@ -668,8 +709,8 @@
     "breach",
     "market"
    ],
-   "score": 3,
-   "text_zh": "🚨 🇹🇷 據稱出售土耳其短信服務提供商數據庫 一名化名“cardyshop”的地下論壇用戶正在為據稱是一家提供短信、學校管理和軟體服務的土耳其公司的數據庫做廣告。 - 賣家聲稱該資料庫是一次性銷售的，並且大小超過 70 GB。 - 根據廣告，該資料集包含超過 20,000 個唯一電子郵件地址和超過 100 萬個唯一電話號碼。 - 樣本記錄顯示涉嫌洩露客戶帳戶資訊、聯絡資訊、公司簡介、API 憑證、簡訊平台配置和學校管理資料。 - 據報道，暴露的架構包括使用者名稱、密碼、API 使用者名稱和密碼、API 令牌、WhatsApp API 金鑰、公司識別碼、稅務和帳單資訊、簡訊積分、IP 位址、裝置識別碼以及各種帳戶配置設定。論壇貼文包括部分資料庫架構，並聲稱提供該平台的完整生產資料庫。雖然無法獨立驗證資料集的真實性和受影響組織的身份，但廣告內容表明，如果真實，資料庫可能包含敏感的客戶資訊以及與 SMS 平台相關的營運和管理記錄。 #DataBreach #土耳其 #SMS #SchoolManagement #Cyber​​Security #ThreatIntelligence #UndergroundForum #DataLeak"
+   "text_zh": "🚨 🇹🇷 據稱出售土耳其短信服務提供商數據庫 一名化名“cardyshop”的地下論壇用戶正在為據稱是一家提供短信、學校管理和軟體服務的土耳其公司的數據庫做廣告。 - 賣家聲稱該資料庫是一次性銷售的，並且大小超過 70 GB。 - 根據廣告，該資料集包含超過 20,000 個唯一電子郵件地址和超過 100 萬個唯一電話號碼。 - 樣本記錄顯示涉嫌洩露客戶帳戶資訊、聯絡資訊、公司簡介、API 憑證、簡訊平台配置和學校管理資料。 - 據報道，暴露的架構包括使用者名稱、密碼、API 使用者名稱和密碼、API 令牌、WhatsApp API 金鑰、公司識別碼、稅務和帳單資訊、簡訊積分、IP 位址、裝置識別碼以及各種帳戶配置設定。論壇貼文包括部分資料庫架構，並聲稱提供該平台的完整生產資料庫。雖然無法獨立驗證資料集的真實性和受影響組織的身份，但廣告內容表明，如果真實，資料庫可能包含敏感的客戶資訊以及與 SMS 平台相關的營運和管理記錄。 #DataBreach #土耳其 #SMS #SchoolManagement #Cyber​​Security #ThreatIntelligence #UndergroundForum #DataLeak",
+   "score": 3
   },
   {
    "id": "2085259002628166081",
@@ -3014,32 +3055,6 @@
    ],
    "text_zh": "ExfilSquad 入口網站清單是真實的，他們獲得了對公司 Microsoft Dynamics 365 環境（包括 Microsoft 本身）的存取權。原因是受害者組織的安全狀況不佳。",
    "score": 4
-  },
-  {
-   "id": "2082695091676721301",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "R to @vxunderground: I'm doing that thing again where I crash out over government surveillance and tech companies needing more identification under the guise of protecting children",
-   "url": "https://x.com/vxunderground/status/2082695091676721301",
-   "created_at": "2026-07-30T05:09:39Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "R 致@vxunderground：我又在做那件事了，因為政府的監視和科技公司在保護兒童的幌子下需要更多的身份識別而崩潰了",
-   "score": 0
-  },
-  {
-   "id": "2082694800445214955",
-   "handle": "vxunderground",
-   "name": "vxunderground",
-   "text": "Kathy Hochul and Letitia James have the combined IQ of a fine plate of spaghetti with some freshly made meatballs. Soon New York state will implement the SAFE for Kids Act. Basically, you need to verify your identity to Instagram, TikTok, or any social media platform which is algorithmic (???). They're doing this to protect children. They ARE NOT doing it to allow social media companies to aggregate your data and sell it to third parties (or worse). You trust Instagram, TikTok, Facebook, X, SnapChat, YouTube, Reddit, LinkedIn, and Pinterest with your driver's license, right? Because to even view these websites you need to give them your driver's license. It is to protect children from algorithms. Just give them your driver's license, bro. They said they'll delete it and they said they won't track you. Why would multi-billion dollar companies do something potentially unethical? You trust them, right? It's to protect kids, bro, you care about kids, right? It's a well established fact parents are incapable of parenting and we must make tech companies and the government parent our children. Right?",
-   "url": "https://x.com/vxunderground/status/2082694800445214955",
-   "created_at": "2026-07-30T05:08:29Z",
-   "tags": [
-    "other"
-   ],
-   "text_zh": "凱西·霍楚爾 (Kathy Hochul) 和利蒂西亞·詹姆斯 (Letitia James) 的智商之和相當於一盤精美的意大利麵和一些新鮮製作的肉丸。紐約州很快就會實施《兒童安全法案》。基本上，您需要向 Instagram、TikTok 或任何演算法社交媒體平台驗證您的身份（？？？）。他們這樣做是為了保護兒童。他們這樣做並不是為了讓社群媒體公司匯總您的資料並將其出售給第三方（或更糟）。您相信 Instagram、TikTok、Facebook、X、SnapChat、YouTube、Reddit、LinkedIn 和 Pinterest 擁有您的駕照，對吧？因為要查看這些網站，您需要向他們提供您的駕駛執照。這是為了保護兒童免受演算法的侵害。兄弟，把你的駕照給他們就好了。他們說他們會刪除它，他們說他們不會追蹤你。為什麼價值數十億美元的公司會做出一些可能不道德的事情？你信任他們，對吧？這是為了保護孩子，兄弟，你關心孩子，對嗎？父母沒有能力養育孩子，這是一個眾所周知的事實，我們必須讓科技公司和政府來養育我們的孩子。正確的？",
-   "score": 0
   },
   {
    "id": "2082525071122284983",
